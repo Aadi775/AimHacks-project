@@ -1,0 +1,24 @@
+- dialog [ref=f5e211]:
+  - generic [ref=f5e212]:
+    - generic [ref=f5e213]:
+      - generic [ref=f5e214]:
+        - navigation [ref=f5e215]:
+          - button "previous" [disabled] [ref=f5e216]:
+            - img "previous" [ref=f5e217]
+          - button "next" [disabled] [ref=f5e219]:
+            - img "next" [ref=f5e220]
+          - generic [ref=f5e222]: 1 of 1 error
+          - generic [ref=f5e223]:
+            - text: Next.js (14.2.35) is outdated
+            - link "(learn more)" [ref=f5e225] [cursor=pointer]:
+              - /url: https://nextjs.org/docs/messages/version-staleness
+        - button "Close" [ref=f5e226] [cursor=pointer]
+      - heading "Unhandled Runtime Error" [level=1] [ref=f5e231]
+      - paragraph [ref=f5e232]: "TypeError: can't access property \"temp\", weather.current is undefined"
+    - generic [ref=f5e233]:
+      - heading "Source" [level=2] [ref=f5e234]
+      - generic [ref=f5e235]:
+        - link "src/components/LiveTelemetryMap.tsx (409:16) @ weather" [ref=f5e237] [cursor=pointer]
+        - generic [ref=f5e243]: "407 | <div className=\"hidden lg:flex items-center px-3 h-8 gap-3\"> 408 | <span className=\"font-mono text-[10px] text-[#dae2fd]\"> > 409 | {weather.current.temp != null ? `${Math.round(weather.current.temp)}°C` : '–'} {weather.current.condition.toUpperCase()} | ^ 410 | </span> 411 | <span className=\"w-px h-3 bg-[#1E293B]\"></span> 412 | <span className=\"font-mono text-[10px]\" style={{ color: AQI_SEVERITY_COLORS[weather.air_quality.severity] ?? '#eab308' }}>"
+      - heading "Call Stack" [level=2] [ref=f5e244]
+      - button "Show collapsed frames" [ref=f5e245] [cursor=pointer]

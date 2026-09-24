@@ -1,0 +1,1016 @@
+- generic [active] [ref=f15e1]:
+  - banner [ref=f15e2]:
+    - generic [ref=f15e3]:
+      - generic [ref=f15e4]:
+        - generic [ref=f15e5]:
+          - img "CivicPulse Logo" [ref=f15e6]
+          - generic [ref=f15e7]:
+            - generic [ref=f15e8]: CivicPulse
+            - generic [ref=f15e9]: Resident Edition
+        - generic [ref=f15e10] [cursor=pointer]:
+          - generic [ref=f15e14]: Mumbai, Maharashtra
+          - generic [ref=f15e15]: keyboard_arrow_down
+      - navigation [ref=f15e16]:
+        - link "Home" [ref=f15e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f15e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f15e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f15e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f15e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f15e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f15e23]:
+        - generic [ref=f15e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f15e27] [cursor=pointer]:
+          - generic [ref=f15e28]: search
+          - generic [ref=f15e29]: Search metrics
+          - generic [ref=f15e30]: ⌘K
+        - button "Notifications" [ref=f15e31] [cursor=pointer]:
+          - generic [ref=f15e32]: notifications
+        - link "person Sign In" [ref=f15e34] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f15e35]: person
+          - generic [ref=f15e37]: Sign In
+  - main [ref=f15e38]:
+    - generic [ref=f15e40]:
+      - generic [ref=f15e41]:
+        - generic [ref=f15e42]:
+          - generic [ref=f15e43]: Civic Baseline Telemetry
+          - generic [ref=f15e44]: •
+          - generic [ref=f15e45]: 9/25/2026, 3:51:49 AM
+        - heading "Good morning, Mumbai" [level=1] [ref=f15e46]
+        - generic [ref=f15e47]:
+          - generic [ref=f15e48]:
+            - generic [ref=f15e49]: bedtime
+            - generic [ref=f15e50]: 27°C • Light rain shower
+          - generic [ref=f15e51]: AQI – • MODERATE
+          - generic [ref=f15e54]:
+            - generic [ref=f15e55]: verified
+            - generic [ref=f15e56]: "Grid Frequency: 60.01 Hz"
+      - generic [ref=f15e57]:
+        - generic [ref=f15e58]: "Metropolis:"
+        - button "Jaipur" [ref=f15e59] [cursor=pointer]
+        - button "Delhi" [ref=f15e60] [cursor=pointer]
+        - button "Mumbai" [ref=f15e61] [cursor=pointer]
+        - button "Bengaluru" [ref=f15e62] [cursor=pointer]
+        - button "Hyderabad" [ref=f15e63] [cursor=pointer]
+    - generic [ref=f15e64]:
+      - generic [ref=f15e65]:
+        - generic [ref=f15e66]:
+          - text: Spatial Urban Intelligence
+          - heading "Terminal GIS — Vector Map Deck" [level=2] [ref=f15e67]
+        - generic [ref=f15e68]: Live congestion corridors • 181 dispatches • Metro & grid telemetry
+      - generic [ref=f15e70]:
+        - generic [ref=f15e71]:
+          - generic [ref=f15e72]: LIVE
+          - generic [ref=f15e76]:
+            - generic [ref=f15e77]: location_city
+            - textbox "SEARCH CITY — INDIA OR WORLDWIDE" [ref=f15e78]
+          - generic [ref=f15e79]: "AO: MUMBAI"
+          - generic [ref=f15e81]: 19.0760°N 72.8777°E · Z12
+          - generic [ref=f15e83]:
+            - generic [ref=f15e84]: VEH:0
+            - generic [ref=f15e85]: EV:150
+            - generic [ref=f15e86]: 19C
+            - generic [ref=f15e87]: 37W
+            - generic [ref=f15e88]: 94I
+          - generic [ref=f15e89]:
+            - generic [ref=f15e90]: 27°C LIGHT RAIN SHOWER
+            - generic [ref=f15e92]: AQI –
+        - generic [ref=f15e93]:
+          - generic [ref=f15e94]:
+            - generic [ref=f15e95]:
+              - generic:
+                - generic:
+                  - img:
+                    - generic:
+                      - generic [ref=f15e96] [cursor=pointer]
+                      - generic [ref=f15e97] [cursor=pointer]
+                      - generic [ref=f15e98] [cursor=pointer]
+                      - generic [ref=f15e99] [cursor=pointer]
+                      - generic [ref=f15e100] [cursor=pointer]
+                      - generic [ref=f15e101] [cursor=pointer]
+                      - generic [ref=f15e102] [cursor=pointer]
+                      - generic [ref=f15e103] [cursor=pointer]
+                      - generic [ref=f15e104] [cursor=pointer]
+                      - generic [ref=f15e105] [cursor=pointer]
+                      - generic [ref=f15e106] [cursor=pointer]
+                - generic:
+                  - button [ref=f15e108] [cursor=pointer]
+                  - button [ref=f15e110] [cursor=pointer]
+                  - button [ref=f15e112] [cursor=pointer]
+                  - button [ref=f15e114] [cursor=pointer]
+                  - button [ref=f15e116] [cursor=pointer]
+                  - button [ref=f15e118] [cursor=pointer]
+                  - button [ref=f15e120] [cursor=pointer]
+                  - button [ref=f15e122] [cursor=pointer]
+                  - button [ref=f15e124] [cursor=pointer]
+                  - button [ref=f15e126] [cursor=pointer]
+                  - button [ref=f15e128] [cursor=pointer]
+                  - button [ref=f15e130] [cursor=pointer]
+                  - button [ref=f15e132] [cursor=pointer]
+                  - button [ref=f15e134] [cursor=pointer]
+                  - button [ref=f15e136] [cursor=pointer]
+                  - button [ref=f15e138] [cursor=pointer]
+                  - button [ref=f15e140] [cursor=pointer]
+                  - button [ref=f15e142] [cursor=pointer]
+                  - button [ref=f15e144] [cursor=pointer]
+                  - button [ref=f15e146] [cursor=pointer]
+                  - button [ref=f15e148] [cursor=pointer]
+                  - button [ref=f15e150] [cursor=pointer]
+                  - button [ref=f15e152] [cursor=pointer]
+                  - button [ref=f15e154] [cursor=pointer]
+                  - button [ref=f15e156] [cursor=pointer]
+                  - button [ref=f15e158] [cursor=pointer]
+                  - button [ref=f15e160] [cursor=pointer]
+                  - button [ref=f15e162] [cursor=pointer]
+                  - button [ref=f15e164] [cursor=pointer]
+                  - button [ref=f15e166] [cursor=pointer]
+                  - button [ref=f15e168] [cursor=pointer]
+                  - button [ref=f15e170] [cursor=pointer]
+                  - button [ref=f15e172] [cursor=pointer]
+                  - button [ref=f15e174] [cursor=pointer]
+                  - button [ref=f15e176] [cursor=pointer]
+                  - button [ref=f15e178] [cursor=pointer]
+                  - button [ref=f15e180] [cursor=pointer]
+                  - button [ref=f15e182] [cursor=pointer]
+                  - button [ref=f15e184] [cursor=pointer]
+                  - button [ref=f15e186] [cursor=pointer]
+                  - button [ref=f15e188] [cursor=pointer]
+                  - button [ref=f15e190] [cursor=pointer]
+                  - button [ref=f15e192] [cursor=pointer]
+                  - button [ref=f15e194] [cursor=pointer]
+                  - button [ref=f15e196] [cursor=pointer]
+                  - button [ref=f15e198] [cursor=pointer]
+                  - button [ref=f15e200] [cursor=pointer]
+                  - button [ref=f15e202] [cursor=pointer]
+                  - button [ref=f15e204] [cursor=pointer]
+                  - button [ref=f15e206] [cursor=pointer]
+                  - button [ref=f15e208] [cursor=pointer]
+                  - button [ref=f15e210] [cursor=pointer]
+                  - button [ref=f15e212] [cursor=pointer]
+                  - button [ref=f15e214] [cursor=pointer]
+                  - button [ref=f15e216] [cursor=pointer]
+                  - button [ref=f15e218] [cursor=pointer]
+                  - button [ref=f15e220] [cursor=pointer]
+                  - button [ref=f15e222] [cursor=pointer]
+                  - button [ref=f15e224] [cursor=pointer]
+                  - button [ref=f15e226] [cursor=pointer]
+                  - button [ref=f15e228] [cursor=pointer]
+                  - button [ref=f15e230] [cursor=pointer]
+                  - button [ref=f15e232] [cursor=pointer]
+                  - button [ref=f15e234] [cursor=pointer]
+                  - button [ref=f15e236] [cursor=pointer]
+                  - button [ref=f15e238] [cursor=pointer]
+                  - button [ref=f15e240] [cursor=pointer]
+                  - button [ref=f15e242] [cursor=pointer]
+                  - button [ref=f15e244] [cursor=pointer]
+                  - button [ref=f15e246] [cursor=pointer]
+                  - button [ref=f15e248] [cursor=pointer]
+                  - button [ref=f15e250] [cursor=pointer]
+                  - button [ref=f15e252] [cursor=pointer]
+                  - button [ref=f15e254] [cursor=pointer]
+                  - button [ref=f15e256] [cursor=pointer]
+                  - button [ref=f15e258] [cursor=pointer]
+                  - button [ref=f15e260] [cursor=pointer]
+                  - button [ref=f15e262] [cursor=pointer]
+                  - button [ref=f15e264] [cursor=pointer]
+                  - button [ref=f15e266] [cursor=pointer]
+                  - button [ref=f15e268] [cursor=pointer]
+                  - button [ref=f15e270] [cursor=pointer]
+                  - button [ref=f15e272] [cursor=pointer]
+                  - button [ref=f15e274] [cursor=pointer]
+                  - button [ref=f15e276] [cursor=pointer]
+                  - button [ref=f15e278] [cursor=pointer]
+                  - button [ref=f15e280] [cursor=pointer]
+                  - button [ref=f15e282] [cursor=pointer]
+                  - button [ref=f15e284] [cursor=pointer]
+                  - button [ref=f15e286] [cursor=pointer]
+                  - button [ref=f15e288] [cursor=pointer]
+                  - button [ref=f15e290] [cursor=pointer]
+                  - button [ref=f15e292] [cursor=pointer]
+                  - button [ref=f15e294] [cursor=pointer]
+                  - button [ref=f15e296] [cursor=pointer]
+                  - button [ref=f15e298] [cursor=pointer]
+                  - button [ref=f15e300] [cursor=pointer]
+                  - button [ref=f15e302] [cursor=pointer]
+                  - button [ref=f15e304] [cursor=pointer]
+                  - button [ref=f15e306] [cursor=pointer]
+                  - button [ref=f15e308] [cursor=pointer]
+                  - button [ref=f15e310] [cursor=pointer]
+                  - button [ref=f15e312] [cursor=pointer]
+                  - button [ref=f15e314] [cursor=pointer]
+                  - button [ref=f15e316] [cursor=pointer]
+                  - button [ref=f15e318] [cursor=pointer]
+                  - button [ref=f15e320] [cursor=pointer]
+                  - button [ref=f15e322] [cursor=pointer]
+                  - button [ref=f15e324] [cursor=pointer]
+                  - button [ref=f15e326] [cursor=pointer]
+                  - button [ref=f15e328] [cursor=pointer]
+                  - button [ref=f15e330] [cursor=pointer]
+                  - button [ref=f15e332] [cursor=pointer]
+                  - button [ref=f15e334] [cursor=pointer]
+                  - button [ref=f15e336] [cursor=pointer]
+                  - button [ref=f15e338] [cursor=pointer]
+                  - button [ref=f15e340] [cursor=pointer]
+                  - button [ref=f15e342] [cursor=pointer]
+                  - button [ref=f15e344] [cursor=pointer]
+                  - button [ref=f15e346] [cursor=pointer]
+                  - button [ref=f15e348] [cursor=pointer]
+                  - button [ref=f15e350] [cursor=pointer]
+                  - button [ref=f15e352] [cursor=pointer]
+                  - button [ref=f15e354] [cursor=pointer]
+                  - button [ref=f15e356] [cursor=pointer]
+                  - button [ref=f15e358] [cursor=pointer]
+                  - button [ref=f15e360] [cursor=pointer]
+                  - button [ref=f15e362] [cursor=pointer]
+                  - button [ref=f15e364] [cursor=pointer]
+                  - button [ref=f15e366] [cursor=pointer]
+                  - button [ref=f15e368] [cursor=pointer]
+                  - button [ref=f15e370] [cursor=pointer]
+                  - button [ref=f15e372] [cursor=pointer]
+                  - button [ref=f15e374] [cursor=pointer]
+                  - button [ref=f15e376] [cursor=pointer]
+                  - button [ref=f15e378] [cursor=pointer]
+                  - button [ref=f15e380] [cursor=pointer]
+                  - button [ref=f15e382] [cursor=pointer]
+              - generic [ref=f15e384]:
+                - link "Leaflet" [ref=f15e385] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=f15e390] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: contributors
+            - generic [ref=f15e391]:
+              - generic [ref=f15e392]: Severity
+              - generic [ref=f15e393]:
+                - generic [ref=f15e394]: INFO
+                - generic [ref=f15e396]: WARNING
+                - generic [ref=f15e398]: CRITICAL
+              - generic [ref=f15e400]: Flow
+              - generic [ref=f15e401]:
+                - generic [ref=f15e402]: FREE FLOW
+                - generic [ref=f15e404]: MODERATE
+                - generic [ref=f15e406]: HEAVY
+              - generic [ref=f15e408]: Vehicles
+              - generic [ref=f15e409]:
+                - generic [ref=f15e410]: METRO/RAIL
+                - generic [ref=f15e412]: BUS
+                - generic [ref=f15e414]: DELAYED
+            - generic [ref=f15e416]:
+              - generic [ref=f15e417]:
+                - generic [ref=f15e418]: 27°C
+                - generic [ref=f15e419]: Light rain showerNIGHT · RH 82%
+                - generic [ref=f15e421]:
+                  - text: AQI –
+                  - generic [ref=f15e422]: MODERATE
+              - generic [ref=f15e423]:
+                - generic [ref=f15e424]:
+                  - generic [ref=f15e425]: F
+                  - generic [ref=f15e426]: 29°
+                  - generic [ref=f15e427]: 27°
+                - generic [ref=f15e428]:
+                  - generic [ref=f15e429]: S
+                  - generic [ref=f15e430]: 28°
+                  - generic [ref=f15e431]: 27°
+                - generic [ref=f15e432]:
+                  - generic [ref=f15e433]: S
+                  - generic [ref=f15e434]: 28°
+                  - generic [ref=f15e435]: 27°
+          - generic [ref=f15e436]:
+            - generic [ref=f15e437]:
+              - generic [ref=f15e438]: Telemetry Ledger
+              - generic [ref=f15e439]: ● 150 REC
+            - generic [ref=f15e440]:
+              - generic [ref=f15e441]:
+                - generic [ref=f15e442]: 16:51:40
+                - generic [ref=f15e443]: INFO
+                - generic [ref=f15e444]:
+                  - generic [ref=f15e445]: "[TRA]"
+                  - text: Central Line (Slow) — On schedule
+              - generic [ref=f15e446]:
+                - generic [ref=f15e447]: 16:51:02
+                - generic [ref=f15e448]: INFO
+                - generic [ref=f15e449]:
+                  - generic [ref=f15e450]: "[TRA]"
+                  - text: Central Line (Slow) — On schedule
+              - generic [ref=f15e451]:
+                - generic [ref=f15e452]: 16:50:28
+                - generic [ref=f15e453]: INFO
+                - generic [ref=f15e454]:
+                  - generic [ref=f15e455]: "[TRA]"
+                  - text: "Central Line (Slow) — +1.4m delay: On schedule"
+              - generic [ref=f15e456]:
+                - generic [ref=f15e457]: 16:49:50
+                - generic [ref=f15e458]: INFO
+                - generic [ref=f15e459]:
+                  - generic [ref=f15e460]: "[TRA]"
+                  - text: Central Line (Slow) — On schedule
+              - generic [ref=f15e461]:
+                - generic [ref=f15e462]: 16:49:13
+                - generic [ref=f15e463]: INFO
+                - generic [ref=f15e464]:
+                  - generic [ref=f15e465]: "[TRA]"
+                  - text: "Central Line (Slow) — +1.3m delay: On schedule"
+              - generic [ref=f15e466]:
+                - generic [ref=f15e467]: 16:45:22
+                - generic [ref=f15e468]: INFO
+                - generic [ref=f15e469]:
+                  - generic [ref=f15e470]: "[TRA]"
+                  - text: "Western Express Highway: Free Flow traffic, avg speed 41 km/h"
+              - generic [ref=f15e471]:
+                - generic [ref=f15e472]: 16:42:26
+                - generic [ref=f15e473]: WARN
+                - generic [ref=f15e474]:
+                  - generic [ref=f15e475]: "[TRA]"
+                  - text: "Western Express Highway: Moderate traffic, avg speed 16 km/h"
+              - generic [ref=f15e476]:
+                - generic [ref=f15e477]: 16:38:58
+                - generic [ref=f15e478]: WARN
+                - generic [ref=f15e479]:
+                  - generic [ref=f15e480]: "[EME]"
+                  - text: Public disturbance reported
+              - generic [ref=f15e481]:
+                - generic [ref=f15e482]: 16:38:58
+                - generic [ref=f15e483]: CRIT
+                - generic [ref=f15e484]:
+                  - generic [ref=f15e485]: "[TRA]"
+                  - text: "Marine Drive: Heavy traffic, avg speed 11 km/h"
+              - generic [ref=f15e486]:
+                - generic [ref=f15e487]: 16:37:20
+                - generic [ref=f15e488]: INFO
+                - generic [ref=f15e489]:
+                  - generic [ref=f15e490]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Dadar, Mumbai
+              - generic [ref=f15e491]:
+                - generic [ref=f15e492]: 16:34:10
+                - generic [ref=f15e493]: WARN
+                - generic [ref=f15e494]:
+                  - generic [ref=f15e495]: "[EME]"
+                  - text: Water logging at intersection
+              - generic [ref=f15e496]:
+                - generic [ref=f15e497]: 16:34:06
+                - generic [ref=f15e498]: INFO
+                - generic [ref=f15e499]:
+                  - generic [ref=f15e500]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Borivali, Mumbai
+              - generic [ref=f15e501]:
+                - generic [ref=f15e502]: 16:33:53
+                - generic [ref=f15e503]: INFO
+                - generic [ref=f15e504]:
+                  - generic [ref=f15e505]: "[TRA]"
+                  - text: Mumbai Local Western Line running with 9 min delay
+              - generic [ref=f15e506]:
+                - generic [ref=f15e507]: 16:32:03
+                - generic [ref=f15e508]: CRIT
+                - generic [ref=f15e509]:
+                  - generic [ref=f15e510]: "[EME]"
+                  - text: Fire brigade dispatched
+              - generic [ref=f15e511]:
+                - generic [ref=f15e512]: 16:31:26
+                - generic [ref=f15e513]: CRIT
+                - generic [ref=f15e514]:
+                  - generic [ref=f15e515]: "[TRA]"
+                  - text: "SV Road: Heavy traffic, avg speed 6 km/h"
+              - generic [ref=f15e516]:
+                - generic [ref=f15e517]: 16:30:44
+                - generic [ref=f15e518]: WARN
+                - generic [ref=f15e519]:
+                  - generic [ref=f15e520]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Dadar, Mumbai
+              - generic [ref=f15e521]:
+                - generic [ref=f15e522]: 16:29:36
+                - generic [ref=f15e523]: WARN
+                - generic [ref=f15e524]:
+                  - generic [ref=f15e525]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Borivali, Mumbai
+              - generic [ref=f15e526]:
+                - generic [ref=f15e527]: 16:28:46
+                - generic [ref=f15e528]: INFO
+                - generic [ref=f15e529]:
+                  - generic [ref=f15e530]: "[TRA]"
+                  - text: Mumbai Local Western Line running with 12 min delay
+              - generic [ref=f15e531]:
+                - generic [ref=f15e532]: 16:28:05
+                - generic [ref=f15e533]: WARN
+                - generic [ref=f15e534]:
+                  - generic [ref=f15e535]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Dadar, Mumbai
+              - generic [ref=f15e536]:
+                - generic [ref=f15e537]: 16:27:50
+                - generic [ref=f15e538]: INFO
+                - generic [ref=f15e539]:
+                  - generic [ref=f15e540]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Borivali, Mumbai
+              - generic [ref=f15e541]:
+                - generic [ref=f15e542]: 16:26:18
+                - generic [ref=f15e543]: INFO
+                - generic [ref=f15e544]:
+                  - generic [ref=f15e545]: "[TRA]"
+                  - text: "SV Road: Free Flow traffic, avg speed 41 km/h"
+              - generic [ref=f15e546]:
+                - generic [ref=f15e547]: 16:23:30
+                - generic [ref=f15e548]: WARN
+                - generic [ref=f15e549]:
+                  - generic [ref=f15e550]: "[EME]"
+                  - text: Medical emergency response
+              - generic [ref=f15e551]:
+                - generic [ref=f15e552]: 16:22:07
+                - generic [ref=f15e553]: WARN
+                - generic [ref=f15e554]:
+                  - generic [ref=f15e555]: "[EME]"
+                  - text: Medical emergency response
+              - generic [ref=f15e556]:
+                - generic [ref=f15e557]: 16:21:26
+                - generic [ref=f15e558]: WARN
+                - generic [ref=f15e559]:
+                  - generic [ref=f15e560]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Andheri, Mumbai
+              - generic [ref=f15e561]:
+                - generic [ref=f15e562]: 16:21:24
+                - generic [ref=f15e563]: CRIT
+                - generic [ref=f15e564]:
+                  - generic [ref=f15e565]: "[EME]"
+                  - text: Streetlight outage reported
+              - generic [ref=f15e566]:
+                - generic [ref=f15e567]: 16:20:47
+                - generic [ref=f15e568]: WARN
+                - generic [ref=f15e569]:
+                  - generic [ref=f15e570]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Andheri, Mumbai
+              - generic [ref=f15e571]:
+                - generic [ref=f15e572]: 16:20:47
+                - generic [ref=f15e573]: CRIT
+                - generic [ref=f15e574]:
+                  - generic [ref=f15e575]: "[EME]"
+                  - text: Streetlight outage reported
+              - generic [ref=f15e576]:
+                - generic [ref=f15e577]: 16:19:07
+                - generic [ref=f15e578]: CRIT
+                - generic [ref=f15e579]:
+                  - generic [ref=f15e580]: "[TRA]"
+                  - text: Mumbai Local Western Line running with 21 min delay
+              - generic [ref=f15e581]:
+                - generic [ref=f15e582]: 16:16:33
+                - generic [ref=f15e583]: CRIT
+                - generic [ref=f15e584]:
+                  - generic [ref=f15e585]: "[TRA]"
+                  - text: Mumbai Local Western Line running with 8 min delay
+              - generic [ref=f15e586]:
+                - generic [ref=f15e587]: 16:16:10
+                - generic [ref=f15e588]: INFO
+                - generic [ref=f15e589]:
+                  - generic [ref=f15e590]: "[POW]"
+                  - text: Discom transformer load exceeding 85% in Dadar, Mumbai
+              - generic [ref=f15e591]:
+                - generic [ref=f15e592]: 16:16:08
+                - generic [ref=f15e593]: INFO
+                - generic [ref=f15e594]:
+                  - generic [ref=f15e595]: "[WEA]"
+                  - text: "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)"
+              - generic [ref=f15e596]:
+                - generic [ref=f15e597]: 16:14:56
+                - generic [ref=f15e598]: INFO
+                - generic [ref=f15e599]:
+                  - generic [ref=f15e600]: "[WEA]"
+                  - text: "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)"
+              - generic [ref=f15e601]:
+                - generic [ref=f15e602]: 16:13:44
+                - generic [ref=f15e603]: INFO
+                - generic [ref=f15e604]:
+                  - generic [ref=f15e605]: "[WEA]"
+                  - text: "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)"
+              - generic [ref=f15e606]:
+                - generic [ref=f15e607]: 16:13:29
+                - generic [ref=f15e608]: WARN
+                - generic [ref=f15e609]:
+                  - generic [ref=f15e610]: "[EME]"
+                  - text: Medical emergency response
+              - generic [ref=f15e611]:
+                - generic [ref=f15e612]: 16:13:26
+                - generic [ref=f15e613]: CRIT
+                - generic [ref=f15e614]:
+                  - generic [ref=f15e615]: "[TRA]"
+                  - text: Mumbai Local Western Line running with 20 min delay
+              - generic [ref=f15e616]:
+                - generic [ref=f15e617]: 16:12:31
+                - generic [ref=f15e618]: INFO
+                - generic [ref=f15e619]:
+                  - generic [ref=f15e620]: "[WEA]"
+                  - text: "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)"
+              - generic [ref=f15e621]:
+                - generic [ref=f15e622]: 16:11:56
+                - generic [ref=f15e623]: INFO
+                - generic [ref=f15e624]:
+                  - generic [ref=f15e625]: "[WEA]"
+                  - text: "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)"
+              - generic [ref=f15e626]:
+                - generic [ref=f15e627]: 16:11:24
+                - generic [ref=f15e628]: WARN
+                - generic [ref=f15e629]:
+                  - generic [ref=f15e630]: "[EME]"
+                  - text: Traffic accident reported
+              - generic [ref=f15e631]:
+                - generic [ref=f15e632]: 16:10:44
+                - generic [ref=f15e633]: INFO
+                - generic [ref=f15e634]:
+                  - generic [ref=f15e635]: "[WEA]"
+                  - text: "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)"
+              - generic [ref=f15e636]:
+                - generic [ref=f15e637]: 16:09:32
+                - generic [ref=f15e638]: INFO
+                - generic [ref=f15e639]:
+                  - generic [ref=f15e640]: "[WEA]"
+                  - text: "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)"
+        - generic [ref=f15e641]:
+          - generic [ref=f15e642]:
+            - button "Attributes Table expand_less" [ref=f15e643] [cursor=pointer]:
+              - generic [ref=f15e644]: Attributes Table
+              - generic [ref=f15e645]: expand_less
+            - generic [ref=f15e646]: Mumbai · last 40 records · ttl 180s
+          - table [ref=f15e648]:
+            - rowgroup [ref=f15e649]:
+              - row [ref=f15e650]:
+                - columnheader "UTC TIME" [ref=f15e651]
+                - columnheader "AGE" [ref=f15e652]
+                - columnheader "CATEGORY" [ref=f15e653]
+                - columnheader "SEVERITY" [ref=f15e654]
+                - columnheader "DESCRIPTION" [ref=f15e655]
+                - columnheader "LAT" [ref=f15e656]
+                - columnheader "LNG" [ref=f15e657]
+            - rowgroup [ref=f15e658]:
+              - row [ref=f15e659]:
+                - cell "16:51:40" [ref=f15e660]
+                - cell "330m" [ref=f15e661]
+                - cell "transit" [ref=f15e662]
+                - cell "INFO" [ref=f15e663]
+                - cell "Central Line (Slow) — On schedule" [ref=f15e664]
+                - cell "19.0983" [ref=f15e665]
+                - cell "72.8718" [ref=f15e666]
+              - row [ref=f15e667]:
+                - cell "16:51:02" [ref=f15e668]
+                - cell "330m" [ref=f15e669]
+                - cell "transit" [ref=f15e670]
+                - cell "INFO" [ref=f15e671]
+                - cell "Central Line (Slow) — On schedule" [ref=f15e672]
+                - cell "19.0803" [ref=f15e673]
+                - cell "72.8405" [ref=f15e674]
+              - row [ref=f15e675]:
+                - cell "16:50:28" [ref=f15e676]
+                - cell "331m" [ref=f15e677]
+                - cell "transit" [ref=f15e678]
+                - cell "INFO" [ref=f15e679]
+                - 'cell "Central Line (Slow) — +1.4m delay: On schedule" [ref=f15e680]'
+                - cell "19.0883" [ref=f15e681]
+                - cell "72.8545" [ref=f15e682]
+              - row [ref=f15e683]:
+                - cell "16:49:50" [ref=f15e684]
+                - cell "331m" [ref=f15e685]
+                - cell "transit" [ref=f15e686]
+                - cell "INFO" [ref=f15e687]
+                - cell "Central Line (Slow) — On schedule" [ref=f15e688]
+                - cell "19.0976" [ref=f15e689]
+                - cell "72.8706" [ref=f15e690]
+              - row [ref=f15e691]:
+                - cell "16:49:13" [ref=f15e692]
+                - cell "332m" [ref=f15e693]
+                - cell "transit" [ref=f15e694]
+                - cell "INFO" [ref=f15e695]
+                - 'cell "Central Line (Slow) — +1.3m delay: On schedule" [ref=f15e696]'
+                - cell "19.1089" [ref=f15e697]
+                - cell "72.8902" [ref=f15e698]
+              - row [ref=f15e699]:
+                - cell "16:45:22" [ref=f15e700]
+                - cell "336m" [ref=f15e701]
+                - cell "traffic" [ref=f15e702]
+                - cell "INFO" [ref=f15e703]
+                - 'cell "Western Express Highway: Free Flow traffic, avg speed 41 km/h" [ref=f15e704]'
+                - cell "19.0800" [ref=f15e705]
+                - cell "72.8500" [ref=f15e706]
+              - row [ref=f15e707]:
+                - cell "16:42:26" [ref=f15e708]
+                - cell "339m" [ref=f15e709]
+                - cell "traffic" [ref=f15e710]
+                - cell "WARNING" [ref=f15e711]
+                - 'cell "Western Express Highway: Moderate traffic, avg speed 16 km/h" [ref=f15e712]'
+                - cell "19.0800" [ref=f15e713]
+                - cell "72.8500" [ref=f15e714]
+              - row [ref=f15e715]:
+                - cell "16:38:58" [ref=f15e716]
+                - cell "342m" [ref=f15e717]
+                - cell "emergency" [ref=f15e718]
+                - cell "WARNING" [ref=f15e719]
+                - cell "Public disturbance reported" [ref=f15e720]
+                - cell "19.0759" [ref=f15e721]
+                - cell "72.8730" [ref=f15e722]
+              - row [ref=f15e723]:
+                - cell "16:38:58" [ref=f15e724]
+                - cell "342m" [ref=f15e725]
+                - cell "traffic" [ref=f15e726]
+                - cell "CRITICAL" [ref=f15e727]
+                - 'cell "Marine Drive: Heavy traffic, avg speed 11 km/h" [ref=f15e728]'
+                - cell "18.9300" [ref=f15e729]
+                - cell "72.8200" [ref=f15e730]
+              - row [ref=f15e731]:
+                - cell "16:37:20" [ref=f15e732]
+                - cell "344m" [ref=f15e733]
+                - cell "power" [ref=f15e734]
+                - cell "INFO" [ref=f15e735]
+                - cell "Discom transformer load exceeding 85% in Dadar, Mumbai" [ref=f15e736]
+                - cell "19.0864" [ref=f15e737]
+                - cell "72.8949" [ref=f15e738]
+              - row [ref=f15e739]:
+                - cell "16:34:10" [ref=f15e740]
+                - cell "347m" [ref=f15e741]
+                - cell "emergency" [ref=f15e742]
+                - cell "WARNING" [ref=f15e743]
+                - cell "Water logging at intersection" [ref=f15e744]
+                - cell "19.0876" [ref=f15e745]
+                - cell "72.8621" [ref=f15e746]
+              - row [ref=f15e747]:
+                - cell "16:34:06" [ref=f15e748]
+                - cell "347m" [ref=f15e749]
+                - cell "power" [ref=f15e750]
+                - cell "INFO" [ref=f15e751]
+                - cell "Discom transformer load exceeding 85% in Borivali, Mumbai" [ref=f15e752]
+                - cell "19.0950" [ref=f15e753]
+                - cell "72.8909" [ref=f15e754]
+              - row [ref=f15e755]:
+                - cell "16:33:53" [ref=f15e756]
+                - cell "347m" [ref=f15e757]
+                - cell "transit" [ref=f15e758]
+                - cell "INFO" [ref=f15e759]
+                - cell "Mumbai Local Western Line running with 9 min delay" [ref=f15e760]
+                - cell "19.0810" [ref=f15e761]
+                - cell "72.8527" [ref=f15e762]
+              - row [ref=f15e763]:
+                - cell "16:32:03" [ref=f15e764]
+                - cell "349m" [ref=f15e765]
+                - cell "emergency" [ref=f15e766]
+                - cell "CRITICAL" [ref=f15e767]
+                - cell "Fire brigade dispatched" [ref=f15e768]
+                - cell "19.0503" [ref=f15e769]
+                - cell "72.9035" [ref=f15e770]
+              - row [ref=f15e771]:
+                - cell "16:31:26" [ref=f15e772]
+                - cell "350m" [ref=f15e773]
+                - cell "traffic" [ref=f15e774]
+                - cell "CRITICAL" [ref=f15e775]
+                - 'cell "SV Road: Heavy traffic, avg speed 6 km/h" [ref=f15e776]'
+                - cell "19.0500" [ref=f15e777]
+                - cell "72.8400" [ref=f15e778]
+              - row [ref=f15e779]:
+                - cell "16:30:44" [ref=f15e780]
+                - cell "351m" [ref=f15e781]
+                - cell "power" [ref=f15e782]
+                - cell "WARNING" [ref=f15e783]
+                - cell "Discom transformer load exceeding 85% in Dadar, Mumbai" [ref=f15e784]
+                - cell "19.1008" [ref=f15e785]
+                - cell "72.8517" [ref=f15e786]
+              - row [ref=f15e787]:
+                - cell "16:29:36" [ref=f15e788]
+                - cell "352m" [ref=f15e789]
+                - cell "power" [ref=f15e790]
+                - cell "WARNING" [ref=f15e791]
+                - cell "Discom transformer load exceeding 85% in Borivali, Mumbai" [ref=f15e792]
+                - cell "19.0886" [ref=f15e793]
+                - cell "72.8595" [ref=f15e794]
+              - row [ref=f15e795]:
+                - cell "16:28:46" [ref=f15e796]
+                - cell "353m" [ref=f15e797]
+                - cell "transit" [ref=f15e798]
+                - cell "INFO" [ref=f15e799]
+                - cell "Mumbai Local Western Line running with 12 min delay" [ref=f15e800]
+                - cell "19.0473" [ref=f15e801]
+                - cell "72.8927" [ref=f15e802]
+              - row [ref=f15e803]:
+                - cell "16:28:05" [ref=f15e804]
+                - cell "353m" [ref=f15e805]
+                - cell "power" [ref=f15e806]
+                - cell "WARNING" [ref=f15e807]
+                - cell "Discom transformer load exceeding 85% in Dadar, Mumbai" [ref=f15e808]
+                - cell "19.1009" [ref=f15e809]
+                - cell "72.8585" [ref=f15e810]
+              - row [ref=f15e811]:
+                - cell "16:27:50" [ref=f15e812]
+                - cell "353m" [ref=f15e813]
+                - cell "power" [ref=f15e814]
+                - cell "INFO" [ref=f15e815]
+                - cell "Discom transformer load exceeding 85% in Borivali, Mumbai" [ref=f15e816]
+                - cell "19.0946" [ref=f15e817]
+                - cell "72.8702" [ref=f15e818]
+              - row [ref=f15e819]:
+                - cell "16:26:18" [ref=f15e820]
+                - cell "355m" [ref=f15e821]
+                - cell "traffic" [ref=f15e822]
+                - cell "INFO" [ref=f15e823]
+                - 'cell "SV Road: Free Flow traffic, avg speed 41 km/h" [ref=f15e824]'
+                - cell "19.0500" [ref=f15e825]
+                - cell "72.8400" [ref=f15e826]
+              - row [ref=f15e827]:
+                - cell "16:23:30" [ref=f15e828]
+                - cell "358m" [ref=f15e829]
+                - cell "emergency" [ref=f15e830]
+                - cell "WARNING" [ref=f15e831]
+                - cell "Medical emergency response" [ref=f15e832]
+                - cell "19.0936" [ref=f15e833]
+                - cell "72.8509" [ref=f15e834]
+              - row [ref=f15e835]:
+                - cell "16:22:07" [ref=f15e836]
+                - cell "359m" [ref=f15e837]
+                - cell "emergency" [ref=f15e838]
+                - cell "WARNING" [ref=f15e839]
+                - cell "Medical emergency response" [ref=f15e840]
+                - cell "19.0569" [ref=f15e841]
+                - cell "72.9064" [ref=f15e842]
+              - row [ref=f15e843]:
+                - cell "16:21:26" [ref=f15e844]
+                - cell "360m" [ref=f15e845]
+                - cell "power" [ref=f15e846]
+                - cell "WARNING" [ref=f15e847]
+                - cell "Discom transformer load exceeding 85% in Andheri, Mumbai" [ref=f15e848]
+                - cell "19.0824" [ref=f15e849]
+                - cell "72.8687" [ref=f15e850]
+              - row [ref=f15e851]:
+                - cell "16:21:24" [ref=f15e852]
+                - cell "360m" [ref=f15e853]
+                - cell "emergency" [ref=f15e854]
+                - cell "CRITICAL" [ref=f15e855]
+                - cell "Streetlight outage reported" [ref=f15e856]
+                - cell "19.0633" [ref=f15e857]
+                - cell "72.8763" [ref=f15e858]
+              - row [ref=f15e859]:
+                - cell "16:20:47" [ref=f15e860]
+                - cell "361m" [ref=f15e861]
+                - cell "power" [ref=f15e862]
+                - cell "WARNING" [ref=f15e863]
+                - cell "Discom transformer load exceeding 85% in Andheri, Mumbai" [ref=f15e864]
+                - cell "19.0481" [ref=f15e865]
+                - cell "72.8849" [ref=f15e866]
+              - row [ref=f15e867]:
+                - cell "16:20:47" [ref=f15e868]
+                - cell "361m" [ref=f15e869]
+                - cell "emergency" [ref=f15e870]
+                - cell "CRITICAL" [ref=f15e871]
+                - cell "Streetlight outage reported" [ref=f15e872]
+                - cell "19.1008" [ref=f15e873]
+                - cell "72.8626" [ref=f15e874]
+              - row [ref=f15e875]:
+                - cell "16:19:07" [ref=f15e876]
+                - cell "362m" [ref=f15e877]
+                - cell "transit" [ref=f15e878]
+                - cell "CRITICAL" [ref=f15e879]
+                - cell "Mumbai Local Western Line running with 21 min delay" [ref=f15e880]
+                - cell "19.1031" [ref=f15e881]
+                - cell "72.8714" [ref=f15e882]
+              - row [ref=f15e883]:
+                - cell "16:16:33" [ref=f15e884]
+                - cell "365m" [ref=f15e885]
+                - cell "transit" [ref=f15e886]
+                - cell "CRITICAL" [ref=f15e887]
+                - cell "Mumbai Local Western Line running with 8 min delay" [ref=f15e888]
+                - cell "19.0528" [ref=f15e889]
+                - cell "72.8520" [ref=f15e890]
+              - row [ref=f15e891]:
+                - cell "16:16:10" [ref=f15e892]
+                - cell "365m" [ref=f15e893]
+                - cell "power" [ref=f15e894]
+                - cell "INFO" [ref=f15e895]
+                - cell "Discom transformer load exceeding 85% in Dadar, Mumbai" [ref=f15e896]
+                - cell "19.1047" [ref=f15e897]
+                - cell "72.8871" [ref=f15e898]
+              - row [ref=f15e899]:
+                - cell "16:16:08" [ref=f15e900]
+                - cell "365m" [ref=f15e901]
+                - cell "weather" [ref=f15e902]
+                - cell "INFO" [ref=f15e903]
+                - 'cell "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)" [ref=f15e904]'
+                - cell "19.0760" [ref=f15e905]
+                - cell "72.8777" [ref=f15e906]
+              - row [ref=f15e907]:
+                - cell "16:14:56" [ref=f15e908]
+                - cell "366m" [ref=f15e909]
+                - cell "weather" [ref=f15e910]
+                - cell "INFO" [ref=f15e911]
+                - 'cell "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)" [ref=f15e912]'
+                - cell "19.0760" [ref=f15e913]
+                - cell "72.8777" [ref=f15e914]
+              - row [ref=f15e915]:
+                - cell "16:13:44" [ref=f15e916]
+                - cell "368m" [ref=f15e917]
+                - cell "weather" [ref=f15e918]
+                - cell "INFO" [ref=f15e919]
+                - 'cell "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)" [ref=f15e920]'
+                - cell "19.0760" [ref=f15e921]
+                - cell "72.8777" [ref=f15e922]
+              - row [ref=f15e923]:
+                - cell "16:13:29" [ref=f15e924]
+                - cell "368m" [ref=f15e925]
+                - cell "emergency" [ref=f15e926]
+                - cell "WARNING" [ref=f15e927]
+                - cell "Medical emergency response" [ref=f15e928]
+                - cell "19.0479" [ref=f15e929]
+                - cell "72.8959" [ref=f15e930]
+              - row [ref=f15e931]:
+                - cell "16:13:26" [ref=f15e932]
+                - cell "368m" [ref=f15e933]
+                - cell "transit" [ref=f15e934]
+                - cell "CRITICAL" [ref=f15e935]
+                - cell "Mumbai Local Western Line running with 20 min delay" [ref=f15e936]
+                - cell "19.0928" [ref=f15e937]
+                - cell "72.8930" [ref=f15e938]
+              - row [ref=f15e939]:
+                - cell "16:12:31" [ref=f15e940]
+                - cell "369m" [ref=f15e941]
+                - cell "weather" [ref=f15e942]
+                - cell "INFO" [ref=f15e943]
+                - 'cell "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)" [ref=f15e944]'
+                - cell "19.0760" [ref=f15e945]
+                - cell "72.8777" [ref=f15e946]
+              - row [ref=f15e947]:
+                - cell "16:11:56" [ref=f15e948]
+                - cell "369m" [ref=f15e949]
+                - cell "weather" [ref=f15e950]
+                - cell "INFO" [ref=f15e951]
+                - 'cell "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)" [ref=f15e952]'
+                - cell "19.0760" [ref=f15e953]
+                - cell "72.8777" [ref=f15e954]
+              - row [ref=f15e955]:
+                - cell "16:11:24" [ref=f15e956]
+                - cell "370m" [ref=f15e957]
+                - cell "emergency" [ref=f15e958]
+                - cell "WARNING" [ref=f15e959]
+                - cell "Traffic accident reported" [ref=f15e960]
+                - cell "19.0814" [ref=f15e961]
+                - cell "72.8899" [ref=f15e962]
+              - row [ref=f15e963]:
+                - cell "16:10:44" [ref=f15e964]
+                - cell "371m" [ref=f15e965]
+                - cell "weather" [ref=f15e966]
+                - cell "INFO" [ref=f15e967]
+                - 'cell "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)" [ref=f15e968]'
+                - cell "19.0760" [ref=f15e969]
+                - cell "72.8777" [ref=f15e970]
+              - row [ref=f15e971]:
+                - cell "16:09:32" [ref=f15e972]
+                - cell "372m" [ref=f15e973]
+                - cell "weather" [ref=f15e974]
+                - cell "INFO" [ref=f15e975]
+                - 'cell "Mumbai AQI is 88 (PM2.5: 24.2µg/m³)" [ref=f15e976]'
+                - cell "19.0760" [ref=f15e977]
+                - cell "72.8777" [ref=f15e978]
+    - generic [ref=f15e979]:
+      - generic [ref=f15e980]:
+        - generic [ref=f15e981]:
+          - generic [ref=f15e982]:
+            - generic [ref=f15e983]: Live Composite Index
+            - generic [ref=f15e986]: 99.4% Sensor Uptime
+          - generic [ref=f15e987]:
+            - generic [ref=f15e992]:
+              - generic [ref=f15e993]: "88"
+              - generic [ref=f15e994]: Index Score
+            - generic [ref=f15e995]:
+              - generic [ref=f15e996]:
+                - generic [ref=f15e997]: check_circle
+                - text: Optimal Grade
+              - heading "Excellent Civic Health" [level=2] [ref=f15e998]
+              - paragraph [ref=f15e999]: Urban ecosystem running smoothly across transit, air, and civil assets.
+          - generic [ref=f15e1000]:
+            - generic [ref=f15e1002]:
+              - generic [ref=f15e1003]:
+                - generic [ref=f15e1004]: air
+                - text: Air Quality
+              - generic [ref=f15e1005]: 92/100 Pristine
+            - generic [ref=f15e1009]:
+              - generic [ref=f15e1010]:
+                - generic [ref=f15e1011]: directions_transit
+                - text: Transit Flow
+              - generic [ref=f15e1012]: 84/100 Smooth
+            - generic [ref=f15e1016]:
+              - generic [ref=f15e1017]:
+                - generic [ref=f15e1018]: health_and_safety
+                - text: Public Safety
+              - generic [ref=f15e1019]: 89/100 Steady
+            - generic [ref=f15e1023]:
+              - generic [ref=f15e1024]:
+                - generic [ref=f15e1025]: bolt
+                - text: Grid Stability
+              - generic [ref=f15e1026]: 96/100 100% Green
+          - generic [ref=f15e1029]:
+            - generic [ref=f15e1030]: ✨
+            - paragraph [ref=f15e1031]: "Civic trend: Conditions are 6% better than last Friday. High solar generation and favorable coastal breezes make today ideal for outdoor recreation at Central Park."
+        - generic [ref=f15e1032]:
+          - generic [ref=f15e1033]:
+            - generic [ref=f15e1034]: "Viewing: Live Neighborhood Comfort"
+            - generic [ref=f15e1037]:
+              - button "Zoom in" [ref=f15e1038] [cursor=pointer]:
+                - generic [ref=f15e1039]: add
+              - button "Zoom out" [ref=f15e1040] [cursor=pointer]:
+                - generic [ref=f15e1041]: remove
+              - button "Reset" [ref=f15e1043] [cursor=pointer]:
+                - generic [ref=f15e1044]: my_location
+          - img [ref=f15e1046]: "C-Scheme / Ashok NagarAQI 18 • PristineVaishali Nagar / DowntownTransit Cadence: 98%Malviya NagarMicroclimate: 71°FAmer / KukasBreeze: Aravalli Winds"
+          - generic [ref=f15e1064]:
+            - generic [ref=f15e1065]:
+              - generic [ref=f15e1066]: sensors
+              - generic [ref=f15e1068]:
+                - generic [ref=f15e1069]: "Jaipur Microgrid #04"
+                - text: Active • Lat 26.9124 N, Lon 75.7873 E
+            - generic [ref=f15e1072]:
+              - generic [ref=f15e1073]: Optimal
+              - generic [ref=f15e1075]: Nominal
+              - generic [ref=f15e1077]: Maintenance
+      - generic [ref=f15e1079]:
+        - generic [ref=f15e1080]:
+          - generic [ref=f15e1081]:
+            - generic [ref=f15e1082]:
+              - generic [ref=f15e1083]: Public Bulletins
+              - generic [ref=f15e1084]: •
+              - generic [ref=f15e1085]: 6 Active Real-Time Advisories
+            - heading "Top Headlines" [level=2] [ref=f15e1086]
+          - link "View all city dispatches arrow_forward" [ref=f15e1087] [cursor=pointer]:
+            - /url: "#"
+            - text: View all city dispatches
+            - generic [ref=f15e1088]: arrow_forward
+        - generic [ref=f15e1089]:
+          - generic [ref=f15e1090]:
+            - generic [ref=f15e1091]:
+              - generic [ref=f15e1092]:
+                - generic [ref=f15e1093]: Traffic
+                - generic [ref=f15e1094]:
+                  - generic [ref=f15e1095]: schedule
+                  - text: 5h ago
+              - 'heading "Western Express Highway: Moderate traffic, avg speed 16 km/h" [level=3] [ref=f15e1096]'
+              - paragraph [ref=f15e1097]: Traffic cell • live stream
+            - generic [ref=f15e1098]:
+              - generic [ref=f15e1099]:
+                - generic [ref=f15e1100]: location_on
+                - text: Live stream
+              - generic [ref=f15e1101]: MONITORING
+          - generic [ref=f15e1102]:
+            - generic [ref=f15e1103]:
+              - generic [ref=f15e1104]:
+                - generic [ref=f15e1105]: Emergency
+                - generic [ref=f15e1106]:
+                  - generic [ref=f15e1107]: schedule
+                  - text: 5h ago
+              - heading "Public disturbance reported" [level=3] [ref=f15e1108]
+              - paragraph [ref=f15e1109]: Emergency cell • live stream
+            - generic [ref=f15e1110]:
+              - generic [ref=f15e1111]:
+                - generic [ref=f15e1112]: location_on
+                - text: Live stream
+              - generic [ref=f15e1113]: MONITORING
+          - generic [ref=f15e1114]:
+            - generic [ref=f15e1115]:
+              - generic [ref=f15e1116]:
+                - generic [ref=f15e1117]: Traffic
+                - generic [ref=f15e1118]:
+                  - generic [ref=f15e1119]: schedule
+                  - text: 5h ago
+              - 'heading "Marine Drive: Heavy traffic, avg speed 11 km/h" [level=3] [ref=f15e1120]'
+              - paragraph [ref=f15e1121]: Traffic cell • live stream
+            - generic [ref=f15e1122]:
+              - generic [ref=f15e1123]:
+                - generic [ref=f15e1124]: location_on
+                - text: Live stream
+              - generic [ref=f15e1125]: ACTIVE
+      - generic [ref=f15e1126]:
+        - generic [ref=f15e1127]:
+          - generic [ref=f15e1128]: contact_support
+          - generic [ref=f15e1130]:
+            - text: Resident Civic Telemetry Services
+            - paragraph [ref=f15e1131]: Report public space anomalies, request sensor audits, or call emergency dispatch.
+        - generic [ref=f15e1132]:
+          - link "phone Dial Jaipur 181" [ref=f15e1133] [cursor=pointer]:
+            - /url: tel:181
+            - generic [ref=f15e1134]: phone
+            - text: Dial Jaipur 181
+          - button "campaign Submit Resident Feedback" [ref=f15e1135] [cursor=pointer]:
+            - generic [ref=f15e1136]: campaign
+            - text: Submit Resident Feedback
+          - button "emergency_share Emergency Directory" [ref=f15e1137] [cursor=pointer]:
+            - generic [ref=f15e1138]: emergency_share
+            - text: Emergency Directory
+    - generic [ref=f15e1140]:
+      - generic [ref=f15e1141]:
+        - generic [ref=f15e1142]: Municipal Telemetry Feeds Active
+        - generic [ref=f15e1145]: •
+        - generic [ref=f15e1146]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f15e1147]:
+        - generic [ref=f15e1148]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f15e1149]:
+          - link "Status" [ref=f15e1150] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f15e1151] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f15e1152] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f15e1154] [cursor=pointer]:
+      - generic [ref=f15e1155]: smart_toy
+      - generic [ref=f15e1156]: CivicPulse AI
+  - alert [ref=f15e1158]

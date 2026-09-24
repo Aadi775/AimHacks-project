@@ -1,0 +1,111 @@
+[     243ms] [INFO] Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[ 1115959ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1116097ms] [LOG] [Fast Refresh] done in 138ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1396445ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1396914ms] [LOG] [Fast Refresh] done in 469ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1410041ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1410360ms] [LOG] [Fast Refresh] done in 317ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1431360ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1431570ms] [LOG] [Fast Refresh] done in 210ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1431582ms] TypeError: can't access property "_leaflet_pos", el is undefined
+    at getPosition (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2562:4)
+    at _getMapPanePos (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4600:12)
+    at containerPointToLayerPoint (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4151:41)
+    at containerPointToLatLng (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4165:27)
+    at setZoomAround (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:3359:26)
+    at _performZoom (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:14185:10)
+    at setTimeout handler*_onWheelScroll (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:14159:19)
+    at handler (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2798:15)
+    at EventListener.handleEvent*addOne (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2813:10)
+    at on (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2724:12)
+    at addHooks (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:14135:7)
+    at enable (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:5913:10)
+    at addHandler (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:3845:14)
+    at Class.addInitHook/init< (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:391:14)
+    at Class.extend/proto.callInitHooks (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:358:26)
+    at initialize (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:3268:10)
+    at NewClass (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:301:22)
+    at MapContainerComponent/mapRef< (webpack-internal:///(app-pages-browser)/./node_modules/react-leaflet/lib/MapContainer.js:37:25)
+    at commitAttachRef (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21677:37)
+    at safelyAttachRef (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:20803:20)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21498:26)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21407:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21488:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21488:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21488:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21407:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21407:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21552:47)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21518:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+[ 1431755ms] TypeError: can't access property "_leaflet_pos", el is undefined
+    at getPosition (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2562:4)
+    at _getMapPanePos (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4600:12)
+    at _getNewPixelOrigin (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4617:69)
+    at _move (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4336:30)
+    at _onZoomTransitionEnd (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4838:10)
+    at setTimeout handler*_animateZoom (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4826:15)
+    at _tryAnimatedZoom/< (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4791:11)
+    at FrameRequestCallback*requestAnimFrame (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:243:22)
+    at _tryAnimatedZoom (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:4788:21)
+    at setView (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:3307:37)
+    at setZoomAround (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:3361:17)
+    at _performZoom (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:14185:10)
+    at setTimeout handler*_onWheelScroll (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:14159:19)
+    at handler (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2798:15)
+    at EventListener.handleEvent*addOne (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2813:10)
+    at on (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:2724:12)
+    at addHooks (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:14135:7)
+    at enable (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:5913:10)
+    at addHandler (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:3845:14)
+    at Class.addInitHook/init< (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:391:14)
+    at Class.extend/proto.callInitHooks (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:358:26)
+    at initialize (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:3268:10)
+    at NewClass (webpack-internal:///(app-pages-browser)/./node_modules/leaflet/dist/leaflet-src.js:301:22)
+    at MapContainerComponent/mapRef< (webpack-internal:///(app-pages-browser)/./node_modules/react-leaflet/lib/MapContainer.js:37:25)
+    at commitAttachRef (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21677:37)
+    at safelyAttachRef (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:20803:20)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21498:26)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21407:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21488:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21488:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21488:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21407:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21407:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21552:47)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+    at commitLayoutEffectOnFiber (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:21518:41)
+    at recursivelyTraverseLayoutEffects (webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:22926:32)
+[ 1449083ms] [WARNING] [JavaScript Warning: "MouseEvent.mozPressure is deprecated. Use PointerEvent.pressure instead." {file: "http://localhost:3002/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 17 > eval" line: 27}] @ http://localhost:3002/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 17 > eval:27
+[ 1449084ms] [WARNING] [JavaScript Warning: "MouseEvent.mozInputSource is deprecated. Use PointerEvent.pointerType instead." {file: "http://localhost:3002/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 17 > eval" line: 27}] @ http://localhost:3002/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 17 > eval:27
+[ 1504734ms] [WARNING] [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/864/1458" line: 0}] @ https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/864/1458:0
+[ 1504767ms] [WARNING] [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/865/1458" line: 0}] @ https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/865/1458:0
+[ 1504767ms] [WARNING] [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/863/1452" line: 0}] @ https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/863/1452:0
+[ 1504767ms] [WARNING] [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/863/1458" line: 0}] @ https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/863/1458:0
+[ 1504767ms] [WARNING] [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/866/1458" line: 0}] @ https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/11/866/1458:0
+[ 1505344ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1505593ms] [LOG] [Fast Refresh] done in 249ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1548929ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1549272ms] [LOG] [Fast Refresh] done in 343ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1635932ms] [ERROR] [JavaScript Error: "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at http://localhost:8001/api/weather?city=Jaipur. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing). Status code: 500."] @ :0
+[ 1872145ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1872390ms] [LOG] [Fast Refresh] done in 245ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 2203444ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 2203614ms] [LOG] [Fast Refresh] done in 169ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 2229555ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 2229620ms] [LOG] [Fast Refresh] done in 66ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43

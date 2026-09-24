@@ -1,0 +1,246 @@
+- generic [active] [ref=f24e1]:
+  - banner [ref=f24e2]:
+    - generic [ref=f24e3]:
+      - generic [ref=f24e4]:
+        - generic [ref=f24e5]:
+          - img "CivicPulse Logo" [ref=f24e6]
+          - generic [ref=f24e7]:
+            - generic [ref=f24e8]: CivicPulse
+            - generic [ref=f24e9]: Resident Edition
+        - generic [ref=f24e10] [cursor=pointer]:
+          - generic [ref=f24e14]: Jaipur, Rajasthan
+          - generic [ref=f24e15]: keyboard_arrow_down
+      - navigation [ref=f24e16]:
+        - link "Home" [ref=f24e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f24e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f24e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f24e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f24e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f24e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f24e23]:
+        - generic [ref=f24e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f24e27] [cursor=pointer]:
+          - generic [ref=f24e28]: search
+          - generic [ref=f24e29]: Search metrics
+          - generic [ref=f24e30]: ⌘K
+        - button "Notifications" [ref=f24e31] [cursor=pointer]:
+          - generic [ref=f24e32]: notifications
+        - generic [ref=f24e77]:
+          - link "verified_user @trace_user_2" [ref=f24e78] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f24e79]: verified_user
+            - generic [ref=f24e80]: "@trace_user_2"
+          - button "logout Logout" [ref=f24e81] [cursor=pointer]:
+            - generic [ref=f24e82]: logout
+            - generic [ref=f24e83]: Logout
+  - main [ref=f24e38]:
+    - generic [ref=f24e39]:
+      - generic [ref=f24e40]:
+        - generic [ref=f24e41]:
+          - generic [ref=f24e42]: Causal Analysis Engine
+          - generic [ref=f24e44]: Pearson correlation over rolling 2688 events
+        - heading "Jaipur Causes & Correlations" [level=1] [ref=f24e84]
+        - paragraph [ref=f24e46]: Cross-stream analysis of traffic congestion, air quality, grid load, transit delays, and resident complaints — revealing what drives what across your city's telemetry.
+        - generic [ref=f24e47]:
+          - generic [ref=f24e48]:
+            - generic [ref=f24e49]:
+              - generic [ref=f24e50]: location_city
+              - text: "City:"
+            - button "Jaipur" [ref=f24e85] [cursor=pointer]
+            - button "Delhi" [ref=f24e87] [cursor=pointer]
+            - button "Mumbai" [ref=f24e88] [cursor=pointer]
+            - button "Bengaluru" [ref=f24e89] [cursor=pointer]
+            - button "Hyderabad" [ref=f24e90] [cursor=pointer]
+            - button "Ahmedabad" [ref=f24e91] [cursor=pointer]
+            - button "Chennai" [ref=f24e92] [cursor=pointer]
+            - button "Kolkata" [ref=f24e93] [cursor=pointer]
+            - button "Pune" [ref=f24e94] [cursor=pointer]
+            - button "Lucknow" [ref=f24e95] [cursor=pointer]
+            - button "Udaipur" [ref=f24e96] [cursor=pointer]
+            - button "Agra" [ref=f24e97] [cursor=pointer]
+          - generic [ref=f24e52]:
+            - generic [ref=f24e53]: search
+            - textbox "Search any city — India or worldwide…" [ref=f24e54]
+      - generic [ref=f24e98]:
+        - heading "Key Findings" [level=2] [ref=f24e99]
+        - generic [ref=f24e100]:
+          - generic [ref=f24e101]:
+            - generic [ref=f24e102]: lightbulb
+            - generic [ref=f24e103]: Traffic congestion peaks around 21:00 local — corridor speeds drop hardest in this window.
+          - generic [ref=f24e104]:
+            - generic [ref=f24e105]: lightbulb
+            - generic [ref=f24e106]: Peak AQI hour (13:00) sits 8h from peak traffic — suggesting meteorology (inversion/wind) moderates the traffic-AQI link.
+          - generic [ref=f24e107]:
+            - generic [ref=f24e108]: lightbulb
+            - generic [ref=f24e109]: "'Ajmer Road' logs the most HEAVY congestion events — prioritize signal-timing review there."
+          - generic [ref=f24e110]:
+            - generic [ref=f24e111]: lightbulb
+            - generic [ref=f24e112]: "Temperature ↔ AQI: strong correlation (r=+0.96, n=7 hourly buckets)."
+          - generic [ref=f24e113]:
+            - generic [ref=f24e114]: lightbulb
+            - generic [ref=f24e115]: "Traffic Speed ↔ AQI: strong correlation (r=-0.89, n=7 hourly buckets)."
+          - generic [ref=f24e116]:
+            - generic [ref=f24e117]: lightbulb
+            - generic [ref=f24e118]: "Traffic Speed ↔ Transit Delay: moderate correlation (r=-0.67, n=12 hourly buckets)."
+      - generic [ref=f24e119]:
+        - generic [ref=f24e120]:
+          - generic [ref=f24e121]:
+            - text: Forecast Engine
+            - heading "Predictions" [level=2] [ref=f24e122]
+          - generic [ref=f24e123]: Linear trend extrapolation • next 4 hours
+        - generic [ref=f24e124]:
+          - generic [ref=f24e125]:
+            - generic [ref=f24e126]:
+              - generic [ref=f24e127]: AQI Forecast
+              - generic [ref=f24e128]: 82% confidence
+            - img [ref=f24e129]: hourly buckets → dashed = next 4h
+            - generic [ref=f24e144]:
+              - generic [ref=f24e145]: Air Quality Index
+              - generic [ref=f24e146]: ▼ → ~58 @ 01:00
+          - generic [ref=f24e147]:
+            - generic [ref=f24e148]:
+              - generic [ref=f24e149]: Congestion Forecast
+              - generic [ref=f24e150]: 61% confidence
+            - img [ref=f24e151]: hourly buckets → dashed = next 4h
+            - generic [ref=f24e171]:
+              - generic [ref=f24e172]: Traffic weight (corridor congestion)
+              - generic [ref=f24e173]: ▲ → ~179 @ 02:00
+      - generic [ref=f24e174]:
+        - generic [ref=f24e175]:
+          - generic [ref=f24e176]:
+            - text: Statistical Layer
+            - heading "Stream Correlations" [level=2] [ref=f24e177]
+          - generic [ref=f24e178]: Hourly-bucketed Pearson r • last 12h
+        - generic [ref=f24e179]:
+          - generic [ref=f24e180]:
+            - generic [ref=f24e181]:
+              - generic [ref=f24e182]: Temperature ↔ AQI
+              - generic [ref=f24e183]: "+0.96"
+            - img [ref=f24e185]: Temp (°C)AQI
+            - generic [ref=f24e194]:
+              - generic [ref=f24e195]: strong
+              - generic [ref=f24e196]: n=7 buckets
+            - paragraph [ref=f24e197]: Warmer hours carry 0.96× detectable particulate variance
+          - generic [ref=f24e198]:
+            - generic [ref=f24e199]:
+              - generic [ref=f24e200]: Traffic Speed ↔ AQI
+              - generic [ref=f24e201]: "-0.89"
+            - img [ref=f24e203]: Traffic speed (km/h)AQI
+            - generic [ref=f24e212]:
+              - generic [ref=f24e213]: strong
+              - generic [ref=f24e214]: n=7 buckets
+            - paragraph [ref=f24e215]: Slower corridor traffic co-occurs with AQI drift (|r|=0.89)
+          - generic [ref=f24e216]:
+            - generic [ref=f24e217]:
+              - generic [ref=f24e218]: Temperature ↔ Grid Load
+              - generic [ref=f24e219]: "-0.28"
+            - img [ref=f24e221]: Temp (°C)Load %
+            - generic [ref=f24e230]:
+              - generic [ref=f24e231]: weak
+              - generic [ref=f24e232]: n=7 buckets
+            - paragraph [ref=f24e233]: Cooling demand tracks temperature (|r|=0.28)
+          - generic [ref=f24e234]:
+            - generic [ref=f24e235]:
+              - generic [ref=f24e236]: Traffic Speed ↔ Transit Delay
+              - generic [ref=f24e237]: "-0.67"
+            - img [ref=f24e239]: Traffic speed (km/h)Delay (min)
+            - generic [ref=f24e253]:
+              - generic [ref=f24e254]: moderate
+              - generic [ref=f24e255]: n=12 buckets
+            - paragraph [ref=f24e256]: Road congestion bleeds into transit headways (|r|=0.67)
+          - generic [ref=f24e257]:
+            - generic [ref=f24e258]:
+              - generic [ref=f24e259]: AQI ↔ Grid Load
+              - generic [ref=f24e260]: "-0.18"
+            - img [ref=f24e262]: AQILoad %
+            - generic [ref=f24e271]:
+              - generic [ref=f24e272]: negligible
+              - generic [ref=f24e273]: n=7 buckets
+            - paragraph [ref=f24e274]: Air quality and grid stress share evening peaks (|r|=0.18)
+      - generic [ref=f24e275]:
+        - generic [ref=f24e276]:
+          - heading "Hourly Telemetry Volume" [level=2] [ref=f24e277]
+          - generic [ref=f24e278]:
+            - generic [ref=f24e279]:
+              - generic [ref=f24e280]: "4"
+              - generic [ref=f24e282]: "11"
+            - generic [ref=f24e283]:
+              - generic [ref=f24e284]: "4"
+              - generic [ref=f24e286]: "12"
+            - generic [ref=f24e287]:
+              - generic [ref=f24e288]: "5"
+              - generic [ref=f24e290]: "13"
+            - generic [ref=f24e291]:
+              - generic [ref=f24e292]: "4"
+              - generic [ref=f24e294]: "14"
+            - generic [ref=f24e295]:
+              - generic [ref=f24e296]: "4"
+              - generic [ref=f24e298]: "15"
+            - generic [ref=f24e299]:
+              - generic [ref=f24e300]: "13"
+              - generic [ref=f24e302]: "16"
+            - generic [ref=f24e303]:
+              - generic [ref=f24e304]: "236"
+              - generic [ref=f24e306]: "17"
+            - generic [ref=f24e307]:
+              - generic [ref=f24e308]: "227"
+              - generic [ref=f24e310]: "18"
+            - generic [ref=f24e311]:
+              - generic [ref=f24e312]: "198"
+              - generic [ref=f24e314]: "19"
+            - generic [ref=f24e315]:
+              - generic [ref=f24e316]: "854"
+              - generic [ref=f24e318]: "20"
+            - generic [ref=f24e319]:
+              - generic [ref=f24e320]: "864"
+              - generic [ref=f24e322]: "21"
+            - generic [ref=f24e323]:
+              - generic [ref=f24e324]: "275"
+              - generic [ref=f24e326]: "22"
+          - paragraph [ref=f24e327]: "Traffic weight (amber) peaks around 21:00 while AQI tops at 13:00. Busiest corridor: Ajmer Road."
+        - generic [ref=f24e328]:
+          - heading "Severity Mix by Stream" [level=2] [ref=f24e329]
+          - generic [ref=f24e330]:
+            - generic [ref=f24e332]:
+              - generic [ref=f24e333]: emergency
+              - generic [ref=f24e334]: 759 events
+            - generic [ref=f24e339]:
+              - generic [ref=f24e340]: transit
+              - generic [ref=f24e341]: 561 events
+            - generic [ref=f24e347]:
+              - generic [ref=f24e348]: traffic
+              - generic [ref=f24e349]: 555 events
+            - generic [ref=f24e355]:
+              - generic [ref=f24e356]: weather
+              - generic [ref=f24e357]: 421 events
+            - generic [ref=f24e362]:
+              - generic [ref=f24e363]: power
+              - generic [ref=f24e364]: 386 events
+            - generic [ref=f24e369]:
+              - generic [ref=f24e370]: report
+              - generic [ref=f24e371]: 6 events
+          - paragraph [ref=f24e374]: Green = INFO, amber = WARNING, red = CRITICAL. Streams dominated by warnings signal systemic stress.
+    - generic [ref=f24e59]:
+      - generic [ref=f24e60]:
+        - generic [ref=f24e61]: Municipal Telemetry Feeds Active
+        - generic [ref=f24e64]: •
+        - generic [ref=f24e65]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f24e66]:
+        - generic [ref=f24e67]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f24e68]:
+          - link "Status" [ref=f24e69] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f24e70] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f24e71] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f24e73] [cursor=pointer]:
+      - generic [ref=f24e74]: smart_toy
+      - generic [ref=f24e75]: CivicPulse AI
+  - alert [ref=f24e375]

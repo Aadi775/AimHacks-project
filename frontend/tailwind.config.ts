@@ -4,6 +4,17 @@ const config: Config = {
   content: [
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    'text-on-tertiary-container',
+    'text-secondary',
+    'text-on-surface',
+    'text-on-surface-variant',
+    'bg-on-tertiary-container',
+    'bg-secondary',
+    'bg-on-surface',
+    'bg-on-tertiary-container/10',
+    'bg-secondary/10',
+  ],
   theme: {
     extend: {
       colors: {

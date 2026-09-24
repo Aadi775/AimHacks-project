@@ -43,13 +43,13 @@ export default function AIAssistant() {
             </div>
           </div>
           <div className="relative flex items-center">
-            <input className="w-full py-2.5 pl-3.5 pr-10 rounded-xl bg-surface-container text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" id="ai-query-input" placeholder="Ask anything about today&apos;s city metrics..." value={query} onChange={(e) => setQuery(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && submitQuery()} />
+            <input className="w-full py-2.5 pl-3.5 pr-10 rounded-xl bg-surface-container text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" id="ai-query-input" placeholder="Ask anything about today's city metrics..." value={query} onChange={(e) => setQuery(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && submitQuery()} />
             <button className="absolute right-2 p-1 text-on-surface hover:text-secondary transition-colors" onClick={submitQuery} type="button"><span className="material-symbols-outlined text-[18px]">send</span></button>
           </div>
           {status && <div className="text-center font-label-xs text-label-xs text-secondary animate-pulse" id="ai-response-status">{status}</div>}
         </div>
       ) : (
-        <button className="hidden ml-auto items-center gap-2 px-4 py-3 rounded-full bg-primary text-on-primary shadow-xl hover:bg-primary-container transition-all" id="ai-assistant-trigger" onClick={toggleAI} type="button"><span className="material-symbols-outlined text-[20px] text-tertiary-fixed">smart_toy</span><span className="font-label-md text-label-md font-semibold">CivicPulse AI</span><span className="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span></button>
+        <button className="flex ml-auto items-center gap-2 px-4 py-3 rounded-full bg-primary text-on-primary shadow-xl hover:bg-primary-container transition-all" id="ai-assistant-trigger" onClick={toggleAI} type="button"><span className="material-symbols-outlined text-[20px] text-tertiary-fixed">smart_toy</span><span className="font-label-md text-label-md font-semibold">CivicPulse AI</span><span className="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span></button>
       )}
     </div>
   );

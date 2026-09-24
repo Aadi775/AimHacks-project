@@ -1,0 +1,374 @@
+- generic [active] [ref=f15e1]:
+  - banner [ref=f15e2]:
+    - generic [ref=f15e3]:
+      - generic [ref=f15e4]:
+        - generic [ref=f15e5]:
+          - img "CivicPulse Logo" [ref=f15e6]
+          - generic [ref=f15e7]:
+            - generic: CivicPulse
+            - generic [ref=f15e8]: Resident Edition
+        - generic [ref=f15e9] [cursor=pointer]:
+          - generic [ref=f15e13]: Mumbai, Maharashtra
+          - generic [ref=f15e14]: keyboard_arrow_down
+      - navigation [ref=f15e15]:
+        - link "Home" [ref=f15e16] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f15e17] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f15e18] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f15e19] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f15e20] [cursor=pointer]:
+          - /url: /complaints
+      - generic [ref=f15e21]:
+        - generic [ref=f15e22]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f15e25] [cursor=pointer]:
+          - generic [ref=f15e26]: search
+          - generic [ref=f15e27]: Search metrics
+          - generic [ref=f15e28]: ⌘K
+        - button "Notifications" [ref=f15e29] [cursor=pointer]:
+          - generic [ref=f15e30]: notifications
+        - generic [ref=f15e32] [cursor=pointer]:
+          - generic [ref=f15e33]: person
+          - generic [ref=f15e35]: expand_more
+  - main [ref=f15e36]:
+    - generic [ref=f15e37]:
+      - generic [ref=f15e38]:
+        - generic [ref=f15e39]: Active Mumbai Telemetry
+        - heading "Mumbai Transit & Community Activity" [level=1] [ref=f15e42]
+        - paragraph [ref=f15e43]: Live metro, bus, and suburban rail network health with real-time arrivals and citizen-reported 181 civic events.
+        - generic [ref=f15e44]:
+          - generic [ref=f15e45]:
+            - generic [ref=f15e46]:
+              - generic [ref=f15e47]: location_city
+              - text: "City:"
+            - button "Jaipur" [ref=f15e48] [cursor=pointer]
+            - button "Delhi" [ref=f15e50] [cursor=pointer]
+            - button "Mumbai" [ref=f15e51] [cursor=pointer]
+            - button "Bengaluru" [ref=f15e52] [cursor=pointer]
+            - button "Hyderabad" [ref=f15e53] [cursor=pointer]
+            - button "Ahmedabad" [ref=f15e54] [cursor=pointer]
+            - button "Chennai" [ref=f15e55] [cursor=pointer]
+            - button "Kolkata" [ref=f15e56] [cursor=pointer]
+            - button "Pune" [ref=f15e57] [cursor=pointer]
+            - button "Lucknow" [ref=f15e58] [cursor=pointer]
+            - button "Udaipur" [ref=f15e59] [cursor=pointer]
+            - button "Agra" [ref=f15e60] [cursor=pointer]
+          - generic [ref=f15e62]:
+            - generic [ref=f15e63]: search
+            - textbox "Search any city — India or worldwide…" [ref=f15e64]
+      - generic [ref=f15e66]:
+        - generic [ref=f15e67]:
+          - generic [ref=f15e68]: check_circle
+          - generic [ref=f15e69]: 100% Lines On Schedule
+        - generic [ref=f15e70]:
+          - generic [ref=f15e71]: tram
+          - generic [ref=f15e72]: 4 Rail / Metro Lines
+        - generic [ref=f15e73]:
+          - generic [ref=f15e74]: directions_bus
+          - generic [ref=f15e75]: 1 Bus Routes
+        - generic [ref=f15e76]:
+          - generic [ref=f15e77]: assignment
+          - generic [ref=f15e78]: 6 Active 181 Reports
+      - generic [ref=f15e79]:
+        - generic [ref=f15e80]:
+          - generic [ref=f15e81]:
+            - generic [ref=f15e82]:
+              - heading "Network Line Health" [level=2] [ref=f15e83]
+              - paragraph [ref=f15e84]: Live arrivals refresh every 60s • RAIL + METRO + BUS operators
+            - generic [ref=f15e85]:
+              - button "All Lines" [ref=f15e86] [cursor=pointer]
+              - button "Rail" [ref=f15e87] [cursor=pointer]
+              - button "Metro" [ref=f15e88] [cursor=pointer]
+              - button "Bus" [ref=f15e89] [cursor=pointer]
+          - generic [ref=f15e90]:
+            - article [ref=f15e91]:
+              - generic [ref=f15e92]:
+                - generic [ref=f15e93]:
+                  - generic [ref=f15e94]: directions_railway
+                  - generic [ref=f15e96]:
+                    - generic [ref=f15e97]:
+                      - generic [ref=f15e98]: Western Line (Slow)
+                      - generic [ref=f15e99]: WR
+                    - generic [ref=f15e100]: Churchgate ↔ Virar
+                - generic [ref=f15e101]: ON TIME
+              - generic [ref=f15e103]:
+                - generic [ref=f15e104]:
+                  - generic [ref=f15e105]: schedule
+                  - generic [ref=f15e106]:
+                    - strong [ref=f15e107]: 4.1m
+                    - generic [ref=f15e108]: → Virar
+                  - generic [ref=f15e109]: P1
+                - generic [ref=f15e110]:
+                  - generic [ref=f15e111]: schedule
+                  - generic [ref=f15e112]:
+                    - strong [ref=f15e113]: 6.1m
+                    - generic [ref=f15e114]: → Virar
+                  - generic [ref=f15e115]: P1
+                - generic [ref=f15e116]:
+                  - generic [ref=f15e117]: schedule
+                  - generic [ref=f15e118]:
+                    - strong [ref=f15e119]: 12.2m
+                    - generic [ref=f15e120]: → Virar
+                  - generic [ref=f15e121]: P3
+              - generic [ref=f15e122]:
+                - generic [ref=f15e123]:
+                  - generic [ref=f15e124]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f15e125]: 4 min
+                - generic [ref=f15e126]:
+                  - generic [ref=f15e127]: toll
+                  - text: 28 stations
+                - generic [ref=f15e128]:
+                  - generic [ref=f15e129]: schedule
+                  - text: 04:15 – 01:00
+            - article [ref=f15e130]:
+              - generic [ref=f15e131]:
+                - generic [ref=f15e132]:
+                  - generic [ref=f15e133]: directions_railway
+                  - generic [ref=f15e135]:
+                    - generic [ref=f15e136]:
+                      - generic [ref=f15e137]: Central Line (Slow)
+                      - generic [ref=f15e138]: CR
+                    - generic [ref=f15e139]: CSMT ↔ Kalyan
+                - generic [ref=f15e140]: ON TIME
+              - generic [ref=f15e142]:
+                - generic [ref=f15e143]:
+                  - generic [ref=f15e144]: schedule
+                  - generic [ref=f15e145]:
+                    - strong [ref=f15e146]: 2.6m
+                    - generic [ref=f15e147]: → Kalyan
+                  - generic [ref=f15e148]: P3
+                - generic [ref=f15e149]:
+                  - generic [ref=f15e150]: schedule
+                  - generic [ref=f15e151]:
+                    - strong [ref=f15e152]: 7.7m
+                    - generic [ref=f15e153]: → Kalyan
+                  - generic [ref=f15e154]: P3
+                - generic [ref=f15e155]:
+                  - generic [ref=f15e156]: schedule
+                  - generic [ref=f15e157]:
+                    - strong [ref=f15e158]: 10.8m
+                    - generic [ref=f15e159]: → Kalyan
+                  - generic [ref=f15e160]: P1
+              - generic [ref=f15e161]:
+                - generic [ref=f15e162]:
+                  - generic [ref=f15e163]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f15e164]: 5 min
+                - generic [ref=f15e165]:
+                  - generic [ref=f15e166]: toll
+                  - text: 24 stations
+                - generic [ref=f15e167]:
+                  - generic [ref=f15e168]: schedule
+                  - text: 04:22 – 01:15
+            - article [ref=f15e169]:
+              - generic [ref=f15e170]:
+                - generic [ref=f15e171]:
+                  - generic [ref=f15e172]: directions_railway
+                  - generic [ref=f15e174]:
+                    - generic [ref=f15e175]:
+                      - generic [ref=f15e176]: Harbour Line
+                      - generic [ref=f15e177]: CR
+                    - generic [ref=f15e178]: CSMT ↔ Panvel
+                - generic [ref=f15e179]: ON TIME
+              - generic [ref=f15e181]:
+                - generic [ref=f15e182]:
+                  - generic [ref=f15e183]: schedule
+                  - generic [ref=f15e184]:
+                    - strong [ref=f15e185]: 9.2m
+                    - generic [ref=f15e186]: → Panvel
+                  - generic [ref=f15e187]: P2
+                - generic [ref=f15e188]:
+                  - generic [ref=f15e189]: schedule
+                  - generic [ref=f15e190]:
+                    - strong [ref=f15e191]: 17.3m
+                    - generic [ref=f15e192]: → Panvel
+                  - generic [ref=f15e193]: P2
+                - generic [ref=f15e194]:
+                  - generic [ref=f15e195]: schedule
+                  - generic [ref=f15e196]:
+                    - strong [ref=f15e197]: 23.5m
+                    - generic [ref=f15e198]: → Panvel
+                  - generic [ref=f15e199]: P1
+              - generic [ref=f15e200]:
+                - generic [ref=f15e201]:
+                  - generic [ref=f15e202]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f15e203]: 8 min
+                - generic [ref=f15e204]:
+                  - generic [ref=f15e205]: toll
+                  - text: 22 stations
+                - generic [ref=f15e206]:
+                  - generic [ref=f15e207]: schedule
+                  - text: 04:52 – 00:48
+            - article [ref=f15e208]:
+              - generic [ref=f15e209]:
+                - generic [ref=f15e210]:
+                  - generic [ref=f15e211]: tram
+                  - generic [ref=f15e213]:
+                    - generic [ref=f15e214]:
+                      - generic [ref=f15e215]: Metro Line 1
+                      - generic [ref=f15e216]: MMRDA
+                    - generic [ref=f15e217]: Versova ↔ Ghatkopar
+                - generic [ref=f15e218]: ON TIME
+              - generic [ref=f15e220]:
+                - generic [ref=f15e221]:
+                  - generic [ref=f15e222]: schedule
+                  - generic [ref=f15e223]:
+                    - strong [ref=f15e224]: 4.7m
+                    - generic [ref=f15e225]: → Ghatkopar
+                  - generic [ref=f15e226]: P1
+                - generic [ref=f15e227]:
+                  - generic [ref=f15e228]: schedule
+                  - generic [ref=f15e229]:
+                    - strong [ref=f15e230]: 8.2m
+                    - generic [ref=f15e231]: → Ghatkopar
+                  - generic [ref=f15e232]: P1
+                - generic [ref=f15e233]:
+                  - generic [ref=f15e234]: schedule
+                  - generic [ref=f15e235]:
+                    - strong [ref=f15e236]: 12m
+                    - generic [ref=f15e237]: → Ghatkopar
+                  - generic [ref=f15e238]: P2
+              - generic [ref=f15e239]:
+                - generic [ref=f15e240]:
+                  - generic [ref=f15e241]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f15e242]: 4 min
+                - generic [ref=f15e243]:
+                  - generic [ref=f15e244]: toll
+                  - text: 12 stations
+                - generic [ref=f15e245]:
+                  - generic [ref=f15e246]: schedule
+                  - text: 05:30 – 23:30
+            - article [ref=f15e247]:
+              - generic [ref=f15e248]:
+                - generic [ref=f15e249]:
+                  - generic [ref=f15e250]: directions_bus
+                  - generic [ref=f15e252]:
+                    - generic [ref=f15e253]:
+                      - generic [ref=f15e254]: BEST A-75 Express
+                      - generic [ref=f15e255]: BEST
+                    - generic [ref=f15e256]: Colaba ↔ Borivali
+                - generic [ref=f15e257]: ON TIME
+              - generic [ref=f15e259]:
+                - generic [ref=f15e260]:
+                  - generic [ref=f15e261]: schedule
+                  - generic [ref=f15e262]:
+                    - strong [ref=f15e263]: 4.5m
+                    - generic [ref=f15e264]: → Borivali
+                  - generic [ref=f15e265]: P1
+                - generic [ref=f15e266]:
+                  - generic [ref=f15e267]: schedule
+                  - generic [ref=f15e268]:
+                    - strong [ref=f15e269]: 19.2m
+                    - generic [ref=f15e270]: → Borivali
+                  - generic [ref=f15e271]: P3
+                - generic [ref=f15e272]:
+                  - generic [ref=f15e273]: schedule
+                  - generic [ref=f15e274]:
+                    - strong [ref=f15e275]: 36.2m
+                    - generic [ref=f15e276]: → Borivali
+                  - generic [ref=f15e277]: P1
+              - generic [ref=f15e278]:
+                - generic [ref=f15e279]:
+                  - generic [ref=f15e280]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f15e281]: 15 min
+                - generic [ref=f15e282]:
+                  - generic [ref=f15e283]: toll
+                  - text: 20 stations
+                - generic [ref=f15e284]:
+                  - generic [ref=f15e285]: schedule
+                  - text: 06:00 – 22:00
+        - generic [ref=f15e286]:
+          - generic [ref=f15e287]:
+            - generic [ref=f15e288]:
+              - heading "Community 181 Feed" [level=2] [ref=f15e289]
+              - paragraph [ref=f15e290]: Live civic response dispatch
+            - button "add Report Issue" [ref=f15e291] [cursor=pointer]:
+              - generic [ref=f15e292]: add
+              - generic [ref=f15e293]: Report Issue
+          - generic [ref=f15e294]:
+            - article [ref=f15e295]:
+              - generic [ref=f15e296]:
+                - generic [ref=f15e297]:
+                  - generic [ref=f15e298]: traffic
+                  - generic [ref=f15e300]:
+                    - generic [ref=f15e301]: Traffic Cell
+                    - generic [ref=f15e302]: 09:25 PM
+                - generic [ref=f15e303]: INFO
+              - paragraph [ref=f15e304]: "Western Express Highway: Free Flow traffic, avg speed 36 km/h"
+            - article [ref=f15e305]:
+              - generic [ref=f15e306]:
+                - generic [ref=f15e307]:
+                  - generic [ref=f15e308]: traffic
+                  - generic [ref=f15e310]:
+                    - generic [ref=f15e311]: Traffic Cell
+                    - generic [ref=f15e312]: 09:24 PM
+                - generic [ref=f15e313]: INFO
+              - paragraph [ref=f15e314]: "SV Road: Free Flow traffic, avg speed 50 km/h"
+            - article [ref=f15e315]:
+              - generic [ref=f15e316]:
+                - generic [ref=f15e317]:
+                  - generic [ref=f15e318]: traffic
+                  - generic [ref=f15e320]:
+                    - generic [ref=f15e321]: Traffic Cell
+                    - generic [ref=f15e322]: 09:23 PM
+                - generic [ref=f15e323]: WARNING
+              - paragraph [ref=f15e324]: "SV Road: Moderate traffic, avg speed 16 km/h"
+            - article [ref=f15e325]:
+              - generic [ref=f15e326]:
+                - generic [ref=f15e327]:
+                  - generic [ref=f15e328]: emergency
+                  - generic [ref=f15e330]:
+                    - generic [ref=f15e331]: 181 Control Room
+                    - generic [ref=f15e332]: 09:22 PM
+                - generic [ref=f15e333]: CRITICAL
+              - paragraph [ref=f15e334]: Streetlight outage reported
+            - article [ref=f15e335]:
+              - generic [ref=f15e336]:
+                - generic [ref=f15e337]:
+                  - generic [ref=f15e338]: traffic
+                  - generic [ref=f15e340]:
+                    - generic [ref=f15e341]: Traffic Cell
+                    - generic [ref=f15e342]: 09:20 PM
+                - generic [ref=f15e343]: INFO
+              - paragraph [ref=f15e344]: "Western Express Highway: Free Flow traffic, avg speed 35 km/h"
+            - article [ref=f15e345]:
+              - generic [ref=f15e346]:
+                - generic [ref=f15e347]:
+                  - generic [ref=f15e348]: emergency
+                  - generic [ref=f15e350]:
+                    - generic [ref=f15e351]: 181 Control Room
+                    - generic [ref=f15e352]: 09:17 PM
+                - generic [ref=f15e353]: WARNING
+              - paragraph [ref=f15e354]: Public disturbance reported
+          - generic [ref=f15e355]:
+            - generic [ref=f15e356]:
+              - generic [ref=f15e357]: cell_tower
+              - heading "Civic SMS Push Alerts" [level=3] [ref=f15e358]
+            - paragraph [ref=f15e359]: Subscribe to instant SMS alerts for localized Mumbai Metro delays, power cuts, and road closures.
+            - generic [ref=f15e360]:
+              - textbox "Ward number or locality…" [ref=f15e361]
+              - button "Subscribe" [ref=f15e362] [cursor=pointer]
+    - generic [ref=f15e364]:
+      - generic [ref=f15e365]:
+        - generic [ref=f15e366]: Municipal Telemetry Feeds Active
+        - generic [ref=f15e369]: •
+        - generic [ref=f15e370]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f15e371]:
+        - generic [ref=f15e372]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f15e373]:
+          - link "Status" [ref=f15e374] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f15e375] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f15e376] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f15e378] [cursor=pointer]:
+      - generic [ref=f15e379]: smart_toy
+      - generic [ref=f15e380]: CivicPulse AI
+  - alert [ref=f15e382]

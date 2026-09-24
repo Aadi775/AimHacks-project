@@ -1,0 +1,66 @@
+- generic [active] [ref=f11e1]:
+  - banner [ref=f11e2]:
+    - generic [ref=f11e3]:
+      - generic [ref=f11e4]:
+        - button "Open navigation menu" [ref=f11e5] [cursor=pointer]:
+          - generic [ref=f11e6]: menu
+        - generic [ref=f11e7]:
+          - img "CivicPulse Logo" [ref=f11e8]
+          - generic [ref=f11e9]:
+            - generic [ref=f11e10]: CivicPulse
+            - generic [ref=f11e11]: Resident Edition
+      - generic [ref=f11e12]:
+        - generic [ref=f11e13]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f11e16] [cursor=pointer]:
+          - generic [ref=f11e17]: search
+          - generic [ref=f11e18]: Search metrics
+          - generic [ref=f11e19]: ⌘K
+        - button "Notifications" [ref=f11e20] [cursor=pointer]:
+          - generic [ref=f11e21]: notifications
+        - generic [ref=f11e23] [cursor=pointer]:
+          - generic [ref=f11e24]: person
+          - generic [ref=f11e26]: expand_more
+  - main [ref=f11e27]:
+    - generic [ref=f11e28]:
+      - generic [ref=f11e29]:
+        - generic [ref=f11e30]: Active City Telemetry
+        - heading "Transit & Community Activity" [level=1] [ref=f11e33]
+        - paragraph [ref=f11e34]: Live metro, bus, and suburban rail network health with real-time arrivals and citizen-reported 181 civic events.
+        - generic [ref=f11e35]:
+          - generic [ref=f11e37]:
+            - generic [ref=f11e38]: location_city
+            - text: "City:"
+          - generic [ref=f11e40]:
+            - generic [ref=f11e41]: search
+            - textbox "Search any city — India or worldwide…" [ref=f11e42]
+      - generic [ref=f11e44]:
+        - generic [ref=f11e45]:
+          - generic [ref=f11e46]: check_circle
+          - generic [ref=f11e47]: 0% Lines On Schedule
+        - generic [ref=f11e48]:
+          - generic [ref=f11e49]: tram
+          - generic [ref=f11e50]: 0 Rail / Metro Lines
+        - generic [ref=f11e51]:
+          - generic [ref=f11e52]: directions_bus
+          - generic [ref=f11e53]: 0 Bus Routes
+        - generic [ref=f11e54]:
+          - generic [ref=f11e55]: assignment
+          - generic [ref=f11e56]: 0 Active 181 Reports
+      - generic [ref=f11e57]: Fetching network data…
+    - generic [ref=f11e61]:
+      - generic [ref=f11e62]:
+        - generic [ref=f11e63]: Municipal Telemetry Feeds Active
+        - generic [ref=f11e66]: •
+        - generic [ref=f11e67]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f11e68]:
+        - generic [ref=f11e69]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f11e70]:
+          - link "Status" [ref=f11e71] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f11e72] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f11e73] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f11e75] [cursor=pointer]:
+      - generic [ref=f11e76]: smart_toy
+      - generic [ref=f11e77]: CivicPulse AI

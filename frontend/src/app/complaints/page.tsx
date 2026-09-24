@@ -1,12 +1,114 @@
 'use client';
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import Footer from '@/components/shared/Footer';
 import AIAssistant from '@/components/shared/AIAssistant';
-import { COMPLAINT_CATEGORIES, TICKETS } from '@/lib/constants';
+import CitySwitcher from '@/components/shared/CitySwitcher';
+import { COMPLAINT_CATEGORIES } from '@/lib/constants';
+import dynamic from 'next/dynamic';
+import { useCity } from '@/context/CityContext';
+import { useAuth } from '@/context/AuthContext';
+
+const LocationPicker = dynamic(() => import('@/components/LocationPicker'), {
+  ssr: false,
+  loading: () => <div className="w-full h-44 rounded-2xl bg-surface-container-low animate-pulse" />,
+});
+
+interface RealReport {
+  id: number;
+  ticket: string;
+  username: string;
+  category: string;
+  description: string;
+  location: string;
+  status: string;
+  severity: string;
+  created_at: string;
+}
 
 export default function ComplaintsPage() {
   const [selectedCategory, setSelectedCategory] = useState('pothole');
+  const { city } = useCity();
+  const { user } = useAuth();
+  const [address, setAddress] = useState('');
+  const [title, setTitle] = useState('');
+  const [desc, setDesc] = useState('');
+  const [severity, setSeverity] = useState('urgent');
+  const [submitting, setSubmitting] = useState(false);
+  const [lastTicket, setLastTicket] = useState<string | null>(null);
+  const [submitError, setSubmitError] = useState('');
+  const [reports, setReports] = useState<RealReport[]>([]);
+  const [pin, setPin] = useState<{ lat: number; lng: number } | null>(null);
+
+  const [feedOffline, setFeedOffline] = useState(false);
+  const loadReports = () => {
+    if (!city) return;
+    fetch(`http://localhost:8001/api/reports?city=${encodeURIComponent(city.name)}`)
+      .then((r) => {
+        if (!r.ok) throw new Error('offline');
+        setFeedOffline(false);
+        return r.json();
+      })
+      .then(setReports)
+      .catch(() => setFeedOffline(true));
+  };
+
+  useEffect(() => {
+    loadReports();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [city]);
+
+  const submitReport = async () => {
+    if (!user) {
+      setSubmitError('Please sign in to file a verified complaint.');
+      return;
+    }
+    if (!title.trim() || !desc.trim()) {
+      setSubmitError('Add a subject and description for the complaint.');
+      return;
+    }
+    setSubmitError('');
+    setSubmitting(true);
+    try {
+      const cat = COMPLAINT_CATEGORIES.find((c) => c.id === selectedCategory);
+      const sevMap: Record<string, string> = { routine: 'INFO', urgent: 'WARNING', hazardous: 'CRITICAL' };
+      const token = localStorage.getItem('civicpulse-token');
+      const r = await fetch('http://localhost:8001/api/reports', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
+        body: JSON.stringify({
+          city: city?.name ?? 'Jaipur',
+          category: cat?.name ?? selectedCategory,
+          description: title.trim(),
+          location: address.trim() || (pin ? `Pinned ${pin.lat.toFixed(4)}, ${pin.lng.toFixed(4)}` : 'Citywide'),
+          severity: sevMap[severity] ?? 'WARNING',
+          lat: pin?.lat ?? null,
+          lng: pin?.lng ?? null,
+        }),
+      });
+      const data = await r.json();
+      if (!r.ok) throw new Error(data.detail ?? 'Submission failed');
+      setLastTicket(data.ticket);
+      setTitle('');
+      setDesc('');
+      setAddress('');
+      setPin(null);
+      loadReports();
+    } catch (e) {
+      setSubmitError(e instanceof Error ? e.message : 'Submission failed');
+    } finally {
+      setSubmitting(false);
+    }
+  };
+
+  const timeAgo = (iso: string) => {
+    const mins = Math.max(0, Math.floor((Date.now() - new Date(iso).getTime()) / 60000));
+    if (mins < 1) return 'just now';
+    if (mins < 60) return `${mins}m ago`;
+    const hrs = Math.floor(mins / 60);
+    return `${hrs}h ${mins % 60}m ago`;
+  };
 
   return (
     <main className="w-full pt-16 flex-grow flex flex-col">
@@ -14,9 +116,9 @@ export default function ComplaintsPage() {
       <div className="w-full bg-error-container/60 text-on-error-container px-gutter-mobile md:px-margin-tablet lg:px-margin py-2.5 flex items-center justify-between backdrop-blur-md">
         <div className="max-w-[1360px] mx-auto w-full flex items-center justify-between gap-space-sm text-body-sm font-body-sm">
           <div className="flex items-center gap-space-xs">
-            <span className="material-symbols-outlined text-[18px] text-error" style={{ fontVariationSettings: { 'FILL': 1 } as any }}>emergency_home</span>
+            <span className="material-symbols-outlined text-[18px] text-error" style={{ fontVariationSettings: "'FILL' 1" }}>emergency_home</span>
             <span className="font-medium text-error">Life-Threatening Emergency Notice:</span>
-            <span className="hidden sm:inline text-on-error-container">For immediate gas leaks, downed high-voltage wires, or violent hazards, dial 911 directly.</span>
+            <span className="hidden sm:inline text-on-error-container">For immediate gas leaks, downed high-voltage wires, or violent hazards, dial 112 directly.</span>
           </div>
           <div className="flex items-center gap-space-sm">
             <span className="text-label-xs font-label-xs uppercase tracking-wider text-error font-semibold">Open311 Direct Uplink</span>
@@ -31,9 +133,9 @@ export default function ComplaintsPage() {
           <div className="flex flex-col gap-space-xs max-w-3xl">
             <div className="flex items-center gap-space-xs text-label-xs font-label-xs text-secondary uppercase tracking-widest">
               <span className="w-2 h-2 rounded-full bg-secondary-container"></span>
-              <span>JCTSLcipal Action Protocol • City &amp; County of Jaipur</span>
+              <span>Municipal Action Protocol • City &amp; County of Jaipur</span>
             </div>
-            <h1 className="text-display-mobile md:text-display font-display text-on-surface tracking-tight">Resident Resolution &amp; 311</h1>
+            <h1 className="text-display-mobile md:text-display font-display text-on-surface tracking-tight">Resident Resolution &amp; 181 Helpline</h1>
             <p className="text-body-lg font-body-lg text-on-surface-variant max-w-2xl">File localized municipal service requests, track neighborhood public works tickets in real time, and audit algorithmic dispatch timelines.</p>
           </div>
           <div className="flex flex-wrap sm:flex-nowrap items-center gap-space-sm w-full lg:w-auto">
@@ -49,7 +151,7 @@ export default function ComplaintsPage() {
         {/* Metrics Grid */}
         <section className="grid grid-cols-2 lg:grid-cols-4 gap-space-md">
           {[
-            { label: 'Active District Load', value: '142', unit: 'tickets', sub: '↓ 14% vs avg', subColor: 'on-tertiary-container', bg: 'bg-surface-container-lowest', subLabel: 'Mission / SoMa' },
+            { label: 'Active District Load', value: '142', unit: 'tickets', sub: '↓ 14% vs avg', subColor: 'on-tertiary-container', bg: 'bg-surface-container-lowest', subLabel: 'Malviya Nagar' },
             { label: 'Mean SLA Response', value: '3.4', unit: 'hours', sub: '99.2% on target', subColor: 'on-tertiary-container', bg: 'bg-surface-container-lowest' },
             { label: 'Resolution Ratio', value: '89%', unit: '+4.2%', subColor: 'on-tertiary-container', bg: 'bg-surface-container-lowest', barWidth: 89 },
             { label: 'Field Fleet Active', value: '38', unit: 'crews on road', sub: 'Telemetry synced', subColor: 'secondary', bg: 'bg-surface-container-lowest' },
@@ -137,29 +239,28 @@ export default function ComplaintsPage() {
                 <div className="flex flex-col sm:flex-row gap-space-sm">
                   <div className="relative flex-1">
                     <span className="material-symbols-outlined absolute left-3 top-3 text-[20px] text-on-surface-variant">location_on</span>
-                    <input className="w-full h-11 pl-10 pr-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all shadow-inner" id="incident-address" placeholder="Enter street address, intersection, or coordinates..." type="text" defaultValue="Valencia St &amp; 24th St, Jaipur, Rajasthan 94110" />
+                    <input className="w-full h-11 pl-10 pr-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all shadow-inner" id="incident-address" onChange={(e) => setAddress(e.target.value)} placeholder="Enter street address, intersection, or coordinates..." type="text" value={address} />
                   </div>
-                  <button className="h-11 px-space-md bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md rounded-xl flex items-center justify-center gap-space-xs transition-colors shrink-0" id="geolocate-btn" type="button">
+                  <button className="h-11 px-space-md bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md rounded-xl flex items-center justify-center gap-space-xs transition-colors shrink-0" id="geolocate-btn" onClick={() => { if (!navigator.geolocation) return; navigator.geolocation.getCurrentPosition((pos) => setAddress(`${pos.coords.latitude.toFixed(4)}, ${pos.coords.longitude.toFixed(4)} (GPS)`)); }} type="button">
                     <span className="material-symbols-outlined text-[18px]">my_location</span> Auto-Locate GPS
                   </button>
                 </div>
-                <div className="relative w-full h-36 rounded-2xl overflow-hidden shadow-inner group">
-                  <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://picsum.photos/seed/sf-map/600/200" alt="Map" />
-                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent flex items-end p-space-sm justify-between">
-                    <div className="flex items-center gap-space-xs text-on-primary font-label-xs text-label-xs">
-                      <span className="w-2 h-2 rounded-full bg-tertiary-fixed animate-ping"></span>
-                      <span className="font-medium">Zone 9-Mission Corridors • Sensor Pod #SF-44</span>
-                    </div>
-                    <span className="px-2 py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-xs text-label-xs">37.7529° N, 122.4208° W</span>
-                  </div>
-                </div>
+                <LocationPicker
+                  center={[city?.lat ?? 26.9124, city?.lng ?? 75.7873]}
+                  lat={pin?.lat ?? null}
+                  lng={pin?.lng ?? null}
+                  onPick={(la, ln) => {
+                    if (Number.isNaN(la) || Number.isNaN(ln)) setPin(null);
+                    else setPin({ lat: la, lng: ln });
+                  }}
+                />
               </div>
 
               {/* Description */}
               <div className="flex flex-col gap-space-sm">
                 <label className="text-label-md font-label-md text-on-surface">3. Complaint Summary &amp; Description</label>
-                <input className="w-full h-11 px-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all shadow-inner" id="incident-title" placeholder="Brief subject" type="text" defaultValue="Severe road surface cavitation near bike lane buffer" />
-                <textarea className="w-full p-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all resize-none shadow-inner" id="incident-desc" placeholder="Provide context..." rows={3}>Pothole measures roughly 2.5 feet wide and 5 inches deep directly within the northbound Valencia separated bike lane transition.</textarea>
+                <input className="w-full h-11 px-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all shadow-inner" id="incident-title" onChange={(e) => setTitle(e.target.value)} placeholder="Brief subject" type="text" value={title} />
+                <textarea className="w-full p-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all resize-none shadow-inner" id="incident-desc" onChange={(e) => setDesc(e.target.value)} placeholder="Provide context..." rows={3} value={desc}></textarea>
               </div>
 
               {/* Upload */}
@@ -184,7 +285,7 @@ export default function ComplaintsPage() {
                     { value: 'hazardous', label: 'Hazardous', sub: 'Immediate safety risk (<4h)', color: 'bg-error-container/40' },
                   ].map((s) => (
                     <label key={s.value} className={`p-space-sm px-space-md rounded-xl flex items-center gap-space-sm cursor-pointer transition-colors ${s.color}`}>
-                      <input className="accent-primary" name="severity" type="radio" value={s.value} defaultChecked={s.value === 'urgent'} />
+                      <input checked={severity === s.value} className="accent-primary" name="severity" onChange={() => setSeverity(s.value)} type="radio" value={s.value} />
                       <div>
                         <div className="text-label-md font-label-md text-on-surface font-semibold">{s.label}</div>
                         <div className="text-label-xs font-label-xs text-on-surface-variant">{s.sub}</div>
@@ -198,11 +299,35 @@ export default function ComplaintsPage() {
               <div className="pt-space-sm flex flex-col sm:flex-row items-center justify-between gap-space-md border-t border-surface-container">
                 <div className="flex items-center gap-space-xs text-label-xs font-label-xs text-on-surface-variant">
                   <span className="material-symbols-outlined text-[16px] text-on-tertiary-container">shield</span>
-                  <span>Encrypted SHA-256 Civic JCTSLcipal Hash</span>
+                  <span>Encrypted SHA-256 Civic Municipal Hash</span>
                 </div>
-                <button className="w-full sm:w-auto h-12 px-space-xl bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm rounded-xl flex items-center justify-center gap-space-sm transition-all shadow-md active:scale-[0.98]" id="submit-ticket-btn" type="button">
-                  <span className="material-symbols-outlined text-[20px]">send</span> Submit Verified 311 Complaint
-                </button>
+                <div className="w-full sm:w-auto flex flex-col gap-2 items-end">
+                  {lastTicket && (
+                    <div className="w-full flex items-center gap-2 px-space-sm py-2 rounded-xl bg-on-tertiary-container/10 border border-on-tertiary-container/30">
+                      <span className="material-symbols-outlined text-[18px] text-on-tertiary-container">task_alt</span>
+                      <span className="font-body-sm text-body-sm text-on-tertiary-container">
+                        Filed as <strong className="font-mono font-semibold">{lastTicket}</strong> — now live on the {city?.name ?? 'city'} map & headlines.
+                      </span>
+                    </div>
+                  )}
+                  {submitError && (
+                    <div className="w-full flex items-center gap-2 px-space-sm py-2 rounded-xl bg-error-container/40 border border-error/30">
+                      <span className="material-symbols-outlined text-[18px] text-error">error</span>
+                      <span className="font-body-sm text-body-sm text-on-error-container flex-1">{submitError}</span>
+                      {!user && <Link href="/login" className="font-label-md text-label-md text-secondary underline shrink-0">Sign In</Link>}
+                    </div>
+                  )}
+                  {user ? (
+                    <button className="w-full sm:w-auto h-12 px-space-xl bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm rounded-xl flex items-center justify-center gap-space-sm transition-all shadow-md active:scale-[0.98] disabled:opacity-60" disabled={submitting} id="submit-ticket-btn" onClick={submitReport} type="button">
+                      <span className="material-symbols-outlined text-[20px]">{submitting ? 'progress_activity' : 'send'}</span>
+                      {submitting ? 'Filing with 181…' : 'Submit Verified 181 Complaint'}
+                    </button>
+                  ) : (
+                    <Link href="/login" className="w-full sm:w-auto h-12 px-space-xl bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm rounded-xl flex items-center justify-center gap-space-sm transition-all shadow-md" id="submit-ticket-btn">
+                      <span className="material-symbols-outlined text-[20px]">login</span> Sign In to File Complaint
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
 
@@ -214,18 +339,18 @@ export default function ComplaintsPage() {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md">
                 {[
-                  { name: 'DPW Potholes', actual: '26h', sla: '48h', width: 54, color: 'on-tertiary-container' },
-                  { name: 'JAIUC Lighting', actual: '38h', sla: '72h', width: 52, color: 'secondary' },
+                  { name: 'JMC Potholes', actual: '26h', sla: '48h', width: 54, color: 'on-tertiary-container' },
+                  { name: 'JVVNL Lighting', actual: '38h', sla: '72h', width: 52, color: 'secondary' },
                   { name: 'Sidewalk Sanitation', actual: '14h', sla: '24h', width: 58, color: 'on-tertiary-container' },
                 ].map((s) => (
                   <div key={s.name} className="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
                     <div className="flex items-center justify-between">
                       <span className="font-label-md text-label-md text-on-surface font-medium">{s.name}</span>
-                      <span className={`text-label-xs font-label-xs px-2 py-0.5 rounded-full bg-${s.color}/10 text-${s.color} font-semibold`}>{s.actual} Actual</span>
+                      <span className={`text-label-xs font-label-xs px-2 py-0.5 rounded-full font-semibold ${s.color === 'secondary' ? 'bg-secondary/10 text-secondary' : 'bg-on-tertiary-container/10 text-on-tertiary-container'}`}>{s.actual} Actual</span>
                     </div>
                     <div className="text-body-sm font-body-sm text-on-surface-variant">Statutory SLA: {s.sla} limit</div>
                     <div className="w-full bg-surface-container-high h-1 rounded-full mt-1 overflow-hidden">
-                      <div className={`bg-${s.color} h-full rounded-full`} style={{ width: `${s.width}%` }}></div>
+                      <div className={`${s.color === 'secondary' ? 'bg-secondary' : 'bg-on-tertiary-container'} h-full rounded-full`} style={{ width: `${s.width}%` }}></div>
                     </div>
                   </div>
                 ))}
@@ -252,35 +377,45 @@ export default function ComplaintsPage() {
                   }`} type="button">{t}</button>
                 ))}
               </div>
-              {TICKETS.map((t) => (
+              {reports.map((t) => (
                 <div key={t.id} className="p-space-md rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-all flex flex-col gap-space-sm group">
                   <div className="flex items-start justify-between gap-space-xs">
                     <div>
                       <div className="flex items-center gap-space-xs">
-                        <span className="font-label-xs text-label-xs px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-semibold font-mono">{t.id}</span>
-                        <span className="text-label-xs text-on-surface-variant">{t.time}</span>
+                        <span className="font-label-xs text-label-xs px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-semibold font-mono">{t.ticket}</span>
+                        <span className="text-label-xs text-label-xs text-on-surface-variant">{timeAgo(t.created_at)}</span>
                       </div>
-                      <h4 className="font-headline-sm text-headline-sm text-on-surface mt-1">{t.title}</h4>
+                      <h4 className="font-headline-sm text-headline-sm text-on-surface mt-1">{t.description}</h4>
                     </div>
                     <span className={`shrink-0 px-2.5 py-1 rounded-full font-label-xs text-label-xs font-semibold flex items-center gap-1 ${
-                      t.statusColor === 'secondary' ? 'bg-secondary-container/30 text-on-secondary-container' :
-                      t.statusColor === 'on-tertiary-container' ? 'bg-on-tertiary-container/10 text-on-tertiary-container' :
-                      'bg-surface-container text-on-surface-variant'
+                      t.severity === 'CRITICAL' ? 'bg-error-container/40 text-error' :
+                      t.severity === 'WARNING' ? 'bg-secondary-container/30 text-on-secondary-container' :
+                      'bg-on-tertiary-container/10 text-on-tertiary-container'
                     }`}>
                       <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
                       {t.status}
                     </span>
                   </div>
-                  <p className="text-body-sm font-body-sm text-on-surface-variant">{t.desc}</p>
+                  <p className="text-body-sm font-body-sm text-on-surface-variant">{t.location} • {t.category}</p>
                   <div className="flex items-center justify-between pt-space-xs border-t border-surface-container text-body-sm font-body-sm text-on-surface-variant">
-                    <button className="flex items-center gap-1.5 hover:text-on-surface transition-colors py-1 px-2 rounded-lg bg-surface-container-lowest/80 text-label-xs font-label-xs">
-                      <span className="material-symbols-outlined text-[16px] text-secondary">thumb_up</span>
-                      <span className="font-medium text-on-surface">{t.confirmed} neighbors confirmed</span>
+                    <button className="flex items-center gap-1.5 hover:text-on-surface transition-colors py-1 px-2 rounded-lg bg-surface-container-lowest/80 text-label-xs font-label-xs" type="button">
+                      <span className="material-symbols-outlined text-[16px] text-secondary">person</span>
+                      <span className="font-medium text-on-surface">filed by @{t.username}</span>
                     </button>
-                    <span className="text-label-xs font-label-xs text-on-surface-variant">{t.district}</span>
+                    <span className="text-label-xs font-label-xs text-on-surface-variant uppercase">{t.severity} priority</span>
                   </div>
                 </div>
               ))}
+              {feedOffline && (
+                <div className="p-space-md rounded-2xl bg-error-container/30 border border-error/30 text-center">
+                  <span className="font-body-sm text-body-sm text-on-error-container">181 ledger feed offline — retrying automatically. Make sure the backend is running on port 8001.</span>
+                </div>
+              )}
+              {reports.length === 0 && !feedOffline && (
+                <div className="p-space-md rounded-2xl bg-surface-container-low/60 text-center">
+                  <span className="font-body-sm text-body-sm text-on-surface-variant">No resident complaints filed in {city?.name ?? 'this city'} yet — be the first to report.</span>
+                </div>
+              )}
             </div>
 
             {/* Escalations */}
@@ -292,9 +427,9 @@ export default function ComplaintsPage() {
               <p className="font-body-sm font-body-sm text-on-surface-variant">Unresolved tickets exceeding maximum SLA thresholds are immediately flagged to the Board of Supervisors district ombudsman.</p>
               <div className="flex flex-col gap-space-xs">
                 {[
-                  { label: 'District 9 Supervisor Liaison', value: '(415) 554-5144' },
-                  { label: 'SF 311 24/7 Telephone TDD', value: 'Dial 3-1-1 / (415) 701-2311' },
-                  { label: 'Open311 JCTSLcipal REST API', value: 'api.sfgov.org/311/v2' },
+                  { label: 'Ward Councillor Liaison', value: '+91 141 274 1112' },
+                  { label: 'Jaipur 181 24x7 Helpline', value: 'Dial 181 / +91 141 274 1111' },
+                  { label: 'Nagar Nigam Open311 REST API', value: 'api.jaipur.gov.in/311/v2' },
                 ].map((e) => (
                   <div key={e.label} className="flex items-center justify-between p-2 rounded-xl bg-surface-container-low text-body-sm font-body-sm">
                     <span className="font-medium text-on-surface">{e.label}</span>

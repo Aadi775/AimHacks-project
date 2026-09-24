@@ -1,0 +1,82 @@
+- generic [active] [ref=f51e1]:
+  - banner [ref=f51e2]:
+    - generic [ref=f51e3]:
+      - generic [ref=f51e4]:
+        - generic [ref=f51e5]:
+          - img "CivicPulse Logo" [ref=f51e6]
+          - generic [ref=f51e7]:
+            - generic [ref=f51e8]: CivicPulse
+            - generic [ref=f51e9]: Resident Edition
+        - generic [ref=f51e10] [cursor=pointer]:
+          - generic [ref=f51e14]: Jaipur, RJ
+          - generic [ref=f51e15]: keyboard_arrow_down
+      - navigation [ref=f51e16]:
+        - link "Home" [ref=f51e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f51e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f51e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f51e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f51e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f51e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f51e23]:
+        - generic [ref=f51e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f51e27] [cursor=pointer]:
+          - generic [ref=f51e28]: search
+          - generic [ref=f51e29]: Search metrics
+          - generic [ref=f51e30]: ⌘K
+        - button "Notifications" [ref=f51e31] [cursor=pointer]:
+          - generic [ref=f51e32]: notifications
+        - link "person Sign In" [ref=f51e34] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f51e35]: person
+          - generic [ref=f51e37]: Sign In
+  - main [ref=f51e38]:
+    - generic [ref=f51e39]:
+      - generic [ref=f51e40]:
+        - generic [ref=f51e41]: Active City Telemetry
+        - heading "Transit & Community Activity" [level=1] [ref=f51e44]
+        - paragraph [ref=f51e45]: Live metro, bus, and suburban rail network health with real-time arrivals and citizen-reported 181 civic events.
+        - generic [ref=f51e46]:
+          - generic [ref=f51e48]:
+            - generic [ref=f51e49]: location_city
+            - text: "City:"
+          - generic [ref=f51e51]:
+            - generic [ref=f51e52]: search
+            - textbox "Search any city — India or worldwide…" [ref=f51e53]
+      - generic [ref=f51e55]:
+        - generic [ref=f51e56]:
+          - generic [ref=f51e57]: check_circle
+          - generic [ref=f51e58]: 0% Lines On Schedule
+        - generic [ref=f51e59]:
+          - generic [ref=f51e60]: tram
+          - generic [ref=f51e61]: 0 Rail / Metro Lines
+        - generic [ref=f51e62]:
+          - generic [ref=f51e63]: directions_bus
+          - generic [ref=f51e64]: 0 Bus Routes
+        - generic [ref=f51e65]:
+          - generic [ref=f51e66]: assignment
+          - generic [ref=f51e67]: 0 Active 181 Reports
+      - generic [ref=f51e68]: Fetching network data…
+    - generic [ref=f51e72]:
+      - generic [ref=f51e73]:
+        - generic [ref=f51e74]: Municipal Telemetry Feeds Active
+        - generic [ref=f51e77]: •
+        - generic [ref=f51e78]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f51e79]:
+        - generic [ref=f51e80]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f51e81]:
+          - link "Status" [ref=f51e82] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f51e83] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f51e84] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f51e86] [cursor=pointer]:
+      - generic [ref=f51e87]: smart_toy
+      - generic [ref=f51e88]: CivicPulse AI
+  - alert [ref=f51e90]

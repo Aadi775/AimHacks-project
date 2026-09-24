@@ -1,0 +1,339 @@
+- generic [active] [ref=f7e1]:
+  - banner [ref=f7e2]:
+    - generic [ref=f7e3]:
+      - generic [ref=f7e4]:
+        - generic [ref=f7e5]:
+          - img "CivicPulse Logo" [ref=f7e6]
+          - generic [ref=f7e7]:
+            - generic [ref=f7e8]: CivicPulse
+            - generic [ref=f7e9]: Resident Edition
+        - generic [ref=f7e10] [cursor=pointer]:
+          - generic [ref=f7e14]: Jaipur, Rajasthan
+          - generic [ref=f7e15]: keyboard_arrow_down
+      - navigation [ref=f7e16]:
+        - link "Home" [ref=f7e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f7e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f7e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f7e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f7e21] [cursor=pointer]:
+          - /url: /complaints
+      - generic [ref=f7e22]:
+        - generic [ref=f7e23]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f7e26] [cursor=pointer]:
+          - generic [ref=f7e27]: search
+          - generic [ref=f7e28]: Search metrics
+          - generic [ref=f7e29]: ⌘K
+        - button "Notifications" [ref=f7e30] [cursor=pointer]:
+          - generic [ref=f7e31]: notifications
+        - link "person Sign In" [ref=f7e33] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f7e34]: person
+          - generic [ref=f7e36]: Sign In
+  - main [ref=f7e37]:
+    - generic [ref=f7e38]:
+      - generic [ref=f7e39]:
+        - generic [ref=f7e43]: Hyderabad Telemetry Pulse
+        - generic [ref=f7e44]: /
+        - generic [ref=f7e45]: 26°C • Overcast
+      - heading "Your city, in real time." [level=1] [ref=f7e46]
+      - paragraph [ref=f7e47]: Hyperlocal environmental vitals, seamless transit telemetry, and verified neighborhood dispatches across Hyderabad.
+      - generic [ref=f7e49]:
+        - generic [ref=f7e50]:
+          - generic [ref=f7e51]:
+            - generic [ref=f7e52]: location_city
+            - text: "City:"
+          - button "Jaipur" [ref=f7e365] [cursor=pointer]
+          - button "Delhi" [ref=f7e367] [cursor=pointer]
+          - button "Mumbai" [ref=f7e368] [cursor=pointer]
+          - button "Bengaluru" [ref=f7e369] [cursor=pointer]
+          - button "Hyderabad" [ref=f7e370] [cursor=pointer]
+          - button "Ahmedabad" [ref=f7e371] [cursor=pointer]
+          - button "Chennai" [ref=f7e372] [cursor=pointer]
+          - button "Kolkata" [ref=f7e373] [cursor=pointer]
+          - button "Pune" [ref=f7e374] [cursor=pointer]
+          - button "Lucknow" [ref=f7e375] [cursor=pointer]
+          - button "Udaipur" [ref=f7e376] [cursor=pointer]
+          - button "Agra" [ref=f7e377] [cursor=pointer]
+        - generic [ref=f7e54]:
+          - generic [ref=f7e55]: search
+          - textbox "Search any city — India or worldwide…" [ref=f7e56]
+      - generic [ref=f7e57]:
+        - generic [ref=f7e58]:
+          - generic [ref=f7e59]: search
+          - textbox "Search neighborhood, air quality sensor, or transit line..." [ref=f7e60]
+          - generic [ref=f7e61]:
+            - generic [ref=f7e62]: Filter
+            - generic [ref=f7e63]: tune
+        - generic [ref=f7e64]:
+          - generic [ref=f7e65]: "Quick jumps:"
+          - button "Malviya Nagar" [ref=f7e66] [cursor=pointer]
+          - button "C-Scheme Solar" [ref=f7e67] [cursor=pointer]
+          - button "Jaipur Metro Pink Line" [ref=f7e68] [cursor=pointer]
+          - button "Jal Mahal Humidity" [ref=f7e69] [cursor=pointer]
+      - generic [ref=f7e71]:
+        - generic [ref=f7e72]:
+          - generic [ref=f7e73]: verified
+          - generic [ref=f7e75]:
+            - generic [ref=f7e76]: Civic Index
+            - generic [ref=f7e77]: 88 Optimal
+        - generic [ref=f7e78]:
+          - generic [ref=f7e79]: air
+          - generic [ref=f7e81]:
+            - generic [ref=f7e82]: Air Quality
+            - generic [ref=f7e83]: 78 MODERATE
+        - generic [ref=f7e84]:
+          - generic [ref=f7e85]: tram
+          - generic [ref=f7e87]:
+            - generic [ref=f7e88]: Transit Cadence
+            - generic [ref=f7e89]: 94% On-Time
+        - generic [ref=f7e90]:
+          - generic [ref=f7e91]: bolt
+          - generic [ref=f7e93]:
+            - generic [ref=f7e94]: Clean Grid
+            - generic [ref=f7e95]: 100% Hydro/Solar
+    - generic [ref=f7e96]:
+      - generic [ref=f7e97]:
+        - generic [ref=f7e98]:
+          - text: Atmospheric & Operational Cadence
+          - heading "Live City Telemetry" [level=2] [ref=f7e99]
+        - generic [ref=f7e100]: Continuous aggregation from 1,420 IoT monitoring nodes
+      - generic [ref=f7e101]:
+        - generic [ref=f7e102]:
+          - generic [ref=f7e103]:
+            - generic [ref=f7e104]:
+              - generic [ref=f7e105]: Atmosphere & Wind
+              - generic [ref=f7e108]: Marine Inversion
+            - generic [ref=f7e109]:
+              - heading "Hyperlocal Microclimates" [level=3] [ref=f7e110]
+              - paragraph [ref=f7e111]: Wide 12° thermal spread across 7 miles due to desert thermal gradients.
+            - generic [ref=f7e112]:
+              - generic [ref=f7e113]:
+                - generic [ref=f7e114]: C-Scheme
+                - generic [ref=f7e115]: 33°
+                - generic [ref=f7e116]:
+                  - generic [ref=f7e117]: wb_sunny
+                  - text: Clear
+              - generic [ref=f7e118]:
+                - generic [ref=f7e119]: Malviya Nagar
+                - generic [ref=f7e120]: 35°
+                - generic [ref=f7e121]:
+                  - generic [ref=f7e122]: wb_sunny
+                  - text: Sunny
+              - generic [ref=f7e123]:
+                - generic [ref=f7e124]: Vaishali
+                - generic [ref=f7e125]: 34°
+                - generic [ref=f7e126]:
+                  - generic [ref=f7e127]: air
+                  - text: Breezy
+            - generic [ref=f7e129]:
+              - generic [ref=f7e130]: explore
+              - generic [ref=f7e131]:
+                - generic [ref=f7e132]: Aravalli Wind Vector
+                - generic [ref=f7e133]: WNW 14 mph • Gusting 21 mph
+          - link "Explore Weather & Environment arrow_forward" [ref=f7e136] [cursor=pointer]:
+            - /url: /weather
+            - generic [ref=f7e137]: Explore Weather & Environment
+            - generic [ref=f7e138]: arrow_forward
+        - generic [ref=f7e139]:
+          - generic [ref=f7e140]:
+            - generic [ref=f7e141]:
+              - generic [ref=f7e142]: Transit & Services
+              - generic [ref=f7e145]: Nominal Flow
+            - generic [ref=f7e146]:
+              - heading "Real-time Transit & 311" [level=3] [ref=f7e147]
+              - paragraph [ref=f7e148]: Multi-modal artery monitoring with verified civic issue dispatch resolution.
+            - generic [ref=f7e149]:
+              - generic [ref=f7e150]:
+                - generic [ref=f7e151]:
+                  - generic [ref=f7e152]: Jaipur Metro
+                  - generic [ref=f7e153]: Yellow / Red Lines
+                - generic [ref=f7e154]: Every 8 min • Nominal
+              - generic [ref=f7e157]:
+                - generic [ref=f7e158]:
+                  - generic [ref=f7e159]: JCTSL
+                  - generic [ref=f7e160]: AC1 / Route 9
+                - generic [ref=f7e161]: 96% Cadence
+            - generic [ref=f7e164]:
+              - generic [ref=f7e165]:
+                - generic [ref=f7e166]: task_alt
+                - generic [ref=f7e167]: 311 Community Resolution
+              - paragraph [ref=f7e168]: "Tonk Road Cycle Track Sweeper dispatch completed (Ticket #18942)"
+              - generic [ref=f7e169]: Resolved in 42 minutes • Malviya Nagar
+          - link "View Transit & Incidents arrow_forward" [ref=f7e170] [cursor=pointer]:
+            - /url: /transit
+            - generic [ref=f7e171]: View Transit & Incidents
+            - generic [ref=f7e172]: arrow_forward
+        - generic [ref=f7e173]:
+          - generic [ref=f7e174]:
+            - generic [ref=f7e175]:
+              - generic [ref=f7e176]: Infrastructure Grid
+              - generic [ref=f7e179]: 100% Clean Source
+            - generic [ref=f7e180]:
+              - heading "Civic Health Index & Grid" [level=3] [ref=f7e181]
+              - paragraph [ref=f7e182]: Synthesized composite score of air purity, grid resilience, and transit accuracy.
+            - generic [ref=f7e183]:
+              - generic [ref=f7e184]:
+                - generic [ref=f7e185]: "88"
+                - generic [ref=f7e190]:
+                  - generic [ref=f7e191]: Composite Health
+                  - generic [ref=f7e192]: Upper 95th Percentile
+              - generic [ref=f7e193]: 24h Cadence
+            - generic [ref=f7e199]:
+              - generic [ref=f7e200]: Bisalpur Water Grid + Jaipur Solar
+              - generic [ref=f7e201]: 742 MW / 0g CO2 eq
+          - link "Explore City Overview arrow_forward" [ref=f7e205] [cursor=pointer]:
+            - /url: /overview
+            - generic [ref=f7e206]: Explore City Overview
+            - generic [ref=f7e207]: arrow_forward
+    - generic [ref=f7e208]:
+      - generic [ref=f7e209]:
+        - generic [ref=f7e210]:
+          - text: Spatial Urban Intelligence
+          - heading "Neighborhood Explorer" [level=2] [ref=f7e211]
+        - generic [ref=f7e212]:
+          - button "All Quadrants" [ref=f7e213] [cursor=pointer]
+          - button "Bay Side" [ref=f7e214] [cursor=pointer]
+          - button "Ocean Side" [ref=f7e215] [cursor=pointer]
+      - generic [ref=f7e216]:
+        - generic [ref=f7e217]:
+          - generic [ref=f7e218]:
+            - img "C-Scheme & Ashok Nagar" [ref=f7e219]
+            - generic [ref=f7e221]: 42 AQI • Moderate
+          - generic [ref=f7e224]:
+            - generic [ref=f7e225]:
+              - generic [ref=f7e226]: central
+              - heading "C-Scheme & Ashok Nagar" [level=3] [ref=f7e227]
+              - paragraph [ref=f7e228]: Live sensor node reporting active grid telemetry.
+              - generic [ref=f7e229]:
+                - generic [ref=f7e230]: Breeze 12mph
+                - generic [ref=f7e231]: Solar 98%
+                - generic [ref=f7e232]: Humidity 68%
+            - generic [ref=f7e233]:
+              - generic [ref=f7e234]: 33°
+              - button "View District" [ref=f7e235] [cursor=pointer]
+        - generic [ref=f7e236]:
+          - generic [ref=f7e237]:
+            - img "Vaishali Nagar" [ref=f7e238]
+            - generic [ref=f7e240]: 45 AQI • Moderate
+          - generic [ref=f7e243]:
+            - generic [ref=f7e244]:
+              - generic [ref=f7e245]: west
+              - heading "Vaishali Nagar" [level=3] [ref=f7e246]
+              - paragraph [ref=f7e247]: Live sensor node reporting active grid telemetry.
+              - generic [ref=f7e248]:
+                - generic [ref=f7e249]: Breeze 12mph
+                - generic [ref=f7e250]: Solar 98%
+                - generic [ref=f7e251]: Humidity 68%
+            - generic [ref=f7e252]:
+              - generic [ref=f7e253]: 34°
+              - button "View District" [ref=f7e254] [cursor=pointer]
+        - generic [ref=f7e255]:
+          - generic [ref=f7e256]:
+            - img "Malviya Nagar & Jagatpura" [ref=f7e257]
+            - generic [ref=f7e259]: 48 AQI • Moderate
+          - generic [ref=f7e262]:
+            - generic [ref=f7e263]:
+              - generic [ref=f7e264]: southeast
+              - heading "Malviya Nagar & Jagatpura" [level=3] [ref=f7e265]
+              - paragraph [ref=f7e266]: Live sensor node reporting active grid telemetry.
+              - generic [ref=f7e267]:
+                - generic [ref=f7e268]: Breeze 12mph
+                - generic [ref=f7e269]: Solar 98%
+                - generic [ref=f7e270]: Humidity 68%
+            - generic [ref=f7e271]:
+              - generic [ref=f7e272]: 35°
+              - button "View District" [ref=f7e273] [cursor=pointer]
+        - generic [ref=f7e274]:
+          - generic [ref=f7e275]:
+            - img "Amer & Kukas" [ref=f7e276]
+            - generic [ref=f7e278]: 38 AQI • Good
+          - generic [ref=f7e281]:
+            - generic [ref=f7e282]:
+              - generic [ref=f7e283]: north
+              - heading "Amer & Kukas" [level=3] [ref=f7e284]
+              - paragraph [ref=f7e285]: Live sensor node reporting active grid telemetry.
+              - generic [ref=f7e286]:
+                - generic [ref=f7e287]: Breeze 12mph
+                - generic [ref=f7e288]: Solar 98%
+                - generic [ref=f7e289]: Humidity 68%
+            - generic [ref=f7e290]:
+              - generic [ref=f7e291]: 32°
+              - button "View District" [ref=f7e292] [cursor=pointer]
+    - generic [ref=f7e293]:
+      - generic [ref=f7e294]:
+        - generic [ref=f7e295]:
+          - text: City Dispatches & Action
+          - heading "Resident Pulse Bulletin" [level=2] [ref=f7e296]
+        - generic [ref=f7e297]: Verified by Jaipur Municipal Agencies
+      - generic [ref=f7e298]:
+        - generic [ref=f7e299]:
+          - generic [ref=f7e300]:
+            - generic [ref=f7e301]:
+              - generic [ref=f7e302]: Clean Power Jaipur
+              - generic [ref=f7e303]: 2h ago
+            - heading "Residential Clean Energy Rebate Program" [level=3] [ref=f7e304]
+            - paragraph [ref=f7e305]: New municipal subsidies up to $2,400 for heat pump conversions and domestic induction cooktops now open to renters and homeowners.
+          - generic [ref=f7e306]:
+            - generic [ref=f7e307]: Application window open
+            - link "Apply Now →" [ref=f7e308] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f7e309]:
+          - generic [ref=f7e310]:
+            - generic [ref=f7e311]:
+              - generic [ref=f7e312]: Rec & Parks
+              - generic [ref=f7e313]: Scheduled This Sat
+            - 'heading "Weekend Open Streets: Central Park" [level=3] [ref=f7e314]'
+            - paragraph [ref=f7e315]: Central Park car-free festival with family outdoor fitness, live acoustic pavilions, and mobile air-quality sensor crafting workshops.
+          - generic [ref=f7e316]:
+            - generic [ref=f7e317]: Application window open
+            - link "Event Map →" [ref=f7e318] [cursor=pointer]:
+              - /url: "#"
+        - generic [ref=f7e319]:
+          - generic [ref=f7e320]:
+            - generic [ref=f7e321]:
+              - generic [ref=f7e322]: Jaipur Jal Board
+              - generic [ref=f7e323]: Final inspection passed
+            - heading "JLN Marg Water Main Modernization" [level=3] [ref=f7e324]
+            - paragraph [ref=f7e325]: Seismic ducting installation between Gandhi Nagar and Civil Lines final pavement phase. Water pressure sensors nominal.
+          - generic [ref=f7e326]:
+            - generic [ref=f7e327]: Application window open
+            - link "Read Dispatch →" [ref=f7e328] [cursor=pointer]:
+              - /url: "#"
+      - generic [ref=f7e329]:
+        - generic [ref=f7e330]:
+          - generic [ref=f7e331]: flash_on
+          - generic [ref=f7e333]:
+            - heading "Direct Civic Actions" [level=4] [ref=f7e334]
+            - paragraph [ref=f7e335]: Quick pathways to report, monitor, or consume open city streams
+        - generic [ref=f7e336]:
+          - button "campaign Report Issue via 181" [ref=f7e337] [cursor=pointer]:
+            - generic [ref=f7e338]: campaign
+            - generic [ref=f7e339]: Report Issue via 181
+          - button "sms Subscribe to AQI Alerts" [ref=f7e340] [cursor=pointer]:
+            - generic [ref=f7e341]: sms
+            - generic [ref=f7e342]: Subscribe to AQI Alerts
+          - button "dataset Download GeoJSON" [ref=f7e343] [cursor=pointer]:
+            - generic [ref=f7e344]: dataset
+            - generic [ref=f7e345]: Download GeoJSON
+    - generic [ref=f7e347]:
+      - generic [ref=f7e348]:
+        - generic [ref=f7e349]: Municipal Telemetry Feeds Active
+        - generic [ref=f7e352]: •
+        - generic [ref=f7e353]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f7e354]:
+        - generic [ref=f7e355]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f7e356]:
+          - link "Status" [ref=f7e357] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f7e358] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f7e359] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f7e361] [cursor=pointer]:
+      - generic [ref=f7e362]: smart_toy
+      - generic [ref=f7e363]: CivicPulse AI
+  - alert [ref=f7e378]

@@ -9,7 +9,7 @@ class CivicPulseWebSocket {
   private url: string;
   private isConnected = false;
 
-  constructor(url: string = 'ws://localhost:8000/ws/pulse') {
+  constructor(url: string = 'ws://localhost:8001/ws/pulse') {
     this.url = url;
   }
 

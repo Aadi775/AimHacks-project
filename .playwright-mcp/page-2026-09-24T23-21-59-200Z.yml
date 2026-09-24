@@ -1,0 +1,1057 @@
+- generic [ref=f43e1]:
+  - banner [ref=f43e2]:
+    - generic [ref=f43e3]:
+      - generic [ref=f43e4]:
+        - generic [ref=f43e5]:
+          - img "CivicPulse Logo" [ref=f43e6]
+          - generic [ref=f43e7]:
+            - generic [ref=f43e8]: CivicPulse
+            - generic [ref=f43e9]: Resident Edition
+        - generic [ref=f43e10] [cursor=pointer]:
+          - generic [ref=f43e14]: Jaipur, Rajasthan
+          - generic [ref=f43e15]: keyboard_arrow_down
+      - navigation [ref=f43e16]:
+        - link "Home" [ref=f43e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [active] [ref=f43e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f43e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f43e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f43e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f43e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f43e23]:
+        - generic [ref=f43e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f43e27] [cursor=pointer]:
+          - generic [ref=f43e28]: search
+          - generic [ref=f43e29]: Search metrics
+          - generic [ref=f43e30]: ⌘K
+        - button "Notifications" [ref=f43e31] [cursor=pointer]:
+          - generic [ref=f43e32]: notifications
+        - generic [ref=f43e90]:
+          - link "verified_user @trace_user_2" [ref=f43e91] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f43e92]: verified_user
+            - generic [ref=f43e93]: "@trace_user_2"
+          - button "logout Logout" [ref=f43e94] [cursor=pointer]:
+            - generic [ref=f43e95]: logout
+            - generic [ref=f43e96]: Logout
+  - alert [ref=f43e97]
+  - main [ref=f43e98]:
+    - generic [ref=f43e100]:
+      - generic [ref=f43e101]:
+        - generic [ref=f43e102]:
+          - generic [ref=f43e103]: Civic Baseline Telemetry
+          - generic [ref=f43e104]: •
+          - generic [ref=f43e105]: 9/25/2026, 4:51:58 AM
+        - heading "Good morning, Jaipur" [level=1] [ref=f43e106]
+        - generic [ref=f43e107]:
+          - generic [ref=f43e108]:
+            - generic [ref=f43e109]: bedtime
+            - generic [ref=f43e110]: 22°C • Clear
+          - generic [ref=f43e111]: AQI – • MODERATE
+          - generic [ref=f43e114]:
+            - generic [ref=f43e115]: verified
+            - generic [ref=f43e116]: "Grid: 56% · 49.92 Hz"
+      - generic [ref=f43e117]:
+        - generic [ref=f43e118]: "Metropolis:"
+        - button "Jaipur" [ref=f43e119] [cursor=pointer]
+        - button "Delhi" [ref=f43e120] [cursor=pointer]
+        - button "Mumbai" [ref=f43e121] [cursor=pointer]
+        - button "Bengaluru" [ref=f43e122] [cursor=pointer]
+        - button "Hyderabad" [ref=f43e123] [cursor=pointer]
+    - generic [ref=f43e124]:
+      - generic [ref=f43e125]:
+        - generic [ref=f43e126]:
+          - text: Spatial Urban Intelligence
+          - heading "Terminal GIS — Vector Map Deck" [level=2] [ref=f43e127]
+        - generic [ref=f43e128]: Live congestion corridors • 181 dispatches • Metro & grid telemetry
+      - generic [ref=f43e130]:
+        - generic [ref=f43e131]:
+          - generic [ref=f43e132]: LIVE
+          - generic [ref=f43e136]:
+            - generic [ref=f43e137]: location_city
+            - textbox "SEARCH CITY — INDIA OR WORLDWIDE" [ref=f43e138]
+          - generic [ref=f43e139]: "AO: JAIPUR"
+          - generic [ref=f43e141]: 26.9124°N 75.7873°E · Z12
+          - generic [ref=f43e143]:
+            - generic [ref=f43e144]:
+              - text: VEH:1
+              - generic [ref=f43e145]: (1D)
+            - generic [ref=f43e146]: EV:150
+            - generic [ref=f43e147]: 23C
+            - generic [ref=f43e148]: 73W
+            - generic [ref=f43e149]: 54I
+          - generic [ref=f43e150]:
+            - generic [ref=f43e151]: 22°C CLEAR
+            - generic [ref=f43e153]: AQI –
+        - generic [ref=f43e154]:
+          - generic [ref=f43e155]:
+            - generic [ref=f43e156]:
+              - generic:
+                - generic:
+                  - img:
+                    - generic:
+                      - generic [ref=f43e157] [cursor=pointer]
+                      - generic [ref=f43e158] [cursor=pointer]
+                      - generic [ref=f43e159] [cursor=pointer]
+                      - generic [ref=f43e160] [cursor=pointer]
+                      - generic [ref=f43e161] [cursor=pointer]
+                      - generic [ref=f43e162] [cursor=pointer]
+                      - generic [ref=f43e163] [cursor=pointer]
+                      - generic [ref=f43e164] [cursor=pointer]
+                      - generic [ref=f43e165] [cursor=pointer]
+                      - generic [ref=f43e166] [cursor=pointer]
+                      - generic [ref=f43e167] [cursor=pointer]
+                      - generic [ref=f43e168] [cursor=pointer]
+                      - generic [ref=f43e169] [cursor=pointer]
+                      - generic [ref=f43e170] [cursor=pointer]
+                      - generic [ref=f43e171] [cursor=pointer]
+                      - generic [ref=f43e172] [cursor=pointer]
+                      - generic [ref=f43e173] [cursor=pointer]
+                      - generic [ref=f43e174] [cursor=pointer]
+                      - generic [ref=f43e175] [cursor=pointer]
+                      - generic [ref=f43e176] [cursor=pointer]
+                      - generic [ref=f43e177] [cursor=pointer]
+                      - generic [ref=f43e178] [cursor=pointer]
+                      - generic [ref=f43e179] [cursor=pointer]
+                      - generic [ref=f43e180] [cursor=pointer]
+                      - generic [ref=f43e181] [cursor=pointer]
+                      - generic [ref=f43e182] [cursor=pointer]
+                      - generic [ref=f43e183] [cursor=pointer]
+                      - generic [ref=f43e184] [cursor=pointer]
+                      - generic [ref=f43e185] [cursor=pointer]
+                      - generic [ref=f43e186] [cursor=pointer]
+                      - generic [ref=f43e187] [cursor=pointer]
+                      - generic [ref=f43e188] [cursor=pointer]
+                      - generic [ref=f43e189] [cursor=pointer]
+                      - generic [ref=f43e190] [cursor=pointer]
+                      - generic [ref=f43e191] [cursor=pointer]
+                      - generic [ref=f43e192] [cursor=pointer]
+                      - generic [ref=f43e193] [cursor=pointer]
+                      - generic [ref=f43e194] [cursor=pointer]
+                      - generic [ref=f43e195] [cursor=pointer]
+                      - generic [ref=f43e196] [cursor=pointer]
+                      - generic [ref=f43e197] [cursor=pointer]
+                      - generic [ref=f43e198] [cursor=pointer]
+                      - generic [ref=f43e199] [cursor=pointer]
+                      - generic [ref=f43e200] [cursor=pointer]
+                      - generic [ref=f43e201] [cursor=pointer]
+                      - generic [ref=f43e202] [cursor=pointer]
+                      - generic [ref=f43e203] [cursor=pointer]
+                      - generic [ref=f43e204] [cursor=pointer]
+                      - generic [ref=f43e205] [cursor=pointer]
+                      - generic [ref=f43e206] [cursor=pointer]
+                      - generic [ref=f43e207] [cursor=pointer]
+                      - generic [ref=f43e208] [cursor=pointer]
+                      - generic [ref=f43e209] [cursor=pointer]
+                      - generic [ref=f43e210] [cursor=pointer]
+                      - generic [ref=f43e211] [cursor=pointer]
+                      - generic [ref=f43e212] [cursor=pointer]
+                      - generic [ref=f43e213] [cursor=pointer]
+                      - generic [ref=f43e214] [cursor=pointer]
+                      - generic [ref=f43e215] [cursor=pointer]
+                      - generic [ref=f43e216] [cursor=pointer]
+                      - generic [ref=f43e217] [cursor=pointer]
+                      - generic [ref=f43e218] [cursor=pointer]
+                      - generic [ref=f43e219] [cursor=pointer]
+                      - generic [ref=f43e220] [cursor=pointer]
+                      - generic [ref=f43e221] [cursor=pointer]
+                      - generic [ref=f43e222] [cursor=pointer]
+                      - generic [ref=f43e223] [cursor=pointer]
+                      - generic [ref=f43e224] [cursor=pointer]
+                      - generic [ref=f43e225] [cursor=pointer]
+                      - generic [ref=f43e226] [cursor=pointer]
+                      - generic [ref=f43e227] [cursor=pointer]
+                      - generic [ref=f43e228] [cursor=pointer]
+                      - generic [ref=f43e229] [cursor=pointer]
+                      - generic [ref=f43e230] [cursor=pointer]
+                      - generic [ref=f43e231] [cursor=pointer]
+                      - generic [ref=f43e232] [cursor=pointer]
+                      - generic [ref=f43e233] [cursor=pointer]
+                      - generic [ref=f43e234] [cursor=pointer]
+                      - generic [ref=f43e235] [cursor=pointer]
+                      - generic [ref=f43e236] [cursor=pointer]
+                      - generic [ref=f43e237] [cursor=pointer]
+                      - generic [ref=f43e238] [cursor=pointer]
+                      - generic [ref=f43e239] [cursor=pointer]
+                      - generic [ref=f43e240] [cursor=pointer]
+                      - generic [ref=f43e241] [cursor=pointer]
+                      - generic [ref=f43e242] [cursor=pointer]
+                      - generic [ref=f43e243] [cursor=pointer]
+                      - generic [ref=f43e244] [cursor=pointer]
+                      - generic [ref=f43e245] [cursor=pointer]
+                      - generic [ref=f43e246] [cursor=pointer]
+                - generic:
+                  - button [ref=f43e248] [cursor=pointer]
+                  - button [ref=f43e250] [cursor=pointer]
+                  - button [ref=f43e252] [cursor=pointer]
+                  - button [ref=f43e254] [cursor=pointer]
+                  - button [ref=f43e256] [cursor=pointer]
+                  - button [ref=f43e258] [cursor=pointer]
+                  - button [ref=f43e260] [cursor=pointer]
+                  - button [ref=f43e262] [cursor=pointer]
+                  - button [ref=f43e264] [cursor=pointer]
+                  - button [ref=f43e266] [cursor=pointer]
+                  - button [ref=f43e268] [cursor=pointer]
+                  - button [ref=f43e270] [cursor=pointer]
+                  - button [ref=f43e272] [cursor=pointer]
+                  - button [ref=f43e274] [cursor=pointer]
+                  - button [ref=f43e276] [cursor=pointer]
+                  - button [ref=f43e278] [cursor=pointer]
+                  - button [ref=f43e280] [cursor=pointer]
+                  - button [ref=f43e282] [cursor=pointer]
+                  - button [ref=f43e284] [cursor=pointer]
+                  - button [ref=f43e286] [cursor=pointer]
+                  - button [ref=f43e288] [cursor=pointer]
+                  - button [ref=f43e290] [cursor=pointer]
+                  - button [ref=f43e292] [cursor=pointer]
+                  - button [ref=f43e294] [cursor=pointer]
+                  - button [ref=f43e296] [cursor=pointer]
+                  - button [ref=f43e298] [cursor=pointer]
+                  - button [ref=f43e300] [cursor=pointer]
+                  - button [ref=f43e302] [cursor=pointer]
+                  - button [ref=f43e304] [cursor=pointer]
+                  - button [ref=f43e306] [cursor=pointer]
+                  - button [ref=f43e308] [cursor=pointer]
+                  - button [ref=f43e310] [cursor=pointer]
+                  - button [ref=f43e312] [cursor=pointer]
+                  - button [ref=f43e314] [cursor=pointer]
+                  - button [ref=f43e316] [cursor=pointer]
+                  - button [ref=f43e318] [cursor=pointer]
+                  - button [ref=f43e320] [cursor=pointer]
+                  - button [ref=f43e322] [cursor=pointer]
+                  - button [ref=f43e324] [cursor=pointer]
+                  - button [ref=f43e326] [cursor=pointer]
+                  - button [ref=f43e328] [cursor=pointer]
+                  - button [ref=f43e330] [cursor=pointer]
+                  - button [ref=f43e332] [cursor=pointer]
+                  - button [ref=f43e334] [cursor=pointer]
+                  - button [ref=f43e336] [cursor=pointer]
+                  - button [ref=f43e338] [cursor=pointer]
+                  - button [ref=f43e340] [cursor=pointer]
+                  - button [ref=f43e342] [cursor=pointer]
+                  - button [ref=f43e344] [cursor=pointer]
+                  - button [ref=f43e346] [cursor=pointer]
+                  - button [ref=f43e348] [cursor=pointer]
+                  - button [ref=f43e350] [cursor=pointer]
+                  - button [ref=f43e352] [cursor=pointer]
+                  - button [ref=f43e354] [cursor=pointer]
+                  - button [ref=f43e356] [cursor=pointer]
+                  - button [ref=f43e358] [cursor=pointer]
+                  - button [ref=f43e360] [cursor=pointer]
+                  - button [ref=f43e362] [cursor=pointer]
+                  - button [ref=f43e364] [cursor=pointer]
+                  - button [ref=f43e366] [cursor=pointer]
+                  - button "tram" [ref=f43e368] [cursor=pointer]
+              - generic [ref=f43e371]:
+                - link "Leaflet" [ref=f43e372] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=f43e377] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: contributors
+            - generic [ref=f43e378]:
+              - generic [ref=f43e379]: Severity
+              - generic [ref=f43e380]:
+                - generic [ref=f43e381]: INFO
+                - generic [ref=f43e383]: WARNING
+                - generic [ref=f43e385]: CRITICAL
+              - generic [ref=f43e387]: Flow
+              - generic [ref=f43e388]:
+                - generic [ref=f43e389]: FREE FLOW
+                - generic [ref=f43e391]: MODERATE
+                - generic [ref=f43e393]: HEAVY
+              - generic [ref=f43e395]: Vehicles
+              - generic [ref=f43e396]:
+                - generic [ref=f43e397]: METRO/RAIL
+                - generic [ref=f43e399]: BUS
+                - generic [ref=f43e401]: DELAYED
+            - generic [ref=f43e403]:
+              - generic [ref=f43e404]:
+                - generic [ref=f43e405]: 22°C
+                - generic [ref=f43e406]: Clear NIGHT · RH 84%
+                - generic [ref=f43e408]:
+                  - text: AQI –
+                  - generic [ref=f43e409]: MODERATE
+              - generic [ref=f43e410]:
+                - generic [ref=f43e411]:
+                  - generic [ref=f43e412]: F
+                  - generic [ref=f43e413]: 31°
+                  - generic [ref=f43e414]: 21°
+                - generic [ref=f43e415]:
+                  - generic [ref=f43e416]: S
+                  - generic [ref=f43e417]: 33°
+                  - generic [ref=f43e418]: 20°
+                - generic [ref=f43e419]:
+                  - generic [ref=f43e420]: S
+                  - generic [ref=f43e421]: 28°
+                  - generic [ref=f43e422]: 20°
+          - generic [ref=f43e423]:
+            - generic [ref=f43e424]:
+              - generic [ref=f43e425]: Telemetry Ledger
+              - generic [ref=f43e426]: ● 150 REC
+            - generic [ref=f43e427]:
+              - generic [ref=f43e428]:
+                - generic [ref=f43e429]: 17:51:48
+                - generic [ref=f43e430]: WARN
+                - generic [ref=f43e431]:
+                  - generic [ref=f43e432]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +6.4m delay: Heavy traffic near Vaishali Nagar Marg"
+              - generic [ref=f43e433]:
+                - generic [ref=f43e434]: 17:51:46
+                - generic [ref=f43e435]: WARN
+                - generic [ref=f43e436]:
+                  - generic [ref=f43e437]: "[REP]"
+                  - text: "Resident report [Transit & Bus Shelter]: meow — Pinned 26.9046, 75.8066"
+              - generic [ref=f43e438]:
+                - generic [ref=f43e439]: 17:51:35
+                - generic [ref=f43e440]: INFO
+                - generic [ref=f43e441]:
+                  - generic [ref=f43e442]: "[TRA]"
+                  - text: "Ajmer Road: Free Flow traffic, avg speed 44 km/h"
+              - generic [ref=f43e443]:
+                - generic [ref=f43e444]: 17:51:25
+                - generic [ref=f43e445]: WARN
+                - generic [ref=f43e446]:
+                  - generic [ref=f43e447]: "[TRA]"
+                  - text: "Sikar Road: Moderate traffic, avg speed 29 km/h"
+              - generic [ref=f43e448]:
+                - generic [ref=f43e449]: 17:51:16
+                - generic [ref=f43e450]: WARN
+                - generic [ref=f43e451]:
+                  - generic [ref=f43e452]: "[TRA]"
+                  - text: "Ajmer Road: Moderate traffic, avg speed 20 km/h"
+              - generic [ref=f43e453]:
+                - generic [ref=f43e454]: 17:51:13
+                - generic [ref=f43e455]: WARN
+                - generic [ref=f43e456]:
+                  - generic [ref=f43e457]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +4.5m delay: Heavy traffic near Vaishali Nagar Marg"
+              - generic [ref=f43e458]:
+                - generic [ref=f43e459]: 17:51:08
+                - generic [ref=f43e460]: WARN
+                - generic [ref=f43e461]:
+                  - generic [ref=f43e462]: "[TRA]"
+                  - text: "Vaishali Nagar Marg: Moderate traffic, avg speed 26 km/h"
+              - generic [ref=f43e463]:
+                - generic [ref=f43e464]: 17:50:43
+                - generic [ref=f43e465]: CRIT
+                - generic [ref=f43e466]:
+                  - generic [ref=f43e467]: "[TRA]"
+                  - text: "Ajmer Road: Heavy traffic, avg speed 9 km/h — waterlogging near culvert"
+              - generic [ref=f43e468]:
+                - generic [ref=f43e469]: 17:50:36
+                - generic [ref=f43e470]: WARN
+                - generic [ref=f43e471]:
+                  - generic [ref=f43e472]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +4.4m delay: Heavy traffic near Vaishali Nagar Marg"
+              - generic [ref=f43e473]:
+                - generic [ref=f43e474]: 17:50:27
+                - generic [ref=f43e475]: CRIT
+                - generic [ref=f43e476]:
+                  - generic [ref=f43e477]: "[TRA]"
+                  - text: "Tonk Road: Heavy traffic, avg speed 10 km/h"
+              - generic [ref=f43e478]:
+                - generic [ref=f43e479]: 17:50:03
+                - generic [ref=f43e480]: WARN
+                - generic [ref=f43e481]:
+                  - generic [ref=f43e482]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +6.4m delay: Heavy traffic near JLN Marg"
+              - generic [ref=f43e483]:
+                - generic [ref=f43e484]: 17:49:26
+                - generic [ref=f43e485]: WARN
+                - generic [ref=f43e486]:
+                  - generic [ref=f43e487]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +6.5m delay: Heavy traffic near Tonk Road"
+              - generic [ref=f43e488]:
+                - generic [ref=f43e489]: 17:49:12
+                - generic [ref=f43e490]: INFO
+                - generic [ref=f43e491]:
+                  - generic [ref=f43e492]: "[TRA]"
+                  - text: "JLN Marg: Free Flow traffic, avg speed 52 km/h"
+              - generic [ref=f43e493]:
+                - generic [ref=f43e494]: 17:48:57
+                - generic [ref=f43e495]: INFO
+                - generic [ref=f43e496]:
+                  - generic [ref=f43e497]: "[TRA]"
+                  - text: "Sikar Road: Free Flow traffic, avg speed 40 km/h"
+              - generic [ref=f43e498]:
+                - generic [ref=f43e499]: 17:48:53
+                - generic [ref=f43e500]: INFO
+                - generic [ref=f43e501]:
+                  - generic [ref=f43e502]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +2.8m delay: Heavy traffic near Tonk Road"
+              - generic [ref=f43e503]:
+                - generic [ref=f43e504]: 17:48:48
+                - generic [ref=f43e505]: WARN
+                - generic [ref=f43e506]:
+                  - generic [ref=f43e507]: "[TRA]"
+                  - text: "Tonk Road: Moderate traffic, avg speed 18 km/h"
+              - generic [ref=f43e508]:
+                - generic [ref=f43e509]: 17:48:24
+                - generic [ref=f43e510]: WARN
+                - generic [ref=f43e511]:
+                  - generic [ref=f43e512]: "[TRA]"
+                  - text: "JLN Marg: Moderate traffic, avg speed 19 km/h"
+              - generic [ref=f43e513]:
+                - generic [ref=f43e514]: 17:48:22
+                - generic [ref=f43e515]: INFO
+                - generic [ref=f43e516]:
+                  - generic [ref=f43e517]: "[TRA]"
+                  - text: Jaipur Metro Orange Line — On schedule
+              - generic [ref=f43e518]:
+                - generic [ref=f43e519]: 17:48:09
+                - generic [ref=f43e520]: CRIT
+                - generic [ref=f43e521]:
+                  - generic [ref=f43e522]: "[TRA]"
+                  - text: "JLN Marg: Heavy traffic, avg speed 9 km/h — waterlogging near culvert"
+              - generic [ref=f43e523]:
+                - generic [ref=f43e524]: 17:47:44
+                - generic [ref=f43e525]: INFO
+                - generic [ref=f43e526]:
+                  - generic [ref=f43e527]: "[TRA]"
+                  - text: Jaipur Metro Orange Line — On schedule
+              - generic [ref=f43e528]:
+                - generic [ref=f43e529]: 17:47:43
+                - generic [ref=f43e530]: CRIT
+                - generic [ref=f43e531]:
+                  - generic [ref=f43e532]: "[TRA]"
+                  - text: "MI Road: Heavy traffic, avg speed 5 km/h"
+              - generic [ref=f43e533]:
+                - generic [ref=f43e534]: 17:47:35
+                - generic [ref=f43e535]: INFO
+                - generic [ref=f43e536]:
+                  - generic [ref=f43e537]: "[TRA]"
+                  - text: "Vaishali Nagar Marg: Free Flow traffic, avg speed 48 km/h"
+              - generic [ref=f43e538]:
+                - generic [ref=f43e539]: 17:47:08
+                - generic [ref=f43e540]: INFO
+                - generic [ref=f43e541]:
+                  - generic [ref=f43e542]: "[TRA]"
+                  - text: Jaipur Metro Orange Line — On schedule
+              - generic [ref=f43e543]:
+                - generic [ref=f43e544]: 17:46:46
+                - generic [ref=f43e545]: CRIT
+                - generic [ref=f43e546]:
+                  - generic [ref=f43e547]: "[TRA]"
+                  - text: "Vaishali Nagar Marg: Heavy traffic, avg speed 10 km/h — minor accident cleared, slow traffic"
+              - generic [ref=f43e548]:
+                - generic [ref=f43e549]: 17:46:33
+                - generic [ref=f43e550]: INFO
+                - generic [ref=f43e551]:
+                  - generic [ref=f43e552]: "[TRA]"
+                  - text: Jaipur Metro Orange Line — On schedule
+              - generic [ref=f43e553]:
+                - generic [ref=f43e554]: 17:46:32
+                - generic [ref=f43e555]: CRIT
+                - generic [ref=f43e556]:
+                  - generic [ref=f43e557]: "[TRA]"
+                  - text: "MI Road: Heavy traffic, avg speed 9 km/h"
+              - generic [ref=f43e558]:
+                - generic [ref=f43e559]: 17:46:24
+                - generic [ref=f43e560]: INFO
+                - generic [ref=f43e561]:
+                  - generic [ref=f43e562]: "[TRA]"
+                  - text: "Ajmer Road: Free Flow traffic, avg speed 42 km/h"
+              - generic [ref=f43e563]:
+                - generic [ref=f43e564]: 17:45:56
+                - generic [ref=f43e565]: INFO
+                - generic [ref=f43e566]:
+                  - generic [ref=f43e567]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +1.1m delay: On schedule"
+              - generic [ref=f43e568]:
+                - generic [ref=f43e569]: 17:45:44
+                - generic [ref=f43e570]: CRIT
+                - generic [ref=f43e571]:
+                  - generic [ref=f43e572]: "[TRA]"
+                  - text: "MI Road: Heavy traffic, avg speed 10 km/h — waterlogging near culvert"
+              - generic [ref=f43e573]:
+                - generic [ref=f43e574]: 17:45:30
+                - generic [ref=f43e575]: CRIT
+                - generic [ref=f43e576]:
+                  - generic [ref=f43e577]: "[TRA]"
+                  - text: "JLN Marg: Heavy traffic, avg speed 11 km/h"
+              - generic [ref=f43e578]:
+                - generic [ref=f43e579]: 17:45:21
+                - generic [ref=f43e580]: INFO
+                - generic [ref=f43e581]:
+                  - generic [ref=f43e582]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +1.0m delay: On schedule"
+              - generic [ref=f43e583]:
+                - generic [ref=f43e584]: 17:45:12
+                - generic [ref=f43e585]: WARN
+                - generic [ref=f43e586]:
+                  - generic [ref=f43e587]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +6.6m delay: Heavy traffic near Vaishali Nagar Marg"
+              - generic [ref=f43e588]:
+                - generic [ref=f43e589]: 17:44:55
+                - generic [ref=f43e590]: WARN
+                - generic [ref=f43e591]:
+                  - generic [ref=f43e592]: "[TRA]"
+                  - text: "MI Road: Moderate traffic, avg speed 26 km/h"
+              - generic [ref=f43e593]:
+                - generic [ref=f43e594]: 17:44:45
+                - generic [ref=f43e595]: WARN
+                - generic [ref=f43e596]:
+                  - generic [ref=f43e597]: "[TRA]"
+                  - text: "Vaishali Nagar Marg: Moderate traffic, avg speed 30 km/h"
+              - generic [ref=f43e598]:
+                - generic [ref=f43e599]: 17:44:35
+                - generic [ref=f43e600]: INFO
+                - generic [ref=f43e601]:
+                  - generic [ref=f43e602]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +1.2m delay: On schedule"
+              - generic [ref=f43e603]:
+                - generic [ref=f43e604]: 17:44:18
+                - generic [ref=f43e605]: WARN
+                - generic [ref=f43e606]:
+                  - generic [ref=f43e607]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +5.2m delay: Heavy traffic near MI Road"
+              - generic [ref=f43e608]:
+                - generic [ref=f43e609]: 17:44:09
+                - generic [ref=f43e610]: WARN
+                - generic [ref=f43e611]:
+                  - generic [ref=f43e612]: "[TRA]"
+                  - text: "Sikar Road: Moderate traffic, avg speed 29 km/h"
+              - generic [ref=f43e613]:
+                - generic [ref=f43e614]: 17:43:41
+                - generic [ref=f43e615]: WARN
+                - generic [ref=f43e616]:
+                  - generic [ref=f43e617]: "[TRA]"
+                  - text: "Jaipur Metro Orange Line — +6.2m delay: Heavy traffic near MI Road"
+              - generic [ref=f43e618]:
+                - generic [ref=f43e619]: 17:43:24
+                - generic [ref=f43e620]: WARN
+                - generic [ref=f43e621]:
+                  - generic [ref=f43e622]: "[TRA]"
+                  - text: "Tonk Road: Moderate traffic, avg speed 17 km/h — metro construction diversion"
+              - generic [ref=f43e623]:
+                - generic [ref=f43e624]: 17:43:09
+                - generic [ref=f43e625]: CRIT
+                - generic [ref=f43e626]:
+                  - generic [ref=f43e627]: "[TRA]"
+                  - text: "MI Road: Heavy traffic, avg speed 6 km/h"
+        - generic [ref=f43e628]:
+          - generic [ref=f43e629]:
+            - button "Attributes Table expand_less" [ref=f43e630] [cursor=pointer]:
+              - generic [ref=f43e631]: Attributes Table
+              - generic [ref=f43e632]: expand_less
+            - generic [ref=f43e633]: Jaipur · last 40 records · ttl 180s
+          - table [ref=f43e635]:
+            - rowgroup [ref=f43e636]:
+              - row [ref=f43e637]:
+                - columnheader "UTC TIME" [ref=f43e638]
+                - columnheader "AGE" [ref=f43e639]
+                - columnheader "CATEGORY" [ref=f43e640]
+                - columnheader "SEVERITY" [ref=f43e641]
+                - columnheader "DESCRIPTION" [ref=f43e642]
+                - columnheader "LAT" [ref=f43e643]
+                - columnheader "LNG" [ref=f43e644]
+            - rowgroup [ref=f43e645]:
+              - row [ref=f43e646]:
+                - cell "17:51:48" [ref=f43e647]
+                - cell "330m" [ref=f43e648]
+                - cell "transit" [ref=f43e649]
+                - cell "WARNING" [ref=f43e650]
+                - 'cell "Jaipur Metro Orange Line — +6.4m delay: Heavy traffic near Vaishali Nagar Marg" [ref=f43e651]'
+                - cell "26.9120" [ref=f43e652]
+                - cell "75.7419" [ref=f43e653]
+              - row [ref=f43e654]:
+                - cell "17:51:46" [ref=f43e655]
+                - cell "330m" [ref=f43e656]
+                - cell "report" [ref=f43e657]
+                - cell "WARNING" [ref=f43e658]
+                - 'cell "Resident report [Transit & Bus Shelter]: meow — Pinned 26.9046, 75.8066" [ref=f43e659]'
+                - cell "26.9046" [ref=f43e660]
+                - cell "75.8066" [ref=f43e661]
+              - row [ref=f43e662]:
+                - cell "17:51:35" [ref=f43e663]
+                - cell "330m" [ref=f43e664]
+                - cell "traffic" [ref=f43e665]
+                - cell "INFO" [ref=f43e666]
+                - 'cell "Ajmer Road: Free Flow traffic, avg speed 44 km/h" [ref=f43e667]'
+                - cell "26.9100" [ref=f43e668]
+                - cell "75.7620" [ref=f43e669]
+              - row [ref=f43e670]:
+                - cell "17:51:25" [ref=f43e671]
+                - cell "330m" [ref=f43e672]
+                - cell "traffic" [ref=f43e673]
+                - cell "WARNING" [ref=f43e674]
+                - 'cell "Sikar Road: Moderate traffic, avg speed 29 km/h" [ref=f43e675]'
+                - cell "26.9300" [ref=f43e676]
+                - cell "75.8040" [ref=f43e677]
+              - row [ref=f43e678]:
+                - cell "17:51:16" [ref=f43e679]
+                - cell "330m" [ref=f43e680]
+                - cell "traffic" [ref=f43e681]
+                - cell "WARNING" [ref=f43e682]
+                - 'cell "Ajmer Road: Moderate traffic, avg speed 20 km/h" [ref=f43e683]'
+                - cell "26.9100" [ref=f43e684]
+                - cell "75.7620" [ref=f43e685]
+              - row [ref=f43e686]:
+                - cell "17:51:13" [ref=f43e687]
+                - cell "330m" [ref=f43e688]
+                - cell "transit" [ref=f43e689]
+                - cell "WARNING" [ref=f43e690]
+                - 'cell "Jaipur Metro Orange Line — +4.5m delay: Heavy traffic near Vaishali Nagar Marg" [ref=f43e691]'
+                - cell "26.9027" [ref=f43e692]
+                - cell "75.7526" [ref=f43e693]
+              - row [ref=f43e694]:
+                - cell "17:51:08" [ref=f43e695]
+                - cell "330m" [ref=f43e696]
+                - cell "traffic" [ref=f43e697]
+                - cell "WARNING" [ref=f43e698]
+                - 'cell "Vaishali Nagar Marg: Moderate traffic, avg speed 26 km/h" [ref=f43e699]'
+                - cell "26.9150" [ref=f43e700]
+                - cell "75.7380" [ref=f43e701]
+              - row [ref=f43e702]:
+                - cell "17:50:43" [ref=f43e703]
+                - cell "331m" [ref=f43e704]
+                - cell "traffic" [ref=f43e705]
+                - cell "CRITICAL" [ref=f43e706]
+                - 'cell "Ajmer Road: Heavy traffic, avg speed 9 km/h — waterlogging near culvert" [ref=f43e707]'
+                - cell "26.9100" [ref=f43e708]
+                - cell "75.7620" [ref=f43e709]
+              - row [ref=f43e710]:
+                - cell "17:50:36" [ref=f43e711]
+                - cell "331m" [ref=f43e712]
+                - cell "transit" [ref=f43e713]
+                - cell "WARNING" [ref=f43e714]
+                - 'cell "Jaipur Metro Orange Line — +4.4m delay: Heavy traffic near Vaishali Nagar Marg" [ref=f43e715]'
+                - cell "26.8937" [ref=f43e716]
+                - cell "75.7649" [ref=f43e717]
+              - row [ref=f43e718]:
+                - cell "17:50:27" [ref=f43e719]
+                - cell "331m" [ref=f43e720]
+                - cell "traffic" [ref=f43e721]
+                - cell "CRITICAL" [ref=f43e722]
+                - 'cell "Tonk Road: Heavy traffic, avg speed 10 km/h" [ref=f43e723]'
+                - cell "26.8955" [ref=f43e724]
+                - cell "75.8055" [ref=f43e725]
+              - row [ref=f43e726]:
+                - cell "17:50:03" [ref=f43e727]
+                - cell "331m" [ref=f43e728]
+                - cell "transit" [ref=f43e729]
+                - cell "WARNING" [ref=f43e730]
+                - 'cell "Jaipur Metro Orange Line — +6.4m delay: Heavy traffic near JLN Marg" [ref=f43e731]'
+                - cell "26.8752" [ref=f43e732]
+                - cell "75.7899" [ref=f43e733]
+              - row [ref=f43e734]:
+                - cell "17:49:26" [ref=f43e735]
+                - cell "332m" [ref=f43e736]
+                - cell "transit" [ref=f43e737]
+                - cell "WARNING" [ref=f43e738]
+                - 'cell "Jaipur Metro Orange Line — +6.5m delay: Heavy traffic near Tonk Road" [ref=f43e739]'
+                - cell "26.8632" [ref=f43e740]
+                - cell "75.8062" [ref=f43e741]
+              - row [ref=f43e742]:
+                - cell "17:49:12" [ref=f43e743]
+                - cell "332m" [ref=f43e744]
+                - cell "traffic" [ref=f43e745]
+                - cell "INFO" [ref=f43e746]
+                - 'cell "JLN Marg: Free Flow traffic, avg speed 52 km/h" [ref=f43e747]'
+                - cell "26.8985" [ref=f43e748]
+                - cell "75.8085" [ref=f43e749]
+              - row [ref=f43e750]:
+                - cell "17:48:57" [ref=f43e751]
+                - cell "333m" [ref=f43e752]
+                - cell "traffic" [ref=f43e753]
+                - cell "INFO" [ref=f43e754]
+                - 'cell "Sikar Road: Free Flow traffic, avg speed 40 km/h" [ref=f43e755]'
+                - cell "26.9300" [ref=f43e756]
+                - cell "75.8040" [ref=f43e757]
+              - row [ref=f43e758]:
+                - cell "17:48:53" [ref=f43e759]
+                - cell "333m" [ref=f43e760]
+                - cell "transit" [ref=f43e761]
+                - cell "INFO" [ref=f43e762]
+                - 'cell "Jaipur Metro Orange Line — +2.8m delay: Heavy traffic near Tonk Road" [ref=f43e763]'
+                - cell "26.8500" [ref=f43e764]
+                - cell "75.8175" [ref=f43e765]
+              - row [ref=f43e766]:
+                - cell "17:48:48" [ref=f43e767]
+                - cell "333m" [ref=f43e768]
+                - cell "traffic" [ref=f43e769]
+                - cell "WARNING" [ref=f43e770]
+                - 'cell "Tonk Road: Moderate traffic, avg speed 18 km/h" [ref=f43e771]'
+                - cell "26.8955" [ref=f43e772]
+                - cell "75.8055" [ref=f43e773]
+              - row [ref=f43e774]:
+                - cell "17:48:24" [ref=f43e775]
+                - cell "333m" [ref=f43e776]
+                - cell "traffic" [ref=f43e777]
+                - cell "WARNING" [ref=f43e778]
+                - 'cell "JLN Marg: Moderate traffic, avg speed 19 km/h" [ref=f43e779]'
+                - cell "26.8985" [ref=f43e780]
+                - cell "75.8085" [ref=f43e781]
+              - row [ref=f43e782]:
+                - cell "17:48:22" [ref=f43e783]
+                - cell "333m" [ref=f43e784]
+                - cell "transit" [ref=f43e785]
+                - cell "INFO" [ref=f43e786]
+                - cell "Jaipur Metro Orange Line — On schedule" [ref=f43e787]
+                - cell "26.8382" [ref=f43e788]
+                - cell "75.8205" [ref=f43e789]
+              - row [ref=f43e790]:
+                - cell "17:48:09" [ref=f43e791]
+                - cell "333m" [ref=f43e792]
+                - cell "traffic" [ref=f43e793]
+                - cell "CRITICAL" [ref=f43e794]
+                - 'cell "JLN Marg: Heavy traffic, avg speed 9 km/h — waterlogging near culvert" [ref=f43e795]'
+                - cell "26.8985" [ref=f43e796]
+                - cell "75.8085" [ref=f43e797]
+              - row [ref=f43e798]:
+                - cell "17:47:44" [ref=f43e799]
+                - cell "334m" [ref=f43e800]
+                - cell "transit" [ref=f43e801]
+                - cell "INFO" [ref=f43e802]
+                - cell "Jaipur Metro Orange Line — On schedule" [ref=f43e803]
+                - cell "26.8329" [ref=f43e804]
+                - cell "75.8218" [ref=f43e805]
+              - row [ref=f43e806]:
+                - cell "17:47:43" [ref=f43e807]
+                - cell "334m" [ref=f43e808]
+                - cell "traffic" [ref=f43e809]
+                - cell "CRITICAL" [ref=f43e810]
+                - 'cell "MI Road: Heavy traffic, avg speed 5 km/h" [ref=f43e811]'
+                - cell "26.9180" [ref=f43e812]
+                - cell "75.8090" [ref=f43e813]
+              - row [ref=f43e814]:
+                - cell "17:47:35" [ref=f43e815]
+                - cell "334m" [ref=f43e816]
+                - cell "traffic" [ref=f43e817]
+                - cell "INFO" [ref=f43e818]
+                - 'cell "Vaishali Nagar Marg: Free Flow traffic, avg speed 48 km/h" [ref=f43e819]'
+                - cell "26.9150" [ref=f43e820]
+                - cell "75.7380" [ref=f43e821]
+              - row [ref=f43e822]:
+                - cell "17:47:08" [ref=f43e823]
+                - cell "334m" [ref=f43e824]
+                - cell "transit" [ref=f43e825]
+                - cell "INFO" [ref=f43e826]
+                - cell "Jaipur Metro Orange Line — On schedule" [ref=f43e827]
+                - cell "26.8240" [ref=f43e828]
+                - cell "75.8240" [ref=f43e829]
+              - row [ref=f43e830]:
+                - cell "17:46:46" [ref=f43e831]
+                - cell "335m" [ref=f43e832]
+                - cell "traffic" [ref=f43e833]
+                - cell "CRITICAL" [ref=f43e834]
+                - 'cell "Vaishali Nagar Marg: Heavy traffic, avg speed 10 km/h — minor accident cleared, slow traffic" [ref=f43e835]'
+                - cell "26.9150" [ref=f43e836]
+                - cell "75.7380" [ref=f43e837]
+              - row [ref=f43e838]:
+                - cell "17:46:33" [ref=f43e839]
+                - cell "335m" [ref=f43e840]
+                - cell "transit" [ref=f43e841]
+                - cell "INFO" [ref=f43e842]
+                - cell "Jaipur Metro Orange Line — On schedule" [ref=f43e843]
+                - cell "26.8225" [ref=f43e844]
+                - cell "75.8243" [ref=f43e845]
+              - row [ref=f43e846]:
+                - cell "17:46:32" [ref=f43e847]
+                - cell "335m" [ref=f43e848]
+                - cell "traffic" [ref=f43e849]
+                - cell "CRITICAL" [ref=f43e850]
+                - 'cell "MI Road: Heavy traffic, avg speed 9 km/h" [ref=f43e851]'
+                - cell "26.9180" [ref=f43e852]
+                - cell "75.8090" [ref=f43e853]
+              - row [ref=f43e854]:
+                - cell "17:46:24" [ref=f43e855]
+                - cell "335m" [ref=f43e856]
+                - cell "traffic" [ref=f43e857]
+                - cell "INFO" [ref=f43e858]
+                - 'cell "Ajmer Road: Free Flow traffic, avg speed 42 km/h" [ref=f43e859]'
+                - cell "26.9100" [ref=f43e860]
+                - cell "75.7620" [ref=f43e861]
+              - row [ref=f43e862]:
+                - cell "17:45:56" [ref=f43e863]
+                - cell "336m" [ref=f43e864]
+                - cell "transit" [ref=f43e865]
+                - cell "INFO" [ref=f43e866]
+                - 'cell "Jaipur Metro Orange Line — +1.1m delay: On schedule" [ref=f43e867]'
+                - cell "26.8385" [ref=f43e868]
+                - cell "75.8201" [ref=f43e869]
+              - row [ref=f43e870]:
+                - cell "17:45:44" [ref=f43e871]
+                - cell "336m" [ref=f43e872]
+                - cell "traffic" [ref=f43e873]
+                - cell "CRITICAL" [ref=f43e874]
+                - 'cell "MI Road: Heavy traffic, avg speed 10 km/h — waterlogging near culvert" [ref=f43e875]'
+                - cell "26.9180" [ref=f43e876]
+                - cell "75.8090" [ref=f43e877]
+              - row [ref=f43e878]:
+                - cell "17:45:30" [ref=f43e879]
+                - cell "336m" [ref=f43e880]
+                - cell "traffic" [ref=f43e881]
+                - cell "CRITICAL" [ref=f43e882]
+                - 'cell "JLN Marg: Heavy traffic, avg speed 11 km/h" [ref=f43e883]'
+                - cell "26.8985" [ref=f43e884]
+                - cell "75.8085" [ref=f43e885]
+              - row [ref=f43e886]:
+                - cell "17:45:21" [ref=f43e887]
+                - cell "336m" [ref=f43e888]
+                - cell "transit" [ref=f43e889]
+                - cell "INFO" [ref=f43e890]
+                - 'cell "Jaipur Metro Orange Line — +1.0m delay: On schedule" [ref=f43e891]'
+                - cell "26.8594" [ref=f43e892]
+                - cell "75.8145" [ref=f43e893]
+              - row [ref=f43e894]:
+                - cell "17:45:12" [ref=f43e895]
+                - cell "336m" [ref=f43e896]
+                - cell "transit" [ref=f43e897]
+                - cell "WARNING" [ref=f43e898]
+                - 'cell "Jaipur Metro Orange Line — +6.6m delay: Heavy traffic near Vaishali Nagar Marg" [ref=f43e899]'
+                - cell "26.9106" [ref=f43e900]
+                - cell "75.7420" [ref=f43e901]
+              - row [ref=f43e902]:
+                - cell "17:44:55" [ref=f43e903]
+                - cell "337m" [ref=f43e904]
+                - cell "traffic" [ref=f43e905]
+                - cell "WARNING" [ref=f43e906]
+                - 'cell "MI Road: Moderate traffic, avg speed 26 km/h" [ref=f43e907]'
+                - cell "26.9180" [ref=f43e908]
+                - cell "75.8090" [ref=f43e909]
+              - row [ref=f43e910]:
+                - cell "17:44:45" [ref=f43e911]
+                - cell "337m" [ref=f43e912]
+                - cell "traffic" [ref=f43e913]
+                - cell "WARNING" [ref=f43e914]
+                - 'cell "Vaishali Nagar Marg: Moderate traffic, avg speed 30 km/h" [ref=f43e915]'
+                - cell "26.9150" [ref=f43e916]
+                - cell "75.7380" [ref=f43e917]
+              - row [ref=f43e918]:
+                - cell "17:44:35" [ref=f43e919]
+                - cell "337m" [ref=f43e920]
+                - cell "transit" [ref=f43e921]
+                - cell "INFO" [ref=f43e922]
+                - 'cell "Jaipur Metro Orange Line — +1.2m delay: On schedule" [ref=f43e923]'
+                - cell "26.8974" [ref=f43e924]
+                - cell "75.7598" [ref=f43e925]
+              - row [ref=f43e926]:
+                - cell "17:44:18" [ref=f43e927]
+                - cell "337m" [ref=f43e928]
+                - cell "transit" [ref=f43e929]
+                - cell "WARNING" [ref=f43e930]
+                - 'cell "Jaipur Metro Orange Line — +5.2m delay: Heavy traffic near MI Road" [ref=f43e931]'
+                - cell "26.9087" [ref=f43e932]
+                - cell "75.7957" [ref=f43e933]
+              - row [ref=f43e934]:
+                - cell "17:44:09" [ref=f43e935]
+                - cell "337m" [ref=f43e936]
+                - cell "traffic" [ref=f43e937]
+                - cell "WARNING" [ref=f43e938]
+                - 'cell "Sikar Road: Moderate traffic, avg speed 29 km/h" [ref=f43e939]'
+                - cell "26.9300" [ref=f43e940]
+                - cell "75.8040" [ref=f43e941]
+              - row [ref=f43e942]:
+                - cell "17:43:41" [ref=f43e943]
+                - cell "338m" [ref=f43e944]
+                - cell "transit" [ref=f43e945]
+                - cell "WARNING" [ref=f43e946]
+                - 'cell "Jaipur Metro Orange Line — +6.2m delay: Heavy traffic near MI Road" [ref=f43e947]'
+                - cell "26.9077" [ref=f43e948]
+                - cell "75.7981" [ref=f43e949]
+              - row [ref=f43e950]:
+                - cell "17:43:24" [ref=f43e951]
+                - cell "338m" [ref=f43e952]
+                - cell "traffic" [ref=f43e953]
+                - cell "WARNING" [ref=f43e954]
+                - 'cell "Tonk Road: Moderate traffic, avg speed 17 km/h — metro construction diversion" [ref=f43e955]'
+                - cell "26.8955" [ref=f43e956]
+                - cell "75.8055" [ref=f43e957]
+              - row [ref=f43e958]:
+                - cell "17:43:09" [ref=f43e959]
+                - cell "338m" [ref=f43e960]
+                - cell "traffic" [ref=f43e961]
+                - cell "CRITICAL" [ref=f43e962]
+                - 'cell "MI Road: Heavy traffic, avg speed 6 km/h" [ref=f43e963]'
+                - cell "26.9180" [ref=f43e964]
+                - cell "75.8090" [ref=f43e965]
+    - generic [ref=f43e966]:
+      - generic [ref=f43e967]:
+        - generic [ref=f43e968]:
+          - generic [ref=f43e969]:
+            - generic [ref=f43e970]: Live Civic Score Calculator
+            - generic [ref=f43e973]: computed from live telemetry
+          - generic [ref=f43e974]:
+            - generic [ref=f43e979]:
+              - generic [ref=f43e980]: "35"
+              - generic [ref=f43e981]: Jaipur Score
+            - generic [ref=f43e982]:
+              - generic [ref=f43e983]:
+                - generic [ref=f43e984]: insights
+                - text: Strained
+              - heading "Strained Civic Health" [level=2] [ref=f43e985]
+              - paragraph [ref=f43e986]: Composite index +2 vs yesterday — weighted across air, mobility, transit, civic response, and grid.
+          - generic [ref=f43e987]:
+            - generic [ref=f43e989]:
+              - generic [ref=f43e990]:
+                - generic [ref=f43e991]: air
+                - text: Air Quality
+              - generic [ref=f43e992]: 32/100 AQI avg 91 (6h)
+            - generic [ref=f43e996]:
+              - generic [ref=f43e997]:
+                - generic [ref=f43e998]: traffic
+                - text: Road Mobility
+              - generic [ref=f43e999]: 9/100 41% heavy corridors
+            - generic [ref=f43e1003]:
+              - generic [ref=f43e1004]:
+                - generic [ref=f43e1005]: tram
+                - text: Transit Health
+              - generic [ref=f43e1006]: 13/100 avg delay 14 min
+            - generic [ref=f43e1010]:
+              - generic [ref=f43e1011]:
+                - generic [ref=f43e1012]: campaign
+                - text: Civic Response
+              - generic [ref=f43e1013]: 58/100 0 resident reports (6h)
+            - generic [ref=f43e1017]:
+              - generic [ref=f43e1018]:
+                - generic [ref=f43e1019]: bolt
+                - text: Grid Headroom
+              - generic [ref=f43e1020]: 100/100 56% load, 49.92 Hz
+          - generic [ref=f43e1023]:
+            - generic [ref=f43e1024]:
+              - generic [ref=f43e1025]:
+                - generic [ref=f43e1026]: bolt
+                - text: Grid Telemetry
+              - generic [ref=f43e1027]: JVVNL / RVPN
+            - generic [ref=f43e1028]:
+              - generic [ref=f43e1029]:
+                - text: 56% load
+                - generic [ref=f43e1030]: (2,352 MW / 4,200 MW)
+              - generic [ref=f43e1031]: 49.92 Hz ●
+            - generic [ref=f43e1057]:
+              - generic "solar"
+              - generic "wind"
+              - generic "hydro"
+              - generic "thermal"
+            - generic [ref=f43e1058]:
+              - generic [ref=f43e1059]: Solar 0% · Wind 13% · Hydro 14% · Thermal 73%
+              - generic [ref=f43e1060]: Peak 19:00
+        - generic [ref=f43e1061]:
+          - generic [ref=f43e1062]: "Viewing: Live Neighborhood Civic Scores"
+          - generic [ref=f43e1067]:
+            - generic [ref=f43e1068]:
+              - generic:
+                - generic:
+                  - button "53" [ref=f43e1069] [cursor=pointer]
+                  - button "53" [ref=f43e1072] [cursor=pointer]
+                  - button "53" [ref=f43e1075] [cursor=pointer]
+                  - button "53" [ref=f43e1078] [cursor=pointer]
+                  - button "53" [ref=f43e1081] [cursor=pointer]
+                  - button "53" [ref=f43e1084] [cursor=pointer]
+              - generic [ref=f43e1087]:
+                - link "Leaflet" [ref=f43e1088] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=f43e1093] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: contributors
+            - generic [ref=f43e1094]:
+              - generic [ref=f43e1095]: Good 70+
+              - generic [ref=f43e1097]: Fair 50-69
+              - generic [ref=f43e1099]: Poor <50
+          - generic [ref=f43e1101]:
+            - generic [ref=f43e1102]:
+              - generic [ref=f43e1103]: sensors
+              - generic [ref=f43e1105]:
+                - generic [ref=f43e1106]: "Jaipur Microgrid #04"
+                - text: Active • Lat 26.9124 N, Lon 75.7873 E
+            - generic [ref=f43e1109]:
+              - generic [ref=f43e1110]: Optimal
+              - generic [ref=f43e1112]: Nominal
+              - generic [ref=f43e1114]: Maintenance
+      - generic [ref=f43e1116]:
+        - generic [ref=f43e1117]:
+          - generic [ref=f43e1118]:
+            - generic [ref=f43e1119]:
+              - generic [ref=f43e1120]: Public Bulletins
+              - generic [ref=f43e1121]: •
+              - generic [ref=f43e1122]: 8 Active Real-Time Advisories
+            - heading "Top Headlines" [level=2] [ref=f43e1123]
+          - link "View all city dispatches arrow_forward" [ref=f43e1124] [cursor=pointer]:
+            - /url: "#"
+            - text: View all city dispatches
+            - generic [ref=f43e1125]: arrow_forward
+        - generic [ref=f43e1126]:
+          - generic [ref=f43e1127]:
+            - generic [ref=f43e1128]:
+              - generic [ref=f43e1129]:
+                - generic [ref=f43e1130]: Resident Report
+                - generic [ref=f43e1131]:
+                  - generic [ref=f43e1132]: schedule
+                  - text: 5h ago
+              - heading "meow" [level=3] [ref=f43e1133]
+              - paragraph [ref=f43e1134]: Pinned 26.9046, 75.8066 • filed by trace_user_2
+            - generic [ref=f43e1135]:
+              - generic [ref=f43e1136]:
+                - generic [ref=f43e1137]: location_on
+                - text: Resident filed
+              - generic [ref=f43e1138]: SUBMITTED
+          - generic [ref=f43e1139]:
+            - generic [ref=f43e1140]:
+              - generic [ref=f43e1141]:
+                - generic [ref=f43e1142]: Resident Report
+                - generic [ref=f43e1143]:
+                  - generic [ref=f43e1144]: schedule
+                  - text: 5h ago
+              - heading "ERF" [level=3] [ref=f43e1145]
+              - paragraph [ref=f43e1146]: Pinned 26.9086, 75.7397 • filed by trace_user_2
+            - generic [ref=f43e1147]:
+              - generic [ref=f43e1148]:
+                - generic [ref=f43e1149]: location_on
+                - text: Resident filed
+              - generic [ref=f43e1150]: SUBMITTED
+          - generic [ref=f43e1151]:
+            - generic [ref=f43e1152]:
+              - generic [ref=f43e1153]:
+                - generic [ref=f43e1154]: Resident Report
+                - generic [ref=f43e1155]:
+                  - generic [ref=f43e1156]: schedule
+                  - text: 5h ago
+              - heading "POTHOLES" [level=3] [ref=f43e1157]
+              - paragraph [ref=f43e1158]: Pinned 26.9000, 75.8162 • filed by trace_user_2
+            - generic [ref=f43e1159]:
+              - generic [ref=f43e1160]:
+                - generic [ref=f43e1161]: location_on
+                - text: Resident filed
+              - generic [ref=f43e1162]: SUBMITTED
+      - generic [ref=f43e1163]:
+        - generic [ref=f43e1164]:
+          - generic [ref=f43e1165]: contact_support
+          - generic [ref=f43e1167]:
+            - text: Resident Civic Telemetry Services
+            - paragraph [ref=f43e1168]: Report public space anomalies, request sensor audits, or call emergency dispatch.
+        - generic [ref=f43e1169]:
+          - link "phone Dial Jaipur 181" [ref=f43e1170] [cursor=pointer]:
+            - /url: tel:181
+            - generic [ref=f43e1171]: phone
+            - text: Dial Jaipur 181
+          - button "campaign Submit Resident Feedback" [ref=f43e1172] [cursor=pointer]:
+            - generic [ref=f43e1173]: campaign
+            - text: Submit Resident Feedback
+          - button "emergency_share Emergency Directory" [ref=f43e1174] [cursor=pointer]:
+            - generic [ref=f43e1175]: emergency_share
+            - text: Emergency Directory
+    - generic [ref=f43e1177]:
+      - generic [ref=f43e1178]:
+        - generic [ref=f43e1179]: Municipal Telemetry Feeds Active
+        - generic [ref=f43e1182]: •
+        - generic [ref=f43e1183]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f43e1184]:
+        - generic [ref=f43e1185]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f43e1186]:
+          - link "Status" [ref=f43e1187] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f43e1188] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f43e1189] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f43e1191] [cursor=pointer]:
+      - generic [ref=f43e1192]: smart_toy
+      - generic [ref=f43e1193]: CivicPulse AI

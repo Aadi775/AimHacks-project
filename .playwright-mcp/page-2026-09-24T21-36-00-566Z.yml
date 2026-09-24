@@ -1,0 +1,105 @@
+- generic [active] [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - generic [ref=f18e4]:
+        - generic [ref=f18e5]:
+          - img "CivicPulse Logo" [ref=f18e6]
+          - generic [ref=f18e7]:
+            - generic: CivicPulse
+            - generic [ref=f18e8]: Resident Edition
+        - generic [ref=f18e9] [cursor=pointer]:
+          - generic [ref=f18e13]: Jaipur, RJ
+          - generic [ref=f18e14]: keyboard_arrow_down
+      - navigation [ref=f18e15]:
+        - link "Home" [ref=f18e16] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f18e17] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f18e18] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f18e19] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f18e20] [cursor=pointer]:
+          - /url: /complaints
+      - generic [ref=f18e21]:
+        - generic [ref=f18e22]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f18e25] [cursor=pointer]:
+          - generic [ref=f18e26]: search
+          - generic [ref=f18e27]: Search metrics
+          - generic [ref=f18e28]: ⌘K
+        - button "Notifications" [ref=f18e29] [cursor=pointer]:
+          - generic [ref=f18e30]: notifications
+        - link "person Sign In" [ref=f18e32] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f18e33]: person
+          - generic [ref=f18e35]: Sign In
+  - main [ref=f18e36]:
+    - generic [ref=f18e37]:
+      - generic [ref=f18e38]:
+        - generic [ref=f18e39]: CivicPulse Resident Access
+        - heading "Your city dashboard, your account." [level=1] [ref=f18e44]
+        - paragraph [ref=f18e45]: Sign in to file verified 181 complaints, subscribe to ward-level alerts, and personalize your city telemetry feed across every Indian metro.
+        - list [ref=f18e46]:
+          - listitem [ref=f18e47]:
+            - generic [ref=f18e48]: verified_user
+            - generic [ref=f18e50]: Verified resident reports with ticket tracking
+          - listitem [ref=f18e51]:
+            - generic [ref=f18e52]: notifications_active
+            - generic [ref=f18e54]: SMS + push alerts for your wards
+          - listitem [ref=f18e55]:
+            - generic [ref=f18e56]: dataset
+            - generic [ref=f18e58]: Open access to city telemetry exports
+        - button "expand_more Advanced telemetry features" [ref=f18e59] [cursor=pointer]:
+          - generic [ref=f18e60]: expand_more
+          - text: Advanced telemetry features
+        - generic:
+          - generic [ref=f18e61]:
+            - generic [ref=f18e62]: check_circle
+            - generic [ref=f18e63]: Corridor congestion overlays
+          - generic [ref=f18e64]:
+            - generic [ref=f18e65]: check_circle
+            - generic [ref=f18e66]: Ward-level AQI sparklines
+          - generic [ref=f18e67]:
+            - generic [ref=f18e68]: check_circle
+            - generic [ref=f18e69]: Metro arrival watchlists
+      - generic [ref=f18e70]:
+        - generic [ref=f18e71]:
+          - generic [ref=f18e72]: account_circle
+          - generic [ref=f18e73]:
+            - heading "Resident Sign In" [level=2] [ref=f18e74]
+            - paragraph [ref=f18e75]: Access your civic telemetry profile
+        - generic [ref=f18e76]:
+          - button "Sign In" [ref=f18e77] [cursor=pointer]
+          - button "Register" [ref=f18e78] [cursor=pointer]
+        - generic [ref=f18e79]:
+          - generic [ref=f18e80]:
+            - generic [ref=f18e81]: Username
+            - generic [ref=f18e82]:
+              - generic: person
+              - textbox "Username" [ref=f18e83]:
+                - /placeholder: e.g. aadi_jpr
+          - generic [ref=f18e84]:
+            - generic [ref=f18e85]: Password
+            - generic [ref=f18e86]:
+              - generic: key
+              - textbox "Password" [ref=f18e87]:
+                - /placeholder: ••••••••
+              - button "visibility" [ref=f18e88] [cursor=pointer]
+          - button "login Sign In to CivicPulse" [ref=f18e90] [cursor=pointer]:
+            - generic [ref=f18e91]: login
+            - text: Sign In to CivicPulse
+        - paragraph [ref=f18e92]: By continuing you agree to share report data with your municipal 181 cell for faster resolution.
+    - generic [ref=f18e94]:
+      - generic [ref=f18e95]:
+        - generic [ref=f18e96]: Municipal Telemetry Feeds Active
+        - generic [ref=f18e99]: •
+        - generic [ref=f18e100]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f18e101]:
+        - generic [ref=f18e102]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f18e103]:
+          - link "Status" [ref=f18e104] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f18e105] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f18e106] [cursor=pointer]:
+            - /url: /login

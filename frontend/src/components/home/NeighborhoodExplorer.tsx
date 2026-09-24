@@ -1,54 +1,153 @@
 'use client';
 
+import { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { useCity } from '@/context/CityContext';
+
+interface HoodNode {
+  name: string;
+  lat: number;
+  lng: number;
+  temp: number | null;
+  humidity: number | null;
+  wind_kmh: number | null;
+  us_aqi: number | null;
+  pm2_5: number | null;
+  severity: string;
+  tip: string;
+}
+
+const SEVERITY_COLORS: Record<string, string> = {
+  GOOD: '#10b981',
+  MODERATE: '#eab308',
+  SENSITIVE: '#f59e0b',
+  UNHEALTHY: '#ef4444',
+};
+
 export default function NeighborhoodExplorer() {
-  const districts = [
-    { id: 'presidio', name: 'C-Scheme & Marina', quadrant: 'northeast', temp: 63, aqi: 18, aqiLabel: 'Pristine', icon: 'water', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBFWU_s7rniL3CBT1Zi8yW8tU9yfanQFiEr9EiisuC-8r4Q_VNl-zEU2Rrkl572PaiPrDZCP-Tj7mEJng75pbHIpJl-gps2TO6wI9afuNSEQZO6jSxGTyKtHpk_xr3HBTWhdfYfqhf7MCN5Hy4KTb10a6tr7h_hfo3AFMZeTdRKHZhJBP8yPTq4pe-EWzaKmq6qkIB1g9-DrjgS4dfMzCkV2LmUHr6lJOwqAkJMZNVXEdrwJVEoNi6QBA' },
-    { id: 'mission', name: 'Mission & Noe Valley', quadrant: 'central', temp: 73, aqi: 28, aqiLabel: 'Warmest Zone', icon: 'wb_sunny', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBxd3JuMlfhqDN57aQgPEQyIHSuidnBJFz32BRtIq_JJwiUQvlqIvLAOHF0tRGvjiVGCHxCg9AeJooXc49cJIxKclL81JnUjwiBWgG9OKnDtT6DMoBvTn-5V_WLJmNqydyy3reyrzJZj_chEYZjlBmH_VGMR4uoARdooA4pqx55Y7Nim1sDIX1GaCxyRmBdICMBWVlGU1HyK46pKe61t3qAtmaiY9mmgUBrnUSUekn_-Oqi7WDFmGestQ' },
-    { id: 'financial', name: 'Financial & Embarcadero', quadrant: 'northeast', temp: 67, aqi: 21, aqiLabel: 'Bayside Promenade', icon: 'public', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuBVglx-menvHftrZVRX0XnFUvP3s0SsGIpC67EiR_Io6phnLOUkj0_BvXBdYBJQHLdH17XuN0t7XC6SR3Cp3hDHei2bgaCixY38YdoNlNu03Pt3Rrflk4PriZGkfykXi3H6UFqvpjOpE_OzgymZ24zEnUJyy8ckMdbRpcEVM0oeP2g1VXFC-rInLtwglwiT5gzJGTJ5lLHkSfdyelqpZka6oy_YQ_0gEk69L5_0BAOdFe8YYSObJDPCcg' },
-    { id: 'sunset', name: 'Sunset & Ocean Beach', quadrant: 'west', temp: 61, aqi: 16, aqiLabel: 'Coastal Marine Layer', icon: 'water', img: 'https://lh3.googleusercontent.com/aida-public/AB6AXuDLgK669XZ8c-5vfdb74O3PL6kHW9P-DqO_Gpp2Q6c5mIVmum9wMGugMSk9ehpdo1vHCDi3sAWNLR9dUMd1GIqQU41AN19BffdM4dhS3Hj7Q6HdJIjpv0u1K6ADPG4B7ZyckKDUJdtOgWkryXzD3TsBrn8XLA2oHmbbWC7GZUme0zuPaV3O4Kx68V4R5laMKHGOrrAPqID4lf9E1NuvZKZLEeppmudgRj8RWW4DKHys4cSbrmVTCXunFA' },
-  ];
+  const { city } = useCity();
+  const [nodes, setNodes] = useState<HoodNode[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [expandedId, setExpandedId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!city) return;
+    setLoading(true);
+    fetch(`http://localhost:8001/api/neighborhoods?city=${encodeURIComponent(city.name)}`)
+      .then((r) => r.json())
+      .then((d) => {
+        setNodes((d.nodes ?? []).slice(0, 4));
+        setLoading(false);
+      })
+      .catch(() => setLoading(false));
+  }, [city]);
 
   return (
     <section className="max-w-[1360px] mx-auto px-gutter-mobile md:px-gutter xl:px-margin py-10">
       <div className="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-3">
         <div>
           <span className="font-label-xs text-label-xs uppercase tracking-widest text-secondary font-semibold">Spatial Urban Intelligence</span>
-          <h2 className="font-headline-lg text-headline-lg text-on-surface font-semibold mt-1">Neighborhood Explorer</h2>
+          <h2 className="font-headline-lg text-headline-lg text-on-surface font-semibold mt-1">
+            {city ? `${city.name} Neighborhood` : 'Neighborhood'} Explorer
+          </h2>
         </div>
-        <div className="flex items-center gap-2">
-          {['All Quadrants', 'Bay Side', 'Ocean Side'].map((b) => (
-            <button key={b} className={`px-3.5 py-1.5 rounded-full font-label-md text-label-md shadow-sm transition-all ${
-              b === 'All Quadrants' ? 'bg-surface-container-lowest text-on-surface' : 'bg-surface-container text-on-surface-variant hover:bg-surface-container-high'
-            }`} type="button">{b}</button>
-          ))}
-        </div>
+        <span className="font-label-xs text-label-xs text-on-surface-variant">
+          {loading ? 'Probing sensor nodes…' : `Live readings via OpenMeteo • ${nodes.length} active nodes`}
+        </span>
       </div>
+
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-        {districts.map((d) => (
-          <div key={d.id} className="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
-            <div className="relative h-44 w-full overflow-hidden">
-              <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" src={d.img} alt={d.name} />
+        {loading &&
+          nodes.length === 0 &&
+          [0, 1, 2, 3].map((i) => (
+            <div className="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-sm h-72 animate-pulse" key={i}>
+              <div className="h-32 bg-surface-container-low w-full"></div>
+              <div className="p-5 space-y-2.5">
+                <div className="h-3 w-2/3 bg-surface-container-low rounded"></div>
+                <div className="h-3 w-1/3 bg-surface-container-low rounded"></div>
+                <div className="h-8 w-full bg-surface-container-low rounded mt-4"></div>
+              </div>
+            </div>
+          ))}
+
+        {nodes.map((d) => (
+          <div className="bg-surface-container-lowest rounded-3xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between group" key={d.name}>
+            <div className="relative h-40 w-full overflow-hidden">
+              <img
+                alt={d.name}
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                src={`https://picsum.photos/seed/${encodeURIComponent(d.name.toLowerCase().replace(/\s+/g, '-'))}/600/300`}
+              />
               <div className="absolute inset-0 bg-gradient-to-t from-surface-container-lowest via-surface-container-lowest/20 to-transparent"></div>
               <div className="absolute top-3 left-3 bg-surface-container-lowest/90 backdrop-blur-md px-2.5 py-1 rounded-full flex items-center gap-1.5">
-                <span className="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
-                <span className="font-label-xs text-label-xs text-on-surface font-medium">{d.aqi} AQI • {d.aqiLabel}</span>
+                <span className="w-1.5 h-1.5 rounded-full" style={{ background: SEVERITY_COLORS[d.severity] ?? '#eab308' }}></span>
+                <span className="font-label-xs text-label-xs text-on-surface font-medium">
+                  AQI {d.us_aqi ?? '–'} • {d.severity}
+                </span>
               </div>
             </div>
             <div className="p-5 flex-1 flex flex-col justify-between">
               <div>
-                <span className="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider block">{d.quadrant.replace('-', ' ')}</span>
+                <span className="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider block">
+                  {d.lat.toFixed(2)}°N {d.lng.toFixed(2)}°E
+                </span>
                 <h3 className="font-headline-sm text-headline-sm text-on-surface font-semibold mt-0.5">{d.name}</h3>
-                <p className="font-body-sm text-body-sm text-on-surface-variant mt-2">Active community solar microgrid running at full self-sufficiency.</p>
                 <div className="mt-4 flex flex-wrap gap-1.5">
-                  {['Breeze 12mph', 'Solar 98%', 'Humidity 68%'].map((tag) => (
-                    <span key={tag} className="font-label-xs text-label-xs bg-surface-container-low px-2 py-1 rounded-lg text-on-surface-variant">{tag}</span>
-                  ))}
+                  <span className="font-label-xs text-label-xs bg-surface-container-low px-2 py-1 rounded-lg text-on-surface-variant">
+                    Wind {d.wind_kmh != null ? Math.round(d.wind_kmh) : '–'} km/h
+                  </span>
+                  <span className="font-label-xs text-label-xs bg-surface-container-low px-2 py-1 rounded-lg text-on-surface-variant">
+                    Humidity {d.humidity ?? '–'}%
+                  </span>
+                  <span className="font-label-xs text-label-xs bg-surface-container-low px-2 py-1 rounded-lg text-on-surface-variant">
+                    PM2.5 {d.pm2_5 ?? '–'}
+                  </span>
                 </div>
               </div>
-              <div className="pt-5 mt-4 flex items-center justify-between">
-                <span className="font-headline-sm text-headline-sm font-semibold text-on-surface">{d.temp}°</span>
-                <button className="px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high font-label-md text-label-md text-on-surface font-medium transition-colors" type="button">View District</button>
+              <div className="pt-4 mt-4 flex items-center justify-between">
+                <span className="font-headline-sm text-headline-sm font-semibold text-on-surface">
+                  {d.temp != null ? Math.round(d.temp) : '–'}°C
+                </span>
+                <button
+                  className="px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high font-label-md text-label-md text-on-surface font-medium transition-colors"
+                  onClick={() => setExpandedId(expandedId === d.name ? null : d.name)}
+                  type="button"
+                >
+                  {expandedId === d.name ? 'Collapse' : 'View District'}
+                </button>
               </div>
+              <div className="mt-3 pt-3 bg-surface-container-low rounded-xl p-2.5 flex items-center gap-2">
+                <span className="material-symbols-outlined text-[16px] text-secondary">info</span>
+                <span className="font-body-sm text-body-sm text-on-surface-variant">{d.tip}</span>
+              </div>
+              {expandedId === d.name && (
+                <div className="mt-3 border-t border-surface-container pt-3 flex flex-col gap-space-sm">
+                  <div className="grid grid-cols-2 gap-2">
+                    <div className="bg-surface-container-low rounded-xl p-2.5">
+                      <span className="block font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant font-semibold">Coordinates</span>
+                      <span className="block font-mono text-body-sm text-body-sm text-on-surface mt-0.5">{d.lat.toFixed(4)}°N, {d.lng.toFixed(4)}°E</span>
+                    </div>
+                    <div className="bg-surface-container-low rounded-xl p-2.5">
+                      <span className="block font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant font-semibold">Air Status</span>
+                      <span className="block font-body-sm text-body-sm text-on-surface mt-0.5">PM2.5 {d.pm2_5 ?? '–'} µg/m³</span>
+                    </div>
+                  </div>
+                  <div className="bg-surface-container-low rounded-xl p-2.5">
+                    <span className="block font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant font-semibold mb-1">Sensor actions</span>
+                    <div className="flex flex-wrap gap-2">
+                      <Link href="/weather" className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors shadow-sm">
+                        <span className="material-symbols-outlined text-[15px] text-secondary">thermostat</span> Full forecast
+                      </Link>
+                      <Link href="/complaints" className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors shadow-sm">
+                        <span className="material-symbols-outlined text-[15px] text-error">campaign</span> File ward complaint
+                      </Link>
+                      <Link href="/insights" className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-surface-container-lowest text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors shadow-sm">
+                        <span className="material-symbols-outlined text-[15px] text-secondary">insights</span> Correlations
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         ))}

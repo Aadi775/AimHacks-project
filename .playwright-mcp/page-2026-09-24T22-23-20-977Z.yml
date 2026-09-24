@@ -1,0 +1,248 @@
+- generic [active] [ref=f18e1]:
+  - banner [ref=f18e2]:
+    - generic [ref=f18e3]:
+      - generic [ref=f18e4]:
+        - generic [ref=f18e5]:
+          - img "CivicPulse Logo" [ref=f18e6]
+          - generic [ref=f18e7]:
+            - generic [ref=f18e8]: CivicPulse
+            - generic [ref=f18e9]: Resident Edition
+        - generic [ref=f18e10] [cursor=pointer]:
+          - generic [ref=f18e14]: Jaipur, RJ
+          - generic [ref=f18e15]: keyboard_arrow_down
+      - navigation [ref=f18e16]:
+        - link "Home" [ref=f18e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f18e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f18e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f18e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f18e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f18e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f18e23]:
+        - generic [ref=f18e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f18e27] [cursor=pointer]:
+          - generic [ref=f18e28]: search
+          - generic [ref=f18e29]: Search metrics
+          - generic [ref=f18e30]: ⌘K
+        - button "Notifications" [ref=f18e31] [cursor=pointer]:
+          - generic [ref=f18e32]: notifications
+        - link "person Sign In" [ref=f18e34] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f18e35]: person
+          - generic [ref=f18e37]: Sign In
+  - main [ref=f18e38]:
+    - generic [ref=f18e40]:
+      - generic [ref=f18e41]:
+        - generic [ref=f18e42]: emergency_home
+        - generic [ref=f18e43]: "Life-Threatening Emergency Notice:"
+        - generic [ref=f18e44]: For immediate gas leaks, downed high-voltage wires, or violent hazards, dial 112 directly.
+      - generic [ref=f18e45]: Open311 Direct Uplink
+    - generic [ref=f18e48]:
+      - generic [ref=f18e49]:
+        - generic [ref=f18e50]:
+          - generic [ref=f18e51]: Municipal Action Protocol • City & County of Jaipur
+          - heading "Resident Resolution & 181 Helpline" [level=1] [ref=f18e54]
+          - paragraph [ref=f18e55]: File localized municipal service requests, track neighborhood public works tickets in real time, and audit algorithmic dispatch timelines.
+        - generic [ref=f18e56]:
+          - button "find_in_page Track Ticket by ID" [ref=f18e57] [cursor=pointer]:
+            - generic [ref=f18e58]: find_in_page
+            - text: Track Ticket by ID
+          - link "add_task File Service Request" [ref=f18e59] [cursor=pointer]:
+            - /url: "#complaint-form"
+            - generic [ref=f18e60]: add_task
+            - text: File Service Request
+      - generic [ref=f18e61]:
+        - generic [ref=f18e62]:
+          - generic [ref=f18e63]:
+            - generic [ref=f18e64]: Active District Load
+            - generic [ref=f18e65]: Malviya Nagar
+          - generic [ref=f18e67]:
+            - generic [ref=f18e68]: "142"
+            - generic [ref=f18e69]: tickets
+          - generic [ref=f18e70]:
+            - generic [ref=f18e71]: Triage queue normal
+            - generic [ref=f18e72]: ↓ 14% vs avg
+        - generic [ref=f18e73]:
+          - generic [ref=f18e74]: Mean SLA Response
+          - generic [ref=f18e76]:
+            - generic [ref=f18e77]: "3.4"
+            - generic [ref=f18e78]: hours
+          - generic [ref=f18e79]:
+            - generic [ref=f18e80]: Triage queue normal
+            - generic [ref=f18e81]: 99.2% on target
+        - generic [ref=f18e82]:
+          - generic [ref=f18e83]: Resolution Ratio
+          - generic [ref=f18e85]:
+            - generic [ref=f18e86]: 89%
+            - generic [ref=f18e87]: +4.2%
+          - generic [ref=f18e88]: Triage queue normal
+        - generic [ref=f18e92]:
+          - generic [ref=f18e93]: Field Fleet Active
+          - generic [ref=f18e95]:
+            - generic [ref=f18e96]: "38"
+            - generic [ref=f18e97]: crews on road
+          - generic [ref=f18e98]:
+            - generic [ref=f18e99]: Triage queue normal
+            - generic [ref=f18e100]: Telemetry synced
+      - generic [ref=f18e101]:
+        - generic [ref=f18e102]:
+          - generic [ref=f18e103]:
+            - generic [ref=f18e104]:
+              - generic [ref=f18e105]:
+                - generic [ref=f18e106]:
+                  - generic [ref=f18e107]: Incident Dispatcher
+                  - generic [ref=f18e108]: Protocol Ver. 2025.4
+                - heading "File Public Service Request" [level=2] [ref=f18e109]
+              - generic [ref=f18e110]: Direct Link to Jaipur Nagar Nigam (181) Central
+            - generic [ref=f18e113]:
+              - generic [ref=f18e114]:
+                - generic [ref=f18e115]: 1. Incident Classification
+                - generic [ref=f18e116]: Select matching jurisdiction
+              - generic [ref=f18e117]:
+                - button "handyman Pothole & Road Hazard JMC Public Works" [ref=f18e118] [cursor=pointer]:
+                  - generic [ref=f18e119]: handyman
+                  - generic [ref=f18e121]:
+                    - generic [ref=f18e122]: Pothole & Road Hazard
+                    - generic [ref=f18e123]: JMC Public Works
+                - button "lightbulb Streetlight & Grid JVVNL Power Systems" [ref=f18e124] [cursor=pointer]:
+                  - generic [ref=f18e125]: lightbulb
+                  - generic [ref=f18e127]:
+                    - generic [ref=f18e128]: Streetlight & Grid
+                    - generic [ref=f18e129]: JVVNL Power Systems
+                - button "delete_sweep Sanitation & Waste JMC Swachh Bharat" [ref=f18e130] [cursor=pointer]:
+                  - generic [ref=f18e131]: delete_sweep
+                  - generic [ref=f18e133]:
+                    - generic [ref=f18e134]: Sanitation & Waste
+                    - generic [ref=f18e135]: JMC Swachh Bharat
+                - button "directions_bus Transit & Bus Shelter JCTSL Municipal Transit" [ref=f18e136] [cursor=pointer]:
+                  - generic [ref=f18e137]: directions_bus
+                  - generic [ref=f18e139]:
+                    - generic [ref=f18e140]: Transit & Bus Shelter
+                    - generic [ref=f18e141]: JCTSL Municipal Transit
+                - button "park Tree & Park Hazard JMC Parks & Gardens" [ref=f18e142] [cursor=pointer]:
+                  - generic [ref=f18e143]: park
+                  - generic [ref=f18e145]:
+                    - generic [ref=f18e146]: Tree & Park Hazard
+                    - generic [ref=f18e147]: JMC Parks & Gardens
+                - button "water_drop Water Supply & Drainage Jaipur Jal Board" [ref=f18e148] [cursor=pointer]:
+                  - generic [ref=f18e149]: water_drop
+                  - generic [ref=f18e151]:
+                    - generic [ref=f18e152]: Water Supply & Drainage
+                    - generic [ref=f18e153]: Jaipur Jal Board
+            - generic [ref=f18e154]:
+              - generic [ref=f18e155]:
+                - generic [ref=f18e156]: 2. Geographic Coordinates & Address
+                - generic [ref=f18e157]: Jaipur Parcel Pinning
+              - generic [ref=f18e158]:
+                - generic [ref=f18e159]:
+                  - generic [ref=f18e160]: location_on
+                  - textbox "Enter street address, intersection, or coordinates..." [ref=f18e161]
+                - button "my_location Auto-Locate GPS" [ref=f18e162] [cursor=pointer]:
+                  - generic [ref=f18e163]: my_location
+                  - text: Auto-Locate GPS
+            - generic [ref=f18e165]:
+              - generic [ref=f18e166]: 3. Complaint Summary & Description
+              - textbox "Brief subject" [ref=f18e167]
+              - textbox "Provide context..." [ref=f18e168]
+            - generic [ref=f18e169]:
+              - generic [ref=f18e170]: Visual Verification Artifacts
+              - generic [ref=f18e171] [cursor=pointer]:
+                - generic [ref=f18e172]: add_a_photo
+                - generic [ref=f18e174]: Drag & drop inspection photographs or browse files
+                - generic [ref=f18e175]: Max 25MB (HEIC, JPG, PNG)
+            - generic [ref=f18e176]:
+              - generic [ref=f18e177]: 4. Impact Severity
+              - generic [ref=f18e178]:
+                - generic [ref=f18e179] [cursor=pointer]:
+                  - radio "Routine Scheduled cycle (48h-72h)" [ref=f18e180]
+                  - generic [ref=f18e181]:
+                    - generic [ref=f18e182]: Routine
+                    - generic [ref=f18e183]: Scheduled cycle (48h-72h)
+                - generic [ref=f18e184] [cursor=pointer]:
+                  - radio "Urgent Commute disruption (12h-24h)" [checked] [ref=f18e185]
+                  - generic [ref=f18e186]:
+                    - generic [ref=f18e187]: Urgent
+                    - generic [ref=f18e188]: Commute disruption (12h-24h)
+                - generic [ref=f18e189] [cursor=pointer]:
+                  - radio "Hazardous Immediate safety risk (<4h)" [ref=f18e190]
+                  - generic [ref=f18e191]:
+                    - generic [ref=f18e192]: Hazardous
+                    - generic [ref=f18e193]: Immediate safety risk (<4h)
+            - generic [ref=f18e194]:
+              - generic [ref=f18e195]:
+                - generic [ref=f18e196]: shield
+                - generic [ref=f18e197]: Encrypted SHA-256 Civic Municipal Hash
+              - link "login Sign In to File Complaint" [ref=f18e199] [cursor=pointer]:
+                - /url: /login
+                - generic [ref=f18e200]: login
+                - text: Sign In to File Complaint
+          - generic [ref=f18e201]:
+            - generic [ref=f18e202]:
+              - heading "Target Service Level Agreements (SLAs)" [level=3] [ref=f18e203]
+              - generic [ref=f18e204]: Department Timelines
+            - generic [ref=f18e205]:
+              - generic [ref=f18e206]:
+                - generic [ref=f18e207]:
+                  - generic [ref=f18e208]: JMC Potholes
+                  - generic [ref=f18e209]: 26h Actual
+                - generic [ref=f18e210]: "Statutory SLA: 48h limit"
+              - generic [ref=f18e213]:
+                - generic [ref=f18e214]:
+                  - generic [ref=f18e215]: JVVNL Lighting
+                  - generic [ref=f18e216]: 38h Actual
+                - generic [ref=f18e217]: "Statutory SLA: 72h limit"
+              - generic [ref=f18e220]:
+                - generic [ref=f18e221]:
+                  - generic [ref=f18e222]: Sidewalk Sanitation
+                  - generic [ref=f18e223]: 14h Actual
+                - generic [ref=f18e224]: "Statutory SLA: 24h limit"
+        - generic [ref=f18e227]:
+          - generic [ref=f18e228]:
+            - generic [ref=f18e229]:
+              - generic [ref=f18e230]:
+                - text: Live Transparency Feed
+                - heading "Community Ticket Ledger" [level=2] [ref=f18e231]
+              - button "sync" [ref=f18e232] [cursor=pointer]
+            - generic [ref=f18e234]:
+              - button "All Nearby (42)" [ref=f18e235] [cursor=pointer]
+              - button "My Tickets (3)" [ref=f18e236] [cursor=pointer]
+              - button "Dispatched" [ref=f18e237] [cursor=pointer]
+              - button "Resolved" [ref=f18e238] [cursor=pointer]
+            - generic [ref=f18e239]: No resident complaints filed in this city yet — be the first to report.
+          - generic [ref=f18e241]:
+            - generic [ref=f18e242]:
+              - generic [ref=f18e243]: account_balance
+              - heading "Direct Escalations & Oversight" [level=3] [ref=f18e244]
+            - paragraph [ref=f18e245]: Unresolved tickets exceeding maximum SLA thresholds are immediately flagged to the Board of Supervisors district ombudsman.
+            - generic [ref=f18e246]:
+              - generic [ref=f18e247]:
+                - generic [ref=f18e248]: Ward Councillor Liaison
+                - generic [ref=f18e249]: +91 141 274 1112
+              - generic [ref=f18e250]:
+                - generic [ref=f18e251]: Jaipur 181 24x7 Helpline
+                - generic [ref=f18e252]: Dial 181 / +91 141 274 1111
+              - generic [ref=f18e253]:
+                - generic [ref=f18e254]: Nagar Nigam Open311 REST API
+                - generic [ref=f18e255]: api.jaipur.gov.in/311/v2
+    - generic [ref=f18e257]:
+      - generic [ref=f18e258]:
+        - generic [ref=f18e259]: Municipal Telemetry Feeds Active
+        - generic [ref=f18e262]: •
+        - generic [ref=f18e263]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f18e264]:
+        - generic [ref=f18e265]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f18e266]:
+          - link "Status" [ref=f18e267] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f18e268] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f18e269] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f18e271] [cursor=pointer]:
+      - generic [ref=f18e272]: smart_toy
+      - generic [ref=f18e273]: CivicPulse AI

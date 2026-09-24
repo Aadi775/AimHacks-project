@@ -1,0 +1,367 @@
+- generic [active] [ref=f51e1]:
+  - banner [ref=f51e2]:
+    - generic [ref=f51e3]:
+      - generic [ref=f51e4]:
+        - button "Open navigation menu" [ref=f51e91] [cursor=pointer]:
+          - generic [ref=f51e92]: menu
+        - generic [ref=f51e5]:
+          - img "CivicPulse Logo" [ref=f51e6]
+          - generic [ref=f51e7]:
+            - generic: CivicPulse
+            - generic [ref=f51e9]: Resident Edition
+      - generic [ref=f51e23]:
+        - generic [ref=f51e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f51e27] [cursor=pointer]:
+          - generic [ref=f51e28]: search
+          - generic [ref=f51e29]: Search metrics
+          - generic [ref=f51e30]: ⌘K
+        - button "Notifications" [ref=f51e31] [cursor=pointer]:
+          - generic [ref=f51e32]: notifications
+        - generic [ref=f51e93]:
+          - link "verified_user @trace_user_2" [ref=f51e94] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f51e95]: verified_user
+            - generic [ref=f51e96]: "@trace_user_2"
+          - button "logout Logout" [ref=f51e97] [cursor=pointer]:
+            - generic [ref=f51e98]: logout
+            - generic [ref=f51e99]: Logout
+  - main [ref=f51e38]:
+    - generic [ref=f51e39]:
+      - generic [ref=f51e40]:
+        - generic [ref=f51e41]: Active Jaipur Telemetry
+        - heading "Jaipur Transit & Community Activity" [level=1] [ref=f51e100]
+        - paragraph [ref=f51e45]: Live metro, bus, and suburban rail network health with real-time arrivals and citizen-reported 181 civic events.
+        - generic [ref=f51e46]:
+          - generic [ref=f51e47]:
+            - generic [ref=f51e48]:
+              - generic [ref=f51e49]: location_city
+              - text: "City:"
+            - button "Jaipur" [ref=f51e101] [cursor=pointer]
+            - button "Delhi" [ref=f51e103] [cursor=pointer]
+            - button "Mumbai" [ref=f51e104] [cursor=pointer]
+            - button "Bengaluru" [ref=f51e105] [cursor=pointer]
+            - button "Hyderabad" [ref=f51e106] [cursor=pointer]
+            - button "Ahmedabad" [ref=f51e107] [cursor=pointer]
+            - button "Chennai" [ref=f51e108] [cursor=pointer]
+            - button "Kolkata" [ref=f51e109] [cursor=pointer]
+            - button "Pune" [ref=f51e110] [cursor=pointer]
+            - button "Lucknow" [ref=f51e111] [cursor=pointer]
+            - button "Udaipur" [ref=f51e112] [cursor=pointer]
+            - button "Agra" [ref=f51e113] [cursor=pointer]
+          - generic [ref=f51e51]:
+            - generic [ref=f51e52]: search
+            - textbox "Search any city — India or worldwide…" [ref=f51e53]
+      - generic [ref=f51e55]:
+        - generic [ref=f51e114]:
+          - generic [ref=f51e115]: check_circle
+          - generic [ref=f51e116]: 100% Lines On Schedule
+        - generic [ref=f51e117]:
+          - generic [ref=f51e118]: tram
+          - generic [ref=f51e119]: 2 Rail / Metro Lines
+        - generic [ref=f51e120]:
+          - generic [ref=f51e121]: directions_bus
+          - generic [ref=f51e122]: 3 Bus Routes
+        - generic [ref=f51e123]:
+          - generic [ref=f51e124]: assignment
+          - generic [ref=f51e125]: 6 Active 181 Reports
+      - generic [ref=f51e68]:
+        - generic [ref=f51e126]:
+          - generic [ref=f51e127]:
+            - generic [ref=f51e128]:
+              - heading "Network Line Health" [level=2] [ref=f51e129]
+              - paragraph [ref=f51e130]: Live arrivals refresh every 60s • METRO + BUS operators
+            - generic [ref=f51e131]:
+              - button "All Lines" [ref=f51e132] [cursor=pointer]
+              - button "Metro" [ref=f51e133] [cursor=pointer]
+              - button "Bus" [ref=f51e134] [cursor=pointer]
+          - generic [ref=f51e135]:
+            - article [ref=f51e136]:
+              - generic [ref=f51e137]:
+                - generic [ref=f51e138]:
+                  - generic [ref=f51e139]: tram
+                  - generic [ref=f51e141]:
+                    - generic [ref=f51e142]:
+                      - generic [ref=f51e143]: Jaipur Metro Pink Line
+                      - generic [ref=f51e144]: JMRC
+                    - generic [ref=f51e145]: Mansarovar ↔ Chandpole
+                - generic [ref=f51e146]: ON TIME
+              - generic [ref=f51e148]:
+                - generic [ref=f51e149]:
+                  - generic [ref=f51e150]: schedule
+                  - generic [ref=f51e151]:
+                    - strong [ref=f51e152]: 9.3m
+                    - generic [ref=f51e153]: → Chandpole
+                  - generic [ref=f51e154]: P2
+                - generic [ref=f51e155]:
+                  - generic [ref=f51e156]: schedule
+                  - generic [ref=f51e157]:
+                    - strong [ref=f51e158]: 21.9m
+                    - generic [ref=f51e159]: → Chandpole
+                  - generic [ref=f51e160]: P3
+                - generic [ref=f51e161]:
+                  - generic [ref=f51e162]: schedule
+                  - generic [ref=f51e163]:
+                    - strong [ref=f51e164]: 29.1m
+                    - generic [ref=f51e165]: → Chandpole
+                  - generic [ref=f51e166]: P1
+              - generic [ref=f51e167]:
+                - generic [ref=f51e168]:
+                  - generic [ref=f51e169]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f51e170]: 10 min
+                - generic [ref=f51e171]:
+                  - generic [ref=f51e172]: toll
+                  - text: 9 stations
+                - generic [ref=f51e173]:
+                  - generic [ref=f51e174]: schedule
+                  - text: 06:15 – 21:30
+            - article [ref=f51e175]:
+              - generic [ref=f51e176]:
+                - generic [ref=f51e177]:
+                  - generic [ref=f51e178]: tram
+                  - generic [ref=f51e180]:
+                    - generic [ref=f51e181]:
+                      - generic [ref=f51e182]: Jaipur Metro Orange Line
+                      - generic [ref=f51e183]: JMRC
+                    - generic [ref=f51e184]: Sitapura Industrial Area ↔ Ambabari
+                - generic [ref=f51e185]: ON TIME
+              - generic [ref=f51e187]:
+                - generic [ref=f51e188]:
+                  - generic [ref=f51e189]: schedule
+                  - generic [ref=f51e190]:
+                    - strong [ref=f51e191]: 10.6m
+                    - generic [ref=f51e192]: → Ambabari
+                  - generic [ref=f51e193]: P1
+                - generic [ref=f51e194]:
+                  - generic [ref=f51e195]: schedule
+                  - generic [ref=f51e196]:
+                    - strong [ref=f51e197]: 22.7m
+                    - generic [ref=f51e198]: → Ambabari
+                  - generic [ref=f51e199]: P2
+                - generic [ref=f51e200]:
+                  - generic [ref=f51e201]: schedule
+                  - generic [ref=f51e202]:
+                    - strong [ref=f51e203]: 34m
+                    - generic [ref=f51e204]: → Ambabari
+                  - generic [ref=f51e205]: P2
+              - generic [ref=f51e206]:
+                - generic [ref=f51e207]:
+                  - generic [ref=f51e208]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f51e209]: 12 min
+                - generic [ref=f51e210]:
+                  - generic [ref=f51e211]: toll
+                  - text: 8 stations
+                - generic [ref=f51e212]:
+                  - generic [ref=f51e213]: schedule
+                  - text: 06:30 – 21:00
+            - article [ref=f51e214]:
+              - generic [ref=f51e215]:
+                - generic [ref=f51e216]:
+                  - generic [ref=f51e217]: directions_bus
+                  - generic [ref=f51e219]:
+                    - generic [ref=f51e220]:
+                      - generic [ref=f51e221]: JCTSL AC-1 Volvo
+                      - generic [ref=f51e222]: JCTSL
+                    - generic [ref=f51e223]: Sanganeri Gate ↔ Vaishali Nagar
+                - generic [ref=f51e224]: ON TIME
+              - generic [ref=f51e226]:
+                - generic [ref=f51e227]:
+                  - generic [ref=f51e228]: schedule
+                  - generic [ref=f51e229]:
+                    - strong [ref=f51e230]: 15.4m
+                    - generic [ref=f51e231]: → Vaishali Nagar
+                  - generic [ref=f51e232]: P1
+                - generic [ref=f51e233]:
+                  - generic [ref=f51e234]: schedule
+                  - generic [ref=f51e235]:
+                    - strong [ref=f51e236]: 29m
+                    - generic [ref=f51e237]: → Vaishali Nagar
+                  - generic [ref=f51e238]: P2
+                - generic [ref=f51e239]:
+                  - generic [ref=f51e240]: schedule
+                  - generic [ref=f51e241]:
+                    - strong [ref=f51e242]: 45.9m
+                    - generic [ref=f51e243]: → Vaishali Nagar
+                  - generic [ref=f51e244]: P2
+              - generic [ref=f51e245]:
+                - generic [ref=f51e246]:
+                  - generic [ref=f51e247]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f51e248]: 15 min
+                - generic [ref=f51e249]:
+                  - generic [ref=f51e250]: toll
+                  - text: 22 stations
+                - generic [ref=f51e251]:
+                  - generic [ref=f51e252]: schedule
+                  - text: 06:00 – 22:00
+            - article [ref=f51e253]:
+              - generic [ref=f51e254]:
+                - generic [ref=f51e255]:
+                  - generic [ref=f51e256]: directions_bus
+                  - generic [ref=f51e258]:
+                    - generic [ref=f51e259]:
+                      - generic [ref=f51e260]: JCTSL Route 9
+                      - generic [ref=f51e261]: JCTSL
+                    - generic [ref=f51e262]: Sindhi Camp ↔ Jagatpura
+                - generic [ref=f51e263]: ON TIME
+              - generic [ref=f51e265]:
+                - generic [ref=f51e266]:
+                  - generic [ref=f51e267]: schedule
+                  - generic [ref=f51e268]:
+                    - strong [ref=f51e269]: 8.5m
+                    - generic [ref=f51e270]: → Jagatpura
+                  - generic [ref=f51e271]: P1
+                - generic [ref=f51e272]:
+                  - generic [ref=f51e273]: schedule
+                  - generic [ref=f51e274]:
+                    - strong [ref=f51e275]: 14.4m
+                    - generic [ref=f51e276]: → Jagatpura
+                  - generic [ref=f51e277]: P3
+                - generic [ref=f51e278]:
+                  - generic [ref=f51e279]: schedule
+                  - generic [ref=f51e280]:
+                    - strong [ref=f51e281]: 23.3m
+                    - generic [ref=f51e282]: → Jagatpura
+                  - generic [ref=f51e283]: P2
+              - generic [ref=f51e284]:
+                - generic [ref=f51e285]:
+                  - generic [ref=f51e286]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f51e287]: 8 min
+                - generic [ref=f51e288]:
+                  - generic [ref=f51e289]: toll
+                  - text: 18 stations
+                - generic [ref=f51e290]:
+                  - generic [ref=f51e291]: schedule
+                  - text: 05:45 – 22:15
+            - article [ref=f51e292]:
+              - generic [ref=f51e293]:
+                - generic [ref=f51e294]:
+                  - generic [ref=f51e295]: directions_bus
+                  - generic [ref=f51e297]:
+                    - generic [ref=f51e298]:
+                      - generic [ref=f51e299]: JCTSL Route 7
+                      - generic [ref=f51e300]: JCTSL
+                    - generic [ref=f51e301]: Amer Fort ↔ Tonk Phatak
+                - generic [ref=f51e302]: ON TIME
+              - generic [ref=f51e304]:
+                - generic [ref=f51e305]:
+                  - generic [ref=f51e306]: schedule
+                  - generic [ref=f51e307]:
+                    - strong [ref=f51e308]: 2.8m
+                    - generic [ref=f51e309]: → Tonk Phatak
+                  - generic [ref=f51e310]: P2
+                - generic [ref=f51e311]:
+                  - generic [ref=f51e312]: schedule
+                  - generic [ref=f51e313]:
+                    - strong [ref=f51e314]: 13.2m
+                    - generic [ref=f51e315]: → Tonk Phatak
+                  - generic [ref=f51e316]: P1
+                - generic [ref=f51e317]:
+                  - generic [ref=f51e318]: schedule
+                  - generic [ref=f51e319]:
+                    - strong [ref=f51e320]: 22.8m
+                    - generic [ref=f51e321]: → Tonk Phatak
+                  - generic [ref=f51e322]: P1
+              - generic [ref=f51e323]:
+                - generic [ref=f51e324]:
+                  - generic [ref=f51e325]: timelapse
+                  - text: "Headway:"
+                  - strong [ref=f51e326]: 10 min
+                - generic [ref=f51e327]:
+                  - generic [ref=f51e328]: toll
+                  - text: 16 stations
+                - generic [ref=f51e329]:
+                  - generic [ref=f51e330]: schedule
+                  - text: 06:00 – 21:45
+        - generic [ref=f51e331]:
+          - generic [ref=f51e332]:
+            - generic [ref=f51e333]:
+              - heading "Community 181 Feed" [level=2] [ref=f51e334]
+              - paragraph [ref=f51e335]: Live civic response dispatch
+            - link "add Report Issue" [ref=f51e336] [cursor=pointer]:
+              - /url: /complaints
+              - generic [ref=f51e337]: add
+              - generic [ref=f51e338]: Report Issue
+          - generic [ref=f51e339]:
+            - article [ref=f51e340]:
+              - generic [ref=f51e341]:
+                - generic [ref=f51e342]:
+                  - generic [ref=f51e343]: emergency
+                  - generic [ref=f51e345]:
+                    - generic [ref=f51e346]: Resident Report
+                    - generic [ref=f51e347]: 11:05 PM
+                - generic [ref=f51e348]: WARNING
+              - paragraph [ref=f51e349]: "Resident report [Transit & Bus Shelter]: POTHOLES — Pinned 26.9000, 75.8162"
+            - article [ref=f51e350]:
+              - generic [ref=f51e351]:
+                - generic [ref=f51e352]:
+                  - generic [ref=f51e353]: emergency
+                  - generic [ref=f51e355]:
+                    - generic [ref=f51e356]: Resident Report
+                    - generic [ref=f51e357]: 11:09 PM
+                - generic [ref=f51e358]: INFO
+              - paragraph [ref=f51e359]: "Resident report [Transit & Bus Shelter]: ERF — Pinned 26.9086, 75.7397"
+            - article [ref=f51e360]:
+              - generic [ref=f51e361]:
+                - generic [ref=f51e362]:
+                  - generic [ref=f51e363]: emergency
+                  - generic [ref=f51e365]:
+                    - generic [ref=f51e366]: Resident Report
+                    - generic [ref=f51e367]: 11:21 PM
+                - generic [ref=f51e368]: WARNING
+              - paragraph [ref=f51e369]: "Resident report [Transit & Bus Shelter]: meow — Pinned 26.9046, 75.8066"
+            - article [ref=f51e370]:
+              - generic [ref=f51e371]:
+                - generic [ref=f51e372]:
+                  - generic [ref=f51e373]: traffic
+                  - generic [ref=f51e375]:
+                    - generic [ref=f51e376]: Traffic Cell
+                    - generic [ref=f51e377]: 11:23 PM
+                - generic [ref=f51e378]: INFO
+              - paragraph [ref=f51e379]: "MI Road: Free Flow traffic, avg speed 55 km/h"
+            - article [ref=f51e380]:
+              - generic [ref=f51e381]:
+                - generic [ref=f51e382]:
+                  - generic [ref=f51e383]: traffic
+                  - generic [ref=f51e385]:
+                    - generic [ref=f51e386]: Traffic Cell
+                    - generic [ref=f51e387]: 11:21 PM
+                - generic [ref=f51e388]: INFO
+              - paragraph [ref=f51e389]: "Ajmer Road: Free Flow traffic, avg speed 44 km/h"
+            - article [ref=f51e390]:
+              - generic [ref=f51e391]:
+                - generic [ref=f51e392]:
+                  - generic [ref=f51e393]: traffic
+                  - generic [ref=f51e395]:
+                    - generic [ref=f51e396]: Traffic Cell
+                    - generic [ref=f51e397]: 11:21 PM
+                - generic [ref=f51e398]: WARNING
+              - paragraph [ref=f51e399]: "Sikar Road: Moderate traffic, avg speed 29 km/h"
+          - generic [ref=f51e400]:
+            - generic [ref=f51e401]:
+              - generic [ref=f51e402]: cell_tower
+              - heading "Civic SMS Push Alerts" [level=3] [ref=f51e403]
+            - paragraph [ref=f51e404]: Subscribe to instant SMS alerts for localized Jaipur Metro delays, power cuts, and road closures.
+            - generic [ref=f51e405]:
+              - textbox "Ward number or locality…" [ref=f51e406]
+              - button "Subscribe" [ref=f51e407] [cursor=pointer]
+    - generic [ref=f51e72]:
+      - generic [ref=f51e73]:
+        - generic [ref=f51e74]: Municipal Telemetry Feeds Active
+        - generic [ref=f51e77]: •
+        - generic [ref=f51e78]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f51e79]:
+        - generic [ref=f51e80]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f51e81]:
+          - link "Status" [ref=f51e82] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f51e83] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f51e84] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f51e86] [cursor=pointer]:
+      - generic [ref=f51e87]: smart_toy
+      - generic [ref=f51e88]: CivicPulse AI
+  - alert [ref=f51e90]

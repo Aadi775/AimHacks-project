@@ -1,0 +1,53 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - generic [ref=f8e5]:
+        - img "CivicPulse Logo" [ref=f8e6]
+        - generic [ref=f8e7]:
+          - generic [ref=f8e8]: CivicPulse
+          - generic [ref=f8e9]: Resident Edition
+      - generic [ref=f8e10]:
+        - generic [ref=f8e11]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f8e14] [cursor=pointer]:
+          - generic [ref=f8e15]: search
+          - generic [ref=f8e16]: Search metrics
+          - generic [ref=f8e17]: ⌘K
+        - button "Notifications" [ref=f8e18] [cursor=pointer]:
+          - generic [ref=f8e19]: notifications
+        - link "person Sign In" [ref=f8e21] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f8e22]: person
+          - generic [ref=f8e24]: Sign In
+  - main [ref=f8e25]:
+    - generic [ref=f8e26]:
+      - generic [ref=f8e27]:
+        - generic [ref=f8e28]:
+          - generic [ref=f8e29]: Live OpenMeteo Feed
+          - generic [ref=f8e31]: Refreshed every 2 min • No API key needed
+        - heading "Weather & Environment" [level=1] [ref=f8e32]
+        - paragraph [ref=f8e33]: Real-time atmospheric conditions, air quality, and 7-day outlook streamed from global sensor models.
+        - generic [ref=f8e34]:
+          - generic [ref=f8e36]:
+            - generic [ref=f8e37]: location_city
+            - text: "City:"
+          - generic [ref=f8e39]:
+            - generic [ref=f8e40]: search
+            - textbox "Search any city — India or worldwide…" [ref=f8e41]
+      - generic [ref=f8e42]: Fetching live atmospheric telemetry…
+    - generic [ref=f8e46]:
+      - generic [ref=f8e47]:
+        - generic [ref=f8e48]: Municipal Telemetry Feeds Active
+        - generic [ref=f8e51]: •
+        - generic [ref=f8e52]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f8e53]:
+        - generic [ref=f8e54]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f8e55]:
+          - link "Status" [ref=f8e56] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f8e57] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f8e58] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f8e60] [cursor=pointer]:
+      - generic [ref=f8e61]: smart_toy
+      - generic [ref=f8e62]: CivicPulse AI

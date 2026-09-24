@@ -1,0 +1,353 @@
+- generic [active] [ref=f48e1]:
+  - banner [ref=f48e2]:
+    - generic [ref=f48e3]:
+      - generic [ref=f48e4]:
+        - generic [ref=f48e5]:
+          - img "CivicPulse Logo" [ref=f48e6]
+          - generic [ref=f48e7]:
+            - generic [ref=f48e8]: CivicPulse
+            - generic [ref=f48e9]: Resident Edition
+        - generic [ref=f48e10] [cursor=pointer]:
+          - generic [ref=f48e14]: Jaipur, Rajasthan
+          - generic [ref=f48e15]: keyboard_arrow_down
+      - navigation [ref=f48e16]:
+        - link "Home" [ref=f48e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f48e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f48e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f48e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f48e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f48e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f48e23]:
+        - generic [ref=f48e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f48e27] [cursor=pointer]:
+          - generic [ref=f48e28]: search
+          - generic [ref=f48e29]: Search metrics
+          - generic [ref=f48e30]: ⌘K
+        - button "Notifications" [ref=f48e31] [cursor=pointer]:
+          - generic [ref=f48e32]: notifications
+        - generic [ref=f48e34]:
+          - link "verified_user @trace_user_2" [ref=f48e35] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f48e36]: verified_user
+            - generic [ref=f48e37]: "@trace_user_2"
+          - button "logout Logout" [ref=f48e38] [cursor=pointer]:
+            - generic [ref=f48e39]: logout
+            - generic [ref=f48e40]: Logout
+  - main [ref=f48e41]:
+    - generic [ref=f48e42]:
+      - generic [ref=f48e43]:
+        - generic [ref=f48e47]: Jaipur Telemetry Pulse
+        - generic [ref=f48e48]: /
+        - generic [ref=f48e49]: 22°C • Clear
+      - heading "Your city, in real time." [level=1] [ref=f48e50]
+      - paragraph [ref=f48e51]: Hyperlocal environmental vitals, seamless transit telemetry, and verified neighborhood dispatches across Jaipur.
+      - generic [ref=f48e53]:
+        - generic [ref=f48e54]:
+          - generic [ref=f48e55]:
+            - generic [ref=f48e56]: location_city
+            - text: "City:"
+          - button "Jaipur" [ref=f48e57] [cursor=pointer]
+          - button "Delhi" [ref=f48e59] [cursor=pointer]
+          - button "Mumbai" [ref=f48e60] [cursor=pointer]
+          - button "Bengaluru" [ref=f48e61] [cursor=pointer]
+          - button "Hyderabad" [ref=f48e62] [cursor=pointer]
+          - button "Ahmedabad" [ref=f48e63] [cursor=pointer]
+          - button "Chennai" [ref=f48e64] [cursor=pointer]
+          - button "Kolkata" [ref=f48e65] [cursor=pointer]
+          - button "Pune" [ref=f48e66] [cursor=pointer]
+          - button "Lucknow" [ref=f48e67] [cursor=pointer]
+          - button "Udaipur" [ref=f48e68] [cursor=pointer]
+          - button "Agra" [ref=f48e69] [cursor=pointer]
+        - generic [ref=f48e71]:
+          - generic [ref=f48e72]: search
+          - textbox "Search any city — India or worldwide…" [ref=f48e73]
+      - generic [ref=f48e74]:
+        - generic [ref=f48e75]:
+          - generic [ref=f48e76]: search
+          - textbox "Search neighborhood, air quality sensor, or transit line..." [ref=f48e77]
+          - generic [ref=f48e78]:
+            - generic [ref=f48e79]: Filter
+            - generic [ref=f48e80]: tune
+        - generic [ref=f48e81]:
+          - generic [ref=f48e82]: "Quick jumps:"
+          - button "Malviya Nagar" [ref=f48e83] [cursor=pointer]
+          - button "C-Scheme Solar" [ref=f48e84] [cursor=pointer]
+          - button "Jaipur Metro Pink Line" [ref=f48e85] [cursor=pointer]
+          - button "Jal Mahal Humidity" [ref=f48e86] [cursor=pointer]
+      - generic [ref=f48e88]:
+        - generic [ref=f48e89]:
+          - generic [ref=f48e90]: verified
+          - generic [ref=f48e92]:
+            - generic [ref=f48e93]: Civic Index
+            - generic [ref=f48e94]: 88 Optimal
+        - generic [ref=f48e95]:
+          - generic [ref=f48e96]: air
+          - generic [ref=f48e98]:
+            - generic [ref=f48e99]: Air Quality
+            - generic [ref=f48e100]: – MODERATE
+        - generic [ref=f48e101]:
+          - generic [ref=f48e102]: tram
+          - generic [ref=f48e104]:
+            - generic [ref=f48e105]: Transit Cadence
+            - generic [ref=f48e106]: 94% On-Time
+        - generic [ref=f48e107]:
+          - generic [ref=f48e108]: bolt
+          - generic [ref=f48e110]:
+            - generic [ref=f48e111]: Clean Grid
+            - generic [ref=f48e112]: 100% Hydro/Solar
+    - generic [ref=f48e113]:
+      - generic [ref=f48e114]:
+        - generic [ref=f48e115]:
+          - text: Atmospheric & Operational Cadence
+          - heading "Live City Telemetry" [level=2] [ref=f48e116]
+        - generic [ref=f48e117]: Continuous aggregation from 1,420 IoT monitoring nodes
+      - generic [ref=f48e118]:
+        - generic [ref=f48e119]:
+          - generic [ref=f48e120]:
+            - generic [ref=f48e121]:
+              - generic [ref=f48e122]: Atmosphere & Wind
+              - generic [ref=f48e125]: Marine Inversion
+            - generic [ref=f48e126]:
+              - heading "Hyperlocal Microclimates" [level=3] [ref=f48e127]
+              - paragraph [ref=f48e128]: Wide 12° thermal spread across 7 miles due to desert thermal gradients.
+            - generic [ref=f48e129]:
+              - generic [ref=f48e130]:
+                - generic [ref=f48e131]: C-Scheme
+                - generic [ref=f48e132]: 33°
+                - generic [ref=f48e133]:
+                  - generic [ref=f48e134]: wb_sunny
+                  - text: Clear
+              - generic [ref=f48e135]:
+                - generic [ref=f48e136]: Malviya Nagar
+                - generic [ref=f48e137]: 35°
+                - generic [ref=f48e138]:
+                  - generic [ref=f48e139]: wb_sunny
+                  - text: Sunny
+              - generic [ref=f48e140]:
+                - generic [ref=f48e141]: Vaishali
+                - generic [ref=f48e142]: 34°
+                - generic [ref=f48e143]:
+                  - generic [ref=f48e144]: air
+                  - text: Breezy
+            - generic [ref=f48e146]:
+              - generic [ref=f48e147]: explore
+              - generic [ref=f48e148]:
+                - generic [ref=f48e149]: Aravalli Wind Vector
+                - generic [ref=f48e150]: WNW 14 mph • Gusting 21 mph
+          - link "Explore Weather & Environment arrow_forward" [ref=f48e153] [cursor=pointer]:
+            - /url: /weather
+            - generic [ref=f48e154]: Explore Weather & Environment
+            - generic [ref=f48e155]: arrow_forward
+        - generic [ref=f48e156]:
+          - generic [ref=f48e157]:
+            - generic [ref=f48e158]:
+              - generic [ref=f48e159]: Transit & Services
+              - generic [ref=f48e162]: Nominal Flow
+            - generic [ref=f48e163]:
+              - heading "Real-time Transit & 311" [level=3] [ref=f48e164]
+              - paragraph [ref=f48e165]: Multi-modal artery monitoring with verified civic issue dispatch resolution.
+            - generic [ref=f48e166]:
+              - generic [ref=f48e167]:
+                - generic [ref=f48e168]:
+                  - generic [ref=f48e169]: Jaipur Metro
+                  - generic [ref=f48e170]: Yellow / Red Lines
+                - generic [ref=f48e171]: Every 8 min • Nominal
+              - generic [ref=f48e174]:
+                - generic [ref=f48e175]:
+                  - generic [ref=f48e176]: JCTSL
+                  - generic [ref=f48e177]: AC1 / Route 9
+                - generic [ref=f48e178]: 96% Cadence
+            - generic [ref=f48e181]:
+              - generic [ref=f48e182]:
+                - generic [ref=f48e183]: task_alt
+                - generic [ref=f48e184]: 311 Community Resolution
+              - paragraph [ref=f48e185]: "Tonk Road Cycle Track Sweeper dispatch completed (Ticket #18942)"
+              - generic [ref=f48e186]: Resolved in 42 minutes • Malviya Nagar
+          - link "View Transit & Incidents arrow_forward" [ref=f48e187] [cursor=pointer]:
+            - /url: /transit
+            - generic [ref=f48e188]: View Transit & Incidents
+            - generic [ref=f48e189]: arrow_forward
+        - generic [ref=f48e190]:
+          - generic [ref=f48e191]:
+            - generic [ref=f48e192]:
+              - generic [ref=f48e193]: Infrastructure Grid
+              - generic [ref=f48e196]: 100% Clean Source
+            - generic [ref=f48e197]:
+              - heading "Civic Health Index & Grid" [level=3] [ref=f48e198]
+              - paragraph [ref=f48e199]: Synthesized composite score of air purity, grid resilience, and transit accuracy.
+            - generic [ref=f48e200]:
+              - generic [ref=f48e201]:
+                - generic [ref=f48e202]: "88"
+                - generic [ref=f48e207]:
+                  - generic [ref=f48e208]: Composite Health
+                  - generic [ref=f48e209]: Upper 95th Percentile
+              - generic [ref=f48e210]: 24h Cadence
+            - generic [ref=f48e216]:
+              - generic [ref=f48e217]: Bisalpur Water Grid + Jaipur Solar
+              - generic [ref=f48e218]: 742 MW / 0g CO2 eq
+          - link "Explore City Overview arrow_forward" [ref=f48e222] [cursor=pointer]:
+            - /url: /overview
+            - generic [ref=f48e223]: Explore City Overview
+            - generic [ref=f48e224]: arrow_forward
+    - generic [ref=f48e225]:
+      - generic [ref=f48e226]:
+        - generic [ref=f48e227]:
+          - text: Spatial Urban Intelligence
+          - heading "Jaipur Neighborhood Explorer" [level=2] [ref=f48e228]
+        - generic [ref=f48e229]: Live readings via OpenMeteo • 4 active nodes
+      - generic [ref=f48e230]:
+        - generic [ref=f48e328]:
+          - generic [ref=f48e329]:
+            - img "Malviya Nagar" [ref=f48e330]
+            - generic [ref=f48e332]: AQI 85 • MODERATE
+          - generic [ref=f48e335]:
+            - generic [ref=f48e336]:
+              - generic [ref=f48e337]: 26.86°N 75.82°E
+              - heading "Malviya Nagar" [level=3] [ref=f48e338]
+              - generic [ref=f48e339]:
+                - generic [ref=f48e340]: Wind 15 km/h
+                - generic [ref=f48e341]: Humidity 84%
+                - generic [ref=f48e342]: PM2.5 –
+            - generic [ref=f48e343]:
+              - generic [ref=f48e344]: 22°C
+              - button "View District" [ref=f48e345] [cursor=pointer]
+            - generic [ref=f48e346]:
+              - generic [ref=f48e347]: info
+              - generic [ref=f48e348]: Pleasant conditions for outdoor activity.
+        - generic [ref=f48e349]:
+          - generic [ref=f48e350]:
+            - img "Mansarovar" [ref=f48e351]
+            - generic [ref=f48e353]: AQI 85 • MODERATE
+          - generic [ref=f48e356]:
+            - generic [ref=f48e357]:
+              - generic [ref=f48e358]: 26.85°N 75.77°E
+              - heading "Mansarovar" [level=3] [ref=f48e359]
+              - generic [ref=f48e360]:
+                - generic [ref=f48e361]: Wind 15 km/h
+                - generic [ref=f48e362]: Humidity 84%
+                - generic [ref=f48e363]: PM2.5 –
+            - generic [ref=f48e364]:
+              - generic [ref=f48e365]: 22°C
+              - button "View District" [ref=f48e366] [cursor=pointer]
+            - generic [ref=f48e367]:
+              - generic [ref=f48e368]: info
+              - generic [ref=f48e369]: Pleasant conditions for outdoor activity.
+        - generic [ref=f48e370]:
+          - generic [ref=f48e371]:
+            - img "C-Scheme" [ref=f48e372]
+            - generic [ref=f48e374]: AQI 85 • MODERATE
+          - generic [ref=f48e377]:
+            - generic [ref=f48e378]:
+              - generic [ref=f48e379]: 26.91°N 75.80°E
+              - heading "C-Scheme" [level=3] [ref=f48e380]
+              - generic [ref=f48e381]:
+                - generic [ref=f48e382]: Wind 15 km/h
+                - generic [ref=f48e383]: Humidity 84%
+                - generic [ref=f48e384]: PM2.5 –
+            - generic [ref=f48e385]:
+              - generic [ref=f48e386]: 22°C
+              - button "View District" [ref=f48e387] [cursor=pointer]
+            - generic [ref=f48e388]:
+              - generic [ref=f48e389]: info
+              - generic [ref=f48e390]: Pleasant conditions for outdoor activity.
+        - generic [ref=f48e391]:
+          - generic [ref=f48e392]:
+            - img "Vaishali Nagar" [ref=f48e393]
+            - generic [ref=f48e395]: AQI 85 • MODERATE
+          - generic [ref=f48e398]:
+            - generic [ref=f48e399]:
+              - generic [ref=f48e400]: 26.91°N 75.74°E
+              - heading "Vaishali Nagar" [level=3] [ref=f48e401]
+              - generic [ref=f48e402]:
+                - generic [ref=f48e403]: Wind 15 km/h
+                - generic [ref=f48e404]: Humidity 84%
+                - generic [ref=f48e405]: PM2.5 –
+            - generic [ref=f48e406]:
+              - generic [ref=f48e407]: 22°C
+              - button "View District" [ref=f48e408] [cursor=pointer]
+            - generic [ref=f48e409]:
+              - generic [ref=f48e410]: info
+              - generic [ref=f48e411]: Pleasant conditions for outdoor activity.
+    - generic [ref=f48e255]:
+      - generic [ref=f48e256]:
+        - generic [ref=f48e257]:
+          - text: City Dispatches & Action
+          - heading "Resident Pulse Bulletin" [level=2] [ref=f48e258]
+        - generic [ref=f48e259]: Live 181 reports + Jaipur telemetry
+      - generic [ref=f48e260]:
+        - generic [ref=f48e261]:
+          - generic [ref=f48e262]:
+            - generic [ref=f48e263]:
+              - generic [ref=f48e264]: Transit & Bus Shelter
+              - generic [ref=f48e265]: 11:21 PM
+            - heading "meow" [level=3] [ref=f48e266]
+            - paragraph [ref=f48e267]: Pinned 26.9046, 75.8066 — filed by @trace_user_2 • WARNING priority
+          - generic [ref=f48e268]:
+            - generic [ref=f48e269]: Verified live entry
+            - link "Track Ticket →" [ref=f48e270] [cursor=pointer]:
+              - /url: /complaints
+        - generic [ref=f48e271]:
+          - generic [ref=f48e272]:
+            - generic [ref=f48e273]:
+              - generic [ref=f48e274]: Transit & Bus Shelter
+              - generic [ref=f48e275]: 11:09 PM
+            - heading "ERF" [level=3] [ref=f48e276]
+            - paragraph [ref=f48e277]: Pinned 26.9086, 75.7397 — filed by @trace_user_2 • INFO priority
+          - generic [ref=f48e278]:
+            - generic [ref=f48e279]: Verified live entry
+            - link "Track Ticket →" [ref=f48e280] [cursor=pointer]:
+              - /url: /complaints
+        - generic [ref=f48e281]:
+          - generic [ref=f48e282]:
+            - generic [ref=f48e283]:
+              - generic [ref=f48e284]: Transit & Bus Shelter
+              - generic [ref=f48e285]: 11:05 PM
+            - heading "POTHOLES" [level=3] [ref=f48e286]
+            - paragraph [ref=f48e287]: Pinned 26.9000, 75.8162 — filed by @trace_user_2 • WARNING priority
+          - generic [ref=f48e288]:
+            - generic [ref=f48e289]: Verified live entry
+            - link "Track Ticket →" [ref=f48e290] [cursor=pointer]:
+              - /url: /complaints
+      - generic [ref=f48e291]:
+        - generic [ref=f48e292]:
+          - generic [ref=f48e293]: flash_on
+          - generic [ref=f48e295]:
+            - heading "Direct Civic Actions" [level=4] [ref=f48e296]
+            - paragraph [ref=f48e297]: Quick pathways to report, monitor, or consume open city streams
+        - generic [ref=f48e298]:
+          - link "campaign Report Issue via 181" [ref=f48e299] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f48e300]: campaign
+            - generic [ref=f48e301]: Report Issue via 181
+          - link "sms View AQI Alerts" [ref=f48e302] [cursor=pointer]:
+            - /url: /weather
+            - generic [ref=f48e303]: sms
+            - generic [ref=f48e304]: View AQI Alerts
+          - link "insights Open Data Insights" [ref=f48e305] [cursor=pointer]:
+            - /url: /insights
+            - generic [ref=f48e306]: insights
+            - generic [ref=f48e307]: Open Data Insights
+    - generic [ref=f48e309]:
+      - generic [ref=f48e310]:
+        - generic [ref=f48e311]: Municipal Telemetry Feeds Active
+        - generic [ref=f48e314]: •
+        - generic [ref=f48e315]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f48e316]:
+        - generic [ref=f48e317]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f48e318]:
+          - link "Status" [ref=f48e319] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f48e320] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f48e321] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f48e323] [cursor=pointer]:
+      - generic [ref=f48e324]: smart_toy
+      - generic [ref=f48e325]: CivicPulse AI
+  - alert [ref=f48e327]

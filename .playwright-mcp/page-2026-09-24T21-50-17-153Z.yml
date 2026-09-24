@@ -1,0 +1,269 @@
+- generic [active] [ref=f4e1]:
+  - banner [ref=f4e2]:
+    - generic [ref=f4e3]:
+      - generic [ref=f4e4]:
+        - generic [ref=f4e5]:
+          - img "CivicPulse Logo" [ref=f4e6]
+          - generic [ref=f4e7]:
+            - generic [ref=f4e8]: CivicPulse
+            - generic [ref=f4e9]: Resident Edition
+        - generic [ref=f4e10] [cursor=pointer]:
+          - generic [ref=f4e14]: Jaipur, Rajasthan
+          - generic [ref=f4e15]: keyboard_arrow_down
+      - navigation [ref=f4e16]:
+        - link "Home" [ref=f4e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f4e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f4e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f4e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f4e21] [cursor=pointer]:
+          - /url: /complaints
+      - generic [ref=f4e22]:
+        - generic [ref=f4e23]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f4e26] [cursor=pointer]:
+          - generic [ref=f4e27]: search
+          - generic [ref=f4e28]: Search metrics
+          - generic [ref=f4e29]: ⌘K
+        - button "Notifications" [ref=f4e30] [cursor=pointer]:
+          - generic [ref=f4e31]: notifications
+        - generic [ref=f4e76]:
+          - link "verified_user @trace_user_2" [ref=f4e77] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f4e78]: verified_user
+            - generic [ref=f4e79]: "@trace_user_2"
+          - button "logout Logout" [ref=f4e80] [cursor=pointer]:
+            - generic [ref=f4e81]: logout
+            - generic [ref=f4e82]: Logout
+  - main [ref=f4e37]:
+    - generic [ref=f4e38]:
+      - generic [ref=f4e39]:
+        - generic [ref=f4e40]:
+          - generic [ref=f4e41]: Live OpenMeteo Feed
+          - generic [ref=f4e43]: Refreshed every 2 min • No API key needed
+        - heading "Jaipur Weather & Environment" [level=1] [ref=f4e83]
+        - paragraph [ref=f4e45]: Real-time atmospheric conditions, air quality, and 7-day outlook streamed from global sensor models for Jaipur, Rajasthan.
+        - generic [ref=f4e46]:
+          - generic [ref=f4e47]:
+            - generic [ref=f4e48]:
+              - generic [ref=f4e49]: location_city
+              - text: "City:"
+            - button "Jaipur" [ref=f4e84] [cursor=pointer]
+            - button "Delhi" [ref=f4e86] [cursor=pointer]
+            - button "Mumbai" [ref=f4e87] [cursor=pointer]
+            - button "Bengaluru" [ref=f4e88] [cursor=pointer]
+            - button "Hyderabad" [ref=f4e89] [cursor=pointer]
+            - button "Ahmedabad" [ref=f4e90] [cursor=pointer]
+            - button "Chennai" [ref=f4e91] [cursor=pointer]
+            - button "Kolkata" [ref=f4e92] [cursor=pointer]
+            - button "Pune" [ref=f4e93] [cursor=pointer]
+            - button "Lucknow" [ref=f4e94] [cursor=pointer]
+            - button "Udaipur" [ref=f4e95] [cursor=pointer]
+            - button "Agra" [ref=f4e96] [cursor=pointer]
+          - generic [ref=f4e51]:
+            - generic [ref=f4e52]: search
+            - textbox "Search any city — India or worldwide…" [ref=f4e53]
+      - generic [ref=f4e98]:
+        - generic [ref=f4e99]:
+          - generic [ref=f4e100]:
+            - generic [ref=f4e101]: –°C
+            - generic [ref=f4e102]:
+              - generic [ref=f4e103]:
+                - generic [ref=f4e104]: bedtime
+                - text: Unknown
+              - generic [ref=f4e105]: Jaipur, Rajasthan
+          - generic [ref=f4e106]:
+            - generic [ref=f4e107]:
+              - generic [ref=f4e108]: water_drop
+              - generic [ref=f4e109]: Humidity –%
+            - generic [ref=f4e110]:
+              - generic [ref=f4e111]: air
+              - generic [ref=f4e112]: Wind – km/h
+            - generic [ref=f4e113]:
+              - generic [ref=f4e114]: wb_sunny
+              - generic [ref=f4e115]: UV Index –
+        - generic [ref=f4e116]:
+          - generic [ref=f4e117]: eco
+          - generic [ref=f4e122]:
+            - generic [ref=f4e123]: AQI – • GOOD
+            - generic [ref=f4e124]: "PM2.5: – µg/m³"
+      - generic [ref=f4e126]:
+        - generic [ref=f4e127]:
+          - generic [ref=f4e128]: calendar_today
+          - generic [ref=f4e129]: 7-Day Atmospheric Outlook
+        - generic [ref=f4e130]: Live forecast model data
+      - generic [ref=f4e132]:
+        - generic [ref=f4e133]:
+          - generic [ref=f4e134]:
+            - generic [ref=f4e135]: Air Quality Telemetry
+            - paragraph [ref=f4e138]: Live pollutant concentrations from OpenMeteo's CAMS global air-quality model for Jaipur.
+          - generic [ref=f4e139]:
+            - generic [ref=f4e140]: sensor_occupied
+            - generic [ref=f4e141]:
+              - text: "Now:"
+              - generic [ref=f4e142]: – AQI
+              - text: (GOOD)
+        - generic [ref=f4e143]:
+          - generic [ref=f4e144]:
+            - generic [ref=f4e145]:
+              - generic [ref=f4e146]: Fine Particulate (PM2.5)
+              - generic [ref=f4e147]: Live
+            - generic [ref=f4e148]:
+              - text: –
+              - generic [ref=f4e149]: µg/m³
+          - generic [ref=f4e150]:
+            - generic [ref=f4e151]:
+              - generic [ref=f4e152]: Coarse Dust (PM10)
+              - generic [ref=f4e153]: Live
+            - generic [ref=f4e154]:
+              - text: –
+              - generic [ref=f4e155]: µg/m³
+          - generic [ref=f4e156]:
+            - generic [ref=f4e157]:
+              - generic [ref=f4e158]: Ground Ozone
+              - generic [ref=f4e159]: Live
+            - generic [ref=f4e160]:
+              - text: –
+              - generic [ref=f4e161]: µg/m³
+          - generic [ref=f4e162]:
+            - generic [ref=f4e163]:
+              - generic [ref=f4e164]: Nitrogen Dioxide
+              - generic [ref=f4e165]: Live
+            - generic [ref=f4e166]:
+              - text: –
+              - generic [ref=f4e167]: µg/m³
+      - generic [ref=f4e168]:
+        - generic [ref=f4e169]:
+          - generic [ref=f4e170]:
+            - text: Localized Grid Array
+            - heading "Neighborhood Microclimate Readings" [level=2] [ref=f4e171]
+          - generic [ref=f4e172]: 4 Active Sensor Quadrants
+        - generic [ref=f4e173]:
+          - generic [ref=f4e174]:
+            - generic [ref=f4e175]:
+              - generic [ref=f4e176]: C-Scheme Node
+              - generic [ref=f4e179]:
+                - heading "C-Scheme & Ashok Nagar" [level=3] [ref=f4e180]
+                - generic [ref=f4e181]:
+                  - generic [ref=f4e182]: 33°C
+                  - generic [ref=f4e183]: Aravalli plains sector
+            - generic [ref=f4e184]:
+              - generic [ref=f4e185]:
+                - generic [ref=f4e186]:
+                  - generic [ref=f4e187]: shield
+                  - text: AQI
+                - generic [ref=f4e188]: 42 (Moderate)
+              - generic [ref=f4e191]:
+                - generic [ref=f4e192]:
+                  - generic [ref=f4e193]: wb_sunny
+                  - text: UV Index
+                - generic [ref=f4e194]: "7"
+              - generic [ref=f4e195]:
+                - generic [ref=f4e196]:
+                  - generic [ref=f4e197]: air
+                  - text: Wind & Air
+                - generic [ref=f4e198]: 9 km/h W • 38%
+            - generic [ref=f4e199]:
+              - generic [ref=f4e200]: info
+              - generic [ref=f4e201]: Mid-day sun is strong — stay hydrated.
+          - generic [ref=f4e202]:
+            - generic [ref=f4e203]:
+              - generic [ref=f4e204]: Vaishali Node
+              - generic [ref=f4e207]:
+                - heading "Vaishali Nagar" [level=3] [ref=f4e208]
+                - generic [ref=f4e209]:
+                  - generic [ref=f4e210]: 34°C
+                  - generic [ref=f4e211]: Aravalli plains sector
+            - generic [ref=f4e212]:
+              - generic [ref=f4e213]:
+                - generic [ref=f4e214]:
+                  - generic [ref=f4e215]: shield
+                  - text: AQI
+                - generic [ref=f4e216]: 45 (Moderate)
+              - generic [ref=f4e219]:
+                - generic [ref=f4e220]:
+                  - generic [ref=f4e221]: wb_sunny
+                  - text: UV Index
+                - generic [ref=f4e222]: "7"
+              - generic [ref=f4e223]:
+                - generic [ref=f4e224]:
+                  - generic [ref=f4e225]: air
+                  - text: Wind & Air
+                - generic [ref=f4e226]: 7 km/h SW • 34%
+            - generic [ref=f4e227]:
+              - generic [ref=f4e228]: info
+              - generic [ref=f4e229]: Best for evening market strolls after 6 PM.
+          - generic [ref=f4e230]:
+            - generic [ref=f4e231]:
+              - generic [ref=f4e232]: Malviya Node
+              - generic [ref=f4e235]:
+                - heading "Malviya Nagar & Jagatpura" [level=3] [ref=f4e236]
+                - generic [ref=f4e237]:
+                  - generic [ref=f4e238]: 35°C
+                  - generic [ref=f4e239]: Aravalli plains sector
+            - generic [ref=f4e240]:
+              - generic [ref=f4e241]:
+                - generic [ref=f4e242]:
+                  - generic [ref=f4e243]: shield
+                  - text: AQI
+                - generic [ref=f4e244]: 48 (Moderate)
+              - generic [ref=f4e247]:
+                - generic [ref=f4e248]:
+                  - generic [ref=f4e249]: wb_sunny
+                  - text: UV Index
+                - generic [ref=f4e250]: "8"
+              - generic [ref=f4e251]:
+                - generic [ref=f4e252]:
+                  - generic [ref=f4e253]: air
+                  - text: Wind & Air
+                - generic [ref=f4e254]: 11 km/h E • 36%
+            - generic [ref=f4e255]:
+              - generic [ref=f4e256]: info
+              - generic [ref=f4e257]: World Trade Park area busier during rush hour.
+          - generic [ref=f4e258]:
+            - generic [ref=f4e259]:
+              - generic [ref=f4e260]: Amer Node
+              - generic [ref=f4e263]:
+                - heading "Amer & Kukas" [level=3] [ref=f4e264]
+                - generic [ref=f4e265]:
+                  - generic [ref=f4e266]: 32°C
+                  - generic [ref=f4e267]: Aravalli plains sector
+            - generic [ref=f4e268]:
+              - generic [ref=f4e269]:
+                - generic [ref=f4e270]:
+                  - generic [ref=f4e271]: shield
+                  - text: AQI
+                - generic [ref=f4e272]: 38 (Good)
+              - generic [ref=f4e275]:
+                - generic [ref=f4e276]:
+                  - generic [ref=f4e277]: wb_sunny
+                  - text: UV Index
+                - generic [ref=f4e278]: "6"
+              - generic [ref=f4e279]:
+                - generic [ref=f4e280]:
+                  - generic [ref=f4e281]: air
+                  - text: Wind & Air
+                - generic [ref=f4e282]: 12 km/h NW • 30%
+            - generic [ref=f4e283]:
+              - generic [ref=f4e284]: info
+              - generic [ref=f4e285]: Cleanest air in the city near the Aravalli foothills.
+    - generic [ref=f4e58]:
+      - generic [ref=f4e59]:
+        - generic [ref=f4e60]: Municipal Telemetry Feeds Active
+        - generic [ref=f4e63]: •
+        - generic [ref=f4e64]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f4e65]:
+        - generic [ref=f4e66]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f4e67]:
+          - link "Status" [ref=f4e68] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f4e69] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f4e70] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f4e72] [cursor=pointer]:
+      - generic [ref=f4e73]: smart_toy
+      - generic [ref=f4e74]: CivicPulse AI
+  - alert [ref=f4e286]

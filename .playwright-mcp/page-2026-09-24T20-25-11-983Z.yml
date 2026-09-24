@@ -1,0 +1,244 @@
+- generic [ref=f6e1]:
+  - banner [ref=f6e2]:
+    - generic [ref=f6e3]:
+      - generic [ref=f6e4]:
+        - generic [ref=f6e5]:
+          - img "CivicPulse Logo" [ref=f6e6]
+          - generic [ref=f6e7]:
+            - generic [ref=f6e8]: CivicPulse
+            - generic [ref=f6e9]: Resident Edition
+        - generic [ref=f6e367] [cursor=pointer]:
+          - generic [ref=f6e371]: Jaipur, Rajasthan
+          - generic [ref=f6e372]: keyboard_arrow_down
+      - navigation [ref=f6e373]:
+        - link "Home" [ref=f6e374] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f6e375] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [active] [ref=f6e376] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f6e377] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f6e378] [cursor=pointer]:
+          - /url: /complaints
+      - generic [ref=f6e10]:
+        - generic [ref=f6e11]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f6e14] [cursor=pointer]:
+          - generic [ref=f6e15]: search
+          - generic [ref=f6e16]: Search metrics
+          - generic [ref=f6e17]: ⌘K
+        - button "Notifications" [ref=f6e18] [cursor=pointer]:
+          - generic [ref=f6e19]: notifications
+        - link "person Sign In" [ref=f6e21] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f6e22]: person
+          - generic [ref=f6e24]: Sign In
+  - alert [ref=f6e366]
+  - main [ref=f6e379]:
+    - generic [ref=f6e380]:
+      - generic [ref=f6e381]:
+        - generic [ref=f6e382]:
+          - generic [ref=f6e383]: Live OpenMeteo Feed
+          - generic [ref=f6e385]: Refreshed every 2 min • No API key needed
+        - heading "Delhi Weather & Environment" [level=1] [ref=f6e386]
+        - paragraph [ref=f6e387]: Real-time atmospheric conditions, air quality, and 7-day outlook streamed from global sensor models for Delhi, Delhi.
+        - generic [ref=f6e388]:
+          - generic [ref=f6e389]:
+            - generic [ref=f6e390]:
+              - generic [ref=f6e391]: location_city
+              - text: "City:"
+            - button "Jaipur" [ref=f6e392] [cursor=pointer]
+            - button "Delhi" [ref=f6e394] [cursor=pointer]
+            - button "Mumbai" [ref=f6e395] [cursor=pointer]
+            - button "Bengaluru" [ref=f6e396] [cursor=pointer]
+            - button "Hyderabad" [ref=f6e397] [cursor=pointer]
+            - button "Ahmedabad" [ref=f6e398] [cursor=pointer]
+            - button "Chennai" [ref=f6e399] [cursor=pointer]
+            - button "Kolkata" [ref=f6e400] [cursor=pointer]
+            - button "Pune" [ref=f6e401] [cursor=pointer]
+            - button "Lucknow" [ref=f6e402] [cursor=pointer]
+            - button "Udaipur" [ref=f6e403] [cursor=pointer]
+            - button "Agra" [ref=f6e404] [cursor=pointer]
+          - generic [ref=f6e406]:
+            - generic [ref=f6e407]: search
+            - textbox "Search any city — India or worldwide…" [ref=f6e408]
+      - generic [ref=f6e410]:
+        - generic [ref=f6e411]:
+          - generic [ref=f6e412]:
+            - generic [ref=f6e413]: 26°C
+            - generic [ref=f6e414]:
+              - generic [ref=f6e415]:
+                - generic [ref=f6e416]: bedtime
+                - text: Clear sky
+              - generic [ref=f6e417]: Delhi, Delhi
+          - generic [ref=f6e418]:
+            - generic [ref=f6e419]:
+              - generic [ref=f6e420]: thermostat
+              - generic [ref=f6e421]:
+                - text: High
+                - strong [ref=f6e422]: 33°
+                - text: / Low
+                - strong [ref=f6e423]: 24°
+            - generic [ref=f6e424]:
+              - generic [ref=f6e425]: water_drop
+              - generic [ref=f6e426]: Humidity 77%
+            - generic [ref=f6e427]:
+              - generic [ref=f6e428]: air
+              - generic [ref=f6e429]: Wind 11 km/h
+            - generic [ref=f6e430]:
+              - generic [ref=f6e431]: wb_sunny
+              - generic [ref=f6e432]: UV Index 0
+        - generic [ref=f6e433]:
+          - generic [ref=f6e434]: eco
+          - generic [ref=f6e439]:
+            - generic [ref=f6e440]: AQI 132 • SENSITIVE
+            - generic [ref=f6e441]: "PM2.5: 30.6 µg/m³"
+      - generic [ref=f6e442]:
+        - generic [ref=f6e443]:
+          - generic [ref=f6e444]:
+            - generic [ref=f6e445]: calendar_today
+            - generic [ref=f6e446]: 7-Day Atmospheric Outlook
+          - generic [ref=f6e447]: Live forecast model data
+        - generic [ref=f6e448]:
+          - generic [ref=f6e449] [cursor=pointer]:
+            - generic [ref=f6e450]: Today
+            - generic [ref=f6e451]: Sep 25
+            - generic [ref=f6e452]:
+              - generic [ref=f6e453]: Light
+              - generic [ref=f6e454]: 43% Precip
+            - generic [ref=f6e456]:
+              - generic [ref=f6e457]: 24°
+              - generic [ref=f6e458]: 33°
+            - generic [ref=f6e461]: Light drizzle
+          - generic [ref=f6e462] [cursor=pointer]:
+            - generic [ref=f6e463]: Sat
+            - generic [ref=f6e464]: Sep 26
+            - generic [ref=f6e465]:
+              - generic [ref=f6e466]: Heavy
+              - generic [ref=f6e467]: 45% Precip
+            - generic [ref=f6e469]:
+              - generic [ref=f6e470]: 25°
+              - generic [ref=f6e471]: 30°
+            - generic [ref=f6e474]: Heavy drizzle
+          - generic [ref=f6e475] [cursor=pointer]:
+            - generic [ref=f6e476]: Sun
+            - generic [ref=f6e477]: Sep 27
+            - generic [ref=f6e478]:
+              - generic [ref=f6e479]: Heavy
+              - generic [ref=f6e480]: 31% Precip
+            - generic [ref=f6e482]:
+              - generic [ref=f6e483]: 23°
+              - generic [ref=f6e484]: 29°
+            - generic [ref=f6e487]: Heavy drizzle
+          - generic [ref=f6e488] [cursor=pointer]:
+            - generic [ref=f6e489]: Mon
+            - generic [ref=f6e490]: Sep 28
+            - generic [ref=f6e491]:
+              - generic [ref=f6e492]: Light
+              - generic [ref=f6e493]: 18% Precip
+            - generic [ref=f6e495]:
+              - generic [ref=f6e496]: 22°
+              - generic [ref=f6e497]: 30°
+            - generic [ref=f6e500]: Light drizzle
+          - generic [ref=f6e501] [cursor=pointer]:
+            - generic [ref=f6e502]: Tue
+            - generic [ref=f6e503]: Sep 29
+            - generic [ref=f6e504]:
+              - generic [ref=f6e505]: Light
+              - generic [ref=f6e506]: 14% Precip
+            - generic [ref=f6e508]:
+              - generic [ref=f6e509]: 24°
+              - generic [ref=f6e510]: 33°
+            - generic [ref=f6e513]: Light drizzle
+          - generic [ref=f6e514] [cursor=pointer]:
+            - generic [ref=f6e515]: Wed
+            - generic [ref=f6e516]: Sep 30
+            - generic [ref=f6e517]:
+              - generic [ref=f6e518]: Clear
+              - generic [ref=f6e519]: 0% Precip
+            - generic [ref=f6e521]:
+              - generic [ref=f6e522]: 24°
+              - generic [ref=f6e523]: 34°
+            - generic [ref=f6e526]: Clear sky
+          - generic [ref=f6e527] [cursor=pointer]:
+            - generic [ref=f6e528]: Thu
+            - generic [ref=f6e529]: Oct 1
+            - generic [ref=f6e530]:
+              - generic [ref=f6e531]: Clear
+              - generic [ref=f6e532]: 0% Precip
+            - generic [ref=f6e534]:
+              - generic [ref=f6e535]: 24°
+              - generic [ref=f6e536]: 35°
+            - generic [ref=f6e539]: Clear sky
+      - generic [ref=f6e540]:
+        - generic [ref=f6e541]:
+          - generic [ref=f6e542]:
+            - generic [ref=f6e543]: Air Quality Telemetry
+            - paragraph [ref=f6e546]: Live pollutant concentrations from OpenMeteo's CAMS global air-quality model for Delhi.
+          - generic [ref=f6e547]:
+            - generic [ref=f6e548]: sensor_occupied
+            - generic [ref=f6e549]:
+              - text: "Now:"
+              - generic [ref=f6e550]: 132 AQI
+              - text: (SENSITIVE)
+        - generic [ref=f6e551]:
+          - generic [ref=f6e552]:
+            - generic [ref=f6e553]:
+              - generic [ref=f6e554]: Fine Particulate (PM2.5)
+              - generic [ref=f6e555]: Live
+            - generic [ref=f6e556]:
+              - text: "30.6"
+              - generic [ref=f6e557]: µg/m³
+          - generic [ref=f6e558]:
+            - generic [ref=f6e559]:
+              - generic [ref=f6e560]: Coarse Dust (PM10)
+              - generic [ref=f6e561]: Live
+            - generic [ref=f6e562]:
+              - text: "66.1"
+              - generic [ref=f6e563]: µg/m³
+          - generic [ref=f6e564]:
+            - generic [ref=f6e565]:
+              - generic [ref=f6e566]: Ground Ozone
+              - generic [ref=f6e567]: Live
+            - generic [ref=f6e568]:
+              - text: "74"
+              - generic [ref=f6e569]: µg/m³
+          - generic [ref=f6e570]:
+            - generic [ref=f6e571]:
+              - generic [ref=f6e572]: Nitrogen Dioxide
+              - generic [ref=f6e573]: Live
+            - generic [ref=f6e574]:
+              - text: "23.1"
+              - generic [ref=f6e575]: µg/m³
+      - generic [ref=f6e576]:
+        - generic [ref=f6e577]:
+          - generic [ref=f6e578]:
+            - text: Localized Grid Array
+            - heading "Neighborhood Microclimate Readings" [level=2] [ref=f6e579]
+          - generic [ref=f6e580]: Citywide aggregated reading
+        - generic [ref=f6e581]:
+          - generic [ref=f6e582]:
+            - generic [ref=f6e583]: sensors
+            - generic [ref=f6e585]:
+              - generic [ref=f6e586]: Citywide Reading Active
+              - generic [ref=f6e587]: "The hyperlocal neighborhood sensor grid is currently deployed in Jaipur. Delhi is streaming citywide conditions: 26°C, AQI 132."
+          - button "explore View Jaipur Grid" [ref=f6e588] [cursor=pointer]:
+            - generic [ref=f6e589]: explore
+            - text: View Jaipur Grid
+    - generic [ref=f6e591]:
+      - generic [ref=f6e592]:
+        - generic [ref=f6e593]: Municipal Telemetry Feeds Active
+        - generic [ref=f6e596]: •
+        - generic [ref=f6e597]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f6e598]:
+        - generic [ref=f6e599]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f6e600]:
+          - link "Status" [ref=f6e601] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f6e602] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f6e603] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f6e605] [cursor=pointer]:
+      - generic [ref=f6e606]: smart_toy
+      - generic [ref=f6e607]: CivicPulse AI

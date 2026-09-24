@@ -1,0 +1,1039 @@
+- generic [active] [ref=f27e1]:
+  - banner [ref=f27e2]:
+    - generic [ref=f27e3]:
+      - generic [ref=f27e4]:
+        - generic [ref=f27e5]:
+          - img "CivicPulse Logo" [ref=f27e6]
+          - generic [ref=f27e7]:
+            - generic [ref=f27e8]: CivicPulse
+            - generic [ref=f27e9]: Resident Edition
+        - generic [ref=f27e10] [cursor=pointer]:
+          - generic [ref=f27e14]: Chennai, Tamil Nadu
+          - generic [ref=f27e15]: keyboard_arrow_down
+      - navigation [ref=f27e16]:
+        - link "Home" [ref=f27e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f27e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f27e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f27e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f27e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f27e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f27e23]:
+        - generic [ref=f27e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f27e27] [cursor=pointer]:
+          - generic [ref=f27e28]: search
+          - generic [ref=f27e29]: Search metrics
+          - generic [ref=f27e30]: ⌘K
+        - button "Notifications" [ref=f27e31] [cursor=pointer]:
+          - generic [ref=f27e32]: notifications
+        - generic [ref=f27e189]:
+          - link "verified_user @trace_user_2" [ref=f27e190] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f27e191]: verified_user
+            - generic [ref=f27e192]: "@trace_user_2"
+          - button "logout Logout" [ref=f27e193] [cursor=pointer]:
+            - generic [ref=f27e194]: logout
+            - generic [ref=f27e195]: Logout
+  - main [ref=f27e38]:
+    - generic [ref=f27e40]:
+      - generic [ref=f27e41]:
+        - generic [ref=f27e42]:
+          - generic [ref=f27e43]: Civic Baseline Telemetry
+          - generic [ref=f27e44]: •
+          - generic [ref=f27e196]: 9/25/2026, 4:34:53 AM
+        - heading "Good morning, Chennai" [level=1] [ref=f27e197]
+        - generic [ref=f27e46]:
+          - generic [ref=f27e47]:
+            - generic [ref=f27e48]: bedtime
+            - generic [ref=f27e49]: 28°C • Patchy rain nearby
+          - generic [ref=f27e50]: AQI – • MODERATE
+          - generic [ref=f27e53]:
+            - generic [ref=f27e54]: verified
+            - generic [ref=f27e55]: "Grid: 56% · 49.9 Hz"
+      - generic [ref=f27e56]:
+        - generic [ref=f27e57]: "Metropolis:"
+        - button "Jaipur" [ref=f27e198] [cursor=pointer]
+        - button "Delhi" [ref=f27e199] [cursor=pointer]
+        - button "Mumbai" [ref=f27e200] [cursor=pointer]
+        - button "Bengaluru" [ref=f27e201] [cursor=pointer]
+        - button "Hyderabad" [ref=f27e202] [cursor=pointer]
+    - generic [ref=f27e58]:
+      - generic [ref=f27e59]:
+        - generic [ref=f27e60]:
+          - text: Spatial Urban Intelligence
+          - heading "Terminal GIS — Vector Map Deck" [level=2] [ref=f27e61]
+        - generic [ref=f27e62]: Live congestion corridors • 181 dispatches • Metro & grid telemetry
+      - generic [ref=f27e203]:
+        - generic [ref=f27e204]:
+          - generic [ref=f27e205]: LIVE
+          - generic [ref=f27e209]:
+            - generic [ref=f27e210]: location_city
+            - textbox "SEARCH CITY — INDIA OR WORLDWIDE" [ref=f27e211]
+          - generic [ref=f27e212]: "AO: CHENNAI"
+          - generic [ref=f27e214]: 13.0828°N 80.2706°E · Z12
+          - generic [ref=f27e216]:
+            - generic [ref=f27e217]:
+              - text: VEH:3
+              - generic [ref=f27e218]: (1D)
+            - generic [ref=f27e219]: EV:150
+            - generic [ref=f27e220]: 17C
+            - generic [ref=f27e221]: 46W
+            - generic [ref=f27e222]: 87I
+          - generic [ref=f27e223]:
+            - generic [ref=f27e224]: 28°C PATCHY RAIN NEARBY
+            - generic [ref=f27e226]: AQI –
+        - generic [ref=f27e227]:
+          - generic [ref=f27e228]:
+            - generic [ref=f27e229]:
+              - generic:
+                - generic:
+                  - img:
+                    - generic:
+                      - generic [ref=f27e230] [cursor=pointer]
+                      - generic [ref=f27e231] [cursor=pointer]
+                      - generic [ref=f27e232] [cursor=pointer]
+                      - generic [ref=f27e233] [cursor=pointer]
+                      - generic [ref=f27e234] [cursor=pointer]
+                      - generic [ref=f27e235] [cursor=pointer]
+                      - generic [ref=f27e236] [cursor=pointer]
+                      - generic [ref=f27e237] [cursor=pointer]
+                      - generic [ref=f27e238] [cursor=pointer]
+                      - generic [ref=f27e239] [cursor=pointer]
+                      - generic [ref=f27e240] [cursor=pointer]
+                      - generic [ref=f27e241] [cursor=pointer]
+                      - generic [ref=f27e242] [cursor=pointer]
+                      - generic [ref=f27e243] [cursor=pointer]
+                - generic:
+                  - button [ref=f27e245] [cursor=pointer]
+                  - button [ref=f27e247] [cursor=pointer]
+                  - button [ref=f27e249] [cursor=pointer]
+                  - button [ref=f27e251] [cursor=pointer]
+                  - button [ref=f27e253] [cursor=pointer]
+                  - button [ref=f27e255] [cursor=pointer]
+                  - button [ref=f27e257] [cursor=pointer]
+                  - button [ref=f27e259] [cursor=pointer]
+                  - button [ref=f27e261] [cursor=pointer]
+                  - button [ref=f27e263] [cursor=pointer]
+                  - button [ref=f27e265] [cursor=pointer]
+                  - button [ref=f27e267] [cursor=pointer]
+                  - button [ref=f27e269] [cursor=pointer]
+                  - button [ref=f27e271] [cursor=pointer]
+                  - button [ref=f27e273] [cursor=pointer]
+                  - button [ref=f27e275] [cursor=pointer]
+                  - button [ref=f27e277] [cursor=pointer]
+                  - button [ref=f27e279] [cursor=pointer]
+                  - button [ref=f27e281] [cursor=pointer]
+                  - button [ref=f27e283] [cursor=pointer]
+                  - button [ref=f27e285] [cursor=pointer]
+                  - button [ref=f27e287] [cursor=pointer]
+                  - button [ref=f27e289] [cursor=pointer]
+                  - button [ref=f27e291] [cursor=pointer]
+                  - button [ref=f27e293] [cursor=pointer]
+                  - button [ref=f27e295] [cursor=pointer]
+                  - button [ref=f27e297] [cursor=pointer]
+                  - button [ref=f27e299] [cursor=pointer]
+                  - button [ref=f27e301] [cursor=pointer]
+                  - button [ref=f27e303] [cursor=pointer]
+                  - button [ref=f27e305] [cursor=pointer]
+                  - button [ref=f27e307] [cursor=pointer]
+                  - button [ref=f27e309] [cursor=pointer]
+                  - button [ref=f27e311] [cursor=pointer]
+                  - button [ref=f27e313] [cursor=pointer]
+                  - button [ref=f27e315] [cursor=pointer]
+                  - button [ref=f27e317] [cursor=pointer]
+                  - button [ref=f27e319] [cursor=pointer]
+                  - button [ref=f27e321] [cursor=pointer]
+                  - button [ref=f27e323] [cursor=pointer]
+                  - button [ref=f27e325] [cursor=pointer]
+                  - button [ref=f27e327] [cursor=pointer]
+                  - button [ref=f27e329] [cursor=pointer]
+                  - button [ref=f27e331] [cursor=pointer]
+                  - button [ref=f27e333] [cursor=pointer]
+                  - button [ref=f27e335] [cursor=pointer]
+                  - button [ref=f27e337] [cursor=pointer]
+                  - button [ref=f27e339] [cursor=pointer]
+                  - button [ref=f27e341] [cursor=pointer]
+                  - button [ref=f27e343] [cursor=pointer]
+                  - button [ref=f27e345] [cursor=pointer]
+                  - button [ref=f27e347] [cursor=pointer]
+                  - button [ref=f27e349] [cursor=pointer]
+                  - button [ref=f27e351] [cursor=pointer]
+                  - button [ref=f27e353] [cursor=pointer]
+                  - button [ref=f27e355] [cursor=pointer]
+                  - button [ref=f27e357] [cursor=pointer]
+                  - button [ref=f27e359] [cursor=pointer]
+                  - button [ref=f27e361] [cursor=pointer]
+                  - button [ref=f27e363] [cursor=pointer]
+                  - button [ref=f27e365] [cursor=pointer]
+                  - button [ref=f27e367] [cursor=pointer]
+                  - button [ref=f27e369] [cursor=pointer]
+                  - button [ref=f27e371] [cursor=pointer]
+                  - button [ref=f27e373] [cursor=pointer]
+                  - button [ref=f27e375] [cursor=pointer]
+                  - button [ref=f27e377] [cursor=pointer]
+                  - button [ref=f27e379] [cursor=pointer]
+                  - button [ref=f27e381] [cursor=pointer]
+                  - button [ref=f27e383] [cursor=pointer]
+                  - button [ref=f27e385] [cursor=pointer]
+                  - button [ref=f27e387] [cursor=pointer]
+                  - button [ref=f27e389] [cursor=pointer]
+                  - button [ref=f27e391] [cursor=pointer]
+                  - button [ref=f27e393] [cursor=pointer]
+                  - button [ref=f27e395] [cursor=pointer]
+                  - button [ref=f27e397] [cursor=pointer]
+                  - button [ref=f27e399] [cursor=pointer]
+                  - button [ref=f27e401] [cursor=pointer]
+                  - button [ref=f27e403] [cursor=pointer]
+                  - button [ref=f27e405] [cursor=pointer]
+                  - button [ref=f27e407] [cursor=pointer]
+                  - button [ref=f27e409] [cursor=pointer]
+                  - button [ref=f27e411] [cursor=pointer]
+                  - button [ref=f27e413] [cursor=pointer]
+                  - button [ref=f27e415] [cursor=pointer]
+                  - button [ref=f27e417] [cursor=pointer]
+                  - button [ref=f27e419] [cursor=pointer]
+                  - button [ref=f27e421] [cursor=pointer]
+                  - button [ref=f27e423] [cursor=pointer]
+                  - button [ref=f27e425] [cursor=pointer]
+                  - button [ref=f27e427] [cursor=pointer]
+                  - button [ref=f27e429] [cursor=pointer]
+                  - button [ref=f27e431] [cursor=pointer]
+                  - button [ref=f27e433] [cursor=pointer]
+                  - button [ref=f27e435] [cursor=pointer]
+                  - button [ref=f27e437] [cursor=pointer]
+                  - button [ref=f27e439] [cursor=pointer]
+                  - button [ref=f27e441] [cursor=pointer]
+                  - button [ref=f27e443] [cursor=pointer]
+                  - button [ref=f27e445] [cursor=pointer]
+                  - button [ref=f27e447] [cursor=pointer]
+                  - button [ref=f27e449] [cursor=pointer]
+                  - button [ref=f27e451] [cursor=pointer]
+                  - button [ref=f27e453] [cursor=pointer]
+                  - button [ref=f27e455] [cursor=pointer]
+                  - button [ref=f27e457] [cursor=pointer]
+                  - button [ref=f27e459] [cursor=pointer]
+                  - button [ref=f27e461] [cursor=pointer]
+                  - button [ref=f27e463] [cursor=pointer]
+                  - button [ref=f27e465] [cursor=pointer]
+                  - button [ref=f27e467] [cursor=pointer]
+                  - button [ref=f27e469] [cursor=pointer]
+                  - button [ref=f27e471] [cursor=pointer]
+                  - button [ref=f27e473] [cursor=pointer]
+                  - button [ref=f27e475] [cursor=pointer]
+                  - button [ref=f27e477] [cursor=pointer]
+                  - button [ref=f27e479] [cursor=pointer]
+                  - button [ref=f27e481] [cursor=pointer]
+                  - button [ref=f27e483] [cursor=pointer]
+                  - button [ref=f27e485] [cursor=pointer]
+                  - button [ref=f27e487] [cursor=pointer]
+                  - button [ref=f27e489] [cursor=pointer]
+                  - button [ref=f27e491] [cursor=pointer]
+                  - button [ref=f27e493] [cursor=pointer]
+                  - button [ref=f27e495] [cursor=pointer]
+                  - button [ref=f27e497] [cursor=pointer]
+                  - button [ref=f27e499] [cursor=pointer]
+                  - button "tram" [ref=f27e501] [cursor=pointer]
+                  - button "tram" [ref=f27e504] [cursor=pointer]
+                  - button "tram" [ref=f27e507] [cursor=pointer]
+              - generic [ref=f27e510]:
+                - link "Leaflet" [ref=f27e511] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=f27e516] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: contributors
+            - generic [ref=f27e517]:
+              - generic [ref=f27e518]: Severity
+              - generic [ref=f27e519]:
+                - generic [ref=f27e520]: INFO
+                - generic [ref=f27e522]: WARNING
+                - generic [ref=f27e524]: CRITICAL
+              - generic [ref=f27e526]: Flow
+              - generic [ref=f27e527]:
+                - generic [ref=f27e528]: FREE FLOW
+                - generic [ref=f27e530]: MODERATE
+                - generic [ref=f27e532]: HEAVY
+              - generic [ref=f27e534]: Vehicles
+              - generic [ref=f27e535]:
+                - generic [ref=f27e536]: METRO/RAIL
+                - generic [ref=f27e538]: BUS
+                - generic [ref=f27e540]: DELAYED
+            - generic [ref=f27e542]:
+              - generic [ref=f27e543]:
+                - generic [ref=f27e544]: 28°C
+                - generic [ref=f27e545]: Patchy rain nearbyNIGHT · RH 65%
+                - generic [ref=f27e547]:
+                  - text: AQI –
+                  - generic [ref=f27e548]: MODERATE
+              - generic [ref=f27e549]:
+                - generic [ref=f27e550]:
+                  - generic [ref=f27e551]: F
+                  - generic [ref=f27e552]: 34°
+                  - generic [ref=f27e553]: 27°
+                - generic [ref=f27e554]:
+                  - generic [ref=f27e555]: S
+                  - generic [ref=f27e556]: 35°
+                  - generic [ref=f27e557]: 28°
+                - generic [ref=f27e558]:
+                  - generic [ref=f27e559]: S
+                  - generic [ref=f27e560]: 33°
+                  - generic [ref=f27e561]: 28°
+          - generic [ref=f27e562]:
+            - generic [ref=f27e563]:
+              - generic [ref=f27e564]: Telemetry Ledger
+              - generic [ref=f27e565]: ● 150 REC
+            - generic [ref=f27e566]:
+              - generic [ref=f27e567]:
+                - generic [ref=f27e568]: 17:34:13
+                - generic [ref=f27e569]: WARN
+                - generic [ref=f27e570]:
+                  - generic [ref=f27e571]: "[TRA]"
+                  - text: "Green Line — +5.7m delay: Heavy traffic near Anna Salai"
+              - generic [ref=f27e572]:
+                - generic [ref=f27e573]: 17:33:36
+                - generic [ref=f27e574]: WARN
+                - generic [ref=f27e575]:
+                  - generic [ref=f27e576]: "[TRA]"
+                  - text: "Green Line — +7.6m delay: Heavy traffic near Anna Salai"
+              - generic [ref=f27e577]:
+                - generic [ref=f27e578]: 17:33:02
+                - generic [ref=f27e579]: INFO
+                - generic [ref=f27e580]:
+                  - generic [ref=f27e581]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e582]:
+                - generic [ref=f27e583]: 17:32:25
+                - generic [ref=f27e584]: WARN
+                - generic [ref=f27e585]:
+                  - generic [ref=f27e586]: "[TRA]"
+                  - text: "Green Line — +7.6m delay: Heavy traffic near Anna Salai"
+              - generic [ref=f27e587]:
+                - generic [ref=f27e588]: 17:31:46
+                - generic [ref=f27e589]: WARN
+                - generic [ref=f27e590]:
+                  - generic [ref=f27e591]: "[TRA]"
+                  - text: "Green Line — +5.5m delay: Heavy traffic near Anna Salai"
+              - generic [ref=f27e592]:
+                - generic [ref=f27e593]: 17:31:06
+                - generic [ref=f27e594]: WARN
+                - generic [ref=f27e595]:
+                  - generic [ref=f27e596]: "[TRA]"
+                  - text: "Green Line — +6.0m delay: Heavy traffic near Anna Salai"
+              - generic [ref=f27e597]:
+                - generic [ref=f27e598]: 17:30:46
+                - generic [ref=f27e599]: CRIT
+                - generic [ref=f27e600]:
+                  - generic [ref=f27e601]: "[TRA]"
+                  - text: "Anna Salai: Heavy traffic, avg speed 9 km/h"
+              - generic [ref=f27e602]:
+                - generic [ref=f27e603]: 17:30:33
+                - generic [ref=f27e604]: INFO
+                - generic [ref=f27e605]:
+                  - generic [ref=f27e606]: "[TRA]"
+                  - text: "Green Line — +1.2m delay: On schedule"
+              - generic [ref=f27e607]:
+                - generic [ref=f27e608]: 17:29:59
+                - generic [ref=f27e609]: INFO
+                - generic [ref=f27e610]:
+                  - generic [ref=f27e611]: "[TRA]"
+                  - text: "Green Line — +1.0m delay: On schedule"
+              - generic [ref=f27e612]:
+                - generic [ref=f27e613]: 17:29:22
+                - generic [ref=f27e614]: INFO
+                - generic [ref=f27e615]:
+                  - generic [ref=f27e616]: "[TRA]"
+                  - text: "Green Line — +1.0m delay: On schedule"
+              - generic [ref=f27e617]:
+                - generic [ref=f27e618]: 17:28:45
+                - generic [ref=f27e619]: INFO
+                - generic [ref=f27e620]:
+                  - generic [ref=f27e621]: "[TRA]"
+                  - text: "Green Line — +1.3m delay: On schedule"
+              - generic [ref=f27e622]:
+                - generic [ref=f27e623]: 17:28:08
+                - generic [ref=f27e624]: INFO
+                - generic [ref=f27e625]:
+                  - generic [ref=f27e626]: "[TRA]"
+                  - text: "Green Line — +1.2m delay: On schedule"
+              - generic [ref=f27e627]:
+                - generic [ref=f27e628]: 17:27:32
+                - generic [ref=f27e629]: INFO
+                - generic [ref=f27e630]:
+                  - generic [ref=f27e631]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e632]:
+                - generic [ref=f27e633]: 17:26:53
+                - generic [ref=f27e634]: INFO
+                - generic [ref=f27e635]:
+                  - generic [ref=f27e636]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e637]:
+                - generic [ref=f27e638]: 17:26:38
+                - generic [ref=f27e639]: INFO
+                - generic [ref=f27e640]:
+                  - generic [ref=f27e641]: "[TRA]"
+                  - text: "Anna Salai: Free Flow traffic, avg speed 48 km/h"
+              - generic [ref=f27e642]:
+                - generic [ref=f27e643]: 17:26:19
+                - generic [ref=f27e644]: INFO
+                - generic [ref=f27e645]:
+                  - generic [ref=f27e646]: "[TRA]"
+                  - text: "Green Line — +1.4m delay: On schedule"
+              - generic [ref=f27e647]:
+                - generic [ref=f27e648]: 17:25:43
+                - generic [ref=f27e649]: INFO
+                - generic [ref=f27e650]:
+                  - generic [ref=f27e651]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e652]:
+                - generic [ref=f27e653]: 17:25:11
+                - generic [ref=f27e654]: INFO
+                - generic [ref=f27e655]:
+                  - generic [ref=f27e656]: "[TRA]"
+                  - text: "OMR IT Corridor: Free Flow traffic, avg speed 37 km/h"
+              - generic [ref=f27e657]:
+                - generic [ref=f27e658]: 17:25:02
+                - generic [ref=f27e659]: INFO
+                - generic [ref=f27e660]:
+                  - generic [ref=f27e661]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e662]:
+                - generic [ref=f27e663]: 17:24:26
+                - generic [ref=f27e664]: INFO
+                - generic [ref=f27e665]:
+                  - generic [ref=f27e666]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e667]:
+                - generic [ref=f27e668]: 17:23:48
+                - generic [ref=f27e669]: INFO
+                - generic [ref=f27e670]:
+                  - generic [ref=f27e671]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e672]:
+                - generic [ref=f27e673]: 17:23:13
+                - generic [ref=f27e674]: INFO
+                - generic [ref=f27e675]:
+                  - generic [ref=f27e676]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e677]:
+                - generic [ref=f27e678]: 17:22:36
+                - generic [ref=f27e679]: INFO
+                - generic [ref=f27e680]:
+                  - generic [ref=f27e681]: "[TRA]"
+                  - text: "Green Line — +1.4m delay: On schedule"
+              - generic [ref=f27e682]:
+                - generic [ref=f27e683]: 17:22:01
+                - generic [ref=f27e684]: INFO
+                - generic [ref=f27e685]:
+                  - generic [ref=f27e686]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e687]:
+                - generic [ref=f27e688]: 17:21:43
+                - generic [ref=f27e689]: INFO
+                - generic [ref=f27e690]:
+                  - generic [ref=f27e691]: "[TRA]"
+                  - text: "Anna Salai: Free Flow traffic, avg speed 49 km/h"
+              - generic [ref=f27e692]:
+                - generic [ref=f27e693]: 17:21:24
+                - generic [ref=f27e694]: INFO
+                - generic [ref=f27e695]:
+                  - generic [ref=f27e696]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e697]:
+                - generic [ref=f27e698]: 17:20:49
+                - generic [ref=f27e699]: INFO
+                - generic [ref=f27e700]:
+                  - generic [ref=f27e701]: "[TRA]"
+                  - text: "Anna Salai: Free Flow traffic, avg speed 38 km/h"
+              - generic [ref=f27e702]:
+                - generic [ref=f27e703]: 17:20:44
+                - generic [ref=f27e704]: INFO
+                - generic [ref=f27e705]:
+                  - generic [ref=f27e706]: "[TRA]"
+                  - text: "Green Line — +1.3m delay: On schedule"
+              - generic [ref=f27e707]:
+                - generic [ref=f27e708]: 17:19:58
+                - generic [ref=f27e709]: INFO
+                - generic [ref=f27e710]:
+                  - generic [ref=f27e711]: "[TRA]"
+                  - text: "Green Line — +1.1m delay: On schedule"
+              - generic [ref=f27e712]:
+                - generic [ref=f27e713]: 17:19:19
+                - generic [ref=f27e714]: INFO
+                - generic [ref=f27e715]:
+                  - generic [ref=f27e716]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e717]:
+                - generic [ref=f27e718]: 17:18:41
+                - generic [ref=f27e719]: INFO
+                - generic [ref=f27e720]:
+                  - generic [ref=f27e721]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e722]:
+                - generic [ref=f27e723]: 17:18:13
+                - generic [ref=f27e724]: INFO
+                - generic [ref=f27e725]:
+                  - generic [ref=f27e726]: "[TRA]"
+                  - text: "OMR IT Corridor: Free Flow traffic, avg speed 48 km/h"
+              - generic [ref=f27e727]:
+                - generic [ref=f27e728]: 17:18:06
+                - generic [ref=f27e729]: INFO
+                - generic [ref=f27e730]:
+                  - generic [ref=f27e731]: "[TRA]"
+                  - text: "Green Line — +1.1m delay: On schedule"
+              - generic [ref=f27e732]:
+                - generic [ref=f27e733]: 17:17:30
+                - generic [ref=f27e734]: INFO
+                - generic [ref=f27e735]:
+                  - generic [ref=f27e736]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e737]:
+                - generic [ref=f27e738]: 17:16:57
+                - generic [ref=f27e739]: INFO
+                - generic [ref=f27e740]:
+                  - generic [ref=f27e741]: "[TRA]"
+                  - text: "Green Line — +1.2m delay: On schedule"
+              - generic [ref=f27e742]:
+                - generic [ref=f27e743]: 17:16:19
+                - generic [ref=f27e744]: INFO
+                - generic [ref=f27e745]:
+                  - generic [ref=f27e746]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e747]:
+                - generic [ref=f27e748]: 17:15:44
+                - generic [ref=f27e749]: INFO
+                - generic [ref=f27e750]:
+                  - generic [ref=f27e751]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e752]:
+                - generic [ref=f27e753]: 17:15:07
+                - generic [ref=f27e754]: INFO
+                - generic [ref=f27e755]:
+                  - generic [ref=f27e756]: "[TRA]"
+                  - text: "Green Line — +1.4m delay: On schedule"
+              - generic [ref=f27e757]:
+                - generic [ref=f27e758]: 17:14:34
+                - generic [ref=f27e759]: INFO
+                - generic [ref=f27e760]:
+                  - generic [ref=f27e761]: "[TRA]"
+                  - text: Green Line — On schedule
+              - generic [ref=f27e762]:
+                - generic [ref=f27e763]: 17:13:57
+                - generic [ref=f27e764]: INFO
+                - generic [ref=f27e765]:
+                  - generic [ref=f27e766]: "[TRA]"
+                  - text: Green Line — On schedule
+        - generic [ref=f27e767]:
+          - generic [ref=f27e768]:
+            - button "Attributes Table expand_less" [ref=f27e769] [cursor=pointer]:
+              - generic [ref=f27e770]: Attributes Table
+              - generic [ref=f27e771]: expand_less
+            - generic [ref=f27e772]: Chennai · last 40 records · ttl 180s
+          - table [ref=f27e774]:
+            - rowgroup [ref=f27e775]:
+              - row [ref=f27e776]:
+                - columnheader "UTC TIME" [ref=f27e777]
+                - columnheader "AGE" [ref=f27e778]
+                - columnheader "CATEGORY" [ref=f27e779]
+                - columnheader "SEVERITY" [ref=f27e780]
+                - columnheader "DESCRIPTION" [ref=f27e781]
+                - columnheader "LAT" [ref=f27e782]
+                - columnheader "LNG" [ref=f27e783]
+            - rowgroup [ref=f27e784]:
+              - row [ref=f27e785]:
+                - cell "17:34:13" [ref=f27e786]
+                - cell "330m" [ref=f27e787]
+                - cell "transit" [ref=f27e788]
+                - cell "WARNING" [ref=f27e789]
+                - 'cell "Green Line — +5.7m delay: Heavy traffic near Anna Salai" [ref=f27e790]'
+                - cell "13.0358" [ref=f27e791]
+                - cell "80.2628" [ref=f27e792]
+              - row [ref=f27e793]:
+                - cell "17:33:36" [ref=f27e794]
+                - cell "331m" [ref=f27e795]
+                - cell "transit" [ref=f27e796]
+                - cell "WARNING" [ref=f27e797]
+                - 'cell "Green Line — +7.6m delay: Heavy traffic near Anna Salai" [ref=f27e798]'
+                - cell "13.0598" [ref=f27e799]
+                - cell "80.2669" [ref=f27e800]
+              - row [ref=f27e801]:
+                - cell "17:33:02" [ref=f27e802]
+                - cell "331m" [ref=f27e803]
+                - cell "transit" [ref=f27e804]
+                - cell "INFO" [ref=f27e805]
+                - cell "Green Line — On schedule" [ref=f27e806]
+                - cell "13.0827" [ref=f27e807]
+                - cell "80.2707" [ref=f27e808]
+              - row [ref=f27e809]:
+                - cell "17:32:25" [ref=f27e810]
+                - cell "332m" [ref=f27e811]
+                - cell "transit" [ref=f27e812]
+                - cell "WARNING" [ref=f27e813]
+                - 'cell "Green Line — +7.6m delay: Heavy traffic near Anna Salai" [ref=f27e814]'
+                - cell "13.0698" [ref=f27e815]
+                - cell "80.2685" [ref=f27e816]
+              - row [ref=f27e817]:
+                - cell "17:31:46" [ref=f27e818]
+                - cell "333m" [ref=f27e819]
+                - cell "transit" [ref=f27e820]
+                - cell "WARNING" [ref=f27e821]
+                - 'cell "Green Line — +5.5m delay: Heavy traffic near Anna Salai" [ref=f27e822]'
+                - cell "13.0578" [ref=f27e823]
+                - cell "80.2665" [ref=f27e824]
+              - row [ref=f27e825]:
+                - cell "17:31:06" [ref=f27e826]
+                - cell "333m" [ref=f27e827]
+                - cell "transit" [ref=f27e828]
+                - cell "WARNING" [ref=f27e829]
+                - 'cell "Green Line — +6.0m delay: Heavy traffic near Anna Salai" [ref=f27e830]'
+                - cell "13.0379" [ref=f27e831]
+                - cell "80.2632" [ref=f27e832]
+              - row [ref=f27e833]:
+                - cell "17:30:46" [ref=f27e834]
+                - cell "334m" [ref=f27e835]
+                - cell "traffic" [ref=f27e836]
+                - cell "CRITICAL" [ref=f27e837]
+                - 'cell "Anna Salai: Heavy traffic, avg speed 9 km/h" [ref=f27e838]'
+                - cell "13.0500" [ref=f27e839]
+                - cell "80.2500" [ref=f27e840]
+              - row [ref=f27e841]:
+                - cell "17:30:33" [ref=f27e842]
+                - cell "334m" [ref=f27e843]
+                - cell "transit" [ref=f27e844]
+                - cell "INFO" [ref=f27e845]
+                - 'cell "Green Line — +1.2m delay: On schedule" [ref=f27e846]'
+                - cell "13.0194" [ref=f27e847]
+                - cell "80.2601" [ref=f27e848]
+              - row [ref=f27e849]:
+                - cell "17:29:59" [ref=f27e850]
+                - cell "334m" [ref=f27e851]
+                - cell "transit" [ref=f27e852]
+                - cell "INFO" [ref=f27e853]
+                - 'cell "Green Line — +1.0m delay: On schedule" [ref=f27e854]'
+                - cell "13.0070" [ref=f27e855]
+                - cell "80.2537" [ref=f27e856]
+              - row [ref=f27e857]:
+                - cell "17:29:22" [ref=f27e858]
+                - cell "335m" [ref=f27e859]
+                - cell "transit" [ref=f27e860]
+                - cell "INFO" [ref=f27e861]
+                - 'cell "Green Line — +1.0m delay: On schedule" [ref=f27e862]'
+                - cell "13.0245" [ref=f27e863]
+                - cell "80.2441" [ref=f27e864]
+              - row [ref=f27e865]:
+                - cell "17:28:45" [ref=f27e866]
+                - cell "336m" [ref=f27e867]
+                - cell "transit" [ref=f27e868]
+                - cell "INFO" [ref=f27e869]
+                - 'cell "Green Line — +1.3m delay: On schedule" [ref=f27e870]'
+                - cell "13.0480" [ref=f27e871]
+                - cell "80.2313" [ref=f27e872]
+              - row [ref=f27e873]:
+                - cell "17:28:08" [ref=f27e874]
+                - cell "336m" [ref=f27e875]
+                - cell "transit" [ref=f27e876]
+                - cell "INFO" [ref=f27e877]
+                - 'cell "Green Line — +1.2m delay: On schedule" [ref=f27e878]'
+                - cell "13.0691" [ref=f27e879]
+                - cell "80.2197" [ref=f27e880]
+              - row [ref=f27e881]:
+                - cell "17:27:32" [ref=f27e882]
+                - cell "337m" [ref=f27e883]
+                - cell "transit" [ref=f27e884]
+                - cell "INFO" [ref=f27e885]
+                - cell "Green Line — On schedule" [ref=f27e886]
+                - cell "13.0840" [ref=f27e887]
+                - cell "80.2115" [ref=f27e888]
+              - row [ref=f27e889]:
+                - cell "17:26:53" [ref=f27e890]
+                - cell "337m" [ref=f27e891]
+                - cell "transit" [ref=f27e892]
+                - cell "INFO" [ref=f27e893]
+                - cell "Green Line — On schedule" [ref=f27e894]
+                - cell "13.0750" [ref=f27e895]
+                - cell "80.2163" [ref=f27e896]
+              - row [ref=f27e897]:
+                - cell "17:26:38" [ref=f27e898]
+                - cell "338m" [ref=f27e899]
+                - cell "traffic" [ref=f27e900]
+                - cell "INFO" [ref=f27e901]
+                - 'cell "Anna Salai: Free Flow traffic, avg speed 48 km/h" [ref=f27e902]'
+                - cell "13.0500" [ref=f27e903]
+                - cell "80.2500" [ref=f27e904]
+              - row [ref=f27e905]:
+                - cell "17:26:19" [ref=f27e906]
+                - cell "338m" [ref=f27e907]
+                - cell "transit" [ref=f27e908]
+                - cell "INFO" [ref=f27e909]
+                - 'cell "Green Line — +1.4m delay: On schedule" [ref=f27e910]'
+                - cell "13.0640" [ref=f27e911]
+                - cell "80.2222" [ref=f27e912]
+              - row [ref=f27e913]:
+                - cell "17:25:43" [ref=f27e914]
+                - cell "339m" [ref=f27e915]
+                - cell "transit" [ref=f27e916]
+                - cell "INFO" [ref=f27e917]
+                - cell "Green Line — On schedule" [ref=f27e918]
+                - cell "13.0576" [ref=f27e919]
+                - cell "80.2257" [ref=f27e920]
+              - row [ref=f27e921]:
+                - cell "17:25:11" [ref=f27e922]
+                - cell "339m" [ref=f27e923]
+                - cell "traffic" [ref=f27e924]
+                - cell "INFO" [ref=f27e925]
+                - 'cell "OMR IT Corridor: Free Flow traffic, avg speed 37 km/h" [ref=f27e926]'
+                - cell "12.9400" [ref=f27e927]
+                - cell "80.2300" [ref=f27e928]
+              - row [ref=f27e929]:
+                - cell "17:25:02" [ref=f27e930]
+                - cell "339m" [ref=f27e931]
+                - cell "transit" [ref=f27e932]
+                - cell "INFO" [ref=f27e933]
+                - cell "Green Line — On schedule" [ref=f27e934]
+                - cell "13.0470" [ref=f27e935]
+                - cell "80.2314" [ref=f27e936]
+              - row [ref=f27e937]:
+                - cell "17:24:26" [ref=f27e938]
+                - cell "340m" [ref=f27e939]
+                - cell "transit" [ref=f27e940]
+                - cell "INFO" [ref=f27e941]
+                - cell "Green Line — On schedule" [ref=f27e942]
+                - cell "13.0300" [ref=f27e943]
+                - cell "80.2315" [ref=f27e944]
+              - row [ref=f27e945]:
+                - cell "17:23:48" [ref=f27e946]
+                - cell "341m" [ref=f27e947]
+                - cell "transit" [ref=f27e948]
+                - cell "INFO" [ref=f27e949]
+                - cell "Green Line — On schedule" [ref=f27e950]
+                - cell "13.0159" [ref=f27e951]
+                - cell "80.2286" [ref=f27e952]
+              - row [ref=f27e953]:
+                - cell "17:23:13" [ref=f27e954]
+                - cell "341m" [ref=f27e955]
+                - cell "transit" [ref=f27e956]
+                - cell "INFO" [ref=f27e957]
+                - cell "Green Line — On schedule" [ref=f27e958]
+                - cell "12.9965" [ref=f27e959]
+                - cell "80.2246" [ref=f27e960]
+              - row [ref=f27e961]:
+                - cell "17:22:36" [ref=f27e962]
+                - cell "342m" [ref=f27e963]
+                - cell "transit" [ref=f27e964]
+                - cell "INFO" [ref=f27e965]
+                - 'cell "Green Line — +1.4m delay: On schedule" [ref=f27e966]'
+                - cell "12.9797" [ref=f27e967]
+                - cell "80.2211" [ref=f27e968]
+              - row [ref=f27e969]:
+                - cell "17:22:01" [ref=f27e970]
+                - cell "342m" [ref=f27e971]
+                - cell "transit" [ref=f27e972]
+                - cell "INFO" [ref=f27e973]
+                - cell "Green Line — On schedule" [ref=f27e974]
+                - cell "13.0063" [ref=f27e975]
+                - cell "80.2341" [ref=f27e976]
+              - row [ref=f27e977]:
+                - cell "17:21:43" [ref=f27e978]
+                - cell "343m" [ref=f27e979]
+                - cell "traffic" [ref=f27e980]
+                - cell "INFO" [ref=f27e981]
+                - 'cell "Anna Salai: Free Flow traffic, avg speed 49 km/h" [ref=f27e982]'
+                - cell "13.0500" [ref=f27e983]
+                - cell "80.2500" [ref=f27e984]
+              - row [ref=f27e985]:
+                - cell "17:21:24" [ref=f27e986]
+                - cell "343m" [ref=f27e987]
+                - cell "transit" [ref=f27e988]
+                - cell "INFO" [ref=f27e989]
+                - cell "Green Line — On schedule" [ref=f27e990]
+                - cell "13.0233" [ref=f27e991]
+                - cell "80.2422" [ref=f27e992]
+              - row [ref=f27e993]:
+                - cell "17:20:49" [ref=f27e994]
+                - cell "344m" [ref=f27e995]
+                - cell "traffic" [ref=f27e996]
+                - cell "INFO" [ref=f27e997]
+                - 'cell "Anna Salai: Free Flow traffic, avg speed 38 km/h" [ref=f27e998]'
+                - cell "13.0500" [ref=f27e999]
+                - cell "80.2500" [ref=f27e1000]
+              - row [ref=f27e1001]:
+                - cell "17:20:44" [ref=f27e1002]
+                - cell "344m" [ref=f27e1003]
+                - cell "transit" [ref=f27e1004]
+                - cell "INFO" [ref=f27e1005]
+                - 'cell "Green Line — +1.3m delay: On schedule" [ref=f27e1006]'
+                - cell "13.0463" [ref=f27e1007]
+                - cell "80.2533" [ref=f27e1008]
+              - row [ref=f27e1009]:
+                - cell "17:19:58" [ref=f27e1010]
+                - cell "344m" [ref=f27e1011]
+                - cell "transit" [ref=f27e1012]
+                - cell "INFO" [ref=f27e1013]
+                - 'cell "Green Line — +1.1m delay: On schedule" [ref=f27e1014]'
+                - cell "13.0568" [ref=f27e1015]
+                - cell "80.2664" [ref=f27e1016]
+              - row [ref=f27e1017]:
+                - cell "17:19:19" [ref=f27e1018]
+                - cell "345m" [ref=f27e1019]
+                - cell "transit" [ref=f27e1020]
+                - cell "INFO" [ref=f27e1021]
+                - cell "Green Line — On schedule" [ref=f27e1022]
+                - cell "13.0827" [ref=f27e1023]
+                - cell "80.2707" [ref=f27e1024]
+              - row [ref=f27e1025]:
+                - cell "17:18:41" [ref=f27e1026]
+                - cell "346m" [ref=f27e1027]
+                - cell "transit" [ref=f27e1028]
+                - cell "INFO" [ref=f27e1029]
+                - cell "Green Line — On schedule" [ref=f27e1030]
+                - cell "13.0730" [ref=f27e1031]
+                - cell "80.2691" [ref=f27e1032]
+              - row [ref=f27e1033]:
+                - cell "17:18:13" [ref=f27e1034]
+                - cell "346m" [ref=f27e1035]
+                - cell "traffic" [ref=f27e1036]
+                - cell "INFO" [ref=f27e1037]
+                - 'cell "OMR IT Corridor: Free Flow traffic, avg speed 48 km/h" [ref=f27e1038]'
+                - cell "12.9400" [ref=f27e1039]
+                - cell "80.2300" [ref=f27e1040]
+              - row [ref=f27e1041]:
+                - cell "17:18:06" [ref=f27e1042]
+                - cell "346m" [ref=f27e1043]
+                - cell "transit" [ref=f27e1044]
+                - cell "INFO" [ref=f27e1045]
+                - 'cell "Green Line — +1.1m delay: On schedule" [ref=f27e1046]'
+                - cell "13.0501" [ref=f27e1047]
+                - cell "80.2652" [ref=f27e1048]
+              - row [ref=f27e1049]:
+                - cell "17:17:30" [ref=f27e1050]
+                - cell "347m" [ref=f27e1051]
+                - cell "transit" [ref=f27e1052]
+                - cell "INFO" [ref=f27e1053]
+                - cell "Green Line — On schedule" [ref=f27e1054]
+                - cell "13.0276" [ref=f27e1055]
+                - cell "80.2615" [ref=f27e1056]
+              - row [ref=f27e1057]:
+                - cell "17:16:57" [ref=f27e1058]
+                - cell "347m" [ref=f27e1059]
+                - cell "transit" [ref=f27e1060]
+                - cell "INFO" [ref=f27e1061]
+                - 'cell "Green Line — +1.2m delay: On schedule" [ref=f27e1062]'
+                - cell "13.0012" [ref=f27e1063]
+                - cell "80.2569" [ref=f27e1064]
+              - row [ref=f27e1065]:
+                - cell "17:16:19" [ref=f27e1066]
+                - cell "348m" [ref=f27e1067]
+                - cell "transit" [ref=f27e1068]
+                - cell "INFO" [ref=f27e1069]
+                - cell "Green Line — On schedule" [ref=f27e1070]
+                - cell "13.0288" [ref=f27e1071]
+                - cell "80.2418" [ref=f27e1072]
+              - row [ref=f27e1073]:
+                - cell "17:15:44" [ref=f27e1074]
+                - cell "349m" [ref=f27e1075]
+                - cell "transit" [ref=f27e1076]
+                - cell "INFO" [ref=f27e1077]
+                - cell "Green Line — On schedule" [ref=f27e1078]
+                - cell "13.0444" [ref=f27e1079]
+                - cell "80.2332" [ref=f27e1080]
+              - row [ref=f27e1081]:
+                - cell "17:15:07" [ref=f27e1082]
+                - cell "349m" [ref=f27e1083]
+                - cell "transit" [ref=f27e1084]
+                - cell "INFO" [ref=f27e1085]
+                - 'cell "Green Line — +1.4m delay: On schedule" [ref=f27e1086]'
+                - cell "13.0631" [ref=f27e1087]
+                - cell "80.2230" [ref=f27e1088]
+              - row [ref=f27e1089]:
+                - cell "17:14:34" [ref=f27e1090]
+                - cell "350m" [ref=f27e1091]
+                - cell "transit" [ref=f27e1092]
+                - cell "INFO" [ref=f27e1093]
+                - cell "Green Line — On schedule" [ref=f27e1094]
+                - cell "13.0830" [ref=f27e1095]
+                - cell "80.2121" [ref=f27e1096]
+              - row [ref=f27e1097]:
+                - cell "17:13:57" [ref=f27e1098]
+                - cell "350m" [ref=f27e1099]
+                - cell "transit" [ref=f27e1100]
+                - cell "INFO" [ref=f27e1101]
+                - cell "Green Line — On schedule" [ref=f27e1102]
+                - cell "13.0780" [ref=f27e1103]
+                - cell "80.2147" [ref=f27e1104]
+    - generic [ref=f27e67]:
+      - generic [ref=f27e68]:
+        - generic [ref=f27e69]:
+          - generic [ref=f27e70]:
+            - generic [ref=f27e71]: Live Civic Score Calculator
+            - generic [ref=f27e74]: computed from live telemetry
+          - generic [ref=f27e75]:
+            - generic [ref=f27e80]:
+              - generic [ref=f27e81]: "52"
+              - generic [ref=f27e82]: Chennai Score
+            - generic [ref=f27e83]:
+              - generic [ref=f27e84]:
+                - generic [ref=f27e85]: insights
+                - text: Moderate
+              - heading "Moderate Civic Health" [level=2] [ref=f27e1105]
+              - paragraph [ref=f27e87]: Composite index +2 vs yesterday — weighted across air, mobility, transit, civic response, and grid.
+          - generic [ref=f27e88]:
+            - generic [ref=f27e1107]:
+              - generic [ref=f27e1108]:
+                - generic [ref=f27e1109]: air
+                - text: Air Quality
+              - generic [ref=f27e1110]: 52/100 AQI avg 64 (6h)
+            - generic [ref=f27e1114]:
+              - generic [ref=f27e1115]:
+                - generic [ref=f27e1116]: traffic
+                - text: Road Mobility
+              - generic [ref=f27e1117]: 54/100 21% heavy corridors
+            - generic [ref=f27e1121]:
+              - generic [ref=f27e1122]:
+                - generic [ref=f27e1123]: tram
+                - text: Transit Health
+              - generic [ref=f27e1124]: 8/100 avg delay 15 min
+            - generic [ref=f27e1128]:
+              - generic [ref=f27e1129]:
+                - generic [ref=f27e1130]: campaign
+                - text: Civic Response
+              - generic [ref=f27e1131]: 58/100 0 resident reports (6h)
+            - generic [ref=f27e1135]:
+              - generic [ref=f27e1136]:
+                - generic [ref=f27e1137]: bolt
+                - text: Grid Headroom
+              - generic [ref=f27e1138]: 100/100 56% load, 49.9 Hz
+          - generic [ref=f27e94]:
+            - generic [ref=f27e95]:
+              - generic [ref=f27e96]:
+                - generic [ref=f27e97]: bolt
+                - text: Grid Telemetry
+              - generic [ref=f27e98]: TANGEDCO
+            - generic [ref=f27e1141]:
+              - generic [ref=f27e1142]:
+                - text: 56% load
+                - generic [ref=f27e1143]: (3,024 MW / 5,400 MW)
+              - generic [ref=f27e1144]: 49.9 Hz ●
+            - generic [ref=f27e1170]:
+              - generic "solar"
+              - generic "wind"
+              - generic "hydro"
+              - generic "thermal"
+            - generic [ref=f27e1171]:
+              - generic [ref=f27e1172]: Solar 0% · Wind 13% · Hydro 14% · Thermal 73%
+              - generic [ref=f27e1173]: Peak 19:00
+        - generic [ref=f27e100]:
+          - generic [ref=f27e101]:
+            - generic [ref=f27e102]: "Viewing: Live Neighborhood Comfort"
+            - generic [ref=f27e105]:
+              - button "Zoom in" [ref=f27e106] [cursor=pointer]:
+                - generic [ref=f27e107]: add
+              - button "Zoom out" [ref=f27e108] [cursor=pointer]:
+                - generic [ref=f27e109]: remove
+              - button "Reset" [ref=f27e111] [cursor=pointer]:
+                - generic [ref=f27e112]: my_location
+          - img [ref=f27e114]: "C-Scheme / Ashok NagarAQI 18 • PristineVaishali Nagar / DowntownTransit Cadence: 98%Malviya NagarMicroclimate: 71°FAmer / KukasBreeze: Aravalli Winds"
+          - generic [ref=f27e132]:
+            - generic [ref=f27e133]:
+              - generic [ref=f27e134]: sensors
+              - generic [ref=f27e136]:
+                - generic [ref=f27e137]: "Jaipur Microgrid #04"
+                - text: Active • Lat 26.9124 N, Lon 75.7873 E
+            - generic [ref=f27e140]:
+              - generic [ref=f27e141]: Optimal
+              - generic [ref=f27e143]: Nominal
+              - generic [ref=f27e145]: Maintenance
+      - generic [ref=f27e147]:
+        - generic [ref=f27e148]:
+          - generic [ref=f27e149]:
+            - generic [ref=f27e150]:
+              - generic [ref=f27e151]: Public Bulletins
+              - generic [ref=f27e152]: •
+              - generic [ref=f27e153]: 6 Active Real-Time Advisories
+            - heading "Top Headlines" [level=2] [ref=f27e154]
+          - link "View all city dispatches arrow_forward" [ref=f27e155] [cursor=pointer]:
+            - /url: "#"
+            - text: View all city dispatches
+            - generic [ref=f27e156]: arrow_forward
+        - generic [ref=f27e1174]:
+          - generic [ref=f27e1175]:
+            - generic [ref=f27e1176]:
+              - generic [ref=f27e1177]:
+                - generic [ref=f27e1178]: Transit
+                - generic [ref=f27e1179]:
+                  - generic [ref=f27e1180]: schedule
+                  - text: 5h ago
+              - 'heading "Green Line — +5.7m delay: Heavy traffic near Anna Salai" [level=3] [ref=f27e1181]'
+              - paragraph [ref=f27e1182]: Transit cell • live stream
+            - generic [ref=f27e1183]:
+              - generic [ref=f27e1184]:
+                - generic [ref=f27e1185]: location_on
+                - text: Live stream
+              - generic [ref=f27e1186]: MONITORING
+          - generic [ref=f27e1187]:
+            - generic [ref=f27e1188]:
+              - generic [ref=f27e1189]:
+                - generic [ref=f27e1190]: Transit
+                - generic [ref=f27e1191]:
+                  - generic [ref=f27e1192]: schedule
+                  - text: 5h ago
+              - 'heading "Green Line — +7.6m delay: Heavy traffic near Anna Salai" [level=3] [ref=f27e1193]'
+              - paragraph [ref=f27e1194]: Transit cell • live stream
+            - generic [ref=f27e1195]:
+              - generic [ref=f27e1196]:
+                - generic [ref=f27e1197]: location_on
+                - text: Live stream
+              - generic [ref=f27e1198]: MONITORING
+          - generic [ref=f27e1199]:
+            - generic [ref=f27e1200]:
+              - generic [ref=f27e1201]:
+                - generic [ref=f27e1202]: Transit
+                - generic [ref=f27e1203]:
+                  - generic [ref=f27e1204]: schedule
+                  - text: 5h ago
+              - 'heading "Green Line — +7.6m delay: Heavy traffic near Anna Salai" [level=3] [ref=f27e1205]'
+              - paragraph [ref=f27e1206]: Transit cell • live stream
+            - generic [ref=f27e1207]:
+              - generic [ref=f27e1208]:
+                - generic [ref=f27e1209]: location_on
+                - text: Live stream
+              - generic [ref=f27e1210]: MONITORING
+      - generic [ref=f27e157]:
+        - generic [ref=f27e158]:
+          - generic [ref=f27e159]: contact_support
+          - generic [ref=f27e161]:
+            - text: Resident Civic Telemetry Services
+            - paragraph [ref=f27e162]: Report public space anomalies, request sensor audits, or call emergency dispatch.
+        - generic [ref=f27e163]:
+          - link "phone Dial Jaipur 181" [ref=f27e164] [cursor=pointer]:
+            - /url: tel:181
+            - generic [ref=f27e165]: phone
+            - text: Dial Jaipur 181
+          - button "campaign Submit Resident Feedback" [ref=f27e166] [cursor=pointer]:
+            - generic [ref=f27e167]: campaign
+            - text: Submit Resident Feedback
+          - button "emergency_share Emergency Directory" [ref=f27e168] [cursor=pointer]:
+            - generic [ref=f27e169]: emergency_share
+            - text: Emergency Directory
+    - generic [ref=f27e171]:
+      - generic [ref=f27e172]:
+        - generic [ref=f27e173]: Municipal Telemetry Feeds Active
+        - generic [ref=f27e176]: •
+        - generic [ref=f27e177]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f27e178]:
+        - generic [ref=f27e179]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f27e180]:
+          - link "Status" [ref=f27e181] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f27e182] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f27e183] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f27e185] [cursor=pointer]:
+      - generic [ref=f27e186]: smart_toy
+      - generic [ref=f27e187]: CivicPulse AI
+  - alert [ref=f27e1211]

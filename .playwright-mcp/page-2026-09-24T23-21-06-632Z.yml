@@ -1,0 +1,138 @@
+- generic [active] [ref=f41e1]:
+  - banner [ref=f41e2]:
+    - generic [ref=f41e3]:
+      - generic [ref=f41e4]:
+        - generic [ref=f41e5]:
+          - img "CivicPulse Logo" [ref=f41e6]
+          - generic [ref=f41e7]:
+            - generic [ref=f41e8]: CivicPulse
+            - generic [ref=f41e9]: Resident Edition
+        - generic [ref=f41e10] [cursor=pointer]:
+          - generic [ref=f41e14]: Jaipur, RJ
+          - generic [ref=f41e15]: keyboard_arrow_down
+      - navigation [ref=f41e16]:
+        - link "Home" [ref=f41e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f41e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f41e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f41e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f41e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f41e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f41e23]:
+        - generic [ref=f41e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f41e27] [cursor=pointer]:
+          - generic [ref=f41e28]: search
+          - generic [ref=f41e29]: Search metrics
+          - generic [ref=f41e30]: ⌘K
+        - button "Notifications" [ref=f41e31] [cursor=pointer]:
+          - generic [ref=f41e32]: notifications
+        - link "person Sign In" [ref=f41e34] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f41e35]: person
+          - generic [ref=f41e37]: Sign In
+  - main [ref=f41e38]:
+    - generic [ref=f41e40]:
+      - generic [ref=f41e41]:
+        - generic [ref=f41e42]:
+          - generic [ref=f41e43]: Civic Baseline Telemetry
+          - generic [ref=f41e44]: •
+        - heading ", Jaipur" [level=1] [ref=f41e45]
+        - generic [ref=f41e46]:
+          - generic [ref=f41e47]:
+            - generic [ref=f41e48]: bedtime
+            - generic [ref=f41e49]: Loading live weather…
+          - generic [ref=f41e50]: AQI – • Loading
+          - generic [ref=f41e53]:
+            - generic [ref=f41e54]: verified
+            - generic [ref=f41e55]: "Grid: syncing…"
+      - generic [ref=f41e56]: "Metropolis:"
+    - generic [ref=f41e58]:
+      - generic [ref=f41e59]:
+        - generic [ref=f41e60]:
+          - text: Spatial Urban Intelligence
+          - heading "Terminal GIS — Vector Map Deck" [level=2] [ref=f41e61]
+        - generic [ref=f41e62]: Live congestion corridors • 181 dispatches • Metro & grid telemetry
+      - generic [ref=f41e63]: Loading telemetry grid…
+    - generic [ref=f41e67]:
+      - generic [ref=f41e68]:
+        - generic [ref=f41e69]:
+          - generic [ref=f41e70]:
+            - generic [ref=f41e71]: Live Civic Score Calculator
+            - generic [ref=f41e74]: computed from live telemetry
+          - generic [ref=f41e75]:
+            - generic [ref=f41e80]:
+              - generic [ref=f41e81]: –
+              - generic [ref=f41e82]: City Score
+            - generic [ref=f41e83]:
+              - generic [ref=f41e84]:
+                - generic [ref=f41e85]: insights
+                - text: Computing…
+              - heading "Analyzing city telemetry…" [level=2] [ref=f41e86]
+              - paragraph [ref=f41e87]: Scoring air quality, road mobility, transit health, civic response and grid headroom.
+          - generic [ref=f41e95]:
+            - generic [ref=f41e96]:
+              - generic [ref=f41e97]: bolt
+              - text: Grid Telemetry
+            - generic [ref=f41e98]: —
+        - generic [ref=f41e100]:
+          - generic [ref=f41e101]: "Viewing: Live Neighborhood Civic Scores"
+          - generic [ref=f41e107]:
+            - generic [ref=f41e108]:
+              - generic [ref=f41e109]: sensors
+              - generic [ref=f41e111]:
+                - generic [ref=f41e112]: "City Microgrid #04"
+                - text: Active • Lat 26.9124 N, Lon 75.7873 E
+            - generic [ref=f41e115]:
+              - generic [ref=f41e116]: Optimal
+              - generic [ref=f41e118]: Nominal
+              - generic [ref=f41e120]: Maintenance
+      - generic [ref=f41e123]:
+        - generic [ref=f41e124]:
+          - generic [ref=f41e125]:
+            - generic [ref=f41e126]: Public Bulletins
+            - generic [ref=f41e127]: •
+            - generic [ref=f41e128]: 0 Active Real-Time Advisories
+          - heading "Top Headlines" [level=2] [ref=f41e129]
+        - link "View all city dispatches arrow_forward" [ref=f41e130] [cursor=pointer]:
+          - /url: "#"
+          - text: View all city dispatches
+          - generic [ref=f41e131]: arrow_forward
+      - generic [ref=f41e132]:
+        - generic [ref=f41e133]:
+          - generic [ref=f41e134]: contact_support
+          - generic [ref=f41e136]:
+            - text: Resident Civic Telemetry Services
+            - paragraph [ref=f41e137]: Report public space anomalies, request sensor audits, or call emergency dispatch.
+        - generic [ref=f41e138]:
+          - link "phone Dial Jaipur 181" [ref=f41e139] [cursor=pointer]:
+            - /url: tel:181
+            - generic [ref=f41e140]: phone
+            - text: Dial Jaipur 181
+          - button "campaign Submit Resident Feedback" [ref=f41e141] [cursor=pointer]:
+            - generic [ref=f41e142]: campaign
+            - text: Submit Resident Feedback
+          - button "emergency_share Emergency Directory" [ref=f41e143] [cursor=pointer]:
+            - generic [ref=f41e144]: emergency_share
+            - text: Emergency Directory
+    - generic [ref=f41e146]:
+      - generic [ref=f41e147]:
+        - generic [ref=f41e148]: Municipal Telemetry Feeds Active
+        - generic [ref=f41e151]: •
+        - generic [ref=f41e152]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f41e153]:
+        - generic [ref=f41e154]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f41e155]:
+          - link "Status" [ref=f41e156] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f41e157] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f41e158] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f41e160] [cursor=pointer]:
+      - generic [ref=f41e161]: smart_toy
+      - generic [ref=f41e162]: CivicPulse AI

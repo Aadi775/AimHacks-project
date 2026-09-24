@@ -1,0 +1,436 @@
+- generic [active] [ref=f54e1]:
+  - banner [ref=f54e2]:
+    - generic [ref=f54e3]:
+      - generic [ref=f54e4]:
+        - generic [ref=f54e5]:
+          - img "CivicPulse Logo" [ref=f54e6]
+          - generic [ref=f54e7]:
+            - generic [ref=f54e8]: CivicPulse
+            - generic [ref=f54e9]: Resident Edition
+        - generic [ref=f54e10] [cursor=pointer]:
+          - generic [ref=f54e14]: Jaipur, Rajasthan
+          - generic [ref=f54e15]: keyboard_arrow_down
+      - navigation [ref=f54e16]:
+        - link "Home" [ref=f54e17] [cursor=pointer]:
+          - /url: /
+        - link "Overview & Pulse" [ref=f54e18] [cursor=pointer]:
+          - /url: /overview
+        - link "Weather & Environment" [ref=f54e19] [cursor=pointer]:
+          - /url: /weather
+        - link "Transit & Incidents" [ref=f54e20] [cursor=pointer]:
+          - /url: /transit
+        - link "181 Complaints" [ref=f54e21] [cursor=pointer]:
+          - /url: /complaints
+        - link "Causes & Correlation" [ref=f54e22] [cursor=pointer]:
+          - /url: /insights
+      - generic [ref=f54e23]:
+        - generic [ref=f54e24]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f54e27] [cursor=pointer]:
+          - generic [ref=f54e28]: search
+          - generic [ref=f54e29]: Search metrics
+          - generic [ref=f54e30]: ⌘K
+        - button "Notifications" [ref=f54e31] [cursor=pointer]:
+          - generic [ref=f54e32]: notifications
+        - generic [ref=f54e34]:
+          - link "verified_user @trace_user_2" [ref=f54e35] [cursor=pointer]:
+            - /url: /complaints
+            - generic [ref=f54e36]: verified_user
+            - generic [ref=f54e37]: "@trace_user_2"
+          - button "logout Logout" [ref=f54e38] [cursor=pointer]:
+            - generic [ref=f54e39]: logout
+            - generic [ref=f54e40]: Logout
+  - alert [ref=f54e296]
+  - main [ref=f54e297]:
+    - generic [ref=f54e299]:
+      - generic [ref=f54e300]:
+        - generic [ref=f54e301]:
+          - generic [ref=f54e302]: Civic Baseline Telemetry
+          - generic [ref=f54e303]: •
+          - generic [ref=f54e304]: 9/25/2026, 5:14:14 AM
+        - heading "Good morning, Jaipur" [level=1] [ref=f54e305]
+        - generic [ref=f54e306]:
+          - generic [ref=f54e307]:
+            - generic [ref=f54e308]: bedtime
+            - generic [ref=f54e309]: 22°C • Clear
+          - generic [ref=f54e310]: AQI – • MODERATE
+          - generic [ref=f54e313]:
+            - generic [ref=f54e314]: verified
+            - generic [ref=f54e315]: "Grid: 57% · 49.95 Hz"
+      - generic [ref=f54e316]:
+        - generic [ref=f54e317]: "Metropolis:"
+        - button "Jaipur" [ref=f54e318] [cursor=pointer]
+        - button "Delhi" [ref=f54e319] [cursor=pointer]
+        - button "Mumbai" [ref=f54e320] [cursor=pointer]
+        - button "Bengaluru" [ref=f54e321] [cursor=pointer]
+        - button "Hyderabad" [ref=f54e322] [cursor=pointer]
+    - generic [ref=f54e323]:
+      - generic [ref=f54e324]:
+        - generic [ref=f54e325]:
+          - text: Spatial Urban Intelligence
+          - heading "Terminal GIS — Vector Map Deck" [level=2] [ref=f54e326]
+        - generic [ref=f54e327]: Live congestion corridors • 181 dispatches • Metro & grid telemetry
+      - generic [ref=f54e329]:
+        - generic [ref=f54e330]:
+          - generic [ref=f54e331]: LIVE
+          - generic [ref=f54e335]:
+            - generic [ref=f54e336]: location_city
+            - textbox "SEARCH CITY — INDIA OR WORLDWIDE" [ref=f54e337]
+          - generic [ref=f54e338]: "AO: JAIPUR"
+          - generic [ref=f54e340]: 26.9498°N 75.7724°E · Z13
+          - generic [ref=f54e342]:
+            - generic [ref=f54e343]: VEH:2
+            - generic [ref=f54e344]: EV:6
+            - generic [ref=f54e345]: 0C
+            - generic [ref=f54e346]: 5W
+            - generic [ref=f54e347]: 1I
+          - generic [ref=f54e348]:
+            - generic [ref=f54e349]: 22°C CLEAR
+            - generic [ref=f54e351]: AQI –
+        - generic [ref=f54e352]:
+          - generic [ref=f54e353]:
+            - generic [ref=f54e354]:
+              - generic:
+                - generic:
+                  - img:
+                    - generic [ref=f54e355] [cursor=pointer]
+                - generic:
+                  - button [ref=f54e357] [cursor=pointer]
+                  - button [ref=f54e359] [cursor=pointer]
+                  - button [ref=f54e361] [cursor=pointer]
+                  - button [ref=f54e363] [cursor=pointer]
+                  - button [ref=f54e365] [cursor=pointer]
+                  - button [ref=f54e367] [cursor=pointer]
+                  - button "tram" [ref=f54e369] [cursor=pointer]
+                  - button "directions_bus" [ref=f54e372] [cursor=pointer]
+              - generic [ref=f54e375]:
+                - link "Leaflet" [ref=f54e376] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=f54e381] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: contributors
+            - generic [ref=f54e382]:
+              - generic [ref=f54e383]: Severity
+              - generic [ref=f54e384]:
+                - generic [ref=f54e385]: INFO
+                - generic [ref=f54e387]: WARNING
+                - generic [ref=f54e389]: CRITICAL
+              - generic [ref=f54e391]: Flow
+              - generic [ref=f54e392]:
+                - generic [ref=f54e393]: FREE FLOW
+                - generic [ref=f54e395]: MODERATE
+                - generic [ref=f54e397]: HEAVY
+              - generic [ref=f54e399]: Vehicles
+              - generic [ref=f54e400]:
+                - generic [ref=f54e401]: METRO/RAIL
+                - generic [ref=f54e403]: BUS
+                - generic [ref=f54e405]: DELAYED
+            - generic [ref=f54e407]:
+              - generic [ref=f54e408]:
+                - generic [ref=f54e409]: 22°C
+                - generic [ref=f54e410]: Clear NIGHT · RH 84%
+                - generic [ref=f54e412]:
+                  - text: AQI –
+                  - generic [ref=f54e413]: MODERATE
+              - generic [ref=f54e414]:
+                - generic [ref=f54e415]:
+                  - generic [ref=f54e416]: F
+                  - generic [ref=f54e417]: 31°
+                  - generic [ref=f54e418]: 21°
+                - generic [ref=f54e419]:
+                  - generic [ref=f54e420]: S
+                  - generic [ref=f54e421]: 33°
+                  - generic [ref=f54e422]: 20°
+                - generic [ref=f54e423]:
+                  - generic [ref=f54e424]: S
+                  - generic [ref=f54e425]: 28°
+                  - generic [ref=f54e426]: 20°
+          - generic [ref=f54e427]:
+            - generic [ref=f54e428]:
+              - generic [ref=f54e429]: Telemetry Ledger
+              - generic [ref=f54e430]: ● 6 REC
+            - generic [ref=f54e431]:
+              - generic [ref=f54e432]:
+                - generic [ref=f54e433]: 18:10:37
+                - generic [ref=f54e434]: WARN
+                - generic [ref=f54e435]:
+                  - generic [ref=f54e436]: "[REP]"
+                  - text: "Resident report [Transit & Bus Shelter]: rgea — sigh"
+              - generic [ref=f54e437]:
+                - generic [ref=f54e438]: 18:01:08
+                - generic [ref=f54e439]: WARN
+                - generic [ref=f54e440]:
+                  - generic [ref=f54e441]: "[REP]"
+                  - text: "Resident report [Transit & Bus Shelter]: LIVE-FEED-8820 metro gate jammed at Chandpole — Chandpole"
+              - generic [ref=f54e442]:
+                - generic [ref=f54e443]: 18:00:46
+                - generic [ref=f54e444]: WARN
+                - generic [ref=f54e445]:
+                  - generic [ref=f54e446]: "[REP]"
+                  - text: "Resident report [Transit & Bus Shelter]: WS-INSTANT test report — Sindhi Camp"
+              - generic [ref=f54e447]:
+                - generic [ref=f54e448]: 17:51:46
+                - generic [ref=f54e449]: WARN
+                - generic [ref=f54e450]:
+                  - generic [ref=f54e451]: "[REP]"
+                  - text: "Resident report [Transit & Bus Shelter]: meow — Pinned 26.9046, 75.8066"
+              - generic [ref=f54e452]:
+                - generic [ref=f54e453]: 17:39:08
+                - generic [ref=f54e454]: INFO
+                - generic [ref=f54e455]:
+                  - generic [ref=f54e456]: "[REP]"
+                  - text: "Resident report [Transit & Bus Shelter]: ERF — Pinned 26.9086, 75.7397"
+              - generic [ref=f54e457]:
+                - generic [ref=f54e458]: 17:35:58
+                - generic [ref=f54e459]: WARN
+                - generic [ref=f54e460]:
+                  - generic [ref=f54e461]: "[REP]"
+                  - text: "Resident report [Transit & Bus Shelter]: POTHOLES — Pinned 26.9000, 75.8162"
+        - generic [ref=f54e462]:
+          - generic [ref=f54e463]:
+            - button "Attributes Table expand_less" [ref=f54e464] [cursor=pointer]:
+              - generic [ref=f54e465]: Attributes Table
+              - generic [ref=f54e466]: expand_less
+            - generic [ref=f54e467]: Jaipur · last 6 records · ttl 180s
+          - table [ref=f54e469]:
+            - rowgroup [ref=f54e470]:
+              - row [ref=f54e471]:
+                - columnheader "UTC TIME" [ref=f54e472]
+                - columnheader "AGE" [ref=f54e473]
+                - columnheader "CATEGORY" [ref=f54e474]
+                - columnheader "SEVERITY" [ref=f54e475]
+                - columnheader "DESCRIPTION" [ref=f54e476]
+                - columnheader "LAT" [ref=f54e477]
+                - columnheader "LNG" [ref=f54e478]
+            - rowgroup [ref=f54e479]:
+              - row [ref=f54e480]:
+                - cell "18:10:37" [ref=f54e481]
+                - cell "333m" [ref=f54e482]
+                - cell "report" [ref=f54e483]
+                - cell "WARNING" [ref=f54e484]
+                - 'cell "Resident report [Transit & Bus Shelter]: rgea — sigh" [ref=f54e485]'
+                - cell "26.9070" [ref=f54e486]
+                - cell "75.7959" [ref=f54e487]
+              - row [ref=f54e488]:
+                - cell "18:01:08" [ref=f54e489]
+                - cell "343m" [ref=f54e490]
+                - cell "report" [ref=f54e491]
+                - cell "WARNING" [ref=f54e492]
+                - 'cell "Resident report [Transit & Bus Shelter]: LIVE-FEED-8820 metro gate jammed at Chandpole — Chandpole" [ref=f54e493]'
+                - cell "26.9192" [ref=f54e494]
+                - cell "75.7910" [ref=f54e495]
+              - row [ref=f54e496]:
+                - cell "18:00:46" [ref=f54e497]
+                - cell "343m" [ref=f54e498]
+                - cell "report" [ref=f54e499]
+                - cell "WARNING" [ref=f54e500]
+                - 'cell "Resident report [Transit & Bus Shelter]: WS-INSTANT test report — Sindhi Camp" [ref=f54e501]'
+                - cell "26.9048" [ref=f54e502]
+                - cell "75.7882" [ref=f54e503]
+              - row [ref=f54e504]:
+                - cell "17:51:46" [ref=f54e505]
+                - cell "352m" [ref=f54e506]
+                - cell "report" [ref=f54e507]
+                - cell "WARNING" [ref=f54e508]
+                - 'cell "Resident report [Transit & Bus Shelter]: meow — Pinned 26.9046, 75.8066" [ref=f54e509]'
+                - cell "26.9046" [ref=f54e510]
+                - cell "75.8066" [ref=f54e511]
+              - row [ref=f54e512]:
+                - cell "17:39:08" [ref=f54e513]
+                - cell "365m" [ref=f54e514]
+                - cell "report" [ref=f54e515]
+                - cell "INFO" [ref=f54e516]
+                - 'cell "Resident report [Transit & Bus Shelter]: ERF — Pinned 26.9086, 75.7397" [ref=f54e517]'
+                - cell "26.9086" [ref=f54e518]
+                - cell "75.7397" [ref=f54e519]
+              - row [ref=f54e520]:
+                - cell "17:35:58" [ref=f54e521]
+                - cell "368m" [ref=f54e522]
+                - cell "report" [ref=f54e523]
+                - cell "WARNING" [ref=f54e524]
+                - 'cell "Resident report [Transit & Bus Shelter]: POTHOLES — Pinned 26.9000, 75.8162" [ref=f54e525]'
+                - cell "26.9000" [ref=f54e526]
+                - cell "75.8162" [ref=f54e527]
+    - generic [ref=f54e528]:
+      - generic [ref=f54e529]:
+        - generic [ref=f54e530]:
+          - generic [ref=f54e531]:
+            - generic [ref=f54e532]: Live Civic Score Calculator
+            - generic [ref=f54e535]: computed from live telemetry
+          - generic [ref=f54e536]:
+            - generic [ref=f54e541]:
+              - generic [ref=f54e542]: "38"
+              - generic [ref=f54e543]: Jaipur Score
+            - generic [ref=f54e544]:
+              - generic [ref=f54e545]:
+                - generic [ref=f54e546]: insights
+                - text: Strained
+              - heading "Strained Civic Health" [level=2] [ref=f54e547]
+              - paragraph [ref=f54e548]: Composite index +2.3 vs yesterday — weighted across air, mobility, transit, civic response, and grid.
+          - generic [ref=f54e549]:
+            - generic [ref=f54e551]:
+              - generic [ref=f54e552]:
+                - generic [ref=f54e553]: air
+                - text: Air Quality
+              - generic [ref=f54e554]: 32/100 AQI avg 91 (6h)
+            - generic [ref=f54e558]:
+              - generic [ref=f54e559]:
+                - generic [ref=f54e560]: traffic
+                - text: Road Mobility
+              - generic [ref=f54e561]: 20/100 36% heavy corridors
+            - generic [ref=f54e565]:
+              - generic [ref=f54e566]:
+                - generic [ref=f54e567]: tram
+                - text: Transit Health
+              - generic [ref=f54e568]: 15/100 avg delay 14 min
+            - generic [ref=f54e572]:
+              - generic [ref=f54e573]:
+                - generic [ref=f54e574]: campaign
+                - text: Civic Response
+              - generic [ref=f54e575]: 58/100 0 resident reports (6h)
+            - generic [ref=f54e579]:
+              - generic [ref=f54e580]:
+                - generic [ref=f54e581]: bolt
+                - text: Grid Headroom
+              - generic [ref=f54e582]: 100/100 57% load, 49.95 Hz
+          - generic [ref=f54e585]:
+            - generic [ref=f54e586]:
+              - generic [ref=f54e587]:
+                - generic [ref=f54e588]: bolt
+                - text: Grid Telemetry
+              - generic [ref=f54e589]: JVVNL / RVPN
+            - generic [ref=f54e590]:
+              - generic [ref=f54e591]:
+                - text: 57% load
+                - generic [ref=f54e592]: (2,394 MW / 4,200 MW)
+              - generic [ref=f54e593]: 49.95 Hz ●
+            - generic [ref=f54e619]:
+              - generic "solar"
+              - generic "wind"
+              - generic "hydro"
+              - generic "thermal"
+            - generic [ref=f54e620]:
+              - generic [ref=f54e621]: Solar 0% · Wind 13% · Hydro 14% · Thermal 73%
+              - generic [ref=f54e622]: Peak 19:00
+        - generic [ref=f54e623]:
+          - generic [ref=f54e624]: "Viewing: Live Neighborhood Civic Scores"
+          - generic [ref=f54e629]:
+            - generic [ref=f54e630]:
+              - generic:
+                - generic:
+                  - button "53" [ref=f54e631] [cursor=pointer]
+                  - button "53" [ref=f54e634] [cursor=pointer]
+                  - button "53" [ref=f54e637] [cursor=pointer]
+                  - button "53" [ref=f54e640] [cursor=pointer]
+                  - button "53" [ref=f54e643] [cursor=pointer]
+                  - button "53" [ref=f54e646] [cursor=pointer]
+              - generic [ref=f54e649]:
+                - link "Leaflet" [ref=f54e650] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                - text: "| ©"
+                - link "OpenStreetMap" [ref=f54e655] [cursor=pointer]:
+                  - /url: https://www.openstreetmap.org/copyright
+                - text: contributors
+            - generic [ref=f54e656]:
+              - generic [ref=f54e657]: Good 70+
+              - generic [ref=f54e659]: Fair 50-69
+              - generic [ref=f54e661]: Poor <50
+          - generic [ref=f54e663]:
+            - generic [ref=f54e664]:
+              - generic [ref=f54e665]: sensors
+              - generic [ref=f54e667]:
+                - generic [ref=f54e668]: "Jaipur Microgrid #04"
+                - text: Active • Lat 26.9124 N, Lon 75.7873 E
+            - generic [ref=f54e671]:
+              - generic [ref=f54e672]: Optimal
+              - generic [ref=f54e674]: Nominal
+              - generic [ref=f54e676]: Maintenance
+      - generic [ref=f54e678]:
+        - generic [ref=f54e679]:
+          - generic [ref=f54e680]:
+            - generic [ref=f54e681]:
+              - generic [ref=f54e682]: Public Bulletins
+              - generic [ref=f54e683]: •
+              - generic [ref=f54e684]: 8 Active Real-Time Advisories
+            - heading "Top Headlines" [level=2] [ref=f54e685]
+          - link "View all city dispatches arrow_forward" [ref=f54e686] [cursor=pointer]:
+            - /url: "#"
+            - text: View all city dispatches
+            - generic [ref=f54e687]: arrow_forward
+        - generic [ref=f54e688]:
+          - generic [ref=f54e689]:
+            - generic [ref=f54e690]:
+              - generic [ref=f54e691]:
+                - generic [ref=f54e692]: Resident Report
+                - generic [ref=f54e693]:
+                  - generic [ref=f54e694]: schedule
+                  - text: 5h ago
+              - heading "rgea" [level=3] [ref=f54e695]
+              - paragraph [ref=f54e696]: sigh • filed by trace_user_2
+            - generic [ref=f54e697]:
+              - generic [ref=f54e698]:
+                - generic [ref=f54e699]: location_on
+                - text: Resident filed
+              - generic [ref=f54e700]: SUBMITTED
+          - generic [ref=f54e701]:
+            - generic [ref=f54e702]:
+              - generic [ref=f54e703]:
+                - generic [ref=f54e704]: Resident Report
+                - generic [ref=f54e705]:
+                  - generic [ref=f54e706]: schedule
+                  - text: 5h ago
+              - heading "LIVE-FEED-8820 metro gate jammed at Chandpole" [level=3] [ref=f54e707]
+              - paragraph [ref=f54e708]: Chandpole • filed by trace_user_2
+            - generic [ref=f54e709]:
+              - generic [ref=f54e710]:
+                - generic [ref=f54e711]: location_on
+                - text: Resident filed
+              - generic [ref=f54e712]: SUBMITTED
+          - generic [ref=f54e713]:
+            - generic [ref=f54e714]:
+              - generic [ref=f54e715]:
+                - generic [ref=f54e716]: Resident Report
+                - generic [ref=f54e717]:
+                  - generic [ref=f54e718]: schedule
+                  - text: 5h ago
+              - heading "WS-INSTANT test report" [level=3] [ref=f54e719]
+              - paragraph [ref=f54e720]: Sindhi Camp • filed by trace_user_2
+            - generic [ref=f54e721]:
+              - generic [ref=f54e722]:
+                - generic [ref=f54e723]: location_on
+                - text: Resident filed
+              - generic [ref=f54e724]: SUBMITTED
+      - generic [ref=f54e725]:
+        - generic [ref=f54e726]:
+          - generic [ref=f54e727]: contact_support
+          - generic [ref=f54e729]:
+            - text: Resident Civic Telemetry Services
+            - paragraph [ref=f54e730]: Report public space anomalies, request sensor audits, or call emergency dispatch.
+        - generic [ref=f54e731]:
+          - link "phone Dial Jaipur 181" [ref=f54e732] [cursor=pointer]:
+            - /url: tel:181
+            - generic [ref=f54e733]: phone
+            - text: Dial Jaipur 181
+          - button "campaign Submit Resident Feedback" [ref=f54e734] [cursor=pointer]:
+            - generic [ref=f54e735]: campaign
+            - text: Submit Resident Feedback
+          - button "emergency_share Emergency Directory" [ref=f54e736] [cursor=pointer]:
+            - generic [ref=f54e737]: emergency_share
+            - text: Emergency Directory
+    - generic [ref=f54e739]:
+      - generic [ref=f54e740]:
+        - generic [ref=f54e741]: Municipal Telemetry Feeds Active
+        - generic [ref=f54e744]: •
+        - generic [ref=f54e745]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f54e746]:
+        - generic [ref=f54e747]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f54e748]:
+          - link "Status" [ref=f54e749] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f54e750] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f54e751] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f54e753] [cursor=pointer]:
+      - generic [ref=f54e754]: smart_toy
+      - generic [ref=f54e755]: CivicPulse AI

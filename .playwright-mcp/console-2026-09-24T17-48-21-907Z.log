@@ -1,0 +1,118 @@
+[     619ms] [INFO] Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[     806ms] [ERROR] [JavaScript Error: "Firefox can’t establish a connection to the server at ws://localhost:8001/ws/pulse." {file: "http://localhost:3001/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 39 > eval" line: 128}] @ http://localhost:3001/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 39 > eval:128
+[     807ms] [ERROR] [JavaScript Error: "The connection to ws://localhost:8001/ws/pulse was interrupted while the page was loading." {file: "http://localhost:3001/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 39 > eval" line: 128}] @ http://localhost:3001/_next/static/chunks/_app-pages-browser_src_components_LiveTelemetryMap_tsx.js line 39 > eval:128
+[     964ms] [WARNING] [JavaScript Warning: "A resource is blocked by OpaqueResponseBlocking, please check browser console for details." {file: "https://lh3.googleusercontent.com/aida/AEtjO1X846d3k35eqtuPzI3ksBZBgmsuatplYf7WFWYM_h4CQ9S0k_6yUwv3OxFWwjbIzs3k1JV2GDlAvxoRA-gLT5iFVboFFwqvpvgYPsc_RyoM3YuBNu9NzPARAaC6kV6UJAhH0RowmMOGkuZnERI4p8pDkvgiSk39AQI3ZKfgNVDlH8G2iRraUJ4l3kVc7G4FOOYXP0NMkYeXWm6DwN2oPcnaPAhJ9SrQiTBLsgXyla-zluPTCI_cNnaWLpKk" line: 0}] @ https://lh3.googleusercontent.com/aida/AEtjO1X846d3k35eqtuPzI3ksBZBgmsuatplYf7WFWYM_h4CQ9S0k_6yUwv3OxFWwjbIzs3k1JV2GDlAvxoRA-gLT5iFVboFFwqvpvgYPsc_RyoM3YuBNu9NzPARAaC6kV6UJAhH0RowmMOGkuZnERI4p8pDkvgiSk39AQI3ZKfgNVDlH8G2iRraUJ4l3kVc7G4FOOYXP0NMkYeXWm6DwN2oPcnaPAhJ9SrQiTBLsgXyla-zluPTCI_cNnaWLpKk:0
+[  331268ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  332320ms] [LOG] [Fast Refresh] done in 1052ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  332400ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  333097ms] [ERROR] Failed to fetch RSC payload for http://localhost:3001/weather. Falling back to browser navigation. JSHandle@object @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/app-index.js:32
+[  333344ms] [INFO] Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/compiled/react-dom/cjs/react-dom.development.js:38559
+[  400649ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  400823ms] [LOG] [Fast Refresh] done in 173ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  458556ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  458684ms] [LOG] [Fast Refresh] done in 128ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  573585ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  573750ms] [LOG] [Fast Refresh] done in 165ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  834025ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  834123ms] [LOG] [Fast Refresh] done in 98ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  984805ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  984972ms] [LOG] [Fast Refresh] done in 167ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  985099ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[  985251ms] [LOG] [Fast Refresh] done in 153ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[  985264ms] uncaught exception: Event { isTrusted }
+
+[ 1071386ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1071653ms] [LOG] [Fast Refresh] done in 266ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1079054ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1079187ms] [LOG] [Fast Refresh] done in 133ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1086124ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1086236ms] [LOG] [Fast Refresh] done in 112ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1097797ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1097909ms] [LOG] [Fast Refresh] done in 113ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1847633ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1847903ms] [LOG] [Fast Refresh] done in 270ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1847915ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1848160ms] [LOG] [Fast Refresh] rebuilding @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:186
+[ 1848163ms] [LOG] [Fast Refresh] done in 3ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1848740ms] [LOG] [Fast Refresh] done in 580ms @ webpack-internal:///(app-pages-browser)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:43
+[ 1849118ms] [INFO] Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[ 1849169ms] Error: Cannot find module './948.js'
+Require stack:
+- /home/aadi/Documents/AimHacks/frontend/.next/server/webpack-runtime.js
+- /home/aadi/Documents/AimHacks/frontend/.next/server/pages/_document.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/require.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/load-components.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/build/utils.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/dev/hot-middleware.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/router-server.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/start-server.js
+    at getServerError (webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js:38:15)
+    at hydrate/< (webpack-internal:///./node_modules/next/dist/client/index.js:625:27)
+    at setTimeout handler*hydrate (webpack-internal:///./node_modules/next/dist/client/index.js:613:27)
+    at async*pageBootrap (webpack-internal:///./node_modules/next/dist/client/page-bootstrap.js:27:26)
+    at  (webpack-internal:///./node_modules/next/dist/client/next-dev.js:25:43)
+    at promise callback* (webpack-internal:///./node_modules/next/dist/client/next-dev.js:23:4)
+    at ./node_modules/next/dist/client/next-dev.js (http://localhost:3001/_next/static/chunks/main.js:820:1)
+    at options.factory (http://localhost:3001/_next/static/chunks/webpack.js:715:31)
+    at __webpack_require__ (http://localhost:3001/_next/static/chunks/webpack.js:37:33)
+    at __webpack_exec__ (http://localhost:3001/_next/static/chunks/main.js:1975:61)
+    at  (http://localhost:3001/_next/static/chunks/main.js:1976:53)
+    at webpackJsonpCallback (http://localhost:3001/_next/static/chunks/webpack.js:1403:46)
+    at  (http://localhost:3001/_next/static/chunks/main.js:9:61)
+[ 1849169ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[ 1880410ms] [INFO] Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[ 1880456ms] Error: Cannot find module './948.js'
+Require stack:
+- /home/aadi/Documents/AimHacks/frontend/.next/server/webpack-runtime.js
+- /home/aadi/Documents/AimHacks/frontend/.next/server/pages/_document.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/require.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/load-components.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/build/utils.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/dev/hot-middleware.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/router-server.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/start-server.js
+    at getServerError (webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js:38:15)
+    at hydrate/< (webpack-internal:///./node_modules/next/dist/client/index.js:625:27)
+    at setTimeout handler*hydrate (webpack-internal:///./node_modules/next/dist/client/index.js:613:27)
+    at async*pageBootrap (webpack-internal:///./node_modules/next/dist/client/page-bootstrap.js:27:26)
+    at  (webpack-internal:///./node_modules/next/dist/client/next-dev.js:25:43)
+    at promise callback* (webpack-internal:///./node_modules/next/dist/client/next-dev.js:23:4)
+    at ./node_modules/next/dist/client/next-dev.js (http://localhost:3001/_next/static/chunks/main.js:820:1)
+    at options.factory (http://localhost:3001/_next/static/chunks/webpack.js:715:31)
+    at __webpack_require__ (http://localhost:3001/_next/static/chunks/webpack.js:37:33)
+    at __webpack_exec__ (http://localhost:3001/_next/static/chunks/main.js:1975:61)
+    at  (http://localhost:3001/_next/static/chunks/main.js:1976:53)
+    at webpackJsonpCallback (http://localhost:3001/_next/static/chunks/webpack.js:1403:46)
+    at  (http://localhost:3001/_next/static/chunks/main.js:9:61)
+[ 1880456ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38
+[ 1881638ms] [INFO] Download the React DevTools for a better development experience: https://reactjs.org/link/react-devtools @ webpack-internal:///./node_modules/react-dom/cjs/react-dom.development.js:29889
+[ 1881684ms] Error: Cannot find module './948.js'
+Require stack:
+- /home/aadi/Documents/AimHacks/frontend/.next/server/webpack-runtime.js
+- /home/aadi/Documents/AimHacks/frontend/.next/server/pages/_document.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/require.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/load-components.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/build/utils.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/dev/hot-middleware.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/dev/hot-reloader-webpack.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/router-utils/setup-dev-bundler.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/router-server.js
+- /home/aadi/Documents/AimHacks/frontend/node_modules/next/dist/server/lib/start-server.js
+    at getServerError (webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/internal/helpers/nodeStackFrames.js:38:15)
+    at hydrate/< (webpack-internal:///./node_modules/next/dist/client/index.js:625:27)
+    at setTimeout handler*hydrate (webpack-internal:///./node_modules/next/dist/client/index.js:613:27)
+    at async*pageBootrap (webpack-internal:///./node_modules/next/dist/client/page-bootstrap.js:27:26)
+    at  (webpack-internal:///./node_modules/next/dist/client/next-dev.js:25:43)
+    at promise callback* (webpack-internal:///./node_modules/next/dist/client/next-dev.js:23:4)
+    at ./node_modules/next/dist/client/next-dev.js (http://localhost:3001/_next/static/chunks/main.js:820:1)
+    at options.factory (http://localhost:3001/_next/static/chunks/webpack.js:715:31)
+    at __webpack_require__ (http://localhost:3001/_next/static/chunks/webpack.js:37:33)
+    at __webpack_exec__ (http://localhost:3001/_next/static/chunks/main.js:1975:61)
+    at  (http://localhost:3001/_next/static/chunks/main.js:1976:53)
+    at webpackJsonpCallback (http://localhost:3001/_next/static/chunks/webpack.js:1403:46)
+    at  (http://localhost:3001/_next/static/chunks/main.js:9:61)
+[ 1881684ms] [LOG] [HMR] connected @ webpack-internal:///./node_modules/next/dist/client/components/react-dev-overlay/pages/websocket.js:38

@@ -6,7 +6,18 @@ export interface CivicEvent {
   category: string;
   severity: string;
   description: string;
+  city: string;
+  waypoints?: number[][] | null;
   metadata: Record<string, string | number>;
+}
+
+export interface City {
+  id: number;
+  name: string;
+  state: string;
+  lat: number;
+  lng: number;
+  is_default: boolean;
 }
 
 export interface TransitLine {

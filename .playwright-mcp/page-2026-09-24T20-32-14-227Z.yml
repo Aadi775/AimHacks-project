@@ -1,0 +1,229 @@
+- generic [active] [ref=f8e1]:
+  - banner [ref=f8e2]:
+    - generic [ref=f8e3]:
+      - generic [ref=f8e5]:
+        - img "CivicPulse Logo" [ref=f8e6]
+        - generic [ref=f8e7]:
+          - generic [ref=f8e8]: CivicPulse
+          - generic [ref=f8e9]: Resident Edition
+      - generic [ref=f8e10]:
+        - generic [ref=f8e11]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f8e14] [cursor=pointer]:
+          - generic [ref=f8e15]: search
+          - generic [ref=f8e16]: Search metrics
+          - generic [ref=f8e17]: ⌘K
+        - button "Notifications" [ref=f8e18] [cursor=pointer]:
+          - generic [ref=f8e19]: notifications
+        - link "person Sign In" [ref=f8e21] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f8e22]: person
+          - generic [ref=f8e24]: Sign In
+  - main [ref=f8e25]:
+    - generic [ref=f8e26]:
+      - generic [ref=f8e27]:
+        - generic [ref=f8e28]:
+          - generic [ref=f8e29]: Live OpenMeteo Feed
+          - generic [ref=f8e31]: Refreshed every 2 min • No API key needed
+        - heading "Agra Weather & Environment" [level=1] [ref=f8e364]
+        - paragraph [ref=f8e33]: Real-time atmospheric conditions, air quality, and 7-day outlook streamed from global sensor models for Agra, Uttar Pradesh.
+        - generic [ref=f8e34]:
+          - generic [ref=f8e35]:
+            - generic [ref=f8e36]:
+              - generic [ref=f8e37]: location_city
+              - text: "City:"
+            - button "Jaipur" [ref=f8e65] [cursor=pointer]
+            - button "Delhi" [ref=f8e67] [cursor=pointer]
+            - button "Mumbai" [ref=f8e68] [cursor=pointer]
+            - button "Bengaluru" [ref=f8e69] [cursor=pointer]
+            - button "Hyderabad" [ref=f8e70] [cursor=pointer]
+            - button "Ahmedabad" [ref=f8e71] [cursor=pointer]
+            - button "Chennai" [ref=f8e72] [cursor=pointer]
+            - button "Kolkata" [ref=f8e73] [cursor=pointer]
+            - button "Pune" [ref=f8e74] [cursor=pointer]
+            - button "Lucknow" [ref=f8e75] [cursor=pointer]
+            - button "Udaipur" [ref=f8e76] [cursor=pointer]
+            - button "Agra" [ref=f8e77] [cursor=pointer]
+          - generic [ref=f8e39]:
+            - generic [ref=f8e40]: search
+            - textbox "Search any city — India or worldwide…" [ref=f8e41]
+      - generic [ref=f8e79]:
+        - generic [ref=f8e80]:
+          - generic [ref=f8e81]:
+            - generic [ref=f8e82]: 25°C
+            - generic [ref=f8e83]:
+              - generic [ref=f8e84]:
+                - generic [ref=f8e85]: bedtime
+                - text: Clear sky
+              - generic [ref=f8e86]: Agra, Uttar Pradesh
+          - generic [ref=f8e87]:
+            - generic [ref=f8e88]:
+              - generic [ref=f8e89]: thermostat
+              - generic [ref=f8e90]:
+                - text: High
+                - strong [ref=f8e91]: 30°
+                - text: / Low
+                - strong [ref=f8e92]: 24°
+            - generic [ref=f8e93]:
+              - generic [ref=f8e94]: water_drop
+              - generic [ref=f8e95]: Humidity 83%
+            - generic [ref=f8e96]:
+              - generic [ref=f8e97]: air
+              - generic [ref=f8e98]: Wind 10 km/h
+            - generic [ref=f8e99]:
+              - generic [ref=f8e100]: wb_sunny
+              - generic [ref=f8e101]: UV Index 0
+        - generic [ref=f8e102]:
+          - generic [ref=f8e103]: eco
+          - generic [ref=f8e108]:
+            - generic [ref=f8e109]: AQI 75 • MODERATE
+            - generic [ref=f8e110]: "PM2.5: 21.3 µg/m³"
+      - generic [ref=f8e111]:
+        - generic [ref=f8e112]:
+          - generic [ref=f8e113]:
+            - generic [ref=f8e114]: calendar_today
+            - generic [ref=f8e115]: 7-Day Atmospheric Outlook
+          - generic [ref=f8e116]: Live forecast model data
+        - generic [ref=f8e117]:
+          - generic [ref=f8e118] [cursor=pointer]:
+            - generic [ref=f8e119]: Today
+            - generic [ref=f8e120]: Sep 25
+            - generic [ref=f8e121]:
+              - generic [ref=f8e122]: Light
+              - generic [ref=f8e123]: 49% Precip
+            - generic [ref=f8e125]:
+              - generic [ref=f8e126]: 24°
+              - generic [ref=f8e127]: 30°
+            - generic [ref=f8e130]: Light drizzle
+          - generic [ref=f8e131] [cursor=pointer]:
+            - generic [ref=f8e132]: Sat
+            - generic [ref=f8e133]: Sep 26
+            - generic [ref=f8e134]:
+              - generic [ref=f8e135]: Showers
+              - generic [ref=f8e136]: 67% Precip
+            - generic [ref=f8e138]:
+              - generic [ref=f8e139]: 23°
+              - generic [ref=f8e140]: 25°
+            - generic [ref=f8e143]: Showers
+          - generic [ref=f8e144] [cursor=pointer]:
+            - generic [ref=f8e145]: Sun
+            - generic [ref=f8e146]: Sep 27
+            - generic [ref=f8e147]:
+              - generic [ref=f8e148]: Light
+              - generic [ref=f8e149]: 39% Precip
+            - generic [ref=f8e151]:
+              - generic [ref=f8e152]: 23°
+              - generic [ref=f8e153]: 32°
+            - generic [ref=f8e156]: Light drizzle
+          - generic [ref=f8e157] [cursor=pointer]:
+            - generic [ref=f8e158]: Mon
+            - generic [ref=f8e159]: Sep 28
+            - generic [ref=f8e160]:
+              - generic [ref=f8e161]: Light
+              - generic [ref=f8e162]: 43% Precip
+            - generic [ref=f8e164]:
+              - generic [ref=f8e165]: 22°
+              - generic [ref=f8e166]: 31°
+            - generic [ref=f8e169]: Light drizzle
+          - generic [ref=f8e170] [cursor=pointer]:
+            - generic [ref=f8e171]: Tue
+            - generic [ref=f8e172]: Sep 29
+            - generic [ref=f8e173]:
+              - generic [ref=f8e174]: Overcast
+              - generic [ref=f8e175]: 19% Precip
+            - generic [ref=f8e177]:
+              - generic [ref=f8e178]: 22°
+              - generic [ref=f8e179]: 32°
+            - generic [ref=f8e182]: Overcast
+          - generic [ref=f8e183] [cursor=pointer]:
+            - generic [ref=f8e184]: Wed
+            - generic [ref=f8e185]: Sep 30
+            - generic [ref=f8e186]:
+              - generic [ref=f8e187]: Mainly
+              - generic [ref=f8e188]: 0% Precip
+            - generic [ref=f8e190]:
+              - generic [ref=f8e191]: 23°
+              - generic [ref=f8e192]: 33°
+            - generic [ref=f8e195]: Mainly clear
+          - generic [ref=f8e196] [cursor=pointer]:
+            - generic [ref=f8e197]: Thu
+            - generic [ref=f8e198]: Oct 1
+            - generic [ref=f8e199]:
+              - generic [ref=f8e200]: Clear
+              - generic [ref=f8e201]: 0% Precip
+            - generic [ref=f8e203]:
+              - generic [ref=f8e204]: 23°
+              - generic [ref=f8e205]: 33°
+            - generic [ref=f8e208]: Clear sky
+      - generic [ref=f8e209]:
+        - generic [ref=f8e210]:
+          - generic [ref=f8e211]:
+            - generic [ref=f8e212]: Air Quality Telemetry
+            - paragraph [ref=f8e215]: Live pollutant concentrations from OpenMeteo's CAMS global air-quality model for Agra.
+          - generic [ref=f8e216]:
+            - generic [ref=f8e217]: sensor_occupied
+            - generic [ref=f8e218]:
+              - text: "Now:"
+              - generic [ref=f8e219]: 75 AQI
+              - text: (MODERATE)
+        - generic [ref=f8e220]:
+          - generic [ref=f8e221]:
+            - generic [ref=f8e222]:
+              - generic [ref=f8e223]: Fine Particulate (PM2.5)
+              - generic [ref=f8e224]: Live
+            - generic [ref=f8e225]:
+              - text: "21.3"
+              - generic [ref=f8e226]: µg/m³
+          - generic [ref=f8e227]:
+            - generic [ref=f8e228]:
+              - generic [ref=f8e229]: Coarse Dust (PM10)
+              - generic [ref=f8e230]: Live
+            - generic [ref=f8e231]:
+              - text: "103.6"
+              - generic [ref=f8e232]: µg/m³
+          - generic [ref=f8e233]:
+            - generic [ref=f8e234]:
+              - generic [ref=f8e235]: Ground Ozone
+              - generic [ref=f8e236]: Live
+            - generic [ref=f8e237]:
+              - text: "62"
+              - generic [ref=f8e238]: µg/m³
+          - generic [ref=f8e239]:
+            - generic [ref=f8e240]:
+              - generic [ref=f8e241]: Nitrogen Dioxide
+              - generic [ref=f8e242]: Live
+            - generic [ref=f8e243]:
+              - text: "11.5"
+              - generic [ref=f8e244]: µg/m³
+      - generic [ref=f8e245]:
+        - generic [ref=f8e246]:
+          - generic [ref=f8e247]:
+            - text: Localized Grid Array
+            - heading "Neighborhood Microclimate Readings" [level=2] [ref=f8e248]
+          - generic [ref=f8e249]: Citywide aggregated reading
+        - generic [ref=f8e250]:
+          - generic [ref=f8e365]:
+            - generic [ref=f8e366]: sensors
+            - generic [ref=f8e368]:
+              - generic [ref=f8e369]: Citywide Reading Active
+              - generic [ref=f8e370]: "The hyperlocal neighborhood sensor grid is currently deployed in Jaipur. Agra is streaming citywide conditions: 25°C, AQI 75."
+          - button "explore View Jaipur Grid" [ref=f8e371] [cursor=pointer]:
+            - generic [ref=f8e372]: explore
+            - text: View Jaipur Grid
+    - generic [ref=f8e46]:
+      - generic [ref=f8e47]:
+        - generic [ref=f8e48]: Municipal Telemetry Feeds Active
+        - generic [ref=f8e51]: •
+        - generic [ref=f8e52]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f8e53]:
+        - generic [ref=f8e54]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f8e55]:
+          - link "Status" [ref=f8e56] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f8e57] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f8e58] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f8e60] [cursor=pointer]:
+      - generic [ref=f8e61]: smart_toy
+      - generic [ref=f8e62]: CivicPulse AI
+  - alert [ref=f8e363]

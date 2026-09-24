@@ -1,0 +1,250 @@
+- generic [active] [ref=f3e1]:
+  - banner [ref=f3e2]:
+    - generic [ref=f3e3]:
+      - generic [ref=f3e5]:
+        - img "CivicPulse Logo" [ref=f3e6]
+        - generic [ref=f3e7]:
+          - generic [ref=f3e8]: CivicPulse
+          - generic [ref=f3e9]: Resident Edition
+      - generic [ref=f3e10]:
+        - generic [ref=f3e11]: Live • 99.4% Uptime
+        - button "search Search metrics ⌘K" [ref=f3e14] [cursor=pointer]:
+          - generic [ref=f3e15]: search
+          - generic [ref=f3e16]: Search metrics
+          - generic [ref=f3e17]: ⌘K
+        - button "Notifications" [ref=f3e18] [cursor=pointer]:
+          - generic [ref=f3e19]: notifications
+        - link "person Sign In" [ref=f3e21] [cursor=pointer]:
+          - /url: /login
+          - generic [ref=f3e22]: person
+          - generic [ref=f3e24]: Sign In
+  - main [ref=f3e25]:
+    - generic [ref=f3e27]:
+      - generic [ref=f3e28]:
+        - generic [ref=f3e29]:
+          - generic [ref=f3e30]: Civic Baseline Telemetry
+          - generic [ref=f3e31]: •
+          - generic [ref=f3e32]: 9/25/2026, 1:13:41 AM
+        - heading "Good afternoon, Jaipur" [level=1] [ref=f3e33]
+        - generic [ref=f3e34]:
+          - generic [ref=f3e35]:
+            - generic [ref=f3e36]: wb_sunny
+            - generic [ref=f3e37]: 68°F • Crisp & Sunny
+          - generic [ref=f3e38]: AQI 24 • Pristine Air
+          - generic [ref=f3e41]:
+            - generic [ref=f3e42]: verified
+            - generic [ref=f3e43]: "Grid Frequency: 60.01 Hz"
+      - generic [ref=f3e44]:
+        - generic [ref=f3e45]: "Metropolis:"
+        - button "Jaipur" [ref=f3e46] [cursor=pointer]
+        - button "New York" [ref=f3e47] [cursor=pointer]
+        - button "Seattle" [ref=f3e48] [cursor=pointer]
+        - button "Austin" [ref=f3e49] [cursor=pointer]
+    - generic [ref=f3e50]:
+      - generic [ref=f3e51]:
+        - generic [ref=f3e52]:
+          - text: Spatial Urban Intelligence
+          - heading "GIS Corridor Visualizer" [level=2] [ref=f3e53]
+        - generic [ref=f3e54]: Live congestion corridors • 181 dispatches • Metro & grid telemetry
+      - generic [ref=f3e55]:
+        - generic:
+          - generic [ref=f3e57]:
+            - generic [ref=f3e58]: location_city
+            - textbox "Search any city in India or worldwide…" [ref=f3e59]
+            - button "Search" [ref=f3e60] [cursor=pointer]
+          - generic [ref=f3e61]:
+            - generic [ref=f3e62]: Live
+            - generic [ref=f3e64]:
+              - generic [ref=f3e65]: sensors
+              - text: 11 events • 1:13:40 AM
+        - generic [ref=f3e66]:
+          - generic [ref=f3e67]:
+            - generic:
+              - generic:
+                - img:
+                  - generic [ref=f3e281] [cursor=pointer]
+              - generic:
+                - button [ref=f3e282] [cursor=pointer]
+                - button [ref=f3e284] [cursor=pointer]
+                - button [ref=f3e286] [cursor=pointer]
+                - button [ref=f3e288] [cursor=pointer]
+                - button [ref=f3e290] [cursor=pointer]
+                - button [ref=f3e292] [cursor=pointer]
+                - button [ref=f3e294] [cursor=pointer]
+                - button [ref=f3e296] [cursor=pointer]
+                - button [ref=f3e298] [cursor=pointer]
+                - button [ref=f3e300] [cursor=pointer]
+            - generic:
+              - generic [ref=f3e68]:
+                - button "Zoom in" [ref=f3e69] [cursor=pointer]: +
+                - button "Zoom out" [ref=f3e70] [cursor=pointer]: −
+              - generic [ref=f3e71]:
+                - link "Leaflet" [ref=f3e72] [cursor=pointer]:
+                  - /url: https://leafletjs.com
+                - text: "| Tiles {amp}copy; Esri, HERE, Garmin, FAO, NOAA, USGS"
+          - generic [ref=f3e77]:
+            - generic [ref=f3e78]: Severity
+            - generic [ref=f3e79]:
+              - generic [ref=f3e80]: INFO
+              - generic [ref=f3e82]: WARNING
+              - generic [ref=f3e84]: CRITICAL
+            - generic [ref=f3e86]: Traffic Flow
+            - generic [ref=f3e87]:
+              - generic [ref=f3e88]: FREE FLOW
+              - generic [ref=f3e90]: MODERATE
+              - generic [ref=f3e92]: HEAVY
+          - generic [ref=f3e94]:
+            - generic [ref=f3e95]: 0 critical
+            - generic [ref=f3e97]: 4 warning
+            - generic [ref=f3e99]: 7 info
+    - generic [ref=f3e101]:
+      - generic [ref=f3e102]:
+        - generic [ref=f3e103]:
+          - generic [ref=f3e104]:
+            - generic [ref=f3e105]: Live Composite Index
+            - generic [ref=f3e108]: 99.4% Sensor Uptime
+          - generic [ref=f3e109]:
+            - generic [ref=f3e114]:
+              - generic [ref=f3e115]: "88"
+              - generic [ref=f3e116]: Index Score
+            - generic [ref=f3e117]:
+              - generic [ref=f3e118]:
+                - generic [ref=f3e119]: check_circle
+                - text: Optimal Grade
+              - heading "Excellent Civic Health" [level=2] [ref=f3e120]
+              - paragraph [ref=f3e121]: Urban ecosystem running smoothly across transit, air, and civil assets.
+          - generic [ref=f3e122]:
+            - generic [ref=f3e124]:
+              - generic [ref=f3e125]:
+                - generic [ref=f3e126]: air
+                - text: Air Quality
+              - generic [ref=f3e127]: 92/100 Pristine
+            - generic [ref=f3e131]:
+              - generic [ref=f3e132]:
+                - generic [ref=f3e133]: directions_transit
+                - text: Transit Flow
+              - generic [ref=f3e134]: 84/100 Smooth
+            - generic [ref=f3e138]:
+              - generic [ref=f3e139]:
+                - generic [ref=f3e140]: health_and_safety
+                - text: Public Safety
+              - generic [ref=f3e141]: 89/100 Steady
+            - generic [ref=f3e145]:
+              - generic [ref=f3e146]:
+                - generic [ref=f3e147]: bolt
+                - text: Grid Stability
+              - generic [ref=f3e148]: 96/100 100% Green
+          - generic [ref=f3e151]:
+            - generic [ref=f3e152]: ✨
+            - paragraph [ref=f3e153]: "Civic trend: Conditions are 6% better than last Friday. High solar generation and favorable coastal breezes make today ideal for outdoor recreation at Central Park."
+        - generic [ref=f3e154]:
+          - generic [ref=f3e155]:
+            - generic [ref=f3e156]: "Viewing: Live Neighborhood Comfort"
+            - generic [ref=f3e159]:
+              - button "Zoom in" [ref=f3e160] [cursor=pointer]:
+                - generic [ref=f3e161]: add
+              - button "Zoom out" [ref=f3e162] [cursor=pointer]:
+                - generic [ref=f3e163]: remove
+              - button "Reset" [ref=f3e165] [cursor=pointer]:
+                - generic [ref=f3e166]: my_location
+          - img [ref=f3e168]: "C-Scheme / Ashok NagarAQI 18 • PristineVaishali Nagar / DowntownTransit Cadence: 98%Malviya NagarMicroclimate: 71°FAmer / KukasBreeze: Aravalli Winds"
+          - generic [ref=f3e186]:
+            - generic [ref=f3e187]:
+              - generic [ref=f3e188]: sensors
+              - generic [ref=f3e190]:
+                - generic [ref=f3e191]: "Jaipur Microgrid #04"
+                - text: Active • Lat 26.9124 N, Lon 75.7873 E
+            - generic [ref=f3e194]:
+              - generic [ref=f3e195]: Optimal
+              - generic [ref=f3e197]: Nominal
+              - generic [ref=f3e199]: Maintenance
+      - generic [ref=f3e201]:
+        - generic [ref=f3e202]:
+          - generic [ref=f3e203]:
+            - generic [ref=f3e204]:
+              - generic [ref=f3e205]: Public Bulletins
+              - generic [ref=f3e206]: •
+              - generic [ref=f3e207]: 3 Active Real-Time Advisories
+            - heading "Top Headlines" [level=2] [ref=f3e208]
+          - link "View all 14 neighborhood dispatches arrow_forward" [ref=f3e209] [cursor=pointer]:
+            - /url: "#"
+            - text: View all 14 neighborhood dispatches
+            - generic [ref=f3e210]: arrow_forward
+        - generic [ref=f3e211]:
+          - generic [ref=f3e212]:
+            - generic [ref=f3e213]:
+              - generic [ref=f3e214]:
+                - generic [ref=f3e215]: Infrastructure
+                - generic [ref=f3e216]:
+                  - generic [ref=f3e217]: schedule
+                  - text: 18m ago
+              - heading "Water Main Maintenance on JLN Marg" [level=3] [ref=f3e218]
+              - paragraph [ref=f3e219]: Crews completing scheduled valve upgrades near Gandhi Nagar Metro.
+            - generic [ref=f3e220]:
+              - generic [ref=f3e221]:
+                - generic [ref=f3e222]: location_on
+                - text: Civil Lines • JLN Marg Corridor
+              - generic [ref=f3e223]: Active Crew
+          - generic [ref=f3e224]:
+            - generic [ref=f3e225]:
+              - generic [ref=f3e226]:
+                - generic [ref=f3e227]: Sustainability
+                - generic [ref=f3e228]:
+                  - generic [ref=f3e229]: schedule
+                  - text: 1h ago
+              - heading "C-Scheme Community Solar Battery Online" [level=3] [ref=f3e230]
+              - paragraph [ref=f3e231]: New 4.2 MWh municipal energy storage unit energized today.
+            - generic [ref=f3e232]:
+              - generic [ref=f3e233]:
+                - generic [ref=f3e234]: location_on
+                - text: C-Scheme District Microgrid
+              - generic [ref=f3e235]: +4.2 MWh Clean
+          - generic [ref=f3e236]:
+            - generic [ref=f3e237]:
+              - generic [ref=f3e238]:
+                - generic [ref=f3e239]: Transit
+                - generic [ref=f3e240]:
+                  - generic [ref=f3e241]: schedule
+                  - text: 2h ago
+              - heading "Jaipur Metro Weekend Express Schedule Active" [level=3] [ref=f3e242]
+              - paragraph [ref=f3e243]: Extra train frequency on Yellow and Blue lines.
+            - generic [ref=f3e244]:
+              - generic [ref=f3e245]:
+                - generic [ref=f3e246]: location_on
+                - text: Jaipur Region Rapid Transit
+              - generic [ref=f3e247]: 10-Min Headways
+      - generic [ref=f3e248]:
+        - generic [ref=f3e249]:
+          - generic [ref=f3e250]: contact_support
+          - generic [ref=f3e252]:
+            - text: Resident Civic Telemetry Services
+            - paragraph [ref=f3e253]: Report public space anomalies, request sensor audits, or call emergency dispatch.
+        - generic [ref=f3e254]:
+          - link "phone Dial Jaipur 181" [ref=f3e255] [cursor=pointer]:
+            - /url: tel:181
+            - generic [ref=f3e256]: phone
+            - text: Dial Jaipur 181
+          - button "campaign Submit Resident Feedback" [ref=f3e257] [cursor=pointer]:
+            - generic [ref=f3e258]: campaign
+            - text: Submit Resident Feedback
+          - button "emergency_share Emergency Directory" [ref=f3e259] [cursor=pointer]:
+            - generic [ref=f3e260]: emergency_share
+            - text: Emergency Directory
+    - generic [ref=f3e262]:
+      - generic [ref=f3e263]:
+        - generic [ref=f3e264]: Municipal Telemetry Feeds Active
+        - generic [ref=f3e267]: •
+        - generic [ref=f3e268]: Atmospheric Sensor Cluster JP-09
+      - generic [ref=f3e269]:
+        - generic [ref=f3e270]: © 2025 CivicPulse Environmental Intelligence Platform.
+        - generic [ref=f3e271]:
+          - link "Status" [ref=f3e272] [cursor=pointer]:
+            - /url: "#"
+          - link "Advisories" [ref=f3e273] [cursor=pointer]:
+            - /url: "#"
+          - link "Access" [ref=f3e274] [cursor=pointer]:
+            - /url: /login
+    - button "smart_toy CivicPulse AI" [ref=f3e276] [cursor=pointer]:
+      - generic [ref=f3e277]: smart_toy
+      - generic [ref=f3e278]: CivicPulse AI
+  - alert [ref=f3e280]
