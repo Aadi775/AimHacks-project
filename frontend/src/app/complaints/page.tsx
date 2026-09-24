@@ -1,0 +1,313 @@
+'use client';
+
+import { useState } from 'react';
+import Footer from '@/components/shared/Footer';
+import AIAssistant from '@/components/shared/AIAssistant';
+import { COMPLAINT_CATEGORIES, TICKETS } from '@/lib/constants';
+
+export default function ComplaintsPage() {
+  const [selectedCategory, setSelectedCategory] = useState('pothole');
+
+  return (
+    <main className="w-full pt-16 flex-grow flex flex-col">
+      {/* Emergency Alert */}
+      <div className="w-full bg-error-container/60 text-on-error-container px-gutter-mobile md:px-margin-tablet lg:px-margin py-2.5 flex items-center justify-between backdrop-blur-md">
+        <div className="max-w-[1360px] mx-auto w-full flex items-center justify-between gap-space-sm text-body-sm font-body-sm">
+          <div className="flex items-center gap-space-xs">
+            <span className="material-symbols-outlined text-[18px] text-error" style={{ fontVariationSettings: { 'FILL': 1 } as any }}>emergency_home</span>
+            <span className="font-medium text-error">Life-Threatening Emergency Notice:</span>
+            <span className="hidden sm:inline text-on-error-container">For immediate gas leaks, downed high-voltage wires, or violent hazards, dial 911 directly.</span>
+          </div>
+          <div className="flex items-center gap-space-sm">
+            <span className="text-label-xs font-label-xs uppercase tracking-wider text-error font-semibold">Open311 Direct Uplink</span>
+            <span className="w-1.5 h-1.5 rounded-full bg-error animate-ping"></span>
+          </div>
+        </div>
+      </div>
+
+      <div className="w-full max-w-[1360px] mx-auto px-gutter md:px-margin lg:px-margin py-space-lg flex flex-col gap-space-xl">
+        {/* Hero */}
+        <section className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-space-lg">
+          <div className="flex flex-col gap-space-xs max-w-3xl">
+            <div className="flex items-center gap-space-xs text-label-xs font-label-xs text-secondary uppercase tracking-widest">
+              <span className="w-2 h-2 rounded-full bg-secondary-container"></span>
+              <span>JCTSLcipal Action Protocol • City &amp; County of Jaipur</span>
+            </div>
+            <h1 className="text-display-mobile md:text-display font-display text-on-surface tracking-tight">Resident Resolution &amp; 311</h1>
+            <p className="text-body-lg font-body-lg text-on-surface-variant max-w-2xl">File localized municipal service requests, track neighborhood public works tickets in real time, and audit algorithmic dispatch timelines.</p>
+          </div>
+          <div className="flex flex-wrap sm:flex-nowrap items-center gap-space-sm w-full lg:w-auto">
+            <button className="flex-1 sm:flex-initial h-10 px-space-md bg-surface-container hover:bg-surface-container-high text-on-surface font-label-md text-label-md rounded-lg flex items-center justify-center gap-space-xs transition-colors shadow-sm" id="quick-track-btn" type="button">
+              <span className="material-symbols-outlined text-[18px]">find_in_page</span> Track Ticket by ID
+            </button>
+            <a href="#complaint-form" className="flex-1 sm:flex-initial h-10 px-space-md bg-primary hover:bg-primary-container text-on-primary font-label-md text-label-md rounded-lg flex items-center justify-center gap-space-xs transition-colors shadow-md">
+              <span className="material-symbols-outlined text-[18px]">add_task</span> File Service Request
+            </a>
+          </div>
+        </section>
+
+        {/* Metrics Grid */}
+        <section className="grid grid-cols-2 lg:grid-cols-4 gap-space-md">
+          {[
+            { label: 'Active District Load', value: '142', unit: 'tickets', sub: '↓ 14% vs avg', subColor: 'on-tertiary-container', bg: 'bg-surface-container-lowest', subLabel: 'Mission / SoMa' },
+            { label: 'Mean SLA Response', value: '3.4', unit: 'hours', sub: '99.2% on target', subColor: 'on-tertiary-container', bg: 'bg-surface-container-lowest' },
+            { label: 'Resolution Ratio', value: '89%', unit: '+4.2%', subColor: 'on-tertiary-container', bg: 'bg-surface-container-lowest', barWidth: 89 },
+            { label: 'Field Fleet Active', value: '38', unit: 'crews on road', sub: 'Telemetry synced', subColor: 'secondary', bg: 'bg-surface-container-lowest' },
+          ].map((m) => (
+            <div key={m.label} className={`${m.bg} p-space-lg rounded-2xl shadow-sm flex flex-col justify-between group hover:shadow-md transition-shadow`}>
+              <div className="flex items-center justify-between mb-space-sm">
+                <span className="text-label-xs font-label-xs text-on-surface-variant uppercase tracking-wider">{m.label}</span>
+                {m.subLabel && (
+                  <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full bg-surface-container-low text-secondary font-label-xs text-label-xs">
+                    <span className="w-1.5 h-1.5 rounded-full bg-secondary animate-pulse"></span> {m.subLabel}
+                  </span>
+                )}
+              </div>
+              <div className="flex items-baseline gap-space-xs my-space-xs">
+                <span className="text-metric-display font-metric-display text-on-surface">{m.value}</span>
+                <span className="text-label-md font-label-md text-on-surface-variant">{m.unit}</span>
+              </div>
+              <div className="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+                <span>Triage queue normal</span>
+                <span className={`${m.subColor} font-medium`}>{m.sub}</span>
+              </div>
+              {m.barWidth && (
+                <div className="w-full bg-surface-container-low h-1.5 rounded-full overflow-hidden mt-2">
+                  <div className="bg-on-tertiary-container h-full rounded-full" style={{ width: `${m.barWidth}%` }}></div>
+                </div>
+              )}
+            </div>
+          ))}
+        </section>
+
+        {/* Main Grid */}
+        <div className="grid grid-cols-1 xl:grid-cols-12 gap-space-lg items-start">
+          {/* Left: Complaint Form */}
+          <div className="xl:col-span-7 flex flex-col gap-space-md" id="complaint-form">
+            <div className="bg-surface-container-lowest p-space-lg sm:p-space-xl rounded-3xl shadow-sm flex flex-col gap-space-lg">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between pb-space-md gap-space-xs border-b border-surface-container">
+                <div>
+                  <div className="flex items-center gap-space-xs mb-1">
+                    <span className="px-2 py-0.5 rounded bg-primary-fixed text-on-primary-fixed font-label-xs text-label-xs uppercase font-semibold">Incident Dispatcher</span>
+                    <span className="text-label-xs text-on-surface-variant">Protocol Ver. 2025.4</span>
+                  </div>
+                  <h2 className="text-headline-md font-headline-md text-on-surface">File Public Service Request</h2>
+                </div>
+                <div className="flex items-center gap-1.5 text-label-xs font-label-xs text-on-surface-variant">
+                  <span className="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+                  <span>Direct Link to Jaipur Nagar Nigam (181) Central</span>
+                </div>
+              </div>
+
+              {/* Category Grid */}
+              <div className="flex flex-col gap-space-sm">
+                <label className="text-label-md font-label-md text-on-surface flex items-center justify-between">
+                  <span>1. Incident Classification</span>
+                  <span className="text-on-surface-variant font-normal">Select matching jurisdiction</span>
+                </label>
+                <div className="grid grid-cols-2 sm:grid-cols-3 gap-space-sm" id="category-selector">
+                  {COMPLAINT_CATEGORIES.map((cat) => (
+                    <button
+                      key={cat.id}
+                      className={`category-btn p-space-md rounded-xl text-left transition-all flex flex-col justify-between gap-space-xs relative group focus:outline-none ${
+                        selectedCategory === cat.id ? 'bg-surface-container-high shadow-sm' : 'bg-surface-container-low hover:bg-surface-container'
+                      }`}
+                      data-cat={cat.id}
+                      onClick={() => setSelectedCategory(cat.id)}
+                      type="button"
+                    >
+                      <div className="w-8 h-8 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+                        <span className="material-symbols-outlined text-[20px]">{cat.icon}</span>
+                      </div>
+                      <div>
+                        <div className="font-label-md text-label-md text-on-surface font-semibold">{cat.name}</div>
+                        <div className="font-label-xs text-label-xs text-on-surface-variant">{cat.dept}</div>
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              {/* Location */}
+              <div className="flex flex-col gap-space-sm">
+                <label className="text-label-md font-label-md text-on-surface flex items-center justify-between">
+                  <span>2. Geographic Coordinates &amp; Address</span>
+                  <span className="text-secondary font-label-xs text-label-xs">Jaipur Parcel Pinning</span>
+                </label>
+                <div className="flex flex-col sm:flex-row gap-space-sm">
+                  <div className="relative flex-1">
+                    <span className="material-symbols-outlined absolute left-3 top-3 text-[20px] text-on-surface-variant">location_on</span>
+                    <input className="w-full h-11 pl-10 pr-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all shadow-inner" id="incident-address" placeholder="Enter street address, intersection, or coordinates..." type="text" defaultValue="Valencia St &amp; 24th St, Jaipur, Rajasthan 94110" />
+                  </div>
+                  <button className="h-11 px-space-md bg-surface-container-high hover:bg-surface-variant text-on-surface font-label-md text-label-md rounded-xl flex items-center justify-center gap-space-xs transition-colors shrink-0" id="geolocate-btn" type="button">
+                    <span className="material-symbols-outlined text-[18px]">my_location</span> Auto-Locate GPS
+                  </button>
+                </div>
+                <div className="relative w-full h-36 rounded-2xl overflow-hidden shadow-inner group">
+                  <img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" src="https://picsum.photos/seed/sf-map/600/200" alt="Map" />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent flex items-end p-space-sm justify-between">
+                    <div className="flex items-center gap-space-xs text-on-primary font-label-xs text-label-xs">
+                      <span className="w-2 h-2 rounded-full bg-tertiary-fixed animate-ping"></span>
+                      <span className="font-medium">Zone 9-Mission Corridors • Sensor Pod #SF-44</span>
+                    </div>
+                    <span className="px-2 py-0.5 rounded bg-surface-container-lowest/90 backdrop-blur-md text-on-surface font-label-xs text-label-xs">37.7529° N, 122.4208° W</span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Description */}
+              <div className="flex flex-col gap-space-sm">
+                <label className="text-label-md font-label-md text-on-surface">3. Complaint Summary &amp; Description</label>
+                <input className="w-full h-11 px-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all shadow-inner" id="incident-title" placeholder="Brief subject" type="text" defaultValue="Severe road surface cavitation near bike lane buffer" />
+                <textarea className="w-full p-4 bg-surface-container-low focus:bg-surface-container-lowest rounded-xl font-body-md text-body-md text-on-surface outline-none transition-all resize-none shadow-inner" id="incident-desc" placeholder="Provide context..." rows={3}>Pothole measures roughly 2.5 feet wide and 5 inches deep directly within the northbound Valencia separated bike lane transition.</textarea>
+              </div>
+
+              {/* Upload */}
+              <div className="flex flex-col gap-space-xs">
+                <span className="text-label-xs font-label-xs text-on-surface-variant uppercase tracking-wider">Visual Verification Artifacts</span>
+                <div className="w-full p-space-lg rounded-2xl bg-surface-container-low/70 hover:bg-surface-container text-center flex flex-col items-center justify-center gap-space-xs cursor-pointer transition-all" id="drop-zone">
+                  <div className="w-10 h-10 rounded-full bg-surface-container-lowest flex items-center justify-center text-secondary shadow-sm">
+                    <span className="material-symbols-outlined text-[22px]">add_a_photo</span>
+                  </div>
+                  <div className="font-label-md text-label-md text-on-surface font-medium">Drag &amp; drop inspection photographs or <span className="text-secondary underline">browse files</span></div>
+                  <div className="font-label-xs text-label-xs text-on-surface-variant">Max 25MB (HEIC, JPG, PNG)</div>
+                </div>
+              </div>
+
+              {/* Severity */}
+              <div className="flex flex-col gap-space-sm">
+                <label className="text-label-md font-label-md text-on-surface">4. Impact Severity</label>
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-space-sm" id="severity-pills">
+                  {[
+                    { value: 'routine', label: 'Routine', sub: 'Scheduled cycle (48h-72h)', color: 'bg-surface-container-low' },
+                    { value: 'urgent', label: 'Urgent', sub: 'Commute disruption (12h-24h)', color: 'bg-surface-container-high' },
+                    { value: 'hazardous', label: 'Hazardous', sub: 'Immediate safety risk (<4h)', color: 'bg-error-container/40' },
+                  ].map((s) => (
+                    <label key={s.value} className={`p-space-sm px-space-md rounded-xl flex items-center gap-space-sm cursor-pointer transition-colors ${s.color}`}>
+                      <input className="accent-primary" name="severity" type="radio" value={s.value} defaultChecked={s.value === 'urgent'} />
+                      <div>
+                        <div className="text-label-md font-label-md text-on-surface font-semibold">{s.label}</div>
+                        <div className="text-label-xs font-label-xs text-on-surface-variant">{s.sub}</div>
+                      </div>
+                    </label>
+                  ))}
+                </div>
+              </div>
+
+              {/* Submit */}
+              <div className="pt-space-sm flex flex-col sm:flex-row items-center justify-between gap-space-md border-t border-surface-container">
+                <div className="flex items-center gap-space-xs text-label-xs font-label-xs text-on-surface-variant">
+                  <span className="material-symbols-outlined text-[16px] text-on-tertiary-container">shield</span>
+                  <span>Encrypted SHA-256 Civic JCTSLcipal Hash</span>
+                </div>
+                <button className="w-full sm:w-auto h-12 px-space-xl bg-primary hover:bg-primary-container text-on-primary font-headline-sm text-headline-sm rounded-xl flex items-center justify-center gap-space-sm transition-all shadow-md active:scale-[0.98]" id="submit-ticket-btn" type="button">
+                  <span className="material-symbols-outlined text-[20px]">send</span> Submit Verified 311 Complaint
+                </button>
+              </div>
+            </div>
+
+            {/* SLAs */}
+            <div className="bg-surface-container-lowest p-space-lg rounded-2xl shadow-sm flex flex-col gap-space-md">
+              <div className="flex items-center justify-between">
+                <h3 className="text-headline-sm font-headline-sm text-on-surface">Target Service Level Agreements (SLAs)</h3>
+                <span className="text-label-xs font-label-xs uppercase text-on-surface-variant">Department Timelines</span>
+              </div>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-space-md">
+                {[
+                  { name: 'DPW Potholes', actual: '26h', sla: '48h', width: 54, color: 'on-tertiary-container' },
+                  { name: 'JAIUC Lighting', actual: '38h', sla: '72h', width: 52, color: 'secondary' },
+                  { name: 'Sidewalk Sanitation', actual: '14h', sla: '24h', width: 58, color: 'on-tertiary-container' },
+                ].map((s) => (
+                  <div key={s.name} className="p-space-md rounded-xl bg-surface-container-low flex flex-col gap-space-xs">
+                    <div className="flex items-center justify-between">
+                      <span className="font-label-md text-label-md text-on-surface font-medium">{s.name}</span>
+                      <span className={`text-label-xs font-label-xs px-2 py-0.5 rounded-full bg-${s.color}/10 text-${s.color} font-semibold`}>{s.actual} Actual</span>
+                    </div>
+                    <div className="text-body-sm font-body-sm text-on-surface-variant">Statutory SLA: {s.sla} limit</div>
+                    <div className="w-full bg-surface-container-high h-1 rounded-full mt-1 overflow-hidden">
+                      <div className={`bg-${s.color} h-full rounded-full`} style={{ width: `${s.width}%` }}></div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+
+          {/* Right: Ticket Ledger */}
+          <div className="xl:col-span-5 flex flex-col gap-space-md">
+            <div className="bg-surface-container-lowest p-space-lg rounded-3xl shadow-sm flex flex-col gap-space-md">
+              <div className="flex items-center justify-between">
+                <div>
+                  <span className="text-label-xs font-label-xs uppercase tracking-wider text-secondary">Live Transparency Feed</span>
+                  <h2 className="text-headline-sm font-headline-sm text-on-surface">Community Ticket Ledger</h2>
+                </div>
+                <button className="w-8 h-8 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-surface-container-high transition-colors" title="Refresh Feed" type="button">
+                  <span className="material-symbols-outlined text-[18px]">sync</span>
+                </button>
+              </div>
+              <div className="flex items-center gap-space-xs p-1 bg-surface-container-low rounded-xl overflow-x-auto text-nowrap">
+                {['All Nearby (42)', 'My Tickets (3)', 'Dispatched', 'Resolved'].map((t, i) => (
+                  <button key={t} className={`px-3 py-1.5 rounded-lg font-label-md text-label-md transition-colors ${
+                    i === 0 ? 'bg-surface-container-lowest text-on-surface shadow-sm' : 'text-on-surface-variant hover:text-on-surface'
+                  }`} type="button">{t}</button>
+                ))}
+              </div>
+              {TICKETS.map((t) => (
+                <div key={t.id} className="p-space-md rounded-2xl bg-surface-container-low/60 hover:bg-surface-container-low transition-all flex flex-col gap-space-sm group">
+                  <div className="flex items-start justify-between gap-space-xs">
+                    <div>
+                      <div className="flex items-center gap-space-xs">
+                        <span className="font-label-xs text-label-xs px-2 py-0.5 rounded bg-surface-container-high text-on-surface font-semibold font-mono">{t.id}</span>
+                        <span className="text-label-xs text-on-surface-variant">{t.time}</span>
+                      </div>
+                      <h4 className="font-headline-sm text-headline-sm text-on-surface mt-1">{t.title}</h4>
+                    </div>
+                    <span className={`shrink-0 px-2.5 py-1 rounded-full font-label-xs text-label-xs font-semibold flex items-center gap-1 ${
+                      t.statusColor === 'secondary' ? 'bg-secondary-container/30 text-on-secondary-container' :
+                      t.statusColor === 'on-tertiary-container' ? 'bg-on-tertiary-container/10 text-on-tertiary-container' :
+                      'bg-surface-container text-on-surface-variant'
+                    }`}>
+                      <span className="w-1.5 h-1.5 rounded-full bg-current"></span>
+                      {t.status}
+                    </span>
+                  </div>
+                  <p className="text-body-sm font-body-sm text-on-surface-variant">{t.desc}</p>
+                  <div className="flex items-center justify-between pt-space-xs border-t border-surface-container text-body-sm font-body-sm text-on-surface-variant">
+                    <button className="flex items-center gap-1.5 hover:text-on-surface transition-colors py-1 px-2 rounded-lg bg-surface-container-lowest/80 text-label-xs font-label-xs">
+                      <span className="material-symbols-outlined text-[16px] text-secondary">thumb_up</span>
+                      <span className="font-medium text-on-surface">{t.confirmed} neighbors confirmed</span>
+                    </button>
+                    <span className="text-label-xs font-label-xs text-on-surface-variant">{t.district}</span>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            {/* Escalations */}
+            <div className="bg-surface-container-lowest p-space-lg rounded-3xl shadow-sm flex flex-col gap-space-md">
+              <div className="flex items-center gap-space-xs">
+                <span className="material-symbols-outlined text-secondary text-[20px]">account_balance</span>
+                <h3 className="text-headline-sm font-headline-sm text-on-surface">Direct Escalations &amp; Oversight</h3>
+              </div>
+              <p className="font-body-sm font-body-sm text-on-surface-variant">Unresolved tickets exceeding maximum SLA thresholds are immediately flagged to the Board of Supervisors district ombudsman.</p>
+              <div className="flex flex-col gap-space-xs">
+                {[
+                  { label: 'District 9 Supervisor Liaison', value: '(415) 554-5144' },
+                  { label: 'SF 311 24/7 Telephone TDD', value: 'Dial 3-1-1 / (415) 701-2311' },
+                  { label: 'Open311 JCTSLcipal REST API', value: 'api.sfgov.org/311/v2' },
+                ].map((e) => (
+                  <div key={e.label} className="flex items-center justify-between p-2 rounded-xl bg-surface-container-low text-body-sm font-body-sm">
+                    <span className="font-medium text-on-surface">{e.label}</span>
+                    <span className="font-mono text-label-xs text-secondary">{e.value}</span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <Footer />
+      <AIAssistant />
+    </main>
+  );
+}

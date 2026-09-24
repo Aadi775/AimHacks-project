@@ -1,0 +1,774 @@
+<!DOCTYPE html><html lang="en" style=""><head><meta charset="utf-8"><meta content="width=device-width, initial-scale=1.0" name="viewport"><meta content="web_standard" name="shell-type"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-tertiary": "#ffffff",
+          "surface-container-lowest": "#ffffff",
+          "on-tertiary-container": "#009669",
+          "on-surface-variant": "#45464d",
+          "on-primary": "#ffffff",
+          "surface-variant": "#d3e4fe",
+          "error-container": "#ffdad6",
+          "surface": "#f8f9ff",
+          "outline": "#76777d",
+          "on-error-container": "#93000a",
+          "secondary-fixed-dim": "#7bd0ff",
+          "surface-dim": "#cbdbf5",
+          "on-secondary-container": "#004d6a",
+          "error": "#ba1a1a",
+          "on-primary-fixed-variant": "#3f465c",
+          "on-error": "#ffffff",
+          "inverse-surface": "#213145",
+          "on-secondary": "#ffffff",
+          "primary": "#000000",
+          "primary-container": "#131b2e",
+          "tertiary-fixed-dim": "#45dfa4",
+          "on-secondary-fixed": "#001e2c",
+          "primary-fixed": "#dae2fd",
+          "surface-tint": "#565e74",
+          "secondary-fixed": "#c4e7ff",
+          "on-surface": "#0b1c30",
+          "background": "#f8f9ff",
+          "secondary-container": "#40c2fd",
+          "primary-fixed-dim": "#bec6e0",
+          "on-tertiary-fixed": "#002114",
+          "on-background": "#0b1c30",
+          "on-tertiary-fixed-variant": "#005137",
+          "inverse-primary": "#bec6e0",
+          "outline-variant": "#c6c6cd",
+          "inverse-on-surface": "#eaf1ff",
+          "surface-container-highest": "#d3e4fe",
+          "surface-container-high": "#dce9ff",
+          "tertiary-fixed": "#68fcbf",
+          "on-primary-container": "#7c839b",
+          "tertiary-container": "#002114",
+          "on-primary-fixed": "#131b2e",
+          "tertiary": "#000000",
+          "secondary": "#00668a",
+          "on-secondary-fixed-variant": "#004c69",
+          "surface-container-low": "#eff4ff",
+          "surface-bright": "#f8f9ff",
+          "surface-container": "#e5eeff"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-lg": "1.5rem",
+          "space-sm": "0.5rem",
+          "space-md": "1rem",
+          "gutter": "1.5rem",
+          "gutter-mobile": "0.75rem",
+          "margin-tablet": "1.5rem",
+          "margin-mobile": "1rem",
+          "space-xs": "0.25rem",
+          "margin": "3rem",
+          "space-xl": "2.5rem"
+        },
+        "fontFamily": {
+          "display-mobile": [
+            "Inter"
+          ],
+          "body-lg": [
+            "Inter"
+          ],
+          "display": [
+            "Inter"
+          ],
+          "headline-md": [
+            "Inter"
+          ],
+          "label-md": [
+            "Inter"
+          ],
+          "label-xs": [
+            "Inter"
+          ],
+          "headline-lg-mobile": [
+            "Inter"
+          ],
+          "body-sm": [
+            "Inter"
+          ],
+          "body-md": [
+            "Inter"
+          ],
+          "headline-lg": [
+            "Inter"
+          ],
+          "metric-display": [
+            "Inter"
+          ],
+          "headline-sm": [
+            "Inter"
+          ]
+        },
+        "fontSize": {
+          "display-mobile": [
+            "40px",
+            {
+              "lineHeight": "48px",
+              "letterSpacing": "-0.03em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-lg": [
+            "16px",
+            {
+              "lineHeight": "24px",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "400"
+            }
+          ],
+          "display": [
+            "56px",
+            {
+              "lineHeight": "64px",
+              "letterSpacing": "-0.035em",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-md": [
+            "22px",
+            {
+              "lineHeight": "30px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "500"
+            }
+          ],
+          "label-md": [
+            "12px",
+            {
+              "lineHeight": "16px",
+              "letterSpacing": "0.02em",
+              "fontWeight": "500"
+            }
+          ],
+          "label-xs": [
+            "11px",
+            {
+              "lineHeight": "14px",
+              "letterSpacing": "0.04em",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-lg-mobile": [
+            "26px",
+            {
+              "lineHeight": "34px",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "body-sm": [
+            "13px",
+            {
+              "lineHeight": "18px",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-md": [
+            "14px",
+            {
+              "lineHeight": "22px",
+              "letterSpacing": "-0.005em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-lg": [
+            "32px",
+            {
+              "lineHeight": "40px",
+              "letterSpacing": "-0.025em",
+              "fontWeight": "600"
+            }
+          ],
+          "metric-display": [
+            "64px",
+            {
+              "lineHeight": "64px",
+              "letterSpacing": "-0.04em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-sm": [
+            "18px",
+            {
+              "lineHeight": "26px",
+              "letterSpacing": "-0.015em",
+              "fontWeight": "500"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-background font-body-md text-on-surface antialiased min-h-screen"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-20 w-full px-gutter md:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-lg"><div class="flex items-center gap-space-sm"><img alt="CivicPulse Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X846d3k35eqtuPzI3ksBZBgmsuatplYf7WFWYM_h4CQ9S0k_6yUwv3OxFWwjbIzs3k1JV2GDlAvxoRA-gLT5iFVboFFwqvpvgYPsc_RyoM3YuBNu9NzPARAaC6kV6UJAhH0RowmMOGkuZnERI4p8pDkvgiSk39AQI3ZKfgNVDlH8G2iRraUJ4l3kVc7G4FOOYXP0NMkYeXWm6DwN2oPcnaPAhJ9SrQiTBLsgXyla-zluPTCI_cNnaWLpKk"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm tracking-tight text-on-surface leading-none">CivicPulse</span><span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider mt-0.5">Resident Civic Health Monitor</span></div></div><div class="hidden xl:flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-low shadow-[0_1px_4px_rgba(0,0,0,0.02)] cursor-pointer hover:bg-surface-container transition-colors"><span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim inline-block animate-pulse"></span><span class="font-body-sm text-body-sm text-on-surface font-medium">San Francisco, CA</span><span class="font-label-xs text-label-xs text-on-tertiary-container bg-surface-container-lowest px-1.5 py-0.5 rounded-full ml-1">Nominal</span><span class="material-symbols-outlined text-[16px] text-on-surface-variant">expand_more</span></div></div><nav class="hidden lg:flex items-center p-1 bg-surface-container-low rounded-full" data-active-classes="bg-surface-container-highest text-on-surface font-medium rounded-full shadow-[0_1px_2px_rgba(0,0,0,0.03)]"><a class="px-space-md py-1.5 text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm transition-colors" data-path="overview" href="#">Overview &amp; Pulse</a><a class="px-space-md py-1.5 text-on-surface-variant hover:text-on-surface font-body-sm text-body-sm transition-colors" data-path="weather-and-environment" href="#">Weather &amp; Environment</a><a aria-current="page" class="px-space-md py-1.5 transition-colors bg-surface-container-highest text-on-surface font-medium rounded-full shadow-[0_1px_2px_rgba(0,0,0,0.03)]" data-path="transit-and-live-incidents" href="#">Transit &amp; Live Incidents</a></nav><div class="flex items-center gap-space-sm"><div class="hidden sm:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low"><span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span><span class="font-label-xs text-label-xs text-on-surface-variant">Updated 2m ago</span></div><button class="hidden md:flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-low text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" type="button"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-label-xs text-label-xs font-semibold px-1.5 py-0.5 rounded bg-surface-container-lowest text-on-surface">⌘K</span></button><button aria-label="Notifications" class="relative w-9 h-9 rounded-full flex items-center justify-center text-on-surface-variant hover:text-on-surface hover:bg-surface-container transition-all" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-2 right-2 w-2 h-2 rounded-full bg-error ring-2 ring-surface"></span></button><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background"><div class="flex flex-col w-full">
+<div class="w-full px-gutter md:px-margin max-w-[1360px] mx-auto py-space-md">
+<!-- Top Context & Live Telemetry Summary -->
+<section class="flex flex-col gap-space-sm mb-space-lg">
+<div class="flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="inline-flex items-center justify-center w-2.5 h-2.5 rounded-full bg-tertiary-fixed-dim"></span>
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant font-semibold">Active Bay Area Telemetry</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">San Francisco Transit &amp; Community Activity</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl">Real-time updates on lines, stations, and citizen-reported 311/911 civic events.</p>
+</div>
+<!-- Quick Status Pills Bento Strip -->
+<div class="flex flex-wrap items-center gap-space-xs">
+<div class="flex items-center gap-space-xs px-space-md py-2 rounded-full bg-surface-container-low shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-on-tertiary-container">check_circle</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">94% Transit Lines On Schedule</span>
+</div>
+<div class="flex items-center gap-space-xs px-space-md py-2 rounded-full bg-surface-container-low shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-secondary">assignment</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">12 Active 311 Reports</span>
+</div>
+<div class="flex items-center gap-space-xs px-space-md py-2 rounded-full bg-surface-container-low shadow-sm">
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant">verified_user</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">0 Critical Emergency Closures</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Geographic & Network Pulse Overview Map/Visual -->
+<section class="mb-space-lg">
+<div class="w-full bg-surface-container-lowest rounded-2xl p-space-md shadow-sm flex flex-col md:flex-row items-center gap-space-md relative overflow-hidden">
+<div class="w-full md:w-2/5 flex flex-col gap-space-xs z-10">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-xs text-label-xs">GIS Corridor Visualizer</span>
+<span class="font-label-xs text-label-xs text-on-tertiary-container font-medium">Auto-Refreshes live</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Mission &amp; Market Mobility Concourse</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">All subway lines running with sub-4-minute headway between Embarcadero and Civic Center stations. Autonomous shuttle trial zones open on California St.</p>
+<div class="flex items-center gap-space-md mt-space-xs">
+<div class="flex flex-col">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase font-semibold">Average Fleet Speed</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">24.2 mph</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase font-semibold">Active Rolling Stock</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold">188 Vehicles</span>
+</div>
+</div>
+</div>
+<div class="w-full md:w-3/5 h-44 rounded-xl overflow-hidden relative shadow-sm">
+<div class="w-full h-full bg-cover bg-center" data-location="San Francisco Market Street Transit Corridor" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDdIv0Ak6JttBy5AJQsS_3tirQhvd2T7cYu30zVHqyJVD3yzqhUgK2xAp4EeJQw-o0XlvPThcA-AlY4Q5jam3rqnlDK-yHs7GNF1Xc9vsgK-KF3vrXLM-lKXo7xV_Y9bnAKFcis_fHrc20yPx31bEsrxA1U9yQa9doBrqkpO9x6rJuQgZKxKT03-0JRe58ReTj7go_DINcP3CPcs8TZFBnJO_6X7AvPkin0nOnFOPuhSpcit8afQrh3fQ')"></div>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-lowest via-transparent to-transparent opacity-80 md:block hidden"></div>
+<div class="absolute bottom-2 right-2 bg-surface-container-lowest/90 backdrop-blur-md px-space-sm py-1 rounded-full flex items-center gap-1.5 shadow-sm">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+<span class="font-label-xs text-label-xs text-on-surface font-medium">BART/Muni Central Trunk</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Main Asymmetric 12-Column Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg items-start">
+<!-- Left Column: Rail & Bus Line Health (7 Cols) -->
+<section class="lg:col-span-7 flex flex-col gap-space-md min-w-0">
+<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm pb-space-xs">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold tracking-tight">Rail &amp; Bus Line Health</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live telemetry from SFMTA, BART API, and WETA</p>
+</div>
+<!-- Filter Tabs -->
+<div class="flex items-center p-1 bg-surface-container-low rounded-full self-start" id="transit-tabs">
+<button class="tab-btn px-space-sm py-1 rounded-full text-on-surface bg-surface-container-lowest shadow-sm font-label-md text-label-md transition-all" data-category="all" type="button">All Lines</button>
+<button class="tab-btn px-space-sm py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-category="rail" type="button">Rail/Metro</button>
+<button class="tab-btn px-space-sm py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-category="bus" type="button">Bus</button>
+<button class="tab-btn px-space-sm py-1 rounded-full text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" data-category="ferry" type="button">Ferry</button>
+</div>
+</div>
+<!-- Lines Feed Stack -->
+<div class="flex flex-col gap-space-sm" id="lines-container">
+<!-- Card 1: BART Yellow -->
+<article class="w-full bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col gap-space-xs" data-mode="rail">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed font-semibold shrink-0">
+<span class="material-symbols-outlined text-[20px]">train</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">BART Yellow Line</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs shrink-0">YR-N</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Antioch ↔ SFO Airport / Millbrae</span>
+</div>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-low text-on-tertiary-container font-label-md text-label-md shrink-0 flex items-center gap-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                On Time
+              </span>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-y-2 pt-space-xs bg-surface-container-low/50 px-space-sm py-2 rounded-xl mt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface">timelapse</span>
+<span class="">Headway: <strong class="text-on-surface font-medium">Every 10 mins</strong></span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">accessible_forward</span>
+<span class="">Elevators active at Montgomery St</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant ml-auto">chevron_right</span>
+</div>
+</article>
+<!-- Card 2: Muni Metro N-Judah -->
+<article class="w-full bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col gap-space-xs" data-mode="rail">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-xl bg-surface-variant flex items-center justify-center text-on-surface font-semibold shrink-0">
+<span class="material-symbols-outlined text-[20px]">tram</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">Muni Metro N-Judah</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs shrink-0">Line N</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Ocean Beach ↔ 4th &amp; King Caltrain</span>
+</div>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-low text-on-tertiary-container font-label-md text-label-md shrink-0 flex items-center gap-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                On Time
+              </span>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-y-2 pt-space-xs bg-surface-container-low/50 px-space-sm py-2 rounded-xl mt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface">timelapse</span>
+<span class="">Headway: <strong class="text-on-surface font-medium">Every 8 mins</strong></span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">check</span>
+<span class="">Clean &amp; smooth low-floor boarding</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant ml-auto">chevron_right</span>
+</div>
+</article>
+<!-- Card 3: BART Red Line (Delay Alert) -->
+<article class="w-full bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col gap-space-xs" data-mode="rail">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-xl bg-error-container flex items-center justify-center text-on-error-container font-semibold shrink-0">
+<span class="material-symbols-outlined text-[20px]">train</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">BART Red Line</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs shrink-0">RD-S</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Richmond ↔ Millbrae / SFO</span>
+</div>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-high text-on-surface font-label-md text-label-md shrink-0 flex items-center gap-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                Minor Delays (+6m)
+              </span>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-y-2 pt-space-xs bg-surface-container-low/50 px-space-sm py-2 rounded-xl mt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface">timelapse</span>
+<span class="">Headway: <strong class="text-on-surface font-medium">Every 15 mins</strong></span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-error">info</span>
+<span class="">Track switch inspection at West Oakland</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant ml-auto">chevron_right</span>
+</div>
+</article>
+<!-- Card 4: Muni 38R Geary Rapid (Bus) -->
+<article class="w-full bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col gap-space-xs" data-mode="bus">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed-dim flex items-center justify-center text-on-secondary-fixed font-semibold shrink-0">
+<span class="material-symbols-outlined text-[20px]">directions_bus</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">Muni 38R Geary Rapid</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs shrink-0">Rapid BRT</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">48th Ave &amp; Point Lobos ↔ Salesforce Transit Center</span>
+</div>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-low text-on-tertiary-container font-label-md text-label-md shrink-0 flex items-center gap-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                On Time
+              </span>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-y-2 pt-space-xs bg-surface-container-low/50 px-space-sm py-2 rounded-xl mt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface">timelapse</span>
+<span class="">Headway: <strong class="text-on-surface font-medium">Every 6 mins</strong></span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">speed</span>
+<span class="">Dedicated transit lanes nominal</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant ml-auto">chevron_right</span>
+</div>
+</article>
+<!-- Card 5: San Francisco Bay Ferry -->
+<article class="w-full bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col gap-space-xs" data-mode="ferry">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed font-semibold shrink-0">
+<span class="material-symbols-outlined text-[20px]">directions_boat</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">San Francisco Bay Ferry</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs shrink-0">Water Emergency Ferry</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Alameda &amp; Oakland ↔ SF Ferry Building</span>
+</div>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-low text-on-tertiary-container font-label-md text-label-md shrink-0 flex items-center gap-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                On Time
+              </span>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-y-2 pt-space-xs bg-surface-container-low/50 px-space-sm py-2 rounded-xl mt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface">waves</span>
+<span class="">Headway: <strong class="text-on-surface font-medium">Every 30 mins</strong></span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-secondary">wb_sunny</span>
+<span class="">Scenic Bay waters nominal, 0.4m swell</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant ml-auto">chevron_right</span>
+</div>
+</article>
+<!-- Card 6: CalTrain Peninsula Line -->
+<article class="w-full bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-all duration-200 flex flex-col gap-space-xs" data-mode="rail">
+<div class="flex items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-xl bg-surface-variant flex items-center justify-center text-on-surface font-semibold shrink-0">
+<span class="material-symbols-outlined text-[20px]">electric_meter</span>
+</div>
+<div class="flex flex-col min-w-0">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold truncate">CalTrain Peninsula Line</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs shrink-0">Stadler EMU</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">SF 4th &amp; King ↔ San Jose Diridon</span>
+</div>
+</div>
+<span class="px-space-sm py-1 rounded-full bg-surface-container-low text-on-tertiary-container font-label-md text-label-md shrink-0 flex items-center gap-1 font-medium">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                On Time
+              </span>
+</div>
+<div class="flex flex-wrap items-center justify-between gap-y-2 pt-space-xs bg-surface-container-low/50 px-space-sm py-2 rounded-xl mt-space-xs">
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-surface">bolt</span>
+<span class="">Headway: <strong class="text-on-surface font-medium">Every 20 mins</strong></span>
+</div>
+<div class="flex items-center gap-space-xs text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">battery_charging_full</span>
+<span class="">New 100% electric fleet running smooth</span>
+</div>
+<span class="material-symbols-outlined text-[18px] text-on-surface-variant ml-auto">chevron_right</span>
+</div>
+</article>
+</div>
+</section>
+<!-- Right Column: Live Community 311 & Civic Feed (5 Cols) -->
+<section class="lg:col-span-5 flex flex-col gap-space-md">
+<!-- Header & Action -->
+<div class="flex items-center justify-between gap-space-xs">
+<div>
+<h2 class="font-headline-md text-headline-md text-on-surface font-semibold tracking-tight">Community 311 Feed</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Live civic response dispatch</p>
+</div>
+<button class="flex items-center gap-space-xs px-space-md py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container transition-colors shadow-sm" id="open-report-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">add</span>
+<span class="">Report Issue</span>
+</button>
+</div>
+<!-- Social Feed Stack -->
+<div class="flex flex-col gap-space-sm">
+<!-- Feed Card 1: Traffic Safety notice -->
+<article class="bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shrink-0">
+<span class="material-symbols-outlined text-[18px]">directions_car</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold text-sm">Dept of Transportation</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">@sfmta_live • 5m ago</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-xs text-label-xs font-medium">Traffic Safety</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">Minor traffic collision cleared at 19th Ave &amp; Lincoln Way. All lanes reopened, residual slow traffic easing across Golden Gate Park southbound.</p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<button class="like-btn flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+<span class="like-count">14</span>
+</button>
+<button class="flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">chat_bubble_outline</span>
+<span class="">3</span>
+</button>
+</div>
+<span class="font-label-xs text-label-xs text-on-secondary-container bg-surface-container-low px-2 py-0.5 rounded-full font-medium">Verified by Officer #412</span>
+</div>
+</article>
+<!-- Feed Card 2: 311 Pothole Report -->
+<article class="bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-container-high flex items-center justify-center text-on-surface shrink-0">
+<span class="material-symbols-outlined text-[18px]">construction</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold text-sm">Resident Report</span>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-medium">(Noe Valley)</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">Ticket #311-8942 • 24m ago</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-high text-on-surface font-label-xs text-label-xs font-medium">Crew Assigned</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">Pothole reported on 24th St near Castro. Department of Public Works dispatched maintenance crew; scheduled patch completed by 4 PM today.</p>
+<!-- Inline Photo Thumbnail -->
+<div class="w-full h-32 rounded-xl overflow-hidden shadow-sm relative">
+<img class="w-full h-full object-cover" data-alt="A clean daytime street view of a small asphalt pothole repair crew in San Francisco Noe Valley, marked with bright reflective traffic cones and safety signs under clear daylight." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWcQJaKM_Q3rWGi1nJCx1RLytcNEZ60AEhGIKNiZ5l6vFV6wqzSy5mCuQw_npqS0ZmHYWgS_WeU-3JzY8saw3c7GQjEaRUCRgNwEAk7YtbSzstSNCNfXz5RL03QIer_pgmaEve4Nfxsc5NOnWQzURbnJxO4DjqlA-DnfU4mym4pObKiuPVw__ViT6NyR_teidMlajFFgahoEq9F1tVooHzl6nNW7Puyp0KWvrsOuNwkRkMfSr6a4i_Ow">
+<div class="absolute bottom-1 right-2 bg-surface-container-lowest/80 backdrop-blur-md px-1.5 py-0.5 rounded text-[10px] text-on-surface">Case Photo Attach #1</div>
+</div>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<button class="like-btn flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+<span class="like-count">8</span>
+</button>
+<button class="flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">chat_bubble_outline</span>
+<span class="">1</span>
+</button>
+</div>
+<span class="font-label-xs text-label-xs text-on-tertiary-container font-medium">DPW Unit 14 En Route</span>
+</div>
+</article>
+<!-- Feed Card 3: Urban Parks update -->
+<article class="bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-container-low flex items-center justify-center text-on-tertiary-container shrink-0">
+<span class="material-symbols-outlined text-[18px]">park</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold text-sm">SF Rec &amp; Parks</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">@sfrecpark • 1h ago</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low text-on-tertiary-container font-label-xs text-label-xs font-medium">Trail Cleared</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">Fallen eucalyptus branch safely removed from Golden Gate Park jogging path near Conservatory of Flowers. Trail is fully cleared and open for runners.</p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<button class="like-btn flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px] text-error">favorite</span>
+<span class="like-count">32</span>
+</button>
+<button class="flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">share</span>
+<span class="">Share</span>
+</button>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">Golden Gate Park District</span>
+</div>
+</article>
+<!-- Feed Card 4: Street Light maintenance -->
+<article class="bg-surface-container-lowest p-space-md rounded-2xl shadow-sm hover:shadow-md transition-shadow flex flex-col gap-space-sm">
+<div class="flex items-start justify-between gap-space-xs">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-full bg-surface-variant flex items-center justify-center text-on-surface font-semibold shrink-0">
+<span class="material-symbols-outlined text-[18px]">lightbulb</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-1">
+<span class="font-headline-sm text-headline-sm text-on-surface font-semibold text-sm">Public Utilities Commission</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">@sfwater_puc • 2h ago</span>
+</div>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-surface-container-low text-on-tertiary-container font-label-xs text-label-xs font-medium">Resolved</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface">Routine streetlamp high-efficiency LED upgrade on Valencia St completed between 16th and 20th. Lighting lux levels increased by 18% with reduced draw.</p>
+<div class="flex items-center justify-between pt-space-xs">
+<div class="flex items-center gap-space-sm">
+<button class="like-btn flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">thumb_up</span>
+<span class="like-count">19</span>
+</button>
+<button class="flex items-center gap-1 text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-colors" type="button">
+<span class="material-symbols-outlined text-[16px]">bookmark_border</span>
+</button>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">Mission District Grid</span>
+</div>
+</article>
+</div>
+<!-- Notification & SMS Alert Subscription Shelf -->
+<div class="w-full bg-surface-container-low p-space-md rounded-2xl shadow-sm flex flex-col gap-space-sm mt-space-xs">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-secondary">cell_tower</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-semibold">Civic SMS Push Alerts</h3>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Subscribe to instant SMS alerts for localized Muni delays, power alerts, and road closures in your neighborhood.</p>
+<form class="flex flex-col sm:flex-row items-center gap-space-xs mt-space-xs w-full" id="sms-alert-form">
+<input class="w-full sm:flex-1 h-11 px-space-md rounded-xl bg-surface-container-lowest text-on-surface font-body-sm text-body-sm placeholder:text-outline focus:outline-none shadow-sm" placeholder="Zip code or neighborhood..." required="" type="text">
+<button class="w-full sm:w-auto h-11 px-space-md rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-primary-container transition-colors shadow-sm shrink-0" type="submit">Subscribe</button>
+</form>
+<span class="font-label-xs text-label-xs text-on-tertiary-container hidden font-medium" id="sms-status">Notification profile linked for Bay Area region!</span>
+</div>
+</section>
+</div>
+</div>
+<!-- Interactive Quick Report Modal Drawer -->
+<div class="fixed inset-0 z-50 bg-inverse-surface/40 backdrop-blur-sm hidden items-center justify-center p-gutter" id="report-modal">
+<div class="bg-surface-container-lowest max-w-lg w-full rounded-2xl p-space-lg shadow-xl flex flex-col gap-space-md">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface">
+<span class="material-symbols-outlined text-[18px]">add_alert</span>
+</span>
+<h3 class="font-headline-md text-headline-md text-on-surface font-semibold">Report Civic Issue (311)</h3>
+</div>
+<button class="w-8 h-8 rounded-full bg-surface-container-low flex items-center justify-center text-on-surface-variant hover:text-on-surface" id="close-report-btn" type="button">
+<span class="material-symbols-outlined text-[18px]">close</span>
+</button>
+</div>
+<div class="flex flex-col gap-space-sm">
+<label class="font-label-md text-label-md text-on-surface font-medium">Issue Category</label>
+<div class="grid grid-cols-2 gap-space-xs">
+<button class="category-choice p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-variant text-on-surface text-left font-body-sm text-body-sm flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px] text-secondary">traffic</span>
+<span class="">Transit Delay</span>
+</button>
+<button class="category-choice p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-variant text-on-surface text-left font-body-sm text-body-sm flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px] text-error">dangerous</span>
+<span class="">Hazard / Obstruction</span>
+</button>
+<button class="category-choice p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-variant text-on-surface text-left font-body-sm text-body-sm flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px] text-on-tertiary-container">eco</span>
+<span class="">Park Maintenance</span>
+</button>
+<button class="category-choice p-space-sm rounded-xl bg-surface-container-low hover:bg-surface-variant text-on-surface text-left font-body-sm text-body-sm flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[16px] text-outline">lightbulb</span>
+<span class="">Lighting / Infrastructure</span>
+</button>
+</div>
+<label class="font-label-md text-label-md text-on-surface font-medium mt-space-xs">Description &amp; Cross Streets</label>
+<textarea class="w-full p-space-sm rounded-xl bg-surface-container-low text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none" placeholder="e.g. Broken ticket validator at Church &amp; Market Station..." rows="3"></textarea>
+<button class="w-full py-2.5 rounded-xl bg-primary text-on-primary font-label-md text-label-md font-semibold hover:bg-primary-container transition-colors shadow-sm mt-space-xs" id="submit-report-btn" type="button">
+          Transmit to SF311 Dispatch
+        </button>
+</div>
+</div>
+</div>
+<script>
+    // Tab Filter Interaction
+    const filterTabs = document.querySelectorAll('#transit-tabs .tab-btn');
+    const lineCards = document.querySelectorAll('#lines-container > article');
+
+    filterTabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        filterTabs.forEach(t => {
+          t.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+          t.classList.add('text-on-surface-variant');
+        });
+        tab.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm');
+        tab.classList.remove('text-on-surface-variant');
+
+        const cat = tab.getAttribute('data-category');
+        lineCards.forEach(card => {
+          if (cat === 'all' || card.getAttribute('data-mode') === cat) {
+            card.style.display = 'flex';
+          } else {
+            card.style.display = 'none';
+          }
+        });
+      });
+    });
+
+    // Like Reaction Micro-interaction
+    document.querySelectorAll('.like-btn').forEach(btn => {
+      btn.addEventListener('click', function() {
+        const countSpan = this.querySelector('.like-count');
+        if (countSpan) {
+          let count = parseInt(countSpan.textContent, 10);
+          if (!this.dataset.liked) {
+            countSpan.textContent = count + 1;
+            this.classList.add('text-secondary');
+            this.dataset.liked = 'true';
+          } else {
+            countSpan.textContent = count - 1;
+            this.classList.remove('text-secondary');
+            delete this.dataset.liked;
+          }
+        }
+      });
+    });
+
+    // SMS Subscribe feedback
+    const smsForm = document.getElementById('sms-alert-form');
+    const smsStatus = document.getElementById('sms-status');
+    if (smsForm) {
+      smsForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        smsStatus.classList.remove('hidden');
+        smsForm.reset();
+        setTimeout(() => {
+          smsStatus.classList.add('hidden');
+        }, 5000);
+      });
+    }
+
+    // Modal Drawer logic
+    const openReportBtn = document.getElementById('open-report-btn');
+    const closeReportBtn = document.getElementById('close-report-btn');
+    const reportModal = document.getElementById('report-modal');
+    const submitReportBtn = document.getElementById('submit-report-btn');
+
+    if (openReportBtn && reportModal) {
+      openReportBtn.addEventListener('click', () => {
+        reportModal.classList.remove('hidden');
+        reportModal.classList.add('flex');
+      });
+      closeReportBtn.addEventListener('click', () => {
+        reportModal.classList.add('hidden');
+        reportModal.classList.remove('flex');
+      });
+      submitReportBtn.addEventListener('click', () => {
+        submitReportBtn.textContent = 'Dispatched!';
+        setTimeout(() => {
+          reportModal.classList.add('hidden');
+          reportModal.classList.remove('flex');
+          submitReportBtn.textContent = 'Transmit to SF311 Dispatch';
+        }, 800);
+      });
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-low shadow-[0_-1px_6px_rgba(0,0,0,0.02)] mt-space-xl"><div class="w-full px-gutter md:px-margin py-space-lg flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><span class="font-headline-sm text-headline-sm text-on-surface">CivicPulse</span><span class="font-body-sm text-body-sm text-on-surface-variant">— Open Civic Telemetry &amp; Urban Environmental Metrics</span></div><div class="flex items-center gap-space-lg"><span class="font-label-xs text-label-xs text-on-surface-variant uppercase">Data Feed: SF OpenData &amp; EPA SensorGrid</span><span class="font-label-xs text-label-xs text-on-surface-variant">© 2025 CivicPulse Systems</span></div></div></footer><div class="fixed bottom-6 right-6 z-50 flex flex-col items-end gap-3 max-w-sm sm:max-w-md w-full px-4 sm:px-0" id="civic-ai-widget"><div class="w-full bg-surface-container-lowest/90 backdrop-blur-xl border border-surface-container-high rounded-2xl shadow-xl p-space-md flex flex-col gap-space-sm transition-all duration-200"><div class="flex items-start justify-between gap-space-xs pb-space-xs border-b border-surface-container-high"><div class="flex items-center gap-2"><div class="w-8 h-8 rounded-xl bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed shadow-sm"><span class="material-symbols-outlined text-[18px]">auto_awesome</span></div><div class="flex flex-col"><div class="flex items-center gap-1.5"><span class="font-headline-sm text-[15px] font-semibold text-on-surface">CivicPulse AI Assistant</span><span class="px-1.5 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-xs text-[10px] font-medium">Copilot</span></div><span class="font-label-xs text-label-xs text-on-surface-variant">Transit &amp; Incidents Explainer</span></div></div><button class="w-7 h-7 rounded-full hover:bg-surface-container-high text-on-surface-variant flex items-center justify-center transition-colors" onclick="document.getElementById('civic-ai-widget').classList.toggle('hidden')" type="button"><span class="material-symbols-outlined text-[18px]">close</span></button></div><div class="p-space-xs bg-surface-container-low rounded-xl flex flex-col gap-1.5"><div class="flex items-center gap-1.5 text-on-tertiary-container font-label-xs text-label-xs font-semibold uppercase tracking-wide"><span class="material-symbols-outlined text-[16px]">insights</span><span class="">Live Transit Briefing</span></div><p class="font-body-sm text-[12px] leading-relaxed text-on-surface-variant">94% of transit lines are operating on schedule. BART Yellow Line and Muni N-Judah report zero delays with 8–10 min headways. BART Red Line has a minor 6-minute switch inspection delay. In community activity, 19th Ave collision has been fully cleared and DPW pothole crew is dispatched to 24th St.</p></div><div class="flex flex-col gap-1.5"><span class="font-label-xs text-label-xs font-semibold text-on-surface uppercase tracking-wider">Guided Actions &amp; Navigation</span><div class="flex flex-col gap-1"><a class="flex items-center justify-between p-2 rounded-xl bg-surface-container-lowest hover:bg-surface-container-low transition-colors border border-surface-container-high text-left group" href="#"><div class="flex items-center gap-2 min-w-0"><span class="material-symbols-outlined text-[16px] text-secondary">partly_cloudy_day</span><span class="font-body-sm text-[12px] text-on-surface truncate">Check weather along commute route</span></div><span class="material-symbols-outlined text-[14px] text-on-surface-variant group-hover:text-on-surface transition-colors">arrow_forward</span></a><a class="flex items-center justify-between p-2 rounded-xl bg-surface-container-lowest hover:bg-surface-container-low transition-colors border border-surface-container-high text-left group" href="#"><div class="flex items-center gap-2 min-w-0"><span class="material-symbols-outlined text-[16px] text-on-tertiary-container">health_and_safety</span><span class="font-body-sm text-[12px] text-on-surface truncate">View citywide composite health metrics</span></div><span class="material-symbols-outlined text-[14px] text-on-surface-variant group-hover:text-on-surface transition-colors">arrow_forward</span></a><a class="flex items-center justify-between p-2 rounded-xl bg-surface-container-lowest hover:bg-surface-container-low transition-colors border border-surface-container-high text-left group" href="#"><div class="flex items-center gap-2 min-w-0"><span class="material-symbols-outlined text-[16px] text-on-surface-variant">home</span><span class="font-body-sm text-[12px] text-on-surface truncate">Return to CivicPulse Homepage</span></div><span class="material-symbols-outlined text-[14px] text-on-surface-variant group-hover:text-on-surface transition-colors">arrow_forward</span></a></div></div><div class="flex items-center gap-1.5 pt-space-xs"><div class="flex-1 flex items-center bg-surface-container-low rounded-xl px-3 py-1.5 border border-surface-container-high"><input class="w-full bg-transparent font-body-sm text-[12px] text-on-surface placeholder:text-outline focus:outline-none" placeholder="Ask about delays, street cleaning, or 311..." type="text"></div><button class="w-8 h-8 rounded-xl bg-primary hover:bg-primary-container text-on-primary flex items-center justify-center transition-colors shrink-0" type="button"><span class="material-symbols-outlined text-[16px]">send</span></button></div></div><button class="flex items-center gap-2 px-space-md py-2.5 rounded-full bg-primary hover:bg-primary-container text-on-primary shadow-xl cursor-pointer transition-all duration-200 group" onclick="document.getElementById('civic-ai-widget').querySelector('.w-full').classList.toggle('hidden')" type="button"><span class="material-symbols-outlined text-[18px] text-secondary-fixed-dim animate-pulse">sparkles</span><span class="font-label-md text-label-md font-semibold tracking-wide">Civic AI Pulse</span><span class="w-2 h-2 rounded-full bg-tertiary-fixed-dim"></span></button></div></body></html>

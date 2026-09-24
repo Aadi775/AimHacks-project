@@ -1,0 +1,761 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"on-tertiary-fixed":"#002114","primary-container":"#131b2e","on-tertiary-container":"#009669","surface-tint":"#565e74","error-container":"#ffdad6","surface-container-lowest":"#ffffff","primary-fixed-dim":"#bec6e0","on-background":"#0b1c30","tertiary-fixed":"#68fcbf","surface-container-low":"#eff4ff","on-tertiary":"#ffffff","inverse-on-surface":"#eaf1ff","outline":"#76777d","on-surface":"#0b1c30","background":"#f8f9ff","secondary-fixed-dim":"#7bd0ff","on-secondary":"#ffffff","on-primary-container":"#7c839b","surface-variant":"#d3e4fe","outline-variant":"#c6c6cd","secondary":"#00668a","on-secondary-fixed-variant":"#004c69","on-error-container":"#93000a","on-primary":"#ffffff","on-surface-variant":"#45464d","surface-dim":"#cbdbf5","on-secondary-fixed":"#001e2c","on-secondary-container":"#004d6a","on-error":"#ffffff","surface-container-highest":"#d3e4fe","primary":"#000000","secondary-container":"#40c2fd","error":"#ba1a1a","on-primary-fixed":"#131b2e","secondary-fixed":"#c4e7ff","surface-container-high":"#dce9ff","primary-fixed":"#dae2fd","surface-bright":"#f8f9ff","inverse-primary":"#bec6e0","tertiary-fixed-dim":"#45dfa4","on-tertiary-fixed-variant":"#005137","tertiary-container":"#002114","surface":"#f8f9ff","tertiary":"#000000","surface-container":"#e5eeff","inverse-surface":"#213145","on-primary-fixed-variant":"#3f465c"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"margin-mobile":"1rem","space-xl":"2.5rem","margin":"3rem","space-lg":"1.5rem","space-sm":"0.5rem","margin-tablet":"1.5rem","gutter":"1.5rem","gutter-mobile":"0.75rem","space-md":"1rem","space-xs":"0.25rem"},"fontFamily":{"headline-sm":["Inter"],"label-md":["Inter"],"headline-lg":["Inter"],"display-mobile":["Inter"],"headline-md":["Inter"],"label-xs":["Inter"],"display":["Inter"],"body-lg":["Inter"],"metric-display":["Inter"],"body-sm":["Inter"],"headline-lg-mobile":["Inter"],"body-md":["Inter"]},"fontSize":{"headline-sm":["18px",{"lineHeight":"26px","letterSpacing":"-0.015em","fontWeight":"500"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.02em","fontWeight":"500"}],"headline-lg":["32px",{"lineHeight":"40px","letterSpacing":"-0.025em","fontWeight":"600"}],"display-mobile":["40px",{"lineHeight":"48px","letterSpacing":"-0.03em","fontWeight":"600"}],"headline-md":["22px",{"lineHeight":"30px","letterSpacing":"-0.02em","fontWeight":"500"}],"label-xs":["11px",{"lineHeight":"14px","letterSpacing":"0.04em","fontWeight":"600"}],"display":["56px",{"lineHeight":"64px","letterSpacing":"-0.035em","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","letterSpacing":"-0.01em","fontWeight":"400"}],"metric-display":["64px",{"lineHeight":"64px","letterSpacing":"-0.04em","fontWeight":"400"}],"body-sm":["13px",{"lineHeight":"18px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg-mobile":["26px",{"lineHeight":"34px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-md":["14px",{"lineHeight":"22px","letterSpacing":"-0.005em","fontWeight":"400"}]}}}}</script></head><body class="bg-surface font-body-md text-on-surface antialiased selection:bg-surface-container-high selection:text-on-surface"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 w-full max-w-[1360px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs"><img alt="Brand logo. - Primary color: #0f172a
+- Font: inter
+- Mode: light
+- Roundness: rounded-md
+" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1X1LUvIl7WssA3HNhYm7RT4YiNDgstHiKpqw9A5Op9Gr4CXOBLqKWkZTuPInTR94gYIWJGzAIKjmfl5s9rlXJFW2g95UoIXQSb4RpNPZEYFfSygDrQBPViVRVoIApO8mLdP-Lnu7L42399GQugBEkblIQLzOsoW2dRTKMrROecBeGS5ekQVFmo229LFZmJx5J8Vwh9MbqjVXPfAQjo8GpgdyjmybVncClYnsmIjRTk9yRj2xGAWPBRl5kwZ"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight ml-space-xs">CivicPulse</span><span class="hidden sm:inline-flex items-center px-space-xs py-0.5 rounded-full bg-surface-container-low text-on-surface-variant font-label-xs text-label-xs uppercase tracking-wide">Resident Network</span></div><div class="hidden xl:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-lowest shadow-[0_1px_4px_rgba(0,0,0,0.04)] cursor-pointer"><span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span><span class="font-label-md text-label-md text-on-surface">San Francisco, CA</span><span class="material-symbols-outlined text-[16px] text-on-surface-variant">expand_more</span></div></div><nav class="hidden lg:flex items-center gap-space-xs p-1 rounded-xl bg-surface-container-low/60" data-active-classes="bg-surface-container-high text-on-surface font-label-md rounded-lg"><a aria-current="page" class="px-space-md py-1.5 transition-colors bg-surface-container-high text-on-surface font-label-md rounded-lg" data-path="home" href="#">Home</a><a class="px-space-md py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors" data-path="overview-pulse" href="#">Overview &amp; Pulse</a><a class="px-space-md py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors" data-path="weather-environment" href="#">Weather &amp; Environment</a><a class="px-space-md py-1.5 font-label-md text-label-md text-on-surface-variant hover:text-on-surface hover:bg-surface-container rounded-lg transition-colors" data-path="transit-incidents" href="#">Transit &amp; Incidents</a></nav><div class="flex items-center gap-space-sm"><button class="hidden md:flex items-center gap-space-xs px-space-sm py-1.5 rounded-lg bg-surface-container-low hover:bg-surface-container text-on-surface-variant hover:text-on-surface transition-colors" type="button"><span class="material-symbols-outlined text-[18px]">search</span><span class="font-body-sm text-body-sm">Search civic feed</span><kbd class="px-1.5 py-0.5 rounded bg-surface-container-lowest font-label-xs text-label-xs text-on-surface-variant shadow-[0_1px_2px_rgba(0,0,0,0.04)]">⌘K</kbd></button><div class="hidden 2xl:flex items-center gap-space-xs px-space-sm py-1 rounded-full bg-surface-container-low"><span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span><span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider">Telemetry Active</span></div><a class="hidden sm:inline-flex items-center justify-center px-space-md py-1.5 rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container hover:text-on-primary transition-colors" data-path="resident-login" href="#">Sign In</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-16 bg-surface min-h-[calc(100vh-140px)]"><div class="flex flex-col w-full">
+<!-- Top Subtle Atmospheric Gradient Glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-32 left-1/2 -translate-x-1/2 w-[850px] h-[380px] bg-secondary-container/15 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<div class="absolute top-48 right-10 w-96 h-96 bg-tertiary-fixed/20 rounded-full blur-3xl pointer-events-none -z-10"></div>
+<!-- 1. Hero Section -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin pt-8 pb-12">
+<div class="flex flex-col items-center text-center max-w-4xl mx-auto space-y-space-md">
+<!-- Ambient Telemetry Badge -->
+<div class="inline-flex items-center gap-space-xs px-space-md py-1.5 rounded-full bg-surface-container-low shadow-sm">
+<span class="relative flex h-2 w-2">
+<span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-on-tertiary-container opacity-75"></span>
+<span class="relative inline-flex rounded-full h-2 w-2 bg-on-tertiary-container"></span>
+</span>
+<span class="font-label-md text-label-md text-on-surface font-medium">Civic Health &amp; Urban Telemetry</span>
+<span class="text-outline-variant font-label-xs text-label-xs">•</span>
+<span class="font-label-md text-label-md text-secondary">San Francisco Edition</span>
+</div>
+<!-- Headline -->
+<h1 class="font-display text-display tracking-tight text-on-surface text-balance max-w-3xl">
+          Your city vitals, <br class="hidden sm:block"/>
+<span class="bg-gradient-to-r from-on-surface via-secondary to-on-surface bg-clip-text text-transparent">beautifully unified.</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl text-balance">
+          Live environmental microclimates, transit cadence, and verified neighborhood dispatches powered by high-density civic sensor arrays.
+        </p>
+<!-- Frosted Search & Query Bar -->
+<div class="w-full max-w-2xl mt-4 space-y-space-sm">
+<div class="relative flex items-center bg-surface-container-lowest/90 backdrop-blur-xl rounded-2xl shadow-[0_4px_24px_rgba(0,0,0,0.06)] px-4 py-2">
+<span class="material-symbols-outlined text-outline text-[22px] mr-3">search</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="civic-search-input" placeholder="Search microclimates, BART lines, street sweeps, or AQI..." type="text"/>
+<div class="flex items-center gap-1.5 ml-2">
+<kbd class="px-2 py-1 rounded bg-surface-container text-on-surface-variant font-label-xs text-label-xs shadow-sm">⌘K</kbd>
+</div>
+</div>
+<!-- Quick Discovery Tags -->
+<div class="flex flex-wrap items-center justify-center gap-space-xs pt-1">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider mr-1">Trending:</span>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-xs text-label-xs transition-all shadow-sm flex items-center gap-1" onclick="selectSearch('Mission District Microclimate')">
+<span class="material-symbols-outlined text-[13px] text-secondary">wb_sunny</span> Mission 73°F
+            </button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-xs text-label-xs transition-all shadow-sm flex items-center gap-1" onclick="selectSearch('Presidio Air Quality')">
+<span class="material-symbols-outlined text-[13px] text-on-tertiary-container">eco</span> Presidio AQI 18
+            </button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-xs text-label-xs transition-all shadow-sm flex items-center gap-1" onclick="selectSearch('BART Yellow Line On-time')">
+<span class="material-symbols-outlined text-[13px] text-secondary">train</span> BART Yellow nominal
+            </button>
+<button class="px-3 py-1 rounded-full bg-surface-container-lowest hover:bg-surface-container text-on-surface-variant hover:text-on-surface font-label-xs text-label-xs transition-all shadow-sm flex items-center gap-1" onclick="selectSearch('Ocean Beach Fog Depth')">
+<span class="material-symbols-outlined text-[13px] text-outline">foggy</span> Ocean Beach Fog 61°F
+            </button>
+</div>
+</div>
+</div>
+<!-- Real-Time Pulse Metric Cards (4 Pillars) -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-gutter mt-12">
+<!-- Metric 1: Civic Pulse Composite -->
+<div class="group relative p-space-lg rounded-2xl bg-surface-container-lowest hover:bg-surface-container-lowest/95 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Composite Index</span>
+<div class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed font-label-xs text-label-xs">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+              Optimal
+            </div>
+</div>
+<div class="my-4">
+<div class="flex items-baseline gap-2">
+<span class="font-metric-display text-metric-display text-on-surface">88</span>
+<span class="font-body-md text-body-md text-on-surface-variant">/ 100</span>
+</div>
+<div class="flex items-center gap-1 text-on-tertiary-container font-label-md text-label-md mt-1">
+<span class="material-symbols-outlined text-[16px]">arrow_upward</span>
+<span>+3.2 pts vs 7d avg</span>
+</div>
+</div>
+<!-- Inline Sparkline SVG -->
+<div class="w-full pt-2">
+<svg class="w-full h-8 overflow-visible text-secondary" fill="none" viewbox="0 0 160 32">
+<path d="M0,24 Q25,28 50,18 T100,14 T135,8 L160,6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2"></path>
+<path d="M0,24 Q25,28 50,18 T100,14 T135,8 L160,6 L160,32 L0,32 Z" fill="currentColor" fill-opacity="0.08"></path>
+<circle cx="160" cy="6" fill="currentColor" r="3"></circle>
+</svg>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Civic stability baseline elevated</p>
+</div>
+</div>
+<!-- Metric 2: AQI -->
+<div class="group relative p-space-lg rounded-2xl bg-surface-container-lowest hover:bg-surface-container-lowest/95 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Air Quality Index</span>
+<div class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed font-label-xs text-label-xs">
+              Pristine
+            </div>
+</div>
+<div class="my-4">
+<div class="flex items-baseline gap-2">
+<span class="font-metric-display text-metric-display text-on-surface">24</span>
+<span class="font-body-md text-body-md text-on-surface-variant">PM2.5</span>
+</div>
+<div class="flex items-center gap-1 text-on-tertiary-container font-label-md text-label-md mt-1">
+<span class="material-symbols-outlined text-[16px]">check_circle</span>
+<span>Clean Pacific Westerlies</span>
+</div>
+</div>
+<div class="w-full pt-2">
+<!-- Progress gauge bar -->
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-on-tertiary-container h-full rounded-full" style="width: 24%"></div>
+</div>
+<div class="flex justify-between font-label-xs text-label-xs text-on-surface-variant mt-2">
+<span>0 Good</span>
+<span class="text-on-surface font-medium">24 SF Avg</span>
+<span>100 Unhealthy</span>
+</div>
+</div>
+</div>
+<!-- Metric 3: Transit Cadence -->
+<div class="group relative p-space-lg rounded-2xl bg-surface-container-lowest hover:bg-surface-container-lowest/95 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Transit On-Time</span>
+<div class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-secondary-fixed/40 text-on-secondary-fixed-variant font-label-xs text-label-xs">
+              Nominal
+            </div>
+</div>
+<div class="my-4">
+<div class="flex items-baseline gap-2">
+<span class="font-metric-display text-metric-display text-on-surface">94<span class="text-display">%</span></span>
+</div>
+<div class="flex items-center gap-1 text-secondary font-label-md text-label-md mt-1">
+<span class="material-symbols-outlined text-[16px]">schedule</span>
+<span>BART + Muni Metro sync</span>
+</div>
+</div>
+<div class="w-full pt-2">
+<div class="flex items-center justify-between text-body-sm font-body-sm text-on-surface-variant">
+<span>Headway: ~4.2m</span>
+<span class="text-on-tertiary-container font-medium">0 active halts</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">Powell to Embarcadero full flow</p>
+</div>
+</div>
+<!-- Metric 4: Grid Power Cleanliness -->
+<div class="group relative p-space-lg rounded-2xl bg-surface-container-lowest hover:bg-surface-container-lowest/95 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Municipal Power</span>
+<div class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-tertiary-fixed/30 text-on-tertiary-fixed font-label-xs text-label-xs">
+              Zero Carbon
+            </div>
+</div>
+<div class="my-4">
+<div class="flex items-baseline gap-2">
+<span class="font-metric-display text-metric-display text-on-surface">100<span class="text-display">%</span></span>
+</div>
+<div class="flex items-center gap-1 text-on-tertiary-container font-label-md text-label-md mt-1">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+<span>Hetch Hetchy Hydro + Solar</span>
+</div>
+</div>
+<div class="w-full pt-2">
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary-container h-full rounded-full" style="width: 100%"></div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2">CleanPowerSF supply active</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- 2. Core Navigation Hub Cards (3 Primary Pillars Bento) -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-10">
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+<div>
+<div class="inline-flex items-center gap-2 text-secondary font-label-xs text-label-xs uppercase tracking-wider mb-1">
+<span class="material-symbols-outlined text-[16px]">view_quilt</span>
+<span>Core Municipal Portals</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Explore Civic Subsystems</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md">
+        Granular telemetry updated every 30 seconds across 1,480 connected sensor gateways in San Francisco county.
+      </p>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-gutter">
+<!-- Pillar Card 1: Overview & Pulse -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-lg shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-surface-container-low flex items-center justify-center text-on-surface mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px] text-primary">monitoring</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Pillar 01 • Macro View</span>
+<span class="font-label-md text-label-md text-on-tertiary-container font-semibold">88 / 100 Steady</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-2 mb-3">Overview &amp; Pulse</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+            The composite health score of San Francisco. Track aggregate trends across soundscape decibels, utility grid loads, and district dispatch activity.
+          </p>
+<!-- Micro Visual Widget: Score Decomposition -->
+<div class="bg-surface-container-low/60 rounded-2xl p-4 space-y-3 mb-6">
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface">Environmental Clarity</span>
+<span class="font-medium text-on-surface">92%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-on-tertiary-container h-full" style="width: 92%"></div>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface">Transit Reliability</span>
+<span class="font-medium text-on-surface">94%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-secondary h-full" style="width: 94%"></div>
+</div>
+<div class="flex justify-between items-center text-body-sm font-body-sm">
+<span class="text-on-surface">311 Resolution Velocity</span>
+<span class="font-medium text-on-surface">78%</span>
+</div>
+<div class="w-full bg-surface-container h-1.5 rounded-full overflow-hidden">
+<div class="bg-outline-variant h-full" style="width: 78%"></div>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center justify-between w-full px-4 py-3 rounded-xl bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-all" data-path="overview-pulse" href="#">
+<span>Open Full Civic Overview</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Pillar Card 2: Weather & Environment -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-lg shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-surface-container-low flex items-center justify-center text-secondary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">air</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Pillar 02 • Atmospheric</span>
+<span class="font-label-md text-label-md text-secondary font-semibold">12°F Delta Across SF</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-2 mb-3">Weather &amp; Microclimates</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+            San Francisco's iconic dual-climate landscape. Real-time temperature gradient, Karl the Fog boundary velocity, and UV/humidity readings.
+          </p>
+<!-- Micro Visual Widget: Temperature Comparison Strip -->
+<div class="bg-surface-container-low/60 rounded-2xl p-4 space-y-3 mb-6">
+<div class="flex items-center justify-between pb-2 border-b border-surface-container">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-outline text-[18px]">foggy</span>
+<span class="font-body-sm text-body-sm text-on-surface">Outer Sunset</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">61°F • Mist</span>
+</div>
+<div class="flex items-center justify-between pb-2 border-b border-surface-container">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-[18px]">cloud</span>
+<span class="font-body-sm text-body-sm text-on-surface">Twin Peaks</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">64°F • Gusts 18mph</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-on-tertiary-container text-[18px]">wb_sunny</span>
+<span class="font-body-sm text-body-sm text-on-surface">Mission Dolores</span>
+</div>
+<span class="font-label-md text-label-md text-on-surface font-semibold">73°F • Clear Sun</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center justify-between w-full px-4 py-3 rounded-xl bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-all" data-path="weather-environment" href="#">
+<span>Explore Microclimates &amp; Fog</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+<!-- Pillar Card 3: Transit & Incidents -->
+<div class="bg-surface-container-lowest rounded-3xl p-space-lg shadow-sm hover:shadow-md transition-all flex flex-col justify-between group">
+<div>
+<div class="w-12 h-12 rounded-2xl bg-surface-container-low flex items-center justify-center text-primary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-[26px]">directions_subway</span>
+</div>
+<div class="flex items-center justify-between">
+<span class="font-label-xs text-label-xs uppercase tracking-wider text-on-surface-variant">Pillar 03 • Mobility</span>
+<span class="font-label-md text-label-md text-on-tertiary-container font-semibold">All Main Corridors Clear</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-2 mb-3">Transit &amp; Incidents</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-6">
+            Instant transit departure boards for Muni, BART, and Caltrain, combined with verified real-time civic 311 service announcements.
+          </p>
+<!-- Micro Visual Widget: Transit Lines Pills -->
+<div class="bg-surface-container-low/60 rounded-2xl p-4 space-y-3 mb-6">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded bg-primary text-on-primary flex items-center justify-center font-label-xs text-label-xs font-bold">N</span>
+<span class="font-body-sm text-body-sm text-on-surface">Judah Metro</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-tertiary-container bg-tertiary-fixed/40 px-2 py-0.5 rounded-full font-medium">3 min • On-time</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded bg-secondary text-on-secondary flex items-center justify-center font-label-xs text-label-xs font-bold">Y</span>
+<span class="font-body-sm text-body-sm text-on-surface">BART Antioch</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-tertiary-container bg-tertiary-fixed/40 px-2 py-0.5 rounded-full font-medium">6 min • On-time</span>
+</div>
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<span class="w-6 h-6 rounded bg-outline text-surface flex items-center justify-center font-label-xs text-label-xs font-bold">38</span>
+<span class="font-body-sm text-body-sm text-on-surface">Geary Rapid</span>
+</div>
+<span class="font-label-xs text-label-xs text-secondary bg-secondary-fixed/50 px-2 py-0.5 rounded-full font-medium">4 min • Normal flow</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center justify-between w-full px-4 py-3 rounded-xl bg-surface-container hover:bg-primary hover:text-on-primary text-on-surface font-label-md text-label-md transition-all" data-path="transit-incidents" href="#">
+<span>View Transit Feeds &amp; Alerts</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+</section>
+<!-- 3. Interactive Neighborhood Map & District Explorer -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-10">
+<div class="bg-surface-container-lowest rounded-3xl p-6 lg:p-10 shadow-sm">
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-6 mb-8">
+<div>
+<div class="inline-flex items-center gap-2 text-on-surface-variant font-label-xs text-label-xs uppercase tracking-wider mb-1">
+<span class="w-2 h-2 rounded-full bg-secondary"></span>
+<span>Spatial Telemetry Grid</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">Neighborhood Comfort Explorer</h2>
+</div>
+<!-- Filter Tabs -->
+<div class="flex flex-wrap items-center gap-2 bg-surface-container-low p-1.5 rounded-2xl" id="district-filter-tabs">
+<button class="district-tab active px-4 py-2 rounded-xl bg-surface-container-lowest text-on-surface font-label-md text-label-md shadow-sm transition-all" onclick="filterDistrict('all', this)">All Sectors</button>
+<button class="district-tab px-4 py-2 rounded-xl text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" onclick="filterDistrict('northeast', this)">North Waterfront</button>
+<button class="district-tab px-4 py-2 rounded-xl text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" onclick="filterDistrict('central', this)">Mission &amp; Central</button>
+<button class="district-tab px-4 py-2 rounded-xl text-on-surface-variant hover:text-on-surface font-label-md text-label-md transition-all" onclick="filterDistrict('west', this)">Pacific Coastline</button>
+</div>
+</div>
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-gutter items-start">
+<!-- Interactive Map Visual Canvas -->
+<div class="xl:col-span-7 relative rounded-2xl overflow-hidden shadow-sm bg-surface-container h-[420px] group">
+<div class="w-full h-full bg-cover bg-center" data-location="San Francisco, CA" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC7ArbpcbHxlcdLHrWzgwSZK87hCmWDsNaZM2Lbyv_lJbTuJr52P3g_bayrjqWN1I_oow1EAqJ_LPXqss6PckAPKek1p7Rlk_XFMep3YzyeGKXW0jM8XEwUjG6P1_hAmKa-MlfmrYlmnsjT4RwDD5LOlCF-o7l3nlFQuu-FSY9wWFcXOEGVUParygdPgjbSOd1mivJP1KlJqPMILtExVs4tq7pqFCYbUXJ9ktxCg2pgDKsyajCKzsKofA')"></div>
+<!-- Map Overlay Controls -->
+<div class="absolute top-4 left-4 flex flex-col gap-2">
+<div class="bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1.5 rounded-xl shadow-sm flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-ping"></span>
+<span class="font-label-xs text-label-xs font-semibold text-on-surface">32 Active LoRa Gateways</span>
+</div>
+<div class="bg-surface-container-lowest/90 backdrop-blur-md px-3 py-1.5 rounded-xl shadow-sm flex items-center gap-2">
+<span class="font-label-xs text-label-xs text-on-surface-variant">Layer:</span>
+<span class="font-label-xs text-label-xs font-medium text-secondary">Air Quality &amp; Thermal</span>
+</div>
+</div>
+<!-- Pinned City Hotspots on Map -->
+<div class="absolute top-[28%] left-[32%] -translate-x-1/2 -translate-y-1/2 cursor-pointer group/pin" onclick="highlightDistrict('presidio')">
+<div class="relative flex items-center justify-center">
+<div class="w-8 h-8 rounded-full bg-primary/20 animate-ping absolute"></div>
+<div class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-md text-on-surface font-label-xs text-label-xs font-bold flex items-center gap-1 border-0">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                Presidio 65°F
+              </div>
+</div>
+</div>
+<div class="absolute top-[62%] left-[54%] -translate-x-1/2 -translate-y-1/2 cursor-pointer group/pin" onclick="highlightDistrict('mission')">
+<div class="relative flex items-center justify-center">
+<div class="w-8 h-8 rounded-full bg-secondary/20 animate-ping absolute"></div>
+<div class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-md text-on-surface font-label-xs text-label-xs font-bold flex items-center gap-1 border-0">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary"></span>
+                Mission 73°F
+              </div>
+</div>
+</div>
+<div class="absolute top-[48%] left-[78%] -translate-x-1/2 -translate-y-1/2 cursor-pointer group/pin" onclick="highlightDistrict('financial')">
+<div class="relative flex items-center justify-center">
+<div class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-md text-on-surface font-label-xs text-label-xs font-bold flex items-center gap-1 border-0">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+                Embarcadero 68°F
+              </div>
+</div>
+</div>
+<div class="absolute top-[58%] left-[16%] -translate-x-1/2 -translate-y-1/2 cursor-pointer group/pin" onclick="highlightDistrict('sunset')">
+<div class="relative flex items-center justify-center">
+<div class="px-2.5 py-1 rounded-full bg-surface-container-lowest shadow-md text-on-surface font-label-xs text-label-xs font-bold flex items-center gap-1 border-0">
+<span class="w-1.5 h-1.5 rounded-full bg-outline"></span>
+                Sunset 61°F
+              </div>
+</div>
+</div>
+<!-- Bottom bar indicator inside map -->
+<div class="absolute bottom-4 left-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md rounded-xl p-3 flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-[20px]">layers</span>
+<span class="font-body-sm text-body-sm text-on-surface">Click any pinpoint or district card to inspect telemetry</span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant font-mono">LAT 37.7749° N, LNG 122.4194° W</span>
+</div>
+</div>
+<!-- District Cards Selector (Side Grid) -->
+<div class="xl:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-space-sm" id="district-cards-container">
+<!-- District 1: Mission & Noe -->
+<div class="district-card p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer shadow-xs" data-sector="central" id="district-card-mission" onclick="highlightDistrict('mission')">
+<div class="flex justify-between items-start mb-2">
+<div>
+<span class="font-label-xs text-label-xs text-secondary uppercase font-semibold">Central Sun Corridor</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Mission &amp; Noe</h4>
+</div>
+<span class="font-headline-md text-headline-md font-semibold text-on-surface">73°</span>
+</div>
+<div class="flex items-center gap-3 mt-3 font-body-sm text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span> AQI 19</span>
+<span>•</span>
+<span>UV Index 6</span>
+<span>•</span>
+<span class="text-on-tertiary-container font-medium">Clear Sun</span>
+</div>
+</div>
+<!-- District 2: Presidio & Marina -->
+<div class="district-card p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer shadow-xs" data-sector="northeast" id="district-card-presidio" onclick="highlightDistrict('presidio')">
+<div class="flex justify-between items-start mb-2">
+<div>
+<span class="font-label-xs text-label-xs text-secondary uppercase font-semibold">North Bay Breeze</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Presidio &amp; Marina</h4>
+</div>
+<span class="font-headline-md text-headline-md font-semibold text-on-surface">65°</span>
+</div>
+<div class="flex items-center gap-3 mt-3 font-body-sm text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span> AQI 16</span>
+<span>•</span>
+<span>UV Index 4</span>
+<span>•</span>
+<span class="text-secondary font-medium">Breezy</span>
+</div>
+</div>
+<!-- District 3: Financial & Embarcadero -->
+<div class="district-card p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer shadow-xs" data-sector="northeast" id="district-card-financial" onclick="highlightDistrict('financial')">
+<div class="flex justify-between items-start mb-2">
+<div>
+<span class="font-label-xs text-label-xs text-secondary uppercase font-semibold">Downtown Bayfront</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Financial &amp; Ferry</h4>
+</div>
+<span class="font-headline-md text-headline-md font-semibold text-on-surface">68°</span>
+</div>
+<div class="flex items-center gap-3 mt-3 font-body-sm text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span> AQI 26</span>
+<span>•</span>
+<span>UV Index 5</span>
+<span>•</span>
+<span class="text-on-surface font-medium">Moderate</span>
+</div>
+</div>
+<!-- District 4: Sunset & Ocean Beach -->
+<div class="district-card p-4 rounded-2xl bg-surface-container-low hover:bg-surface-container transition-all cursor-pointer shadow-xs" data-sector="west" id="district-card-sunset" onclick="highlightDistrict('sunset')">
+<div class="flex justify-between items-start mb-2">
+<div>
+<span class="font-label-xs text-label-xs text-secondary uppercase font-semibold">Pacific Shoreline</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Sunset &amp; Richmond</h4>
+</div>
+<span class="font-headline-md text-headline-md font-semibold text-on-surface">61°</span>
+</div>
+<div class="flex items-center gap-3 mt-3 font-body-sm text-body-sm text-on-surface-variant">
+<span class="flex items-center gap-1"><span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span> AQI 12</span>
+<span>•</span>
+<span>UV Index 3</span>
+<span>•</span>
+<span class="text-outline font-medium">Coastal Fog</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Verified Community Dispatches & Resident Bulletin -->
+<section class="w-full max-w-[1360px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-start">
+<!-- Left Column: Verified Live Dispatches -->
+<div class="lg:col-span-8 space-y-space-md">
+<div class="flex items-center justify-between mb-2">
+<div class="flex items-center gap-2">
+<span class="material-symbols-outlined text-on-tertiary-container text-[22px]">verified</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Verified Resident Dispatches</h2>
+</div>
+<span class="font-label-xs text-label-xs bg-surface-container-low px-2.5 py-1 rounded-full text-on-surface-variant font-medium">SF 311 Integrated</span>
+</div>
+<div class="space-y-3">
+<!-- Dispatch Item 1 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-tertiary-fixed/40 text-on-tertiary-fixed font-label-xs text-label-xs font-semibold">Environment &amp; Energy</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs">18m ago • Muni CleanTech</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Clean Energy Heat Pump &amp; Solar Residential Rebate Open</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Department of the Environment expanded $2,500 direct credits for SF homeowners switching from gas furnaces.</p>
+</div>
+<div class="flex sm:flex-col items-center sm:items-end justify-between shrink-0">
+<a class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-all flex items-center gap-1" href="#">
+<span>Details</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Dispatch Item 2 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-secondary-fixed/50 text-on-secondary-fixed-variant font-label-xs text-label-xs font-semibold">Public Space</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs">1h ago • Rec &amp; Parks</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Golden Gate Park JFK Promenade Sunset Artisan Festival</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Car-free corridor from Stanyan to Transverse host to 40 eco-makers, acoustic stages, and bike valet stations this weekend.</p>
+</div>
+<div class="flex sm:flex-col items-center sm:items-end justify-between shrink-0">
+<a class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-all flex items-center gap-1" href="#">
+<span>Details</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+</div>
+<!-- Dispatch Item 3 -->
+<div class="p-space-lg rounded-2xl bg-surface-container-lowest shadow-sm hover:shadow-md transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+<div class="space-y-1">
+<div class="flex items-center gap-2">
+<span class="px-2 py-0.5 rounded-md bg-surface-container text-on-surface-variant font-label-xs text-label-xs font-semibold">Infrastructure</span>
+<span class="text-on-surface-variant font-label-xs text-label-xs">3h ago • SFPUC Water</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Geary Corridor Seismic Water Main Upgrade Completed</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Subterranean ductile iron piping installed along 14 blocks; normal water pressure and all transit lanes fully restored.</p>
+</div>
+<div class="flex sm:flex-col items-center sm:items-end justify-between shrink-0">
+<a class="px-3 py-1.5 rounded-lg bg-surface-container text-on-surface hover:bg-primary hover:text-on-primary font-label-md text-label-md transition-all flex items-center gap-1" href="#">
+<span>Details</span>
+<span class="material-symbols-outlined text-[14px]">arrow_outward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Direct Citizen Action Shortcuts & Sensor Network Status -->
+<div class="lg:col-span-4 space-y-gutter">
+<div class="p-space-lg rounded-3xl bg-surface-container-lowest shadow-sm space-y-space-md">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Citizen Action Quick Links</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Engage directly with municipal operations and community reporting channels.</p>
+<div class="space-y-2">
+<button class="w-full flex items-center justify-between p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-left transition-all group">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-lowest flex items-center justify-center text-secondary shadow-xs">
+<span class="material-symbols-outlined text-[20px]">report</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface font-semibold">Report 311 Anomaly</div>
+<div class="font-label-xs text-label-xs text-on-surface-variant">Street cleaning, leaks, signals</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform text-[18px]">chevron_right</span>
+</button>
+<button class="w-full flex items-center justify-between p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-left transition-all group">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-lowest flex items-center justify-center text-on-tertiary-container shadow-xs">
+<span class="material-symbols-outlined text-[20px]">notifications_active</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface font-semibold">AQI Notification Alerts</div>
+<div class="font-label-xs text-label-xs text-on-surface-variant">Daily SMS or push notifications</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform text-[18px]">chevron_right</span>
+</button>
+<button class="w-full flex items-center justify-between p-3 rounded-xl bg-surface-container-low hover:bg-surface-container text-left transition-all group">
+<div class="flex items-center gap-3">
+<div class="w-9 h-9 rounded-lg bg-surface-container-lowest flex items-center justify-center text-primary shadow-xs">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+</div>
+<div>
+<div class="font-label-md text-label-md text-on-surface font-semibold">Civic Open Data API</div>
+<div class="font-label-xs text-label-xs text-on-surface-variant">JSON feeds for developers</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:translate-x-1 transition-transform text-[18px]">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Sensor Node Network Health -->
+<div class="p-space-lg rounded-3xl bg-surface-container-low shadow-sm">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-xs text-label-xs text-on-surface uppercase font-semibold">SF Bay Area Node Health</span>
+<span class="flex items-center gap-1 font-label-xs text-label-xs text-on-tertiary-container font-semibold">
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span> 99.8% Online
+            </span>
+</div>
+<div class="space-y-2 font-body-sm text-body-sm text-on-surface-variant">
+<div class="flex justify-between">
+<span>Atmospheric Sensors</span>
+<span class="font-mono text-on-surface font-medium">842 / 842</span>
+</div>
+<div class="flex justify-between">
+<span>Transit GPS Transponders</span>
+<span class="font-mono text-on-surface font-medium">510 / 512</span>
+</div>
+<div class="flex justify-between">
+<span>Soundscape Meters</span>
+<span class="font-mono text-on-surface font-medium">126 / 126</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. Floating Civic AI Assistant Popup Widget in Bottom-Right Corner -->
+<div class="fixed bottom-6 right-6 z-40 max-w-sm w-full transition-all" id="ai-assistant-container">
+<!-- Collapsed Floating Button (hidden when expanded) -->
+<button class="hidden ml-auto items-center gap-2 px-4 py-3 rounded-full bg-primary text-on-primary shadow-xl hover:bg-primary-container transition-all" id="ai-assistant-trigger" onclick="toggleAIAssistant()">
+<span class="material-symbols-outlined text-[20px] text-tertiary-fixed">smart_toy</span>
+<span class="font-label-md text-label-md font-semibold">CivicPulse AI</span>
+<span class="w-2 h-2 rounded-full bg-on-tertiary-container animate-pulse"></span>
+</button>
+<!-- Expanded Explainer Card -->
+<div class="bg-surface-container-lowest/95 backdrop-blur-2xl rounded-3xl p-5 shadow-[0_12px_40px_rgba(0,0,0,0.12)] space-y-4" id="ai-assistant-card">
+<!-- Header -->
+<div class="flex items-center justify-between pb-3 border-b border-surface-container">
+<div class="flex items-center gap-2.5">
+<div class="w-8 h-8 rounded-xl bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-[18px] text-tertiary-fixed">smart_toy</span>
+</div>
+<div>
+<div class="flex items-center gap-1.5">
+<span class="font-label-md text-label-md font-semibold text-on-surface">CivicPulse AI</span>
+<span class="w-1.5 h-1.5 rounded-full bg-on-tertiary-container"></span>
+</div>
+<span class="font-label-xs text-label-xs text-on-surface-variant">Live City Digest Explainer</span>
+</div>
+</div>
+<button class="text-on-surface-variant hover:text-on-surface p-1 rounded-lg hover:bg-surface-container transition-all" onclick="toggleAIAssistant()">
+<span class="material-symbols-outlined text-[20px]">close</span>
+</button>
+</div>
+<!-- AI Synthesis Text -->
+<div class="bg-surface-container-low rounded-2xl p-3.5 space-y-2 text-balance">
+<div class="flex items-center gap-1.5 text-on-tertiary-container font-label-xs text-label-xs font-semibold">
+<span class="material-symbols-outlined text-[14px]">auto_awesome</span>
+<span>Today's Executive Summary</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface leading-relaxed">
+          San Francisco is operating at an optimal <strong class="font-semibold text-on-surface">88/100 civic health</strong> today. The Pacific marine layer cleared 45 minutes earlier than yesterday, while BART &amp; Muni report 94% on-time frequency with nominal headways.
+        </p>
+</div>
+<!-- Quick Guided Drilldowns -->
+<div class="space-y-1.5">
+<span class="font-label-xs text-label-xs text-on-surface-variant uppercase tracking-wider font-semibold">Explore Subsystems</span>
+<div class="grid grid-cols-3 gap-1.5">
+<a class="p-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-center transition-all" data-path="overview-pulse" href="#">
+<span class="font-label-xs text-label-xs text-on-surface font-medium block">Overview</span>
+<span class="text-[10px] text-on-surface-variant font-mono">88 Score</span>
+</a>
+<a class="p-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-center transition-all" data-path="weather-environment" href="#">
+<span class="font-label-xs text-label-xs text-on-surface font-medium block">Weather</span>
+<span class="text-[10px] text-secondary font-mono">AQI 24</span>
+</a>
+<a class="p-2 rounded-xl bg-surface-container hover:bg-surface-container-high text-center transition-all" data-path="transit-incidents" href="#">
+<span class="font-label-xs text-label-xs text-on-surface font-medium block">Transit</span>
+<span class="text-[10px] text-on-tertiary-container font-mono">94% Nominal</span>
+</a>
+</div>
+</div>
+<!-- Interactive Input Prompt -->
+<div class="relative flex items-center">
+<input class="w-full py-2.5 pl-3.5 pr-10 rounded-xl bg-surface-container text-on-surface placeholder:text-outline font-body-sm text-body-sm focus:outline-none focus:ring-1 focus:ring-primary" id="ai-query-input" onkeydown="if(event.key === 'Enter') submitCivicQuestion()" placeholder="Ask anything about today's city metrics..." type="text"/>
+<button class="absolute right-2 p-1 text-on-surface hover:text-secondary transition-colors" onclick="submitCivicQuestion()">
+<span class="material-symbols-outlined text-[18px]">send</span>
+</button>
+</div>
+<div class="hidden text-center font-label-xs text-label-xs text-secondary animate-pulse" id="ai-response-status">
+        Querying real-time municipal telemetry...
+      </div>
+</div>
+</div>
+</div>
+<!-- Client-side Logic for Interactive City Components -->
+<script>
+  // Search bar select helper
+  function selectSearch(query) {
+    const input = document.getElementById('civic-search-input');
+    if (input) {
+      input.value = query;
+      input.focus();
+    }
+  }
+
+  // Filter districts tab logic
+  function filterDistrict(sector, button) {
+    // Update active button styling
+    const tabs = document.querySelectorAll('.district-tab');
+    tabs.forEach(tab => {
+      tab.classList.remove('bg-surface-container-lowest', 'shadow-sm', 'text-on-surface');
+      tab.classList.add('text-on-surface-variant');
+    });
+    button.classList.remove('text-on-surface-variant');
+    button.classList.add('bg-surface-container-lowest', 'shadow-sm', 'text-on-surface');
+
+    // Filter cards
+    const cards = document.querySelectorAll('.district-card');
+    cards.forEach(card => {
+      if (sector === 'all' || card.getAttribute('data-sector') === sector) {
+        card.style.display = 'block';
+      } else {
+        card.style.display = 'none';
+      }
+    });
+  }
+
+  // District highlight interactive state
+  function highlightDistrict(districtName) {
+    const cards = document.querySelectorAll('.district-card');
+    cards.forEach(card => {
+      card.classList.remove('ring-2', 'ring-primary', 'bg-surface-container-high');
+    });
+
+    const targetCard = document.getElementById(`district-card-${districtName}`);
+    if (targetCard) {
+      targetCard.classList.add('ring-2', 'ring-primary', 'bg-surface-container-high');
+      targetCard.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+  }
+
+  // AI Assistant Widget toggle
+  function toggleAIAssistant() {
+    const card = document.getElementById('ai-assistant-card');
+    const trigger = document.getElementById('ai-assistant-trigger');
+    
+    if (card.classList.contains('hidden')) {
+      card.classList.remove('hidden');
+      trigger.classList.add('hidden');
+      trigger.classList.remove('flex');
+    } else {
+      card.classList.add('hidden');
+      trigger.classList.remove('hidden');
+      trigger.classList.add('flex');
+    }
+  }
+
+  // AI interactive prompt query simulator
+  function submitCivicQuestion() {
+    const input = document.getElementById('ai-query-input');
+    const status = document.getElementById('ai-response-status');
+    if (!input.value.trim()) return;
+
+    status.classList.remove('hidden');
+    status.innerText = "Querying real-time municipal telemetry for: " + input.value + "...";
+
+    setTimeout(() => {
+      status.innerText = "✓ Telemetry verified. High comfort indices reported citywide.";
+      setTimeout(() => {
+        status.classList.add('hidden');
+      }, 3500);
+      input.value = "";
+    }, 1200);
+  }
+</script></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.02)] mt-auto"><div class="max-w-[1360px] mx-auto px-margin-mobile md:px-margin-tablet lg:px-margin py-space-xl flex flex-col md:flex-row items-center justify-between gap-space-md"><div class="flex items-center gap-space-md"><div class="flex items-center gap-space-xs"><span class="w-2 h-2 rounded-full bg-on-tertiary-container"></span><span class="font-body-sm text-body-sm text-on-surface">Municipal Telemetry Feeds Active</span></div><span class="text-on-surface-variant font-label-xs text-label-xs">•</span><span class="font-body-sm text-body-sm text-on-surface-variant">Atmospheric Sensor Cluster SF-09</span></div><div class="flex items-center gap-space-lg"><span class="font-body-sm text-body-sm text-on-surface-variant">© 2025 CivicPulse Environmental Intelligence Platform.</span><div class="flex items-center gap-space-md"><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="overview-pulse" href="#">Status</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="transit-incidents" href="#">Advisories</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="resident-login" href="#">Access</a></div></div></div></footer></body></html>
