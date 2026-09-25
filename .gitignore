@@ -57,3 +57,11 @@ venv.bak/
 .playwright-mcp/
 .pytest_cache/
 .eslintcache
+
+# Runtime artifacts (regenerated on startup — never commit)
+backend/citypulse.db
+backend/citypulse.db-shm
+backend/citypulse.db-wal
+backend/__pycache__/
+__pycache__/
+.playwright-mcp/

@@ -3,6 +3,17 @@ import json
 import secrets
 import hashlib
 import random
+import os as _os
+from pathlib import Path as _Path
+
+# Load backend/.env (KEY=VALUE) — file values WIN over ambient shell env
+_env_file = _Path(__file__).parent / ".env"
+if _env_file.exists():
+    for _line in _env_file.read_text().splitlines():
+        _line = _line.strip()
+        if _line and not _line.startswith("#") and "=" in _line:
+            _k, _v = _line.split("=", 1)
+            _os.environ[_k.strip()] = _v.strip().strip('"').strip("'")
 from datetime import datetime, timezone, timedelta
 
 import httpx
@@ -955,8 +966,19 @@ async def get_insights(city: str, hours: int = 6):
 
 # ---------- AI Civic Insight engine ----------
 
+_civic_insight_cache: dict = {}  # (city, area) -> (ts, payload)
+
+
 @app.get("/api/civic-insight")
 async def get_civic_insight(city: str, area: str | None = None):
+    import time as _ctime
+
+    _ckey = (city.strip().lower(), (area or "citywide").strip().lower())
+    _chit = _civic_insight_cache.get(_ckey)
+    if _chit and (_ctime.time() - _chit[0]) < 120:
+        _ccached = dict(_chit[1])
+        _ccached["cached"] = True
+        return _ccached
     """AI Civic Insight: resident-friendly grounded explanation of what is happening now,
     anomalous signals, possible relationships/correlations, why it matters, and forecast trends.
     Grounds strictly in actual telemetry — never invents numbers.
@@ -1234,11 +1256,55 @@ async def get_civic_insight(city: str, area: str | None = None):
     else:
         summary = f"{loc_display} is reporting stable civic telemetry with pleasant {area_temp:.0f}°C weather and free-flowing corridors ({avg_speed:.0f} km/h). These signals show a possible relationship/correlation between favorable atmospheric conditions and reliable transit cadence. {forecast_text}"
 
-    # Check for optional existing LLM refinement (if key in env)
-    llm_key = os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")
+    # LLM refinement priority: NVIDIA NIM (build.nvidia.com) > Gemini > Groq
+    llm_key = os.environ.get("NVIDIA_API_KEY") or os.environ.get("GEMINI_API_KEY") or os.environ.get("GROQ_API_KEY")
     if llm_key:
         try:
-            if os.environ.get("GEMINI_API_KEY"):
+            if os.environ.get("NVIDIA_API_KEY"):
+                # NVIDIA NIM — OpenAI-compatible endpoint, small Gemma model (configurable via NVIDIA_MODEL)
+                model = os.environ.get("NVIDIA_MODEL", "google/gemma-3-4b-it")
+                prompt = (
+                    f"You are CityPulse's AI Civic Insight engine. Rewrite the following verified factual city status in 2-3 simple, resident-friendly sentences. "
+                    f"Strictly preserve all numbers and facts: Location: {loc_display}, Weather: {condition} ({area_temp}°C), Traffic: {avg_speed} km/h on {active_corridor}, Delays: +{avg_delay}m, AQI: {area_aqi}. "
+                    f"Requirements: 1) What is happening NOW, 2) Which signals are unusually high/low, 3) MUST use the exact words 'possible relationship/correlation', 4) Why it matters, 5) What may happen next based on forecast: {forecast_text}. "
+                    f"Never invent facts or numbers. Never claim causation."
+                )
+                # Hard 30s cap: if the LLM is slow, the resident gets the template
+                # summary instantly instead of waiting.
+                async def _nvidia_call() -> str | None:
+                    async with httpx.AsyncClient(timeout=31) as nclient:
+                        nresp = await nclient.post(
+                            "https://integrate.api.nvidia.com/v1/chat/completions",
+                            headers={"Authorization": f"Bearer {llm_key}", "Content-Type": "application/json", "Accept": "application/json"},
+                            json={
+                                "model": model,
+                                "messages": [
+                                    {"role": "system", "content": "You are a concise civic telemetry analyst. Use plain language for city residents. Never invent facts."},
+                                    {"role": "user", "content": prompt},
+                                ],
+                                "temperature": 0.4,
+                                "top_p": 0.9,
+                                "max_tokens": 280,
+                                "stream": False,
+                            },
+                        )
+                    if nresp.status_code != 200:
+                        print(f"[CivicInsight] NVIDIA LLM HTTP {nresp.status_code}: {nresp.text[:200]}")
+                        return None
+                    content = (nresp.json().get("choices") or [{}])[0].get("message", {}).get("content", "").strip()
+                    if content and "possible" in content.lower():
+                        return content.replace("\n", " ")
+                    return None
+
+                try:
+                    refined = await asyncio.wait_for(_nvidia_call(), timeout=30.0)
+                except asyncio.TimeoutError:
+                    print(f"[CivicInsight] NVIDIA {model} exceeded 30s — serving template summary")
+                    refined = None
+                if refined:
+                    summary = refined
+                    print(f"[CivicInsight] NVIDIA {model} refinement applied")
+            elif os.environ.get("GEMINI_API_KEY"):
                 from google import genai
                 client = genai.Client(api_key=os.environ["GEMINI_API_KEY"])
                 prompt = (
@@ -1253,9 +1319,10 @@ async def get_civic_insight(city: str, area: str | None = None):
                     if "possible" in refined.lower():
                         summary = refined
         except Exception as e:
-            print(f"[CivicInsight] LLM enhancement skipped: {e}")
+            print(f"[CivicInsight] LLM enhancement skipped: {type(e).__name__}: {e!r}")
 
-    return {
+    import time as _ctime2
+    _cpayload = {
         "city": city_name,
         "area": target_area_name,
         "location_display": loc_display,
@@ -1307,7 +1374,8 @@ async def get_civic_insight(city: str, area: str | None = None):
         "feeds_status": feeds_status,
         "generated_at": datetime.now(timezone.utc).isoformat(),
     }
-
+    _civic_insight_cache[_ckey] = (_ctime2.time(), _cpayload)
+    return _cpayload
 
 
 @app.get("/api/grid")
@@ -1389,7 +1457,6 @@ async def get_score(city: str):
             "grid": {"score": round(grid_score), "label": "Grid Headroom", "detail": f"{grid['load_percent']}% load, {grid['frequency_hz']} Hz", "icon": "bolt"},
         },
     }
-
 
 @app.get("/api/health")
 async def health_check():
