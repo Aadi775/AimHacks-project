@@ -87,7 +87,6 @@ export default function InsightsPage() {
   }, [city]);
 
   const maxEvents = data ? Math.max(1, ...data.hourly.events) : 1;
-  const maxCat = data ? Math.max(1, ...data.categories.map((c) => c.INFO + c.WARNING + c.CRITICAL)) : 1;
 
   return (
     <main className="w-full pt-16 flex-grow flex flex-col">
@@ -108,7 +107,7 @@ export default function InsightsPage() {
           </h1>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-2xl">
             Cross-stream analysis of traffic congestion, air quality, grid load, transit delays, and resident
-            complaints — revealing what drives what across your city's telemetry.
+            complaints — revealing what drives what across your city&apos;s telemetry.
           </p>
           <CitySwitcher />
         </div>

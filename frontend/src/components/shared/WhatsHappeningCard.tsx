@@ -58,11 +58,10 @@ export interface CivicInsightData {
 }
 
 interface WhatsHappeningCardProps {
-  compact?: boolean;
   className?: string;
 }
 
-export default function WhatsHappeningCard({ compact = false, className = '' }: WhatsHappeningCardProps) {
+export default function WhatsHappeningCard({ className = '' }: WhatsHappeningCardProps) {
   const { city, selectedArea, setSelectedArea } = useCity();
   const [data, setData] = useState<CivicInsightData | null>(null);
   const [loading, setLoading] = useState(true);

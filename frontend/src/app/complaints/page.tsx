@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import Footer from '@/components/shared/Footer';
 import AIAssistant from '@/components/shared/AIAssistant';
-import CitySwitcher from '@/components/shared/CitySwitcher';
 import { COMPLAINT_CATEGORIES } from '@/lib/constants';
 import dynamic from 'next/dynamic';
 import { useCity } from '@/context/CityContext';

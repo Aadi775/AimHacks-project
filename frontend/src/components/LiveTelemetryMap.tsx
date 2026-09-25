@@ -36,14 +36,6 @@ const CONGESTION_COLORS: Record<string, string> = {
   MODERATE: '#F59E0B',
   HEAVY: '#EF4444',
 };
-const CATEGORY_ICONS: Record<string, string> = {
-  weather: 'thermostat',
-  emergency: 'emergency_home',
-  power: 'bolt',
-  transit: 'tram',
-  traffic: 'traffic',
-  report: 'campaign',
-};
 
 function sqPulseIcon(severity: string) {
   const color = SEVERITY_COLORS[severity] ?? '#3B82F6';
