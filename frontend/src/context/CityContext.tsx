@@ -10,6 +10,8 @@ interface CityContextValue {
   setCity: (c: City) => void;
   addCityToList: (c: City) => void;
   loading: boolean;
+  selectedArea: string | null;
+  setSelectedArea: (area: string | null) => void;
 }
 
 const CityContext = createContext<CityContextValue>({
@@ -18,6 +20,8 @@ const CityContext = createContext<CityContextValue>({
   setCity: () => {},
   addCityToList: () => {},
   loading: true,
+  selectedArea: null,
+  setSelectedArea: () => {},
 });
 
 const STORAGE_KEY = 'civicpulse-city';
@@ -25,6 +29,7 @@ const STORAGE_KEY = 'civicpulse-city';
 export function CityProvider({ children }: { children: ReactNode }) {
   const [cities, setCities] = useState<City[]>([]);
   const [city, setCityState] = useState<City | null>(null);
+  const [selectedArea, setSelectedArea] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
@@ -50,6 +55,7 @@ export function CityProvider({ children }: { children: ReactNode }) {
 
   const setCity = (c: City) => {
     setCityState(c);
+    setSelectedArea(null);
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(c));
     } catch {
@@ -63,7 +69,7 @@ export function CityProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <CityContext.Provider value={{ city, cities, setCity, addCityToList, loading }}>
+    <CityContext.Provider value={{ city, cities, setCity, addCityToList, loading, selectedArea, setSelectedArea }}>
       {children}
     </CityContext.Provider>
   );

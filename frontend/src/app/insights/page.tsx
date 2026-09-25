@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Footer from '@/components/shared/Footer';
 import AIAssistant from '@/components/shared/AIAssistant';
+import WhatsHappeningCard from '@/components/shared/WhatsHappeningCard';
 import CitySwitcher from '@/components/shared/CitySwitcher';
 import { useCity } from '@/context/CityContext';
 
@@ -111,6 +112,9 @@ export default function InsightsPage() {
           </p>
           <CitySwitcher />
         </div>
+
+        {/* AI Civic Insight: What's happening? */}
+        <WhatsHappeningCard />
 
         {loading && !data && (
           <div className="rounded-2xl bg-surface-container-lowest shadow-md p-space-xl flex items-center justify-center">

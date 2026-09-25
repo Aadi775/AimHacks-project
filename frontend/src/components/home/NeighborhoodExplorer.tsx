@@ -25,7 +25,7 @@ const SEVERITY_COLORS: Record<string, string> = {
 };
 
 export default function NeighborhoodExplorer() {
-  const { city } = useCity();
+  const { city, setSelectedArea } = useCity();
   const [nodes, setNodes] = useState<HoodNode[]>([]);
   const [loading, setLoading] = useState(true);
   const [expandedId, setExpandedId] = useState<string | null>(null);
@@ -110,7 +110,11 @@ export default function NeighborhoodExplorer() {
                 </span>
                 <button
                   className="px-3 py-1.5 rounded-full bg-surface-container hover:bg-surface-container-high font-label-md text-label-md text-on-surface font-medium transition-colors"
-                  onClick={() => setExpandedId(expandedId === d.name ? null : d.name)}
+                  onClick={() => {
+                    const next = expandedId === d.name ? null : d.name;
+                    setExpandedId(next);
+                    setSelectedArea(next);
+                  }}
                   type="button"
                 >
                   {expandedId === d.name ? 'Collapse' : 'View District'}
