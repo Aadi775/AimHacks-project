@@ -8,10 +8,9 @@ import 'leaflet.heat/dist/leaflet-heat.js';
 import { CivicEvent, City } from '@/types';
 import { useCity } from '@/context/CityContext';
 import MapBoundary from '@/components/shared/MapBoundary';
-import { AQI_SEVERITY_COLORS, WeatherData, GeoResult } from '@/lib/cities';
+import { AQI_SEVERITY_COLORS, WeatherData, GeoResult, API_BASE, WS_BASE } from '@/lib/cities';
 
-const API_BASE = 'http://localhost:8001';
-const WS_URL = 'ws://localhost:8001/ws/pulse';
+const WS_URL = `${WS_BASE}/ws/pulse`;
 const MAX_EVENTS = 300;
 const EVENT_TTL_MS = 3 * 60 * 1000;
 

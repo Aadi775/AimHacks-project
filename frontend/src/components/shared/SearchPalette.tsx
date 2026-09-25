@@ -3,7 +3,7 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { useCity } from '@/context/CityContext';
-import { geocodeCities } from '@/lib/cities';
+import { geocodeCities, API_BASE } from '@/lib/cities';
 
 interface PaletteItem {
   id: string;
@@ -97,7 +97,7 @@ export default function SearchPalette({ open, onClose }: { open: boolean; onClos
         icon: 'add_location_alt',
         action: async () => {
           try {
-            const r = await fetch('http://localhost:8001/api/cities', {
+            const r = await fetch(`${API_BASE}/api/cities`, {
               method: 'POST',
               headers: { 'Content-Type': 'application/json' },
               body: JSON.stringify({ name: g.name, state: g.admin1 ?? '', lat: g.latitude, lng: g.longitude }),

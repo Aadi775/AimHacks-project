@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useCity } from '@/context/CityContext';
+import { API_BASE } from '@/lib/cities';
 
 interface DispatchCard {
   key: string;
@@ -25,8 +26,8 @@ export default function CommunityDispatches() {
     setLoading(true);
     const cname = encodeURIComponent(city.name.toLowerCase());
     const load = () => Promise.all([
-      fetch(`http://localhost:8001/api/reports?city=${cname}&limit=6`).then((r) => r.json()).catch(() => []),
-      fetch(`http://localhost:8001/api/events?city=${cname}&limit=100`).then((r) => r.json()).catch(() => []),
+      fetch(`${API_BASE}/api/reports?city=${cname}&limit=6`).then((r) => r.json()).catch(() => []),
+      fetch(`${API_BASE}/api/events?city=${cname}&limit=100`).then((r) => r.json()).catch(() => []),
     ])
       .then(
         ([

@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { useCity } from '@/context/CityContext';
+import { API_BASE } from '@/lib/cities';
 
 interface HoodNode {
   name: string;
@@ -33,7 +34,7 @@ export default function NeighborhoodExplorer() {
   useEffect(() => {
     if (!city) return;
     setLoading(true);
-    fetch(`http://localhost:8001/api/neighborhoods?city=${encodeURIComponent(city.name)}`)
+    fetch(`${API_BASE}/api/neighborhoods?city=${encodeURIComponent(city.name)}`)
       .then((r) => r.json())
       .then((d) => {
         setNodes((d.nodes ?? []).slice(0, 4));

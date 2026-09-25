@@ -1,6 +1,16 @@
 import { City } from '@/types';
 
-export const API_BASE = (process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8001').replace(/\/$/, '');
+export const API_BASE = (
+  process.env.NEXT_PUBLIC_API_URL ||
+  process.env.NEXT_PUBLIC_BACKEND_URL ||
+  process.env.API_URL ||
+  'http://localhost:8001'
+).replace(/\/$/, '');
+
+export const WS_BASE = (
+  process.env.NEXT_PUBLIC_WS_URL ||
+  API_BASE.replace(/^http/, 'ws')
+).replace(/\/$/, '');
 
 export interface GeoResult {
   name: string;
