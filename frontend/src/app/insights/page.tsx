@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import Footer from '@/components/shared/Footer';
 import AIAssistant from '@/components/shared/AIAssistant';
+import WhatsHappeningCard from '@/components/shared/WhatsHappeningCard';
 import CitySwitcher from '@/components/shared/CitySwitcher';
 import { useCity } from '@/context/CityContext';
 
@@ -86,7 +87,6 @@ export default function InsightsPage() {
   }, [city]);
 
   const maxEvents = data ? Math.max(1, ...data.hourly.events) : 1;
-  const maxCat = data ? Math.max(1, ...data.categories.map((c) => c.INFO + c.WARNING + c.CRITICAL)) : 1;
 
   return (
     <main className="w-full pt-16 flex-grow flex flex-col">
@@ -107,10 +107,13 @@ export default function InsightsPage() {
           </h1>
           <p className="font-body-md text-body-md text-on-surface-variant max-w-2xl">
             Cross-stream analysis of traffic congestion, air quality, grid load, transit delays, and resident
-            complaints — revealing what drives what across your city's telemetry.
+            complaints — revealing what drives what across your city&apos;s telemetry.
           </p>
           <CitySwitcher />
         </div>
+
+        {/* AI Civic Insight: What's happening? */}
+        <WhatsHappeningCard />
 
         {loading && !data && (
           <div className="rounded-2xl bg-surface-container-lowest shadow-md p-space-xl flex items-center justify-center">

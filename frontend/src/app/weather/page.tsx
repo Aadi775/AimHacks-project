@@ -220,7 +220,7 @@ export default function WeatherPage() {
                     <span className="font-headline-sm text-headline-sm text-on-surface">Air Quality Telemetry</span>
                   </div>
                   <p className="font-body-sm text-body-sm text-on-surface-variant mt-0.5">
-                    Live pollutant concentrations from OpenMeteo's CAMS global air-quality model for {city?.name}.
+                    Live pollutant concentrations from OpenMeteo&apos;s CAMS global air-quality model for {city?.name}.
                   </p>
                 </div>
                 <div className="flex items-center gap-space-sm px-space-md py-2 rounded-xl bg-surface-container-low">

@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import CitySwitcher from '@/components/shared/CitySwitcher';
 import { useCity } from '@/context/CityContext';
-import { fetchWeather, AQI_SEVERITY_COLORS, WeatherData } from '@/lib/cities';
+import { fetchWeather, WeatherData } from '@/lib/cities';
 
 interface ScoreData {
   composite: number;

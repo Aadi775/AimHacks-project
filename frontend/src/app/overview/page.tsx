@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import dynamic from 'next/dynamic';
 import Footer from '@/components/shared/Footer';
 import AIAssistant from '@/components/shared/AIAssistant';
+import WhatsHappeningCard from '@/components/shared/WhatsHappeningCard';
 import { useCity } from '@/context/CityContext';
 import { fetchWeather, AQI_SEVERITY_COLORS, WeatherData } from '@/lib/cities';
 
@@ -104,6 +105,11 @@ export default function OverviewPage() {
             ))}
           </div>
         </div>
+      </section>
+
+      {/* AI Civic Insight: What's happening? */}
+      <section className="w-full max-w-[1360px] mx-auto px-gutter md:px-margin pb-space-sm">
+        <WhatsHappeningCard />
       </section>
 
       <section className="w-full pb-space-md">
