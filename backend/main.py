@@ -40,13 +40,26 @@ from database import engine, SessionLocal, Base
 
 app = FastAPI(title="CivicPulse Data Fusion API - Jaipur Edition")
 
+_cors_env = _os.getenv("CORS_ORIGINS", "").strip()
+_allowed_origins = [o.strip() for o in _cors_env.split(",") if o.strip()]
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=_allowed_origins if _allowed_origins else ["*"],
+    allow_origin_regex=r"^https?://.*$" if not _allowed_origins else None,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
+    expose_headers=["*"],
 )
+
+
+@app.api_route("/", methods=["GET", "HEAD"])
+@app.api_route("/api/health", methods=["GET", "HEAD"])
+@app.api_route("/health", methods=["GET", "HEAD"])
+async def health_check():
+    return {"status": "ok", "service": "CivicPulse API"}
+
 
 event_queue = asyncio.Queue()
 active_connections = []

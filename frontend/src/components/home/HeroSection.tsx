@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import CitySwitcher from '@/components/shared/CitySwitcher';
 import { useCity } from '@/context/CityContext';
-import { fetchWeather, WeatherData } from '@/lib/cities';
+import { fetchWeather, WeatherData, API_BASE } from '@/lib/cities';
 
 interface ScoreData {
   composite: number;
@@ -28,9 +28,9 @@ export default function HeroSection() {
       .then(setWx)
       .catch(() => setWx(null));
     const load = () => {
-      fetch(`http://localhost:8001/api/score?city=${encodeURIComponent(city.name)}`)
+      fetch(`${API_BASE}/api/score?city=${encodeURIComponent(city.name)}`)
         .then((r) => r.json()).then(setScore).catch(() => {});
-      fetch(`http://localhost:8001/api/grid?city=${encodeURIComponent(city.name)}`)
+      fetch(`${API_BASE}/api/grid?city=${encodeURIComponent(city.name)}`)
         .then((r) => r.json()).then(setGrid).catch(() => {});
     };
     load();

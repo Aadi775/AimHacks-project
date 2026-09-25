@@ -6,6 +6,7 @@ import Footer from '@/components/shared/Footer';
 import AIAssistant from '@/components/shared/AIAssistant';
 import CitySwitcher from '@/components/shared/CitySwitcher';
 import { useCity } from '@/context/CityContext';
+import { API_BASE, WS_BASE } from '@/lib/cities';
 
 interface TransitLine {
   name: string;
@@ -43,7 +44,7 @@ export default function TransitPage() {
     if (!city) return;
     setLoading(true);
     const load = () =>
-      fetch(`http://localhost:8001/api/transit?city=${encodeURIComponent(city.name)}`)
+      fetch(`${API_BASE}/api/transit?city=${encodeURIComponent(city.name)}`)
         .then((r) => r.json())
         .then((d) => {
           setLines(d.lines ?? []);
@@ -59,7 +60,7 @@ export default function TransitPage() {
   useEffect(() => {
     if (!city) return;
     const load = () => {
-      fetch(`http://localhost:8001/api/events?city=${encodeURIComponent(city.name.toLowerCase())}&limit=200`)
+      fetch(`${API_BASE}/api/events?city=${encodeURIComponent(city.name.toLowerCase())}&limit=200`)
         .then((r) => r.json())
         .then((events: { id: string; description: string; timestamp: string; severity: string; category: string }[]) => {
           const reports = events.filter((e) => e.category === 'report').slice(0, 3);
@@ -94,7 +95,7 @@ export default function TransitPage() {
     const connect = () => {
       if (disposed) return;
       try {
-        ws = new WebSocket('ws://localhost:8001/ws/pulse');
+        ws = new WebSocket(`${WS_BASE}/ws/pulse`);
         ws.onopen = () => setFeedOffline(false);
         ws.onclose = () => {
           retry = setTimeout(connect, 5000);
@@ -309,7 +310,7 @@ export default function TransitPage() {
                 ))}
                 {feedOffline && (
                   <div className="bg-error-container/30 border border-error/30 p-space-md rounded-2xl text-center">
-                    <span className="font-body-sm text-body-sm text-on-error-container">181 feed offline — backend not reachable on port 8001. Retrying…</span>
+                    <span className="font-body-sm text-body-sm text-on-error-container">181 feed offline — backend not reachable. Retrying…</span>
                   </div>
                 )}
                 {dispatches.length === 0 && !feedOffline && (

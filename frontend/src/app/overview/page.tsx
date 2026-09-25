@@ -6,7 +6,7 @@ import Footer from '@/components/shared/Footer';
 import AIAssistant from '@/components/shared/AIAssistant';
 import WhatsHappeningCard from '@/components/shared/WhatsHappeningCard';
 import { useCity } from '@/context/CityContext';
-import { fetchWeather, AQI_SEVERITY_COLORS, WeatherData } from '@/lib/cities';
+import { fetchWeather, AQI_SEVERITY_COLORS, WeatherData, API_BASE } from '@/lib/cities';
 
 const NeighborhoodMap = dynamic(() => import('@/components/NeighborhoodMap'), {
   ssr: false,
@@ -51,9 +51,9 @@ export default function OverviewPage() {
       .then(setWx)
       .catch(() => setWx(null));
     const loadScoreGrid = () => {
-      fetch(`http://localhost:8001/api/score?city=${encodeURIComponent(city.name)}`)
+      fetch(`${API_BASE}/api/score?city=${encodeURIComponent(city.name)}`)
         .then((r) => r.json()).then(setScore).catch(() => {});
-      fetch(`http://localhost:8001/api/grid?city=${encodeURIComponent(city.name)}`)
+      fetch(`${API_BASE}/api/grid?city=${encodeURIComponent(city.name)}`)
         .then((r) => r.json()).then(setGrid).catch(() => {});
     };
     loadScoreGrid();
@@ -64,7 +64,7 @@ export default function OverviewPage() {
   useEffect(() => {
     if (!city) return;
     const loadHeadlines = () => {
-      fetch(`http://localhost:8001/api/headlines?city=${encodeURIComponent(city.name)}`)
+      fetch(`${API_BASE}/api/headlines?city=${encodeURIComponent(city.name)}`)
         .then((r) => r.json())
         .then((d) => setHeadlines(d.headlines ?? []))
         .catch(() => setHeadlines([]));

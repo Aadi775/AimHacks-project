@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 import MapBoundary from '@/components/shared/MapBoundary';
+import { API_BASE } from '@/lib/cities';
 
 interface HoodNode {
   name: string;
@@ -72,7 +73,7 @@ export default function NeighborhoodMap({ cityName }: { cityName: string }) {
     setLoading(true);
     setOffline(false);
     const load = () =>
-      fetch(`http://localhost:8001/api/neighborhoods?city=${encodeURIComponent(cityName)}`)
+      fetch(`${API_BASE}/api/neighborhoods?city=${encodeURIComponent(cityName)}`)
         .then((r) => (r.ok ? r.json() : Promise.reject(new Error('offline'))))
         .then((d) => {
           setNodes(d.nodes ?? []);

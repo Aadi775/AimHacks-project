@@ -6,6 +6,7 @@ import AIAssistant from '@/components/shared/AIAssistant';
 import WhatsHappeningCard from '@/components/shared/WhatsHappeningCard';
 import CitySwitcher from '@/components/shared/CitySwitcher';
 import { useCity } from '@/context/CityContext';
+import { API_BASE } from '@/lib/cities';
 
 interface Correlation {
   pair: string;
@@ -77,7 +78,7 @@ export default function InsightsPage() {
   useEffect(() => {
     if (!city) return;
     setLoading(true);
-    fetch(`http://localhost:8001/api/insights?city=${encodeURIComponent(city.name)}&hours=12`)
+    fetch(`${API_BASE}/api/insights?city=${encodeURIComponent(city.name)}&hours=12`)
       .then((r) => r.json())
       .then((d) => {
         setData(d);

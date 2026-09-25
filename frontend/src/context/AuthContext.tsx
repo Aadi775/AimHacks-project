@@ -1,6 +1,7 @@
 'use client';
 
 import { createContext, useContext, useEffect, useState, ReactNode } from 'react';
+import { API_BASE } from '@/lib/cities';
 
 interface AuthUser {
   id: number;
@@ -25,7 +26,6 @@ const AuthContext = createContext<AuthContextValue>({
   logout: async () => {},
 });
 
-const API_BASE = 'http://localhost:8001';
 const TOKEN_KEY = 'civicpulse-token';
 
 export function AuthProvider({ children }: { children: ReactNode }) {

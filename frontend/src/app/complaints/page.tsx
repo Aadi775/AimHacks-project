@@ -8,6 +8,7 @@ import { COMPLAINT_CATEGORIES } from '@/lib/constants';
 import dynamic from 'next/dynamic';
 import { useCity } from '@/context/CityContext';
 import { useAuth } from '@/context/AuthContext';
+import { API_BASE } from '@/lib/cities';
 
 const LocationPicker = dynamic(() => import('@/components/LocationPicker'), {
   ssr: false,
@@ -43,7 +44,7 @@ export default function ComplaintsPage() {
   const [feedOffline, setFeedOffline] = useState(false);
   const loadReports = () => {
     if (!city) return;
-    fetch(`http://localhost:8001/api/reports?city=${encodeURIComponent(city.name)}`)
+    fetch(`${API_BASE}/api/reports?city=${encodeURIComponent(city.name)}`)
       .then((r) => {
         if (!r.ok) throw new Error('offline');
         setFeedOffline(false);
@@ -73,7 +74,7 @@ export default function ComplaintsPage() {
       const cat = COMPLAINT_CATEGORIES.find((c) => c.id === selectedCategory);
       const sevMap: Record<string, string> = { routine: 'INFO', urgent: 'WARNING', hazardous: 'CRITICAL' };
       const token = localStorage.getItem('civicpulse-token');
-      const r = await fetch('http://localhost:8001/api/reports', {
+      const r = await fetch(`${API_BASE}/api/reports`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` },
         body: JSON.stringify({
@@ -407,7 +408,7 @@ export default function ComplaintsPage() {
               ))}
               {feedOffline && (
                 <div className="p-space-md rounded-2xl bg-error-container/30 border border-error/30 text-center">
-                  <span className="font-body-sm text-body-sm text-on-error-container">181 ledger feed offline — retrying automatically. Make sure the backend is running on port 8001.</span>
+                  <span className="font-body-sm text-body-sm text-on-error-container">181 ledger feed offline — retrying automatically.</span>
                 </div>
               )}
               {reports.length === 0 && !feedOffline && (
