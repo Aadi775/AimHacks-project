@@ -1,6 +1,6 @@
 import { City } from '@/types';
 
-export const API_BASE = 'http://localhost:8001';
+export const API_BASE = (process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:8001').replace(/\/$/, '');
 
 export interface GeoResult {
   name: string;

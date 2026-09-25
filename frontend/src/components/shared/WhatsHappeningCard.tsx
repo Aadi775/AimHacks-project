@@ -2,6 +2,7 @@
 
 import { useEffect, useState, useTransition } from 'react';
 import { useCity } from '@/context/CityContext';
+import { API_BASE } from '@/lib/cities';
 
 export interface CivicInsightData {
   city: string;
@@ -74,7 +75,7 @@ export default function WhatsHappeningCard({ compact = false, className = '' }: 
   // Load available areas for the city
   useEffect(() => {
     if (!city) return;
-    fetch(`http://localhost:8001/api/neighborhoods?city=${encodeURIComponent(city.name)}`)
+    fetch(`${API_BASE}/api/neighborhoods?city=${encodeURIComponent(city.name)}`)
       .then((r) => (r.ok ? r.json() : null))
       .then((d) => {
         if (d && d.nodes) {
@@ -95,7 +96,7 @@ export default function WhatsHappeningCard({ compact = false, className = '' }: 
     const fetchInsight = () => {
       setLoading(true);
       setError(null);
-      const url = new URL('http://localhost:8001/api/civic-insight');
+      const url = new URL(`${API_BASE}/api/civic-insight`);
       url.searchParams.set('city', city.name);
       if (selectedArea && selectedArea !== 'Citywide') {
         url.searchParams.set('area', selectedArea);
@@ -215,7 +216,7 @@ export default function WhatsHappeningCard({ compact = false, className = '' }: 
               title="Refresh live insight"
               onClick={() => {
                 setLoading(true);
-                fetch(`http://localhost:8001/api/civic-insight?city=${encodeURIComponent(city?.name ?? 'jaipur')}${selectedArea ? `&area=${encodeURIComponent(selectedArea)}` : ''}`)
+                fetch(`${API_BASE}/api/civic-insight?city=${encodeURIComponent(city?.name ?? 'jaipur')}${selectedArea ? `&area=${encodeURIComponent(selectedArea)}` : ''}`)
                   .then((r) => r.json())
                   .then((d) => {
                     setData(d);
